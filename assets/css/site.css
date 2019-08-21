@@ -24,7 +24,7 @@ body {
 	margin: 0;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	font-family: "DM Sans", sans-serif;
+	font-family: "DM Sans", "Arial", "Helvetica", sans-serif;
 	color: var(--main-color);
 	font-size: 1rem;
 	min-height: 100%;
@@ -237,7 +237,7 @@ main h1:first-child {
 }
 
 main p, main ul, main ol {
-	font-family: "Crimson Pro", serif;
+	font-family: "Crimson Pro", "Georgia", serif;
 	line-height: 1.4;
 	font-size: 1.2rem;
 }
@@ -250,7 +250,7 @@ footer {
 }
 
 footer a, footer a:visited {
-	font-family: "DM Sans", sans-serif;
+	font-family: "DM Sans", "Arial", "Helvetica", sans-serif;
 	font-size: 0.9rem;
 	text-decoration: none;
 }
@@ -263,7 +263,7 @@ footer h3 {
 
 footer p {
 	margin: 0;
-	font-family: "Crimson Pro", serif;
+	font-family: "Crimson Pro", "Georgia", serif;
 }
 
 footer img {
@@ -292,7 +292,7 @@ footer ul {
 footer li {
 	list-style: none;
 	margin: 0;
-	font-family: "Crimson Pro", serif;
+	font-family: "Crimson Pro", "Georgia", serif;
 	line-height: 1.5;
 }
 
@@ -309,6 +309,11 @@ a, a:visited, a:focus {
 	font-weight: 700;
 	color: var(--main-color);
 	text-decoration: underline;
+	transition: opacity 0.3s ease;
+}
+
+a:hover {
+	opacity: 0.7;
 }
 
 ul {
