@@ -55,7 +55,6 @@ for (let i = 0; i < 14; i++) {
 
 }
 
-
 g.append("path")
 .attr("d", path)
 .attr("fill", "none");
@@ -157,7 +156,7 @@ for (let x = 0; x < bookletWidth; x += (bookletWidth/5)) {
     .attr("y", y)
     .attr("width", bookletWidth)
     .attr("height", bookletHeight)
-    .attr("stroke", "#000")
-    .attr("fill", "none");
+    .attr("fill", "none")
+    .classed("stroke", true);
   }
 }
