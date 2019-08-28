@@ -415,6 +415,7 @@ aside {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	display: none;
 }
 
 .container {
@@ -505,6 +506,10 @@ aside {
 
 	#right--align {
 		grid-column: 1 / 6;
+	}
+
+	.drawer--button {
+		display: block;
 	}
 
 	footer .container {
