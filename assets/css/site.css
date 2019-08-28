@@ -81,7 +81,7 @@ header #intro {
 
 main {
 	grid-column: 1 / 4;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	text-indent: 1.5rem;
 	/* These are technically the same, but use both */
   overflow-wrap: break-word;
@@ -107,7 +107,7 @@ main h1:first-child {
 main p, main ul, main ol {
 	font-family: "Crimson Pro", "Georgia", serif;
 	line-height: 1.4;
-	font-size: 1.2rem;
+	font-size: 1.35rem;
 }
 
 footer {
@@ -165,12 +165,12 @@ footer li {
 }
 
 h1, h2, h3, h4, h5 {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 	margin-bottom: 1rem;
 	margin-top: 5rem;
 	text-indent: 0;
-	color: var(--main-lighter);
+	color: var(--main);
 }
 
 a, a:visited, a:focus {
@@ -199,7 +199,7 @@ table {
 	font-weight: 400;
 	text-indent: 0;
 	border-spacing: 0;
-	border: 1px solid var(--main-color);
+	border: 1px solid var(--accent);
 	width: 100%;
 }
 
@@ -351,12 +351,21 @@ aside {
 }
 
 .link--phase:hover {
-	color: inherit;
 	z-index: 999;
-	cursor: ne-resize;
+	cursor: pointer;
 }
 
-#phase1 {
+#phases svg {
+	position: absolute;
+	z-index: -1;
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#phases .arrow {
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* #phase1 {
 	background: url("../img/cover-phases-01.svg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -372,7 +381,7 @@ aside {
 	background: url("../img/cover-phases-03.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-}
+} */
 
 #table--of--content a {
 	font-size: 0.9rem;
@@ -391,6 +400,21 @@ aside {
 #table--of--content .active {
 	color: var(--main-lighter);
 	left: 0.5rem;
+}
+
+.drawer--button {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: var(--background);
+	box-shadow: 0 -1rem 1rem 1rem var(--background);
+	height: 6vh;
+	margin: 0 -5%;
+	font-size: 1rem;
+	font-family: "DM Sans", Arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .container {
@@ -459,7 +483,24 @@ aside {
 	}
 
 	#syllabus--aside {
+		height: auto;
+		position: fixed;
 		display: none;
+		margin: 0 -5%;
+	}
+
+	#table--of--content {
+		width: 90%;
+		grid-column: 1 / 6;
+		position: fixed;
+		bottom: 6vh;
+		background: var(--background);
+		text-align: center;
+		padding: 5%;
+	}
+
+	#table--of--content a {
+		font-size: 1rem;
 	}
 
 	#right--align {

@@ -13,7 +13,7 @@ let table = merge(title,link);
 
 console.log(table);
 
-d3.select("#table--of--content").append("div").selectAll("text")
+d3.selectAll("#table--of--content").append("div").selectAll("text")
 .data(table)
 .enter()
 .append("a")
@@ -26,17 +26,6 @@ d3.select("#table--of--content").append("div").selectAll("text")
 });
 
 d3.select("#table--of--content a").classed("active", true)
-
-
-// $('a[href^="#"]').on('click', function(event) {
-//     var target = $(this.getAttribute('href'));
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').stop().animate({
-//             scrollTop: target.offset().top
-//         }, 1000);
-//     }
-// });
 
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
@@ -79,3 +68,13 @@ function onScroll(event){
         // }
     });
 }
+
+// Mobile
+
+$(".drawer--button").click(function() {
+  $("#syllabus--aside").toggle(400);
+});
+
+$("#table--of--content a").click(function() {
+  $("#syllabus--aside").toggle();
+})

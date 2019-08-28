@@ -1,3 +1,33 @@
+d3.select("#phase1").on("mouseover", () => {
+  d3.select("#phase1 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase1 .arrow").style("transform", "translateX(1rem)")
+})
+
+d3.select("#phase1").on("mouseout", () => {
+  d3.select("#phase1 svg").style("transform", "scale(1)")
+  d3.select("#phase1 .arrow").style("transform", "translateX(0rem)")
+})
+
+d3.select("#phase2").on("mouseover", () => {
+  d3.select("#phase2 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase2 .arrow").style("transform", "translateX(1rem)")
+})
+
+d3.select("#phase2").on("mouseout", () => {
+  d3.select("#phase2 svg").style("transform", "scale(1)")
+  d3.select("#phase2 .arrow").style("transform", "translateX(0rem)")
+})
+
+d3.select("#phase3").on("mouseover", () => {
+  d3.select("#phase3 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase3 .arrow").style("transform", "translateX(1rem)")
+})
+
+d3.select("#phase3").on("mouseout", () => {
+  d3.select("#phase3 svg").style("transform", "scale(1)")
+  d3.select("#phase3 .arrow").style("transform", "translateX(0rem)")
+})
+
 // let width = d3.select("#intro").node().getBoundingClientRect().width;
 let width = d3.select("header").node().getBoundingClientRect().width / 5;
 let height = 100;
@@ -75,14 +105,14 @@ let cover = d3.selectAll(".link--booklet").append("svg")
 
 var numNodes = 150;
 var nodes = d3.range(numNodes).map(function(d) {
-  return {radius: 5 + Math.random() * 30}
+  return {radius: 3 + Math.random() * 35}
 })
 
 var simulation = d3.forceSimulation(nodes)
 .force('charge', d3.forceManyBody().strength(1))
 .force('center', d3.forceCenter(bookletWidth / 2, bookletHeight / 2))
 .force('collision', d3.forceCollide().radius(function(d) {
-  return d.radius + 3
+  return d.radius + 1
 }))
 .on('tick', ticked);
 
