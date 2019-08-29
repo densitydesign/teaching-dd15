@@ -1,5 +1,5 @@
 d3.select("#phase1").on("mouseover", () => {
-  d3.select("#phase1 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase1 svg").style("transform", "rotate(-45deg) skew(30deg, 30deg)")
   d3.select("#phase1 .arrow").style("transform", "translateX(1rem)")
 })
 
@@ -9,7 +9,7 @@ d3.select("#phase1").on("mouseout", () => {
 })
 
 d3.select("#phase2").on("mouseover", () => {
-  d3.select("#phase2 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase2 svg").style("transform", "rotate(-45deg) skew(30deg, 30deg)")
   d3.select("#phase2 .arrow").style("transform", "translateX(1rem)")
 })
 
@@ -19,7 +19,7 @@ d3.select("#phase2").on("mouseout", () => {
 })
 
 d3.select("#phase3").on("mouseover", () => {
-  d3.select("#phase3 svg").style("transform", "rotate(-180deg)")
+  d3.select("#phase3 svg").style("transform", "rotate(-45deg) skew(30deg, 30deg)")
   d3.select("#phase3 .arrow").style("transform", "translateX(1rem)")
 })
 

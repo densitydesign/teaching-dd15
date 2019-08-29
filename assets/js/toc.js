@@ -72,7 +72,7 @@ function onScroll(event){
 // Mobile
 
 $(".drawer--button").click(function() {
-  $("#syllabus--aside").toggle(400);
+  $("#syllabus--aside").toggle();
 });
 
 $("#table--of--content a").click(function() {

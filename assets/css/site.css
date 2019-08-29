@@ -361,8 +361,17 @@ aside {
 	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+#phases path {
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 #phases .arrow {
 	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#phases .hover--graphics {
+	fill: var(--accent);
+	stroke: var(--background);
 }
 
 /* #phase1 {
@@ -406,8 +415,8 @@ aside {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	background: var(--background);
-	box-shadow: 0 -1rem 1rem 1rem var(--background);
+	background: var(--accent);
+	/* box-shadow: 0 0rem 1rem 1rem var(--accent); */
 	height: 6vh;
 	margin: 0 -5%;
 	font-size: 1rem;
@@ -416,6 +425,7 @@ aside {
 	text-transform: uppercase;
 	text-align: center;
 	display: none;
+	z-index: 99999;
 }
 
 .container {
@@ -472,7 +482,7 @@ aside {
 		}
 }
 
-@media only screen and (max-device-width : 375px) {
+@media only screen and (max-device-width : 575.98px) {
 	.container {
 		max-width: 90%;
 	}
@@ -495,7 +505,8 @@ aside {
 		grid-column: 1 / 6;
 		position: fixed;
 		bottom: 6vh;
-		background: var(--background);
+		background: var(--accent);
+		/* box-shadow: 0 0rem 1rem 1rem var(--accent); */
 		text-align: center;
 		padding: 5%;
 	}
