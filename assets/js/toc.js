@@ -75,6 +75,8 @@ $(".drawer--button").click(function() {
   $("#syllabus--aside").toggle();
 });
 
+if (screen.width < 960) {
 $("#table--of--content a").click(function() {
   $("#syllabus--aside").toggle();
 })
+}
