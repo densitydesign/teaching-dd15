@@ -1,0 +1,117 @@
+---
+layout: booklet
+---
+
+# Introduction: You are here
+Migration, adaptation to climate change, radicalization in groups or individuals, inequality and unemployment, freedom of movement of people and goods: these are some of the themes that shake the global public opinion - and influence our opinion as well.
+
+Orienting and acting in the complexity of these themes is extremely difficult: the huge amount of data and information produced online, the widespread availability of documents, articles, opinions and comments can create more confusion than clarity. Losing in the (over) abundance of this information, or - if you are active in the debate - sticking to your "filter bubble" losing sight of other positions or entities involved is a common experience.
+
+If the web did not help to make the controversial issues more understandable, however, it made their complexity evident: these issues do not have clear and unambiguous solutions and generate a dense debate that interweaves alliances and oppositions involving many different actors through digital conversations. At a first analysis the situation stalls: complexity, by definition, is impossible to reduce without losing its wealth; At the same time, it remains incomprehensible without its simplification.
+
+As communication designers we can not avoid contributing to understanding these phenomena and orienting possible actions. As complex and controversial problems can't be faced by a single actor, we can represent and share the debate that defines and nourishes them so that any stakeholder can find its own position and say "I am here".
+
+The lab is developed in three phases, on a path that explores the many dimensions of data analysis and communication. In the first phase the themes will be represented using structured data and information produced by "institutional" sources, defining a first visual synthesis. At this stage the contribution of the statistical approach to the data is introduced to ensure a correct relationship with the data. In the second phase we will focus on the debate generated in the society by using unstructured data and information produced by non-institutional organizations, communities, collective entities or individuals and activists by using the Internet. In the third phase students are called to take a stand in the dispute and design an experience that drives a public narration.
+
+The three phases of the lab require the application of different communication languages and tools, both digital and physical, to exploit their specific potential and to synthesize all the competences acquired.
+
+Transversally, the concepts of social complexity, the role of statistics tools and methods in the visualization process, and the idea of visualization as inter-semiotic translation - such as narrative and discourse - will be deepened. The "visual discourse" in its various forms of manifestation will then be considered as an argumentative strategy, in which narration and dramatization complement the direct communication of data and information. Rhetorical-argumentative figures, in particular those based on analogy and metaphor, will be applied - consistently with the different design moments of the lab - as both knowledge tools and communicative devices, exploiting the potential for facilitating access to cognition.
+
+The idea of "infopoesia" (infopoetry) will also be studied, both as an individual exercise to investigate more specifically the relationship between a given content and its possible forms of expression and discourse, as well as a research field on the emotional and cognitive effects of the reception of visualization artifacts.
+
+# Objectives
+At the end of the course, the students will have learned:
+- Knowledge in the data visualization, information visualization, information design disciplines, and the role of communication design;
+Historical evolution and dynamics of convergence of the disciplines, scope of application;
+- Knowledge and use of the visual variables and application of communication design to visualization of data and information;
+- Knowledge on tools for data manipulation (Excel, OpenRefine) and for the creation of visual structures (RAW, Gephi);
+- Knowledge on data harvesting/scraping (Web Scraper Chrome Extension) and data collection through APIs;
+- Understanding basic statistics and software for their application (R);
+Knowledge of the rhetorical-argumentative figures (especially those based on analogy and metaphor).
+
+# Course structure and deliverables
+The course will be divided in three main phases in which students will be working in groups. In addition every student will be challenged with an individual assignment.
+
+Students will be introduced to the information design domain through iterations of a set of interrelated activities: picking appropriate sources, constructing a coherent narrative, dealing with unstructured data, communicate, share and engage by designing for advocacy.
+The three phases have different goals and outputs, giving students the chance to experiment on how to design visualizations for different kinds of purposes and publics.
+
+The supporting themes, tackled from a different perspective in each phase, are: the role of the designer as an author, data handling and its implications, the rhetorical value of data visualization.
+
+# 1. Data Representations
+In this phase students will be asked to identify datasets available from official sources (Eurostat, governmental open data portals, scientific publications, etc.) and from those they will have to design visualizations to provide an overall view, “institutional” of the chosen issue.
+
+The first phase will tackle data handling and translation for the creation of visualizations; highlighting the theoretical and technical competences needed. It will acquaint students with how to work with data in a tabular format (cleaning, aggregation, lookup).
+There will be a basic introduction to Statistics, defining its objectives and highlighting why an information designer needs to master it. Traditional methods from the design field will be used in order to analyze and represent complex datasets. This module will also provide students with the basic theories of data visualization, following its development and core principles.
+
+Output of this phase is the design of a series of visualizations - both for a web format and a printed edition - that represent a first perspective or angle to access the chosen issue.
+
+# 2. Data Artifacts
+In the second phase of the course each group analyze their topic using digital methods. Digital methods are “techniques for the study of societal change and cultural condition with online data” (Rogers, 2019). Here, students learn how to map a controversial issue by collecting, analysing, and visualising data from online sources (e.g. search engines and social media platforms).
+
+The process is question-driven: from research questions, students design protocols for data collection and analysis, and produce research findings using data visualisations. At the same time, students are also asked to trace and make explicit their process by designing protocol diagrams: flowcharts presenting research questions and research steps in a compact visual form (Niederer and Colombo, 2019).
+
+At the end of this phase, each group design and deliver an interactive research report and present it to the class. The research report is a visual atlas (Venturini et al., 2015) of the issue under study according to the web: a mapping of the issue resonance, sources, actors, textual and visual language in different spaces of the web.
+
+## Learning goals
+1. to demarcate spaces on the web through *query design*;
+2. to *repurpose* online digital objects (e.g. links, likes, shares, timestamps) for research;
+3. to critically reflect on *data collection as a design activity*;
+4. to use *data visualisation as a tool* in the research process.
+
+## Output
+Interactive research report. Examples from previous years:
+1. https://densitydesign.github.io/teaching-dd14/es02/group07/
+2. https://densitydesign.github.io/teaching-dd14/es02/group09/
+3. https://densitydesign.github.io/teaching-dd12/es02/group01/
+4. https://densitydesign.github.io/teaching-dd12/es02/group08/
+
+# 3. Data Publics
+Based on previous research (phases 1 and 2), in phase 3 each group will design a digital communication artifact that deliberately entails ideas (discourses) capable of sustaining complex perspectives and confronts conflicting values of a research finding, with the immediate objective of having audiences reflect and act on them. Discursive design focus on “tools for thinking; they raise awareness and perhaps understanding of substantive and often debatable issues of psychological, sociological, and ideological consequence” (Tharp, B. & Tharp, S, 2018). The aim is to transform a research finding into a discursive artifact that promotes reflection on the subject by means of repurposing the studied digital objects (links, bots, trackers, etc), technological media (platforms, etc), and their logics (share, like, feeds, etc). For this, students will use the data and research conducted in phase two, focusing on one of the findings.
+
+In the first place, discursive artifacts are containers of ideas that invite reflection; at the same time they are artifacts that can be used. The artifact is the mediator between action and reflection.
+
+
+Here, students learn how to
+
+## Learning goals
+1. *to create* discursive artifacts that prompt to reflection and action over a research finding
+2. *experiment* with digital objects for creating digital discursive artifacts
+3. *define* a message
+4. *identify* the audience and context of …
+5. *to repurpose* data and data visualization as components of discursive artifacts
+
+## References
+
+# Modules and professors
+The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Paolo Ciuccarelli. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
+Four teaching assistants will support professors during feedback sessions and students in the development of the projects.
+
+## Professors
+- *Michele Mauri* - <michele.mauri@polimi.it> Course Coordinator, "Data Representations"
+- *Ángeles Briones*. "Data Publics"
+- *Gabriele Colombo*. "Data Artifacts"
+- *Salvatore Zingale*. Semiotics
+- *Simone Vantini*. Statistics
+
+## Assistants
+- *Andrea Benedetti* - <andrea.benedetti@polimi.it>
+- *Alessandra Facchin*
+- *Beatrice Gobbo* - <beatrice.gobbo@polimi.it>
+- *Tommaso Elli* - <tommaso.elli@polimi.it>
+- *Jacopo Di Iorio*.
+
+# Bibliography
+- Anceschi G., L'oggetto della raffigurazione, Editore: Etas, Anno edizione: 1992.
+- Barabási A., Link. La scienza delle reti., Editore: Einaudi, Anno edizione: 2004.
+- Editore: Design Studies, Anno edizione: 2011, Fascicolo: 32(6), pp. 546-556 Note: doi:10.1016/- j.destud.2011.07.005
+- Ciuccarelli P., Visual Explorations. On-line Investigations for Understanding Society, Editore: in Errea J., Gil A. Malofiej 19. International Infographics Awards. pp. 6- 23, Anno edizione: 2012.
+- Dalgaard P., Introductory Statistics with R, Editore: Springer, Anno edizione: 2008.
+- Danziger M., Information visualization for the people. , Editore: Massachusetts Institute of Technology. Dept. of Comparative Media Studies, Anno edizione: 2008.
+- Emerson J., Visualizing Information for Advocacy. An Introduction to Information Design., Editore: Tactical Technology Collective, Anno edizione: 2008. https://visualisingadvocacy.org/
+- Everitt B. e Hothorn T., An Introduction to Applied Multivariate Analysis with R, Editore: Springer, Anno edizione: 2011.
+- Latour B., A Cautious Prometheus? A Few Steps Toward a Philosophy of Design, Editore: Proceedings of the Annual International Design History Society (Boca Raton: Universal Publisher), Anno edizione: 2008, Fascicolo: pp. 2-10.
+- Masud L., Valsecchi F., Ciuccarelli P., Ricci D., Caviglia G., From Data to Knowledge. Visualizations as Transformation Processes Within the D-I-K Continuum, Editore: Proceedings of 14th International Conference Information Visualisation (July), Anno edizione: 2010, Fascicolo: pp. 445 Note: doi:10.1109/IV.2010.68
+- Rogers R., Digital Methods, Editore: Cambridge, MA: MIT Press, Anno edizione: 2013.
+- Tufte E. R., Visual Explanations: Images and Quantities, Evidence and Narrative, Editore: Cheshire, CT: Graphics Press, Anno edizione: 1997.
+- Venturini T., Diving in magma: how to explore controversies with actor-network theory, Editore: Public Understanding of Science 19, No. 3, pp. 258-273, Anno edizione: 2010.
+- Venturini T., Building on Faults: How to Represent Controversies with Digital Methods, Editore: Public Understanding of Science, OnlineFirst, Anno edizione: 2010. http://pus.sagepub.com/content/early/2010/12/03/0963662510387558.full.pdf+html
