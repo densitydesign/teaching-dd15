@@ -15,8 +15,8 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
   <meta name="description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
   <meta property="og:title" content="DensityDesign F.S.D.S 2019/2020" />
   <meta property="og:description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
-  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd14/assets/images/meta-main.jpg" />
-  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd14/" />
+  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
+  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd15/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:site_name" content="DensityDesign F.S.D.S 2019/2020" />
   <meta name="twitter:image:alt" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
@@ -48,7 +48,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<body>
 	<header role="banner">
 	<div className="container">
-	<div id="intro"></div>
+	<a href={ _relativeURL( `/`, _ID ) }><div id="intro"></div></a>
 	<div id="course--title"><a href={ _relativeURL( `/`, _ID ) }><p className="branding">DensityDesign 15</p>
 	<p>Final Synthesis Design Studio</p>
 	<p>2019/2020</p></a></div>
