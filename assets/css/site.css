@@ -129,7 +129,6 @@ h2 {
 }
 
 a, a:visited, a:focus {
-	font-weight: 700;
 	color: var(--main-color);
 	transition: opacity 0.3s ease;
 }

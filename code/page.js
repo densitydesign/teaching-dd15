@@ -15,7 +15,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
   <meta name="description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
   <meta property="og:title" content="DensityDesign F.S.D.S 2019/2020" />
   <meta property="og:description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
-  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
+  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-2.png" />
   <meta property="og:url" content="https://densitydesign.github.io/teaching-dd15/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:site_name" content="DensityDesign F.S.D.S 2019/2020" />

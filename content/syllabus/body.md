@@ -45,20 +45,6 @@ At the end of this phase, each group design and deliver an interactive research 
 ## Output
 Interactive research report. Examples from previous years:
 
-<div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank"><div><img src="../../assets/img/amazon.png">
-<h3>The Amazon's Damnation</h3>
-<p>Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/" target="_blank"><div><img src="../../assets/img/hateshades.png">
-<h3>Hate Shades</h3>
-<p>Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/" target="_blank"><div><img src="../../assets/img/trump.png">
-<h3>The Trump Effect on Climate Change</h3>
-<p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group08/" target="_blank"><div><img src="../../assets/img/is.png">
-<h3>IS a brand</h3>
-<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div>
-</div></a>
 
 # 3. Data Publics
 Based on previous research (phases 1 and 2), in phase 3 each group will design a digital communication artifact that deliberately entails ideas (discourses) capable of sustaining complex perspectives and confronts conflicting values of a research finding, with the immediate objective of having audiences reflect and act on them. Discursive design focus on “tools for thinking; they raise awareness and perhaps understanding of substantive and often debatable issues of psychological, sociological, and ideological consequence” (Tharp, B. & Tharp, S, 2018). The aim is to transform a research finding into a discursive artifact that promotes reflection on the subject by means of repurposing the studied digital objects (links, bots, trackers, etc), technological media (platforms, etc), and their logics (share, like, feeds, etc). For this, students will use the data and research conducted in phase two, focusing on one of the findings.
@@ -77,11 +63,29 @@ Here, students learn how to
 ## Evaluation criterias
 
 ## Reference
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank"><div><img src="../../assets/img/amazon.png">
+<h3>The Amazon's Damnation</h3>
+<p>Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/" target="_blank"><div><img src="../../assets/img/hateshades.png">
+<h3>Hate Shades</h3>
+<p>Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/" target="_blank"><div><img src="../../assets/img/trump.png">
+<h3>The Trump Effect on Climate Change</h3>
+<p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group08/" target="_blank"><div><img src="../../assets/img/is.png">
+<h3>IS a brand</h3>
+<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div>
+</div></a>
 
 # Individual deliveries
-## Statistics: Ex-Tempore
+To better evaluate students, in addition to the group exercises two individual deliveries will be required for the final exam. These exercises will be introduced during the Statistics and Semiotics modules in the course. Each one will be then evaluated by the professor.
+
+## Statistics: Ex-tempore
+Objective of this personal assignment is the presentation of a statistical analysis based on the notions learned during the module. Starting from a dataset, students will be required to frame a problem, analyse data and present results.
 
 ## Semiotics: Infopoetry
+Objective of the assignment is the design of a defined “artifact” (without limits of languages and materials) in which students will experiment a poetic approach to the representation of data. The objective is to make people “feel” the phenomenon behind the data and not only “see” the data.
 
 # Modules and professors
 The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Paolo Ciuccarelli. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
