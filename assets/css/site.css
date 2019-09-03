@@ -1,5 +1,6 @@
 :root {
-	--accent: #E0FF4F;
+	/* --accent: #E0FF4F; */
+	--accent: red;
 	--darker-accent: #98C103;
 	--background: #BFD1E5;
 	--main-color: #0B0D2C;
