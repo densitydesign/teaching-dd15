@@ -34,7 +34,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Pro:400,400i&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 	<script src="https://d3js.org/d3.v5.js"></script>
 	<script src="https://d3js.org/d3-path.v1.min.js"></script>
 	<script src="https://d3js.org/d3-force.v2.min.js"></script>
