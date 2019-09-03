@@ -26,7 +26,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<link rel="icon" type="image/png" sizes="32x32" href="https://densitydesign.github.io/teaching-dd15/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="https://densitydesign.github.io/teaching-dd15/favicon-16x16.png" />
 	<link rel="manifest" href="https://densitydesign.github.io/teaching-dd15/site.webmanifest" />
-	<link rel="mask-icon" href="https://densitydesign.github.io/teaching-dd15/safari-pinned-tab.svg" color="#bfd1e5" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#bfd1e5" />
 	<meta name="msapplication-TileColor" content="#bfd1e5" />
 	<meta name="theme-color" content="#bfd1e5" />
 

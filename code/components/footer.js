@@ -12,7 +12,7 @@ class Footer extends React.Component {
       <footer>
       <div className="container">
       <div className="logo">
-      <img src={logo} alt="DensityDesign Lab" className="density--logo"/>
+      <img src={logo} alt="DensityDesign Lab" className="density--logo" />
       <img src={polimi} alt="Politecnico di Milano" />
       </div>
 

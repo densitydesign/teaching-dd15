@@ -8,7 +8,20 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "docs": "cuttlebelle docs",
+    "build:site": "cuttlebelle",
+    "build:sass": "node-sass --output-style compressed -o assets/css sass/style.scss",
+    "build:js": "uglifyjs js/script.js --compress --output assets/js/script.js",
+    "build": "npm run build:sass && npm run build:js && npm run build:docs",
+    "watch:sass": "onchange 'sass/**/*.scss' -- npm run build:sass",
+    "watch:js": "onchange 'js/**/*.js' -- npm run build:js",
+    "watch:site": "cuttlebelle watch -n",
+    "watch": "npm run build && npm run watch:sass | npm run watch:js | npm run watch:site"
+  },
+  "cuttlebelle": {
+    "folder": {
+      "site": "docs"
+    }
   },
   "repository": {
     "type": "git",

@@ -128,7 +128,8 @@ h2 {
 	font-size: 1.3rem;
 }
 
-a, a:visited, a:focus {
+a, a:visited {
+	font-weight: 700;
 	color: var(--main-color);
 	transition: opacity 0.3s ease;
 }
