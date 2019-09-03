@@ -568,6 +568,10 @@ aside {
 		grid-column: 1 / 6;
 	}
 
+	.showcase a {
+		max-width: 100%;
+	}
+
 	.drawer--button {
 		display: block;
 	}
