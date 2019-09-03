@@ -40,11 +40,32 @@ At the end of this phase, each group design and deliver an interactive research 
 3. to critically reflect on *data collection as a design activity*;
 4. to use *data visualisation as a tool* in the research process.
 
-## Evaluation criterias
+## Evaluation criteria
+### Data visualisation
+Efficiency and clarity of data visualizations, including protocol diagrams. Are the designed visualisations functional to answer the research questions? Are the protocol diagrams clear and self explanatory?
+
+### Research method
+Innovation and robustness of research protocols, including query design. Is the designed research method functional to answer the research question? Is there innovation in repurposing digital objects for answering research questions?
+
+### Research findings
+Clarity in the communication of research findings, including images and text. Are research findings understandable by looking at the visualisations? Are research findings clearly described in the text?
 
 ## Output
 Interactive research report. Examples from previous years:
-
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<h3>The Amazon's Damnation</h3>
+<p>Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/" target="_blank"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
+<h3>Hate Shades</h3>
+<p>Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/" target="_blank"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
+<h3>The Trump Effect on Climate Change</h3>
+<p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group08/" target="_blank"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/is.png">
+<h3>IS a brand</h3>
+<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div>
+</div></a>
 
 # 3. Data Publics
 Based on previous research (phases 1 and 2), in phase 3 each group will design a digital communication artifact that deliberately entails ideas (discourses) capable of sustaining complex perspectives and confronts conflicting values of a research finding, with the immediate objective of having audiences reflect and act on them. Discursive design focus on “tools for thinking; they raise awareness and perhaps understanding of substantive and often debatable issues of psychological, sociological, and ideological consequence” (Tharp, B. & Tharp, S, 2018). The aim is to transform a research finding into a discursive artifact that promotes reflection on the subject by means of repurposing the studied digital objects (links, bots, trackers, etc), technological media (platforms, etc), and their logics (share, like, feeds, etc). For this, students will use the data and research conducted in phase two, focusing on one of the findings.
@@ -63,20 +84,6 @@ Here, students learn how to
 ## Evaluation criterias
 
 ## Reference
-<div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank"><div><img src="../../assets/img/amazon.png">
-<h3>The Amazon's Damnation</h3>
-<p>Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/" target="_blank"><div><img src="../../assets/img/hateshades.png">
-<h3>Hate Shades</h3>
-<p>Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/" target="_blank"><div><img src="../../assets/img/trump.png">
-<h3>The Trump Effect on Climate Change</h3>
-<p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group08/" target="_blank"><div><img src="../../assets/img/is.png">
-<h3>IS a brand</h3>
-<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div>
-</div></a>
 
 # Individual deliveries
 To better evaluate students, in addition to the group exercises two individual deliveries will be required for the final exam. These exercises will be introduced during the Statistics and Semiotics modules in the course. Each one will be then evaluated by the professor.
