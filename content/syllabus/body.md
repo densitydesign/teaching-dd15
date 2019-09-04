@@ -111,14 +111,14 @@ The aim is for students to apply their communication design skills using data fo
 ## Output
 ### Interactive documentary
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/donottrack.jpg">
 <h3>Do not track</h3>
 </div></a>
 </div>
 
 ### Browser plugin
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/privacy.jpg">
 <h3>Ruin my research history!</h3>
 </div></a>
 </div>
@@ -128,25 +128,25 @@ The aim is for students to apply their communication design skills using data fo
 <a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
 <h3>Be smart, shop safe</h3>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/datadetox.jpg">
 <h3>Data Detox Kit</h3>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/wikiballoon.jpg">
 <h3>Balloon and Kite Mapping Kit</h3>
 </div></a>
 </div>
 
 ### Interactive research reports
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/scandaglio.jpg">
 <h3>Scandaglio</h3>
 <p>OffTopic Lab</p>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/offshore.jpg">
 <h3>The Great Offshore</h3>
 <p>RYBN</p>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/virtualwatchers.jpg">
 <h3>The Virtual Watchers</h3>
 </div></a>
 </div>
