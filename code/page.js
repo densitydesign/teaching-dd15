@@ -50,7 +50,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<header role="banner">
 	<div className="container">
 	<a href={ _relativeURL( `/`, _ID ) }><div id="intro"></div></a>
-	<div id="course--title"><a href={ _relativeURL( `/`, _ID ) }><p className="branding">DensityDesign 15</p>
+	<div id="course--title"><a href={ _relativeURL( `/`, _ID ) }><p className="branding">DD15</p>
 	<p>Final Synthesis Design Studio</p>
 	<p>2019/2020</p></a></div>
 	</div>

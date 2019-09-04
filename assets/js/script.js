@@ -40,7 +40,7 @@ y = y0;
 
 let svg = d3.select("#intro")
 .append("svg")
-.attr("width", width - 20)
+.attr("width", width - 40)
 .attr("height", height);
 
 let path = d3.path();
