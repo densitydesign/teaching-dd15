@@ -20,13 +20,13 @@ Transversally, the concepts of social complexity, the role of statistics tools a
 
 
 # Objectives
-At the end of the course, the students will have learned:
+At the end of the course, students will have gained:
 1. Knowledge in the data visualization, information visualization, information design disciplines, and the role of communication design;
 2. Knowledge and use of the visual variables and application of communication design to visualization of data and information;
 3. Knowledge on tools for data manipulation (Excel, OpenRefine) and for the creation of visual structures (RAWGraphs, Gephi);
 4. Knowledge on data harvesting/scraping (Web Scraper Chrome Extension) and data collection through APIs;
-5. Understanding basic statistics and software for their application (R);
-Knowledge of the rhetorical-argumentative figures (especially those based on analogy and metaphor).
+5. Knowledge on  basic concepts from statistics and softwares for their application (R);
+6. Knowledge of the rhetorical-argumentative figures (especially those based on analogy and metaphor).
 
 
 # Course structure and deliverables
@@ -82,15 +82,17 @@ Interactive research report. Examples from previous years:
 <p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
 <a href="https://densitydesign.github.io/teaching-dd12/es02/group08/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/is.png">
 <h3>IS a brand</h3>
-<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div>
-</div></a>
+<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div></a>
+</div>
+
 
 ## References
-- Niederer, S., & Colombo, G. (2019). Visual Methodologies for Networked Images: Designing Visualizations for Collaborative Research, Cross-platform Analysis, and Public Participation. Diseña, (14), 40-67.
-- Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
-- Venturini, T., Ricci, D., Mauri, M., Kimbell, L., & Meunier, A. (2015). Designing
-controversies and their publics. Design Issues, 31(3), 74-87.
+Niederer, S., & Colombo, G. (2019). Visual Methodologies for Networked Images: Designing Visualizations for Collaborative Research, Cross-platform Analysis, and Public Participation. Diseña, (14), 40-67.
 
+Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
+
+Venturini, T., Ricci, D., Mauri, M., Kimbell, L., & Meunier, A. (2015). Designing
+controversies and their publics. Design Issues, 31(3), 74-87.
 
 # Third phase: Data Publics
 In this phase, students will turn the research carried out in phase 2 into a discursive communication artifact that exposes, evidences or makes known the critical aspects of the subject to a specific public. Discursive communication artifacts exposes ideas (discourses) “capable of conveying complex perspectives and confronts conflicting values” (Tharp, B. & Tharp, S, 2018) of the subject with the aim of having audiences reflect and act on them.
@@ -105,6 +107,57 @@ The aim is for students to apply their communication design skills using data fo
 3. To create discursive artifacts that prompt to *critical reflection and action* over the subject
 4. *experimentally reuse* online digital object’s language and logics (links, likes, swaps, etc) for creating digital discursive artifacts
 5. *To repurpose* data and data visualization as components of discursive artifacts
+
+## Output
+### Interactive documentary
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<h3>Do not track</h3>
+</div></a>
+</div>
+
+### Browser plugin
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<h3>Ruin my research history!</h3>
+</div></a>
+</div>
+
+### Guides
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<h3>Be smart, shop safe</h3>
+</div></a>
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
+<h3>Data Detox Kit</h3>
+</div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
+<h3>Balloon and Kite Mapping Kit</h3>
+</div></a>
+</div>
+
+### Interactive research reports
+<div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<h3>Scandaglio</h3>
+<p>OffTopic Lab</p>
+</div></a>
+<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
+<h3>The Great Offshore</h3>
+<p>RYBN</p>
+</div></a>
+<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
+<h3>The Virtual Watchers</h3>
+</div></a>
+</div>
+
+## References
+Tharp, B. M., & Tharp, S. M. (2018). Discursive design: critical, speculative, and alternative things. Cambridge (Mass.): MIT Press.
+
+DiSalvo, C. (2009). Design and the Construction of Publics. Design Issues, 25(1), 48–63. https://doi.org/10.1162/desi.2009.25.1.48
+
+Briones, M. de A. (2019). A taxonomy of data visualization projects for alternative narratives. In L. Rampino & I. Mariani (Eds.), ADVANCEMENTS IN DESIGN RESEARCH 11 PhD theses on Design as we do in POLIMI (pp. 163-183). Milano: FrancoAngelli.
+
 
 # Evaluation
 Personal evaluation will be based on the outcome of the three group deliveries (which will be the main component), the outcome of the personal exercises, the active involvement in the team work and in the classroom.
