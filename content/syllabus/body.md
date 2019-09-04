@@ -85,15 +85,6 @@ Interactive research report. Examples from previous years:
 <p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div></a>
 </div>
 
-
-## References
-Niederer, S., & Colombo, G. (2019). Visual Methodologies for Networked Images: Designing Visualizations for Collaborative Research, Cross-platform Analysis, and Public Participation. Diseña, (14), 40-67.
-
-Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
-
-Venturini, T., Ricci, D., Mauri, M., Kimbell, L., & Meunier, A. (2015). Designing
-controversies and their publics. Design Issues, 31(3), 74-87.
-
 # Third phase: Data Publics
 In this phase, students will turn the research carried out in phase 2 into a discursive communication artifact that exposes, evidences or makes known the critical aspects of the subject to a specific public. Discursive communication artifacts exposes ideas (discourses) “capable of conveying complex perspectives and confronts conflicting values” (Tharp, B. & Tharp, S, 2018) of the subject with the aim of having audiences reflect and act on them.
 
@@ -151,14 +142,6 @@ The aim is for students to apply their communication design skills using data fo
 </div></a>
 </div>
 
-## References
-Tharp, B. M., & Tharp, S. M. (2018). Discursive design: critical, speculative, and alternative things. Cambridge (Mass.): MIT Press.
-
-DiSalvo, C. (2009). Design and the Construction of Publics. Design Issues, 25(1), 48–63. https://doi.org/10.1162/desi.2009.25.1.48
-
-Briones, M. de A. (2019). A taxonomy of data visualization projects for alternative narratives. In L. Rampino & I. Mariani (Eds.), ADVANCEMENTS IN DESIGN RESEARCH 11 PhD theses on Design as we do in POLIMI (pp. 163-183). Milano: FrancoAngelli.
-
-
 # Evaluation
 Personal evaluation will be based on the outcome of the three group deliveries (which will be the main component), the outcome of the personal exercises, the active involvement in the team work and in the classroom.
 Each group delivery will be evaluated in different aspects, and the final mark will be an average of them. Since each delivery is part of a broader teaching path, the mark will be expressed in letters, representing a range of marks (A: 29-30L, B: 26-28, C 23-25, D: 19-22, E:18). In the following paragraphs, the evaluation aspects for each delivery will be listed.
@@ -213,6 +196,22 @@ Teaching assistants will support professors during feedback sessions and student
 - *Simone Vantini.* Statistics
 
 # Bibliography
+## Data as Material. References
+Niederer, S., & Colombo, G. (2019). Visual Methodologies for Networked Images: Designing Visualizations for Collaborative Research, Cross-platform Analysis, and Public Participation. Diseña, (14), 40-67.
+
+Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
+
+Venturini, T., Ricci, D., Mauri, M., Kimbell, L., & Meunier, A. (2015). Designing
+controversies and their publics. Design Issues, 31(3), 74-87.
+
+## Data Publics. References
+Tharp, B. M., & Tharp, S. M. (2018). Discursive design: critical, speculative, and alternative things. Cambridge (Mass.): MIT Press.
+
+DiSalvo, C. (2009). Design and the Construction of Publics. Design Issues, 25(1), 48–63. https://doi.org/10.1162/desi.2009.25.1.48
+
+Briones, M. de A. (2019). A taxonomy of data visualization projects for alternative narratives. In L. Rampino & I. Mariani (Eds.), ADVANCEMENTS IN DESIGN RESEARCH 11 PhD theses on Design as we do in POLIMI (pp. 163-183). Milano: FrancoAngelli.
+
+## General references
 Anceschi G., L'oggetto della raffigurazione, Editore: Etas, Anno edizione: 1992.
 
 Cairo, A. (2012). Functional Art. The Functional Art: An introduction to information graphics and visualization. ISBN: 978-0321834737
