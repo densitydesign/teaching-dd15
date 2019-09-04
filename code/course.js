@@ -1,6 +1,5 @@
 import PropTypes, { Fragment } from 'prop-types';
 import React from 'react';
-import Badge from '../code/components/badge.js';
 
 import PhaseOne from '../code/components/phase-01.js';
 import PhaseTwo from '../code/components/phase-02.js';

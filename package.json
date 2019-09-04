@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    
+
   },
   "cuttlebelle": {
     "folder": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreabenedetti/build-teaching-dd15.git"
+    "url": "git+https://github.com/densitydesign/teaching-dd15.git"
   },
   "keywords": [
     "course",
@@ -34,7 +34,7 @@
   "author": "DensityDesign Lab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreabenedetti/build-teaching-dd15/issues"
+    "url": "https://github.com/densitydesign/teaching-dd15/issues"
   },
-  "homepage": "https://github.com/andreabenedetti/build-teaching-dd15#readme"
+  "homepage": "https://github.com/densitydesign/teaching-dd15#readme"
 }
