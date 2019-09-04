@@ -96,6 +96,13 @@ Students are motivated to reflect on what the “public” means, how different 
 
 The aim is for students to apply their communication design skills using data for building alternative narratives (Briones, 2019) that expose, explain and/or explore their research findings. Students are asked to delve into one or more of the research findings identified in the previous phase, and to design and craft a highly experimental digital artifact (i.e: interactive report or documentary, virus, plug-in, guides and kits) that is usable by a specific audience to act on the issue. The final deliverable is a website that contains the communication artifact.
 
+## Learning goals
+1. to turn a research findings based on data into a communication design artifact *for the public*
+2. *identify* a specific audience and context
+3. to create discursive artifacts that prompt to *critical reflection and action* over the subject
+4. *experimentally reuse* online digital object’s language and logics (links, likes, swaps, etc) for creating digital discursive artifacts
+5. *to repurpose* data and data visualization as components of discursive artifacts
+
 # Evaluation
 Personal evaluation will be based on the outcome of the three group deliveries (which will be the main component), the outcome of the personal exercises, the active involvement in the team work and in the classroom.
 Each group delivery will be evaluated in different aspects, and the final mark will be an average of them. Since each delivery is part of a broader teaching path, the mark will be expressed in letters, representing a range of marks (A: 29-30L, B: 26-28, C 23-25, D: 19-22, E:18). In the following paragraphs, the evaluation aspects for each delivery will be listed.
@@ -139,23 +146,15 @@ Objective of this personal assignment is the presentation of a statistical analy
 Objective of the assignment is the design of a defined “artifact” (without limits of languages and materials) in which students will experiment a poetic approach to the representation of data. The objective is to make people “feel” the phenomenon behind the data and not only “see” the data.
 
 # Modules and professors
-The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Paolo Ciuccarelli. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
-Four teaching assistants will support professors during feedback sessions and students in the development of the projects.
+The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Michele Mauri. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
 
-## Professors
+Six teaching assistants will support professors during feedback sessions and students in the development of the projects.
+
 - *Michele Mauri.* Introduction to data visualization, information visualization, information design
 - *Gabriele Colombo.* Issue mapping with Digital Methods
 - *Ángeles Briones.* Data publics
 - *Salvatore Zingale.* Semiotics
 - *Simone Vantini.* Statistics
-
-## Teaching Assistants
-- *Andrea Benedetti* - <andrea.benedetti@polimi.it>
-- *Lea Mara Fabiano* -
-- *Alessandra Facchin* -
-- *Beatrice Gobbo* - <beatrice.gobbo@polimi.it>
-- *Tommaso Elli* - <tommaso.elli@polimi.it>
-- *Jacopo Di Iorio* -
 
 # Bibliography
 - Anceschi G., L'oggetto della raffigurazione, Editore: Etas, Anno edizione: 1992.
