@@ -103,50 +103,50 @@ The aim is for students to apply their communication design skills using data fo
 
 ## Learning goals
 1. To turn a research findings based on data into a communication design artifact *for the public*
-2. *identify* a specific audience and context
+2. *Identify* a specific audience and context
 3. To create discursive artifacts that prompt to *critical reflection and action* over the subject
-4. *experimentally reuse* online digital object’s language and logics (links, likes, swaps, etc) for creating digital discursive artifacts
+4. *Experimentally reuse* online digital object’s language and logics (links, likes, swaps, etc) for creating digital discursive artifacts
 5. *To repurpose* data and data visualization as components of discursive artifacts
 
 ## Output
 ### Interactive documentary
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/donottrack.jpg">
+<a href="https://episode1.donottrack-doc.com/en/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/donottrack.jpg">
 <h3>Do not track</h3>
 </div></a>
 </div>
 
 ### Browser plugin
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/privacy.jpg">
+<a href="https://proprivacy.com/ruinmysearchhistory"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/privacy.jpg">
 <h3>Ruin my research history!</h3>
 </div></a>
 </div>
 
 ### Guides
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
+<a href="https://foundation.mozilla.org/en/privacynotincluded/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/mozilla.jpg">
 <h3>Be smart, shop safe</h3>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/datadetox.jpg">
+<a href="https://datadetoxkit.org/en/home"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/datadetox.jpg">
 <h3>Data Detox Kit</h3>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/wikiballoon.jpg">
+<a href="https://publiclab.org/wiki/balloon-mapping"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/wikiballoon.jpg">
 <h3>Balloon and Kite Mapping Kit</h3>
 </div></a>
 </div>
 
 ### Interactive research reports
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/scandaglio.jpg">
+<a href="https://www.offtopiclab.org/scandaglio/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/scandaglio.jpg">
 <h3>Scandaglio</h3>
 <p>OffTopic Lab</p>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/offshore.jpg">
+<a href="http://rybn.org/thegreatoffshore/index.php"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/offshore.jpg">
 <h3>The Great Offshore</h3>
 <p>RYBN</p>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/virtualwatchers.jpg">
+<a href="https://www.virtualwatchers.de/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/virtualwatchers.jpg">
 <h3>The Virtual Watchers</h3>
 </div></a>
 </div>
