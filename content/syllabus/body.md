@@ -46,6 +46,11 @@ There will be a basic introduction to Statistics, defining its objectives and hi
 
 Output of this phase is the design of a series of visualizations - both for a web format and a printed edition - that represent a first perspective or angle to access the chosen issue.
 
+## Learning goals
+1. *Data handling.* Students will learn how to manage data, from the choice of sources, to analysis and manipulation of the gathered data.
+2. *Information visualization principles.* Students will learn the basics of information visualization discipline and the role of communication design. They will learn how to choose visual variables for mapping data and how to apply them.
+3. *Introduction to HTML.* Basic knowledge required to create a static single web page.
+
 # Second phase: Data as Artifact
 ### Visualizing controversies collecting data from the Web
 In the second phase of the course each group analyze their topic using digital methods. Digital methods are “techniques for the study of societal change and cultural condition with online data” (Rogers, 2019). Here, students learn how to map a controversial issue by collecting, analysing, and visualising data from online sources (e.g. search engines and social media platforms).
