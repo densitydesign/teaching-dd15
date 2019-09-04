@@ -29,7 +29,7 @@ At the end of the course, the students will have learned:
 Knowledge of the rhetorical-argumentative figures (especially those based on analogy and metaphor).
 
 
-# Course structure
+# Course structure and deliverables
 The course will be divided into three main phases in which students will be working in groups. In addition, every student will be challenged with two individual assignments.
 
 Students will be introduced to the information design and data visualization domain through iterations of a set of interrelated activities: picking appropriate sources, constructing a coherent narrative, dealing with unstructured data, communicate, share and engage by designing for advocacy.
@@ -47,12 +47,14 @@ There will be a basic introduction to Statistics, defining its objectives and hi
 Output of this phase is the design of a series of visualizations - both for a web format and a printed edition - that represent a first perspective or angle to access the chosen issue.
 
 ## Learning goals
-1. *Data handling.* Students will learn how to manage data, from the choice of sources, to analysis and manipulation of the gathered data.
-2. *Information visualization principles.* Students will learn the basics of information visualization discipline and the role of communication design. They will learn how to choose visual variables for mapping data and how to apply them.
-3. *Introduction to HTML.* Basic knowledge required to create a static single web page.
+1. *To manage data* from the choice of sources, to analysis and manipulation of the gathered data.
+2. To know the *theoretical context of information visualization* and how to apply it to the design of visualizations.
+3. To choose visual variables for mapping data, *design visualization*, provide needed context for tis reading/decoding.
+4. To create *simple HTML responsive pages* for presenting a design project.
+
 
 # Second phase: Data as Artifact
-### Visualizing controversies collecting data from the Web
+### Issue mapping with digital methods
 In the second phase of the course each group analyze their topic using digital methods. Digital methods are “techniques for the study of societal change and cultural condition with online data” (Rogers, 2019). Here, students learn how to map a controversial issue by collecting, analysing, and visualising data from online sources (e.g. search engines and social media platforms).
 
 The process is question-driven: from research questions, students design protocols for data collection and analysis, and produce research findings using data visualizations. At the same time, students are also asked to trace and make explicit their process by designing protocol diagrams: flowcharts presenting research questions and research steps in a compact visual form (Niederer and Colombo, 2019).
@@ -60,10 +62,11 @@ The process is question-driven: from research questions, students design protoco
 At the end of this phase, each group design and deliver an interactive research report and present it to the class. The research report is a visual atlas (Venturini et al., 2015) of the issue under study according to the web: a mapping of the issue resonance, sources, actors, textual and visual language in different spaces of the web.
 
 ## Learning goals
-1. to demarcate spaces on the web through *query design*;
-2. to *repurpose* online digital objects (e.g. links, likes, shares, timestamps) for research;
-3. to critically reflect on *data collection as a design activity*;
-4. to use *data visualization as a tool* in the research process.
+1. To critically reflect on *data collection* as a design activity.
+2. To *repurpose* online digital objects (e.g. links, likes, shares, timestamps) for research.
+3. To design *queries* for data collection.
+4. To use *data visualization as a tool* in the research process.
+5. To design research *protocols*.
 
 ## Output
 Interactive research report. Examples from previous years:
@@ -97,11 +100,11 @@ Students are motivated to reflect on what the “public” means, how different 
 The aim is for students to apply their communication design skills using data for building alternative narratives (Briones, 2019) that expose, explain and/or explore their research findings. Students are asked to delve into one or more of the research findings identified in the previous phase, and to design and craft a highly experimental digital artifact (i.e: interactive report or documentary, virus, plug-in, guides and kits) that is usable by a specific audience to act on the issue. The final deliverable is a website that contains the communication artifact.
 
 ## Learning goals
-1. to turn a research findings based on data into a communication design artifact *for the public*
+1. To turn a research findings based on data into a communication design artifact *for the public*
 2. *identify* a specific audience and context
-3. to create discursive artifacts that prompt to *critical reflection and action* over the subject
+3. To create discursive artifacts that prompt to *critical reflection and action* over the subject
 4. *experimentally reuse* online digital object’s language and logics (links, likes, swaps, etc) for creating digital discursive artifacts
-5. *to repurpose* data and data visualization as components of discursive artifacts
+5. *To repurpose* data and data visualization as components of discursive artifacts
 
 # Evaluation
 Personal evaluation will be based on the outcome of the three group deliveries (which will be the main component), the outcome of the personal exercises, the active involvement in the team work and in the classroom.
@@ -148,7 +151,7 @@ Objective of the assignment is the design of a defined “artifact” (without l
 # Modules and professors
 The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Michele Mauri. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
 
-Six teaching assistants will support professors during feedback sessions and students in the development of the projects.
+Teaching assistants will support professors during feedback sessions and students in the development of the projects.
 
 - *Michele Mauri.* Introduction to data visualization, information visualization, information design
 - *Gabriele Colombo.* Issue mapping with Digital Methods
@@ -157,17 +160,30 @@ Six teaching assistants will support professors during feedback sessions and stu
 - *Simone Vantini.* Statistics
 
 # Bibliography
-- Anceschi G., L'oggetto della raffigurazione, Editore: Etas, Anno edizione: 1992.
-- Barabási A., Link. La scienza delle reti., Editore: Einaudi, Anno edizione: 2004.
-- Editore: Design Studies, Anno edizione: 2011, Fascicolo: 32(6), pp. 546-556 Note: doi:10.1016/- j.destud.2011.07.005
-- Ciuccarelli P., Visual Explorations. On-line Investigations for Understanding Society, Editore: in Errea J., Gil A. Malofiej 19. International Infographics Awards. pp. 6- 23, Anno edizione: 2012.
-- Dalgaard P., Introductory Statistics with R, Editore: Springer, Anno edizione: 2008.
-- Danziger M., Information visualization for the people. , Editore: Massachusetts Institute of Technology. Dept. of Comparative Media Studies, Anno edizione: 2008.
-- Emerson J., Visualizing Information for Advocacy. An Introduction to Information Design., Editore: Tactical Technology Collective, Anno edizione: 2008. https://visualisingadvocacy.org/
-- Everitt B. e Hothorn T., An Introduction to Applied Multivariate Analysis with R, Editore: Springer, Anno edizione: 2011.
-- Latour B., A Cautious Prometheus? A Few Steps Toward a Philosophy of Design, Editore: Proceedings of the Annual International Design History Society (Boca Raton: Universal Publisher), Anno edizione: 2008, Fascicolo: pp. 2-10.
-- Masud L., Valsecchi F., Ciuccarelli P., Ricci D., Caviglia G., From Data to Knowledge. Visualizations as Transformation Processes Within the D-I-K Continuum, Editore: Proceedings of 14th International Conference Information visualization (July), Anno edizione: 2010, Fascicolo: pp. 445 Note: doi:10.1109/IV.2010.68
-- Rogers R., Digital Methods, Editore: Cambridge, MA: MIT Press, Anno edizione: 2013.
-- Tufte E. R., Visual Explanations: Images and Quantities, Evidence and Narrative, Editore: Cheshire, CT: Graphics Press, Anno edizione: 1997.
-- Venturini T., Diving in magma: how to explore controversies with actor-network theory, Editore: Public Understanding of Science 19, No. 3, pp. 258-273, Anno edizione: 2010.
-- Venturini T., Building on Faults: How to Represent Controversies with Digital Methods, Editore: Public Understanding of Science, OnlineFirst, Anno edizione: 2010. http://pus.sagepub.com/content/early/2010/12/03/0963662510387558.full.pdf+html
+Anceschi G., L'oggetto della raffigurazione, Editore: Etas, Anno edizione: 1992.
+
+Cairo, A. (2012). Functional Art. The Functional Art: An introduction to information graphics and visualization. ISBN: 978-0321834737
+
+Ciuccarelli P., Visual Explorations. On-line Investigations for Understanding Society, Editore: in Errea J., Gil A. Malofiej 19. International Infographics Awards. pp. 6- 23, Anno edizione: 2012.
+
+Dalgaard P., Introductory Statistics with R, Editore: Springer, Anno edizione: 2008.
+
+Danziger M., Information visualization for the people. , Editore: Massachusetts Institute of Technology. Dept. of Comparative Media Studies, Anno edizione: 2008.
+
+Emerson J., Visualizing Information for Advocacy. An Introduction to Information Design., Editore: Tactical Technology Collective, Anno edizione: 2008. https://visualisingadvocacy.org/
+
+Everitt B. e Hothorn T., An Introduction to Applied Multivariate Analysis with R, Editore: Springer, Anno edizione: 2011.
+
+Latour B., A Cautious Prometheus? A Few Steps Toward a Philosophy of Design, Editore: Proceedings of the Annual International Design History Society (Boca Raton: Universal Publisher), Anno edizione: 2008, Fascicolo: pp. 2-10.
+
+Masud L., Valsecchi F., Ciuccarelli P., Ricci D., Caviglia G., From Data to Knowledge. Visualizations as Transformation Processes Within the D-I-K Continuum, Editore: Proceedings of 14th International Conference Information Visualisation (July), Anno edizione: 2010, Fascicolo: pp. 445 Note: doi:10.1109/IV.2010.68
+
+Rogers R., Doing Digital Methods, Publisher: SAGE Publications Ltd, Anno edizione: 2019.
+
+Tufte E. R., Visual Explanations: Images and Quantities, Evidence and Narrative, Editore: Cheshire, CT: Graphics Press, Anno edizione: 1997.
+
+Venturini T., Building on Faults: How to Represent Controversies with Digital Methods, Editore: Public Understanding of Science, OnlineFirst, Anno edizione: 2010. http://pus.sagepub.com/content/early/2010/12/03/0963662510387558.full.pdf+html
+
+O Neil, C, Weapons of math destruction: how big data increases inequality and threatens democracy, Publisher: Crown Publishing Group New York, NY, USA, Year: 2016
+
+Moere, A. Vande, & Purchase, H. (2011). On the role of design in information visualization. In Information Visualization 10(4) 356–371. https://doi.org/10.1177/1473871611415996
