@@ -580,8 +580,8 @@ aside a {
 		max-width: 90%;
 	}
 
-	.link--booklet, .link--phase {
-		grid-column: 1 / 6;
+	aside a, .link--booklet, .link--phase {
+		grid-column: 1 / 6 !important;
 		height: 15vh;
 		margin-bottom: 1rem;
 	}
