@@ -436,8 +436,15 @@ aside a {
 	background-position: center;
 } */
 
-#table--of--content a {
+#syllabus--aside {
 	font-size: 0.9rem;
+}
+
+#table--of--content {
+	margin-bottom: 3rem;
+}
+
+#table--of--content a {
 	color: var(--main-color);
 	text-decoration: none;
 	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -602,6 +609,7 @@ aside a {
 		/* box-shadow: 0 0rem 1rem 1rem var(--accent); */
 		text-align: center;
 		padding: 5%;
+		margin-bottom: 0;
 	}
 
 	#table--of--content a {
