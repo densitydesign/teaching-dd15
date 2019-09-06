@@ -176,11 +176,7 @@ Students should reuse some of the data from phase 2 and work with new data (if n
 ### Experimental communication design
 To use the possibilities of online digital media in a highly experimental way to design narratives that invite the audience to reflection and action.
 
-## Personal Assignments
-
-### Statistics Ex-tempore
-Objective of this personal assignment is the presentation of a statistical analysis based on the notions learned during the module. Starting from a dataset, students will be required to frame a problem, analyze data and present results.
-
+## Personal Assignment
 ### Semiotics: Infopoetry
 Objective of the assignment is the design of a defined “artifact” (without limits of languages and materials) in which students will experiment a poetic approach to the representation of data. The objective is to make people “feel” the phenomenon behind the data and not only “see” the data.
 
@@ -196,7 +192,7 @@ Teaching assistants will support professors during feedback sessions and student
 - *Simone Vantini.* Statistics
 
 # Bibliography
-## Data as Material. References
+## Phase 2: Data as Artifact. References
 Niederer, S., & Colombo, G. (2019). Visual Methodologies for Networked Images: Designing Visualizations for Collaborative Research, Cross-platform Analysis, and Public Participation. Diseña, (14), 40-67.
 
 Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
@@ -204,7 +200,7 @@ Rogers, R. (2019). Doing Digital Methods. SAGE Publications Limited.
 Venturini, T., Ricci, D., Mauri, M., Kimbell, L., & Meunier, A. (2015). Designing
 controversies and their publics. Design Issues, 31(3), 74-87.
 
-## Data Publics. References
+## Phase 3: Data Publics. References
 Tharp, B. M., & Tharp, S. M. (2018). Discursive design: critical, speculative, and alternative things. Cambridge (Mass.): MIT Press.
 
 DiSalvo, C. (2009). Design and the Construction of Publics. Design Issues, 25(1), 48–63. https://doi.org/10.1162/desi.2009.25.1.48
