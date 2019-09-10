@@ -161,7 +161,7 @@ The web page is designed and developed according to the blueprint, it’s able t
 Efficiency and clarity of data visualizations, including protocol diagrams. Are the designed visualizations functional to answer the research questions? Are the protocol diagrams clear and self explanatory?
 
 ### Research method
-Innovation and robustness of research protocols, including query design. Is the designed research method functional to answer the research question? Is there innovation in repurposing digital objects for answering research questions? Is the data collected consistent? Are the data analyses robust and clear? 
+Innovation and robustness of research protocols, including query design. Is the designed research method functional to answer the research question? Is there innovation in repurposing digital objects for answering research questions? Is the data collected in a consistent way? Are the data analyses robust and clear?
 
 ### Research findings
 Clarity in the communication of research findings, including images and text. Are research findings understandable by looking at the visualizations? Are research findings clearly described in the text?
