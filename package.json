@@ -4,12 +4,15 @@
   "description": "DensityDesign Lab - Final Synthesis Design Studio 2019/2020. Course results and documentation for the fifteenth edition of the course held by DensityDesign Lab at Politecnico di Milano",
   "main": "index.js",
   "dependencies": {
+    "cuttlebelle": "^1.0.0-alpha.67",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
-
-  },
+		"build": "cuttlebelle",
+		"watch": "cuttlebelle -w",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
   "cuttlebelle": {
     "folder": {
       "site": "docs"
