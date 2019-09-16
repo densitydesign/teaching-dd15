@@ -180,6 +180,8 @@ To use the possibilities of online digital media in a highly experimental way to
 ### Semiotics: Infopoetry
 Objective of the assignment is the design of a defined “artifact” (without limits of languages and materials) in which students will experiment a poetic approach to the representation of data. The objective is to make people “feel” the phenomenon behind the data and not only “see” the data.
 
+The personal assignment will be evaluated with a value ranging from -1 to +1 that will be added to the final grade in thirtieths. Evaluation criteria are the originality of the work and the ability of representing the chosen topic.
+
 # Modules and professors
 The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Michele Mauri. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
 
