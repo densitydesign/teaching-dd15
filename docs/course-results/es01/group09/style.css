@@ -1,0 +1,77 @@
+/* Global */
+
+* {
+  transition: all linear 0.15s;
+}
+
+body {
+  background: rgb(248, 243, 240) url("assets/img/bg.gif") fixed repeat top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+}
+
+b, h1, h5, a {
+  font-weight: 600;
+}
+
+strong, h2 {
+  font-weight: 700;
+}
+
+ul.p-0.ml-2 {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.25em;
+  text-indent: -1.25em;
+}
+
+
+
+/* Local */
+
+.poof { visibility: hidden; }
+@media (min-width: 768px) {
+  .poof { visibility: visible; }
+}
+
+.bg {
+  background-color: red;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+@media (min-width:  576px) {
+  .bg { max-width:  540px; } }
+@media (min-width:  768px) {
+  .bg { max-width:  720px; } }
+@media (min-width:  992px) {
+  .bg { max-width:  960px; } }
+@media (min-width: 1200px) {
+  .bg { max-width: 1140px; } }
+
+  .container-fluid.bg-primary { font-size:  90%; }
+@media (min-width: 576px) {
+  .container-fluid.bg-primary { font-size:  95%; } }
+@media (min-width: 768px) {
+  .container-fluid.bg-primary { font-size: 100%; } }
+
+
+
+/* Debug */
+/*
+body * { outline: 1px solid #990000; }
+span.debug::before { content: " xs "; background: #990000;}
+@media (min-width: 576px) {
+  body * { outline: 1px solid #999900; }
+  span.debug::before { content: " sm "; background: #999900;} }
+@media (min-width: 768px) {
+  body * { outline: 1px solid #009900; }
+  span.debug::before { content: " md "; background: #009900;} }
+@media (min-width: 992px) {
+  body * { outline: 1px solid #009999; }
+  span.debug::before { content: " lg "; background: #009999;} }
+@media (min-width: 1200px) {
+  body * { outline: 1px solid #000099; }
+  span.debug::before { content: " xl "; background: #000099;} }

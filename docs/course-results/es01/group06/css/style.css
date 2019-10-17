@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+div{display: block;}
+
+/*FONTS*/
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+h1 span{
+    font-weight: 700;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 1.2em;
+    
+}
+h2 span{
+    font-weight: 700;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+}
+h3 span{
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+h4 span{
+    font-weight: 400;
+}
+h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+}
+h5 span{
+    font-weight: 500;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0.02em;
+    padding-bottom: 20px;
+}
+
+li{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0.02em;
+    padding-bottom: 10px;
+}
+
+p span{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    margin: 10px 0;
+}
+
+.baggray{
+    background-color:#9da6b8;
+    padding:2rem;
+}
+.baggray2{
+    background-color:#dadfea;
+    padding:2rem;
+}
+ 
+
+/*IMAGE*/
+img{
+    width: 100%;
+}
+.img-block img{
+    display: block;
+}
+.imglogo{
+    width:40%;
+}
+
+
+
+/*GRID LAYOUT*/
+/*MOBILE*/
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #Gdis{display:none;}
+    
+    .col13{max-width: 90%;}
+    .col23{max-width: 90%;}
+    .col33{max-width: 90%;}
+    .col12{max-width: 90%;}
+    .col14{max-width: 90%;}
+    .col15{max-width: 90%;}
+    .col45{max-width: 90%;}
+    .col16{max-width: 90%;}
+    .col17{max-width: 30%;}
+
+    .col13, .col23, .col33, .col12, .col14, .col15, .col16{
+    margin: 0% auto;
+    }
+    .fl, .fr, .center {
+        display: block;
+        margin: 0 auto;
+    }
+    .clear {clear: both;} 
+}
+.text{
+    text-align:justify;
+    padding-bottom:0;
+    font-size:1.5rem
+    
+}
+.text-center{
+    text-align: center;
+    padding-left: 4rem;
+    
+}
+ .headerl{
+     padding-left: 2rem !important;
+    padding-top: 0.7rem !important;
+    }
+     .headerr{
+     padding-right: 2rem !important;
+    padding-top: 0.7rem !important;
+    }
+.headerpb{
+    padding-bottom: 3rem;
+}
+.pt2{
+    padding-top:2rem;
+}
+/*TABLET*/
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    .container{
+        max-width: 600px;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .project-container{
+        max-width: 600px;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .col13{max-width: 30.33%;}
+    .col23{max-width: 63.66%;}
+    .col33{max-width: 98%;}
+    .col12{max-width: 47%;}
+    .col14{max-width: 22%;}
+    .col15{max-width: 17%;}
+    .col45{max-width: 77%;}
+    .col16{max-width: 13.66%;}
+
+    .col13, .col23, .col33, .col12, .col14, .col15, .col16{
+        margin: 0 1%;
+    }
+    
+    .fl {float:left;}
+    .fr {float:right;}
+    .clear {clear: both;}
+    .center {display: block;
+        margin: 0 auto;}
+     .headerl{
+     padding-left: 4rem !important;
+    padding-top: 0.7rem !important;
+    }
+     .headerr{
+     padding-right: 4rem !important;
+    padding-top: 0.7rem !important;
+    }
+    
+    .rankBh{
+        height:752px;
+    }
+    .text-white{
+    color:#ffffff;
+}
+    
+ 
+    .text-center{
+        text-align:center;
+    }
+    
+}
+/*DESKTOP*/
+@media only screen and (min-width: 900px) {
+    .container{
+        top: 0;
+        max-width: 900px;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    .col13{max-width: 30.33%;}
+    .col23{max-width: 63.66%;}
+    .col33{max-width: 98%;}
+    .col12{max-width: 47%;}
+    .col14{max-width: 23%;}
+    .col15{max-width: 17%;}
+    .col45{max-width: 77%;}
+    .col16{max-width: 13.66%;}
+    .col13, .col23, .col33, .col12, .col14, .col15, .col16{
+        margin: 0 1%;
+           padding-top: 0;
+        padding-bottom: 0;
+       
+    }
+    .fl {float:left;}
+    .fr {float:right;}
+    .clear {clear: both;}
+    .center {display: block;
+        margin: 0 auto;}
+    .pt0{
+        padding-top: 0;
+        
+    }
+    .imgl{
+        width:30%;
+    }
+    .headerl{
+     padding-left: 4rem !important;
+    padding-top: 0.7rem !important;
+    }
+     .headerr{
+     padding-right: 4rem !important;
+    padding-top: 0.7rem !important;
+    }
+    
+.headerpb{
+    padding-bottom: 3rem;
+}
+.pt2{
+        padding-top: 2rem;
+    }
+}
+.pb4{
+        padding-bottom: 4rem;
+    }
+.pb1{
+        padding-bottom: 1rem;
+    }
+.text-white{
+    color:#ffffff;
+}
+ .text-center{
+        text-align:center;
+     padding-right:8.5rem;
+    }
+.text-purple{
+    color:#6c63ff;
+}
+}
+
+
+
+:root {
+  --mainColor: #ff9800;
+}
+
+/*
+body {
+  align-items: center;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  height: 100vh;
+  justify-content: center;
+}
+*/
+
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+    color: black;
+}
+

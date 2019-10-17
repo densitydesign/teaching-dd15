@@ -1,0 +1,232 @@
+
+body {
+	background-color: #a5bdc6;
+	color: #FFFFFF;
+}
+
+footer li {
+	list-style: none;
+	margin: 0;
+	line-height: 1.5;
+    font-size: 0.9em;
+    
+}
+
+li {
+	list-style: none;
+	margin: 0;
+        font-size: 0.9em;
+}
+
+ul {
+	padding:0;
+            font-size: 0.9em;
+}
+
+nav
+{
+	/* width: auto;
+	height: 6opx; */
+	background-color: #a5bdc6;
+}
+
+.navbar {
+    font-size: 1em;
+}
+
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+#right{
+    margin-top: -15px;
+}
+
+
+img.infographic {
+  /* Set rules to fill background */
+  min-height: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+}
+
+.title{
+   font-family: "FoundersGrotesk-Regular";
+}
+
+.linkdata{
+   font-family: "FoundersGrotesk-Regular";
+    color:white;
+}
+
+.download{
+   font-family: "FoundersGrotesk-Regular";
+    color:black;
+    
+}
+
+.custom-cur {
+  cursor: url(img/cursor.png), auto;
+}
+
+.description {
+  font-size: 0.8em;
+    line-height: 1px;
+
+}
+
+img.image_2
+{
+	/* Set rules to fill background */
+ 
+	
+  /* Set up proportionate scaling */
+  max-width:60%;
+  height:auto;
+}
+
+
+
+/*************************Font&dimensions******************************************/
+#navbar
+{
+	font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+#title_group
+{
+	font-family: "FoundersGrotesk";
+    font-weight: regular;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+#title_infographic
+{
+	font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 3em;
+}
+
+#title_section
+{
+	font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 2.2em;
+}
+
+#title_small_section
+{
+	font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 0.3em;
+}
+
+#text_section
+{
+	font-family: "FoundersGrotesk";
+    font-weight: regular;
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+#text_description
+{
+	font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 1.3em;
+} 
+
+.final_title
+{
+	font-family: "FoundersGrotesk-Medium";
+    font-weight: medium;
+	font-style: normal;
+	font-size: 1.3em;
+}
+
+
+
+
+/*************************HOVER TITLE SECTIONS*************************************/
+.title_section_hover:hover
+{
+	text-decoration: underline;
+	font-family: "FoundersGrotesk-MediumItalic";
+    font-weight: regular;
+	font-style: italic;
+    
+}
+
+.linkdata:hover{
+	text-decoration: underline;
+	font-family: "FoundersGrotesk-MediumItalic";
+    font-weight: regular;
+	font-style: italic;
+    color:black;
+    
+}
+
+.download:hover{
+	text-decoration: underline;
+	font-family: "FoundersGrotesk-MediumItalic";
+    font-weight: regular;
+    color:white;
+    
+}
+
+/************************FONT NAVBAR******************************/
+
+@media (max-width: 540px) { 
+
+.navbar {
+	font-size:1em;
+}
+    
+   
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+/**************************FONT****************************************/
+
+@font-face {
+    font-family: "FoundersGrotesk-MediumItalic";
+    font-weight: medium;
+	font-style: italic;
+    src: url("FoundersGrotesk-MediumItalic.otf");
+}
+
+@font-face {
+	font-family: "FoundersGrotesk-Regular";
+	font-weight: regular; 
+	font-style: normal;
+	src: url("FoundersGrotesk-Regular.otf");
+} 
+@font-face {
+    font-family: "FoundersGrotesk-Medium";
+    font-weight: regular;
+	font-style:italic;
+    src: url("FoundersGrotesk-Medium.otf")8;
+}
+
+

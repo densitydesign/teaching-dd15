@@ -1,0 +1,336 @@
+/* General */
+
+body {
+  height: 100%;
+  background-color: var(--bg-color);
+  cursor: url("./assets/img/Icona_over.png"), auto;
+}
+
+@font-face{font-family: FGroteskThin; src:url("./assets/fonts/FGroteskThin.otf");}
+@font-face{font-family: StepsMono; src:url("./assets/fonts/StepsMono.otf");}
+
+:root {
+  --bg-color: rgb(246,246,246);
+
+  --par-font-family: 'Archivo', sans-serif;
+  --par-font-weight: 400;
+  --par-font-size: 1.2rem;
+  --par-color: rgb(20,20,20);
+
+  --dat-font-family: 'Archivo', sans-serif;
+  --dat-font-weight: 400;
+  --dat-font-size: 0.8rem;
+  --dat-color: rgb(20,20,20);
+
+  --nav-font-family: 'StepsMono';
+  --nav-font-size: 1.5rem;
+  --nav-color: rgb(20,20,20);
+
+  --header-font-family: 'Archivo', sans-serif;
+  --headerlight-font-weight: 400;
+  --header-font-weight: 600;
+  --header-font-size: 1.1rem;
+  --header-color: rgb(20,20,20);
+
+  --maintext-font-family: 'Archivo', sans-serif;
+  --maintextlight-font-weight: 400;
+  --maintext-font-weight: 600;
+  --maintext-font-size: 1.9rem;
+  --maintext-color: rgb(20,20,20);
+
+  --title-font-family: 'StepsMono';
+  --title-font-size: 2rem;
+  --title-color: rgb(20,20,20);
+
+  --footer-font-family: 'Archivo', sans-serif;
+  --footer-font-size: 0.8rem;
+  --footer-font-color: rgb(20,20,20);
+}
+
+.container-fluid {
+  padding:0rem;
+}
+
+.bordoSx {
+  border-left: 1px solid black;
+
+}
+
+.bordoBottom {
+  border-bottom: 1px solid black;
+
+}
+
+.cornice {
+  border: 1px solid black;
+
+}
+
+
+/* Navbar */
+
+nav {
+  height: 60px;
+  padding: 0;
+}
+
+.loader {
+  height:100%;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  background-color: var(--bg-color);
+  border: 1px solid black;
+  padding: 0rem;
+  z-index: 1;
+}
+
+.navbar-text {
+  font-family: var(--par-font-family);
+  color: var(--nav-color);
+  font-size: var(--nav-font-size);
+  text-transform: uppercase;
+
+}
+
+.navbar-text-title {
+  font-family: var(--nav-font-family);
+  color: var(--nav-color);
+  font-size: var(--nav-font-size);
+  text-transform: uppercase;
+  font-weight: 200;
+  padding-top:0.4rem;
+
+
+}
+
+
+/* Cartouche */
+
+.cartouche {
+  margin-top: 7.5rem;
+  margin-bottom: 4rem;
+  align-content: flex-end;
+
+}
+
+#maintitle {
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-align: initial;
+  width: fit-content;
+}
+
+#groupnumber {
+  font-family: var(--par-font-family);
+  font-weight: var(--headerlight-font-weight);
+  color: var(--header-color);
+  font-size: var(--header-font-size);
+  text-transform: uppercase;
+}
+
+#projectbytop {
+  font-family: var(--header-font-family);
+  font-weight: var(--headerlight-font-weight);
+  color: var(--header-color);
+  font-size: var(--header-font-size);
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  height: auto;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+  border: 1px solid black;
+  border-radius: 0px;
+  background-color: var(--bg-color);
+
+}
+
+
+/* Abstract */
+
+#abstract {
+  margin-bottom: 3rem;
+  font-family: var(--maintext-font-family);
+  font-weight: var(--maintext-font-weight);
+  color: var(--maintext-color);
+  font-size: var(--maintext-font-size);
+}
+
+
+/* Section */
+
+.section {
+  border-bottom: 1px solid black;
+  padding-bottom: 5.2rem;
+}
+
+.sectionwide {
+  border-bottom: 1px solid black;
+  padding-bottom: 3rem;
+}
+
+.sectiontitle {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: var(--title-color);
+  font-size: var(--title-font-size);
+  font-family: var(--title-font-family);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sectiontext {
+  color: var(--par-color);
+  font-size: var(--par-font-size);
+  font-family: var(--par-font-family);
+  font-weight: var(--par-font-weight);
+  padding-left: 1rem;
+}
+
+.sectionimgwide {
+  margin-top: 3rem;
+}
+
+.didascalia {
+  padding-left: 0rem;
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--par-color);
+  font-size: var(--par-font-size);
+  font-family: var(--par-font-family);
+}
+
+.didascaliawide {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--par-color);
+  font-size: var(--par-font-size);
+  font-family: var(--par-font-family);
+}
+
+
+/* Dataset */
+
+.dataset {
+  margin-bottom: 6rem;
+}
+
+.datasettext {
+  color: var(--dat-color);
+  font-size: var(--dat-font-size);
+  font-family: var(--dat-font-family);
+}
+
+.datasetline {
+  margin-top: 0rem;
+}
+
+.page-footer {
+  padding-top: 1rem;
+  font-family: var(--footer-font-family);
+  font-size: var(--footer-font-size);
+  color: var(--footer-font-color);
+  background-color: var(--bg-color);
+  border-top: 1px solid black;
+}
+
+.footerLogo {
+  height:60px;
+}
+
+/* Links */
+
+a {
+  color: rgb(20,20,20);
+  cursor: url("./assets/img/Icona.png"), auto;
+}
+
+a:hover {
+  background-color: rgb(20,20,20);
+  text-decoration: none;
+  color: rgb(255,255,255)
+}
+
+
+/* Zoom */
+* {margin: 0; padding: 0;}
+.magnify {width: auto; position: relative;}
+
+/* Magnifying glass */
+.large {
+  width: 400px; height: 300px;
+  position: absolute;
+  border: rgb(20,20,20);
+  border-style: solid;
+  border-width: 1px;
+  /*Lets load up the large image first*/
+  background: url('./assets/img/Crypto_Info_01_scalata.png') no-repeat;
+  /*hide the glass by default*/
+  display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small {
+  display: block;
+}
+
+/* Loader */
+.loader {
+  position: fixed;
+  background-color: var(--bg-color);
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media only */
+
+@media only screen and (max-width: 575px) {
+  .cartouche {
+    margin-top: 5.5rem;
+  }
+  #maintitle {
+    margin-bottom:2rem;
+  }
+  .sectiontext {
+    margin-top: 3rem;
+  }
+
+  #projectbybottom {
+    margin-top: 1rem;
+  }
+
+  .section {
+    padding-bottom: 3rem;
+  }
+
+  .sectiontext {
+    margin-top: 0rem;
+  }
+
+  .didascalia {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .datasetline {
+    margin-top: 0.8rem;
+  }
+}

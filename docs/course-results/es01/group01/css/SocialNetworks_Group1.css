@@ -1,0 +1,410 @@
+
+html,
+body {
+    font-size: 18px;
+    color: #4b69a2 !important; 
+    margin: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.jumbotron {
+    background-color: silver !important;
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+    padding-bottom: 6rem !important;
+    margin: 0 !important;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: #4b69a2 !important;
+}
+
+a:hover {
+    color: #4b69a2 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+   
+    .titolo {
+        font-size: 2.7rem;
+        color: white;
+        margin-left: 2rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+    
+     .navigazione {
+       height: 120px;
+       width: 100%;
+       background-color: #4b69a2;
+       position: fixed;
+       align-items: center;
+       z-index: 10;
+    }
+    
+    .group {
+        display: none;
+    }
+    
+    .intestazione {
+        margin-top: 7rem;
+        margin-left: 1.5rem !important;
+    }
+    
+    .titoloint {
+        font-size: 4.2rem;
+        font-weight: 900;
+        line-height: 5rem;
+        margin-right: 4rem;
+        margin-bottom: 4rem;
+        color: yellow;
+    }
+    
+    .nomi {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3rem;
+        margin-bottom: 8rem;
+    }
+    
+   .brief {
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3.7rem;
+    }
+    
+    .sectiontitle {
+        font-size: 4rem;
+        font-weight: 900;
+        padding-bottom: 3rem;
+        margin: 4rem 2rem 0 2rem !important;
+        color: yellow;
+    }
+    
+     .sectiontext {
+        padding: 0 2rem 3rem 2rem !important;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+     .textcard {
+        padding: 0 2rem 1rem 2rem !important;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+     .imgcaption {
+        margin: 1rem 2rem 0 2rem;
+        font-size: 2rem;
+    }
+    
+     .imgcaptioncard {
+        padding: 1rem 0 1rem 0;
+        font-size: 1rem;
+    }
+    
+    
+    .cardeffect {
+        background-color: white;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 1.5rem;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+  
+}
+    
+    .timespent1 {
+        margin-bottom: 1rem !important;
+    }
+    
+    
+   .user  {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        margin-bottom: 1.2rem;
+        }
+    
+    .media-body {
+        color: #4b69a2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    
+    .datatitle, .datasrc, .datadownload {
+        margin: 0 2rem;
+        font-size: 2rem;
+    }
+    
+    .datatitle {
+        font-weight: 900;
+    }
+    
+    .loghi {
+        display: inline-flex;
+        align-items: flex-start;
+        margin: 0 2rem;
+        justify-content: center;
+    }
+    
+    .loghi .density {
+        width: 23%;
+        padding-right: 2rem;
+        padding-bottom: 3rem;
+    }
+    
+    .loghi .poli {
+         width: 75%;
+    }
+    
+    footer {
+        padding: 4rem 0 3rem 0;
+        background-color: dimgray;
+        border-style:solid;
+        border-width: 1px 0 0 0;
+        border-top-color: darkgrey;
+    }
+    
+    .text-left {
+        margin: 0 !important;
+        padding: 0 3rem 0 3rem !important;
+        font-size: 2rem;
+        color: black;
+    }
+    
+    .fa-arrow-alt-circle-up {
+        padding: 2rem 0 0 1rem;
+        font-size: 5rem; 
+        color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .titolo {
+       font-size: 1.2rem;
+       color: white;
+       font-weight: 900;
+       margin: 0;
+       padding-left: 0.3rem;
+    }
+    
+    .navigazione {
+       height: 60px;
+       width: 100%;
+       background-color: #4b69a2;
+       align-items: center;
+       position: fixed;
+       z-index: 10;
+    
+    }
+    
+     .group {
+        display: flex;
+        float: right;
+        margin-bottom: 0;
+        font-size: 1.3rem;
+        color: white;
+        padding-right: 0.3rem;
+    }
+    
+    .intestazione {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }  
+    
+    .titoloint {
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+        margin: auto;
+        margin-right: 3rem;
+        margin-bottom: 0;
+    }
+    
+    .nomi {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        margin-bottom: 0;
+    }    
+    
+    .brief {
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: 900;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .user  {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 0.7rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        }
+    
+     .media-body {
+        color: #4b69a2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    
+    .coltitle {
+        padding-left:0 !important;
+    }
+    
+    .sectiontitle {
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+        margin-top: 4rem !important;
+        margin-left: 0 !important;
+        padding-left:0;
+        font-weight: 900;
+    }
+
+    .sectiontext {
+        padding: 0 0 3rem 0 !important;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        margin: 0;
+    }
+    
+    .textcard {
+        padding: 0 !important;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin: 0 !important;
+    }
+    
+    
+    .imgcaption {
+        margin: 1rem 0 0 0;
+        padding: 0 !important;
+        font-size: 1rem;
+    }
+    
+    .imgcaptioncard {
+        padding: 1rem 0 0 0;
+        font-size: 1rem;
+    }
+    
+    .cardeffect {
+        background-color: white;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+  
+}
+    
+    .timespent1 {
+        margin-bottom: 0 !important;
+        margin-right: 0.5rem !important;
+        padding-top: 1rem;
+    }
+    
+    .timespent2 {
+        margin: 0 !important;
+        padding-top: 1rem;
+    }
+    
+    .dataset {
+        padding-left:0 !important;
+    }
+
+    .datatitle, .datasrc, .datadownload {
+        margin: 0 0 0 0;
+        font-size: 1rem;
+    }
+    
+    .datatitle {
+        font-weight: 900;
+    }
+   
+    .datasrc,
+    .datadownload {
+        font-weight: 200;
+    }
+    
+    
+    .loghi {
+        display: inline-flex;
+        align-items: flex-start;
+    }
+    
+    .loghi .density {
+        width: 25%;
+        padding-right: 1rem;
+    }
+   
+     .loghi .poli {
+         width: 90%;
+    }
+    
+    .foot {
+        display: inline-flex;
+    }
+    
+    footer {
+        padding: 2rem 0 3rem 0;
+        background-color: dimgray;
+        border-style:solid;
+        border-width: 1px 0 0 0;
+        border-top-color: darkgrey;
+    }
+    
+    .text-left {
+        padding: 0 0 0 2rem !important;
+        margin: 0;
+        font-size: 0.8rem;
+        color:black;
+    }
+    
+     .fa-arrow-alt-circle-up {
+        font-size: 2rem; 
+        color: white;
+        padding: 0;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

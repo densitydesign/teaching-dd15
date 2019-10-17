@@ -1,0 +1,251 @@
+/** customized cursor and font **/
+*{
+    cursor: url('/assets/cursor.cur'), auto;
+    font-family: 'RobotoMono-Regular', monospace;
+    color: #F4EFE8;
+}
+
+/** font **/
+@font-face {    
+    font-family: 'RobotoMono-Regular';
+    src: url('fonts/RobotoMono-Regular.ttf');
+    }
+
+/** background and color of the text **/
+body {
+    color: #F4EFE8;
+    background-color:#000;
+}
+
+.grid {
+    margin-top: 60px;
+    background-image: linear-gradient(#F4EFE8 0px, transparent 0px),
+    linear-gradient(90deg, #F4EFE8 0px, transparent 0px),
+    linear-gradient(#F4EFE8 0px, transparent 1px),
+    linear-gradient(90deg, #F4EFE8 0px, transparent 1px);
+    background-size: 5% 5%, 10% 10%;
+    border-left: transparent;
+    background-position: -1px;
+}
+
+/** top fixed bar **/
+.bar1 {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 2rem;
+    font-size: 85%;
+}
+
+.bar2 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 85%;
+}
+
+/** titles **/
+h1 {
+    padding-top: 1rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 3rem;
+}
+
+.number {
+    color: white;
+    border: solid 1px #F4EFE8;
+    background-color: black;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.section {
+    color: black;
+    border: solid 1px #F4EFE8;
+    background-color: #F4EFE8;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.group {
+    padding-top: 2rem;
+}
+
+/** text and captions **/
+.text1 {
+    padding-bottom: 4rem;
+}
+
+.text2 {
+    padding-bottom: 3rem;
+}
+
+.text3 {
+    padding-bottom: 4rem;
+}
+
+.descriptionimage {
+    font-weight: italic;
+    padding-bottom: 4rem;
+}
+
+/** dataset, sources and download **/
+.dataset {
+    padding-bottom: 1rem;
+}
+
+/** footer **/
+.footer {
+    font-size: 14px;
+}
+
+/** Focus on India, horizontal scroll **/
+.india {
+    overflow-x: scroll;
+}
+
+.picindia{
+    width: 100%;
+}
+
+/** loader **/
+#preloader  {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #000 no-repeat center center;
+}
+
+#loader {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+/** link **/
+a:link, a:visited {
+    color: #F4EFE8;
+    background-color: transparent;
+}
+
+/** glitch effect on the main title **/
+.textglitch {
+  margin: 0 auto;
+  cursor: pointer;
+  z-index: 1;
+}
+ 
+.textglitch .textglitch-link {
+  position: relative;
+  display: inline-block;
+}
+ 
+.textglitch-link span {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+ 
+.blur {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+ 
+.textglitch .textglitch-link:after,
+.textglitch .textglitch-link:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: attr(data-content);
+  visibility: hidden;
+}
+ 
+.textglitch.active .textglitch-link:after,
+.textglitch.active .textglitch-link:before {
+  visibility: visible;
+}
+
+.textglitch.disactive .textglitch-link:after,
+.textglitch.disactive .textglitch-link:before {
+  visibility: hidden;
+}
+ 
+.textglitch .textglitch-link:before {
+  color: rgba(127, 42, 133, 0.8);
+  -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
+  animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
+}
+ 
+ 
+.textglitch .textglitch-link:after {
+  color: rgba(101,197,241,0.8);
+  -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+  animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+}
+ 
+@keyframes textglitch {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+  }
+  20% {
+    -webkit-transform: translate(-3px, 3px);
+    transform: translate(-3px, 3px)
+  }
+  40% {
+    -webkit-transform: translate(-3px, -3px);
+    transform: translate(-3px, -3px)
+  }
+  60% {
+    -webkit-transform: translate(3px, 3px);
+    transform: translate(3px, 3px)
+  }
+  80% {
+    -webkit-transform: translate(3px, -3px);
+    transform: translate(3px, -3px)
+  }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+  }
+}
+
+/** responsive title size **/
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+/** responsive grid size **/
+@media screen and (max-width: 600px) {
+  .grid {
+    margin-top: 25px;
+    background-image: linear-gradient(#F4EFE8 0px, transparent 0px),
+    linear-gradient(90deg, #F4EFE8 0px, transparent 0px),
+    linear-gradient(#F4EFE8 0px, transparent 1px),
+    linear-gradient(90deg, #F4EFE8 0px, transparent 1px);
+    background-size: 1% 1%, 10% 10%;
+    border-left: transparent;
+    background-position: -1px;
+  }
+}
+
+/** responsive footer names size **/
+@media screen and (max-width: 600px) {
+  .names {
+      font-size: 70%;
+  }
+}
