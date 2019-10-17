@@ -11,12 +11,14 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 				<div>{ _body }</div>
 			</main>
 			<aside id="phases">
-				<div id="phase1" className="link--phase">
-				<PhaseOne width="200"/>
-				<p>Phase 1</p>
-				<div className="title">Data as Material</div>
-				<div className="arrow">→</div>
+				<a href={ _relativeURL( '/course-results/es01/', _ID) }>
+					<div id="phase1" className="link--phase">
+					<PhaseOne width="200"/>
+					<p>Phase 1</p>
+					<div className="title">Data as Material</div>
+					<div className="arrow">→</div>
 				</div>
+				</a>
 				<div id="phase2" className="link--phase">
 				<PhaseTwo width="200"/>
 				<p>Phase 2</p>
