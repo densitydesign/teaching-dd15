@@ -13,7 +13,7 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 			<aside id="phases">
 				<a href={ _relativeURL( '/course-results/es01/', _ID) }>
 					<div id="phase1" className="link--phase">
-					<PhaseOne width="200"/>
+					<PhaseOne width="200" style={{strokeWidth: 2}}/>
 					<p>Phase 1</p>
 					<div className="title">Data as Material</div>
 					<div className="arrow">→</div>

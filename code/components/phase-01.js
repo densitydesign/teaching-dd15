@@ -7,11 +7,12 @@ const PhaseOne = props => (
     y={0}
     viewBox="0 0 400 300"
     xmlSpace="preserve"
+    style={{strokeWidth: 1}}
     {...props}
   >
     <style>
       {
-        '.prefix__st0{fill:none;stroke:#e0ff4f;stroke-width:3;stroke-miterlimit:10}'
+        '.prefix__st0{fill:none;stroke:#e0ff4f;stroke-miterlimit:10}'
       }
     </style>
     <circle className="prefix__st0" cx={199.8} cy={149.8} r={147.9} />
