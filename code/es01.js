@@ -7,7 +7,7 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 	<html>
 		<main id="right--align">
 		<div id="phase1" className="link--phase">
-			<PhaseOne width="650" style={{strokeWidth: 1}}/>
+			<PhaseOne width="400" style={{strokeWidth: 1.5}}/>
 			<p>Phase 1</p>
 			<div className="title" style={{ marginBottom: "2rem", fontSize: "2rem" }}>Data as Material</div>
 		</div>
@@ -16,12 +16,19 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 			<main className="hero--text">
 				<div className="projects--directory">
 	 			 {
-	 				 Object.keys(groups).map(item => (
+	 				 Object.keys(groups).map((item, i) => (
 						 <>
+						 <div key={item} id={groups[item].group} class="project--block">
+						 <div class="project--cover">
 						 <img key={item} src={groups[item].image}/>
-	 					 <h2 key={item}>{groups[item].title}</h2>
+						 <p><i class="fas fa-arrow-circle-down"></i> Download the visualization</p>
+						 </div>
+
+						 <h3 key={item}>{"Group " + (i + 1)}</h3>
+						 <h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group}>{groups[item].title}</a></h2>
 						 <p className="project--members" key={item}>{groups[item].names}</p>
 						 <p className="project--description" key={item}>{groups[item].desc}</p>
+						 </div>
 						 </>
 	 				 ))
 	 			 }
@@ -33,7 +40,9 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 					<ul className="projects--links">
 						{
 							Object.keys(groups).map(item => (
+								<a key={item} href={"#" + groups[item].group}>
 								<li className="group--link" key={item}>{groups[item].title}</li>
+								</a>
 							))
 						}
 					</ul>

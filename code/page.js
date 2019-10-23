@@ -36,6 +36,12 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<meta name="msapplication-TileColor" content="#bfd1e5" />
 	<meta name="theme-color" content="#bfd1e5" />
 
+	{
+		stylesheet != undefined
+		? ( <link rel="stylesheet" href={ _relativeURL( `/assets/css/${ stylesheet }.css`, _ID ) } /> )
+		: null
+	}
+
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Pro:400,400i&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
@@ -46,11 +52,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<script src="https://d3js.org/d3-force.v2.min.js"></script>
 	<script src="https://d3js.org/d3-contour.v1.min.js"></script>
 	<script src="https://kit.fontawesome.com/88c3e70171.js"></script>
-	{
-		stylesheet != undefined
-		? ( <link rel="stylesheet" href={ _relativeURL( `/assets/css/${ stylesheet }.css`, _ID ) } /> )
-		: null
-	}
+
 	</head>
 	<body>
 	<header role="banner">
@@ -69,6 +71,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<Footer />
 
 	<script src={ _relativeURL( `/assets/js/script.js`, _ID ) } />
+	<script src={ _relativeURL( `/assets/js/toc.js`, _ID ) } />
 	</body>
 	</html>
 );

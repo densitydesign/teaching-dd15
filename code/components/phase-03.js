@@ -5,12 +5,13 @@ const PhaseThree = props => (
     id="prefix__Layer_1"
     data-name="Layer 1"
     viewBox="0 0 400 300"
+    style={{strokeWidth: 1}}
     {...props}
   >
     <defs>
       <style>
         {
-          '.prefix__cls-1{fill:none;stroke:#e0ff4f;stroke-miterlimit:10;stroke-width:2px}'
+          '.prefix__cls-1{fill:none;stroke:#e0ff4f;stroke-miterlimit:10;}'
         }
       </style>
     </defs>

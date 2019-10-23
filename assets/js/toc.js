@@ -55,7 +55,7 @@ $(document).ready(function () {
 });
 
 function onScroll(event){
-    var scrollPos = $(document).scrollTop() + 100;
+    var scrollPos = $(document).scrollTop() + 400;
     $('#table--of--content a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
