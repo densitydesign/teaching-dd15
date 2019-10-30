@@ -472,7 +472,7 @@ aside h4 {
 
 .projects--directory .project--description {
 	grid-column: 1 / 6;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .projects--directory .project--members {
@@ -502,7 +502,6 @@ aside h4 {
 
 .projects--directory .project--cover:hover {
   background: var(--accent);
-  cursor: pointer;
 }
 
 /* SYLLABUS */

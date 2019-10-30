@@ -1,0 +1,384 @@
+html,
+body {
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+  color: #2C5162;
+}
+
+.jumbotron-fluid {
+  background-color: #9d3128;
+  padding: 17px 17px 0 17px;
+  margin: 0;
+}
+
+body {
+  cursor: url(../images/Cursor_hand_md.png), auto;
+}
+
+.container-fluid {
+  background-color: #F4EFE8;
+}
+
+.visualization {
+  display: block;
+}
+
+a:link {
+  color: #9d3128;
+  text-decoration: none;
+}
+
+/* PigeonEasterEgg */
+a.pigeon:hover {
+  cursor: url(../images/Cursor_pigeon_md.png), auto;
+  color: white;
+}
+
+a.pigeon:link {
+  color: white;
+}
+
+a.pigeon:visited {
+  color: white;
+}
+
+a:visited {
+  color: #2C5162;
+}
+
+a:hover {
+  color: #2C5162;
+  cursor: url(../images/Cursor_box_md.png), auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer, footer .container-fluid {
+  padding: 2rem 0 3rem 0;
+  background-color: #9d3128 !important;
+  border-top: 1px solid white;
+}
+
+hr {
+  border-top: 1px solid #9d3128;
+  margin: 2rem 0;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+/* Mobile query */
+@media only screen and (min-width: 320px) {
+  .titolo {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0.5rem 0 0 0.6rem;
+  }
+
+  .navigazione {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: #9d3128;
+    position: fixed;
+    align-items: center;
+    z-index: 10;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .group {
+    display: none;
+  }
+
+  .intestazione {
+    margin: 2.2rem 0 0 0;
+  }
+
+  .titoloint {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    margin: 1rem 0 2rem 0;
+    color: white;
+  }
+
+  .nomi {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0 0 4rem 0;
+    color: white;
+  }
+
+  .brief {
+    margin: 2rem 0 0 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 550;
+    padding: 0 0 3rem 0;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-top: 1rem;
+  }
+
+  .legend {
+    padding: 0 0 3rem 0;
+  }
+
+  .sectiontext1 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .sectiontext {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 0;
+  }
+
+  .caption {
+    padding-top: 0.5rem;
+    margin: 0;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .lastcapt {
+    padding: 0 0 3rem 0;
+  }
+
+  h2.data {
+    padding-bottom: 2rem;
+  }
+
+  .datatitle, .datasrc, .datadownload {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .datatitle {
+    font-weight: 600;
+  }
+
+  .goup h3:hover {
+    color: #9d3128;
+    cursor: url(../images/Cursor_top_md.png), auto;
+  }
+
+  .btn {
+    padding: 0;
+  }
+
+  .goup h3 {
+    margin: 2rem 0 1rem 0;
+    padding: 0.5rem 0;
+    border-top: 0.5px solid #9d3128;
+    border-bottom: 0.5px solid #9d3128;
+    color: #2C5162;
+  }
+
+  .loghi {
+    display: inline-flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .loghi .density {
+    width: 27%;
+    padding: 0 1rem 3rem 0;
+  }
+
+  .loghi .poli {
+    width: 70%;
+  }
+
+  .text-left {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+  }
+}
+
+/* Desktop query */
+@media only screen and (min-width: 992px) {
+  .titolo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 0.3rem;
+  }
+
+  .img-fluid {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .navigazione {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-color: #9d3128;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    color: white;
+  }
+
+  .group {
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 0 0.3rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .legend {
+    padding-bottom: 3rem;
+  }
+
+  .intestazione {
+    margin: 6rem 0 4rem 0;
+  }
+
+  .titoloint {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin: 0 3rem 0 0;
+    color: white;
+  }
+
+  .nomi {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+    margin: 0;
+    color: white;
+  }
+
+  .brief {
+    margin: 3rem 0 0 0;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+  }
+
+  .caption {
+    padding: 0 0 0 0.3rem;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    padding: 0 0 3rem 0;
+    margin: 0;
+    font-weight: 550;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+
+  .sectiontext {
+    padding: 0 0 3rem 0;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 0;
+  }
+
+  .lastcapt {
+    padding: 0 0 4rem 0;
+  }
+
+  .datatitle, .datasrc, .datadownload {
+    margin: 0 0 0 0;
+    font-size: 1rem;
+  }
+
+  .datatitle {
+    font-weight: 600;
+  }
+
+  .datasrc,
+  .datadownload {
+    font-weight: 200;
+  }
+
+  .datarow {
+    border-top: 1px solid #9d3128;
+    padding: 2rem 0 0 0;
+  }
+
+  .loghi {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .loghi .density {
+    width: 30%;
+    padding: 0 1rem 0 0;
+  }
+
+  .offset-2 {
+    margin: 0 0 0 16.6666% !important;
+  }
+
+  .loghi .poli {
+    width: 100%;
+    padding: 0 0 0 1rem;
+  }
+
+  .foot {
+    display: inline-flex;
+  }
+
+  .text-left {
+    padding: 0 4rem 0 0;
+    margin: 0;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .goup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .goup h3:hover {
+    color: #9d3128;
+    cursor: url(../images/Cursor_top_md.png), auto;
+  }
+
+  .goup h3 {
+    margin: 2rem 0 1rem 0;
+    padding: 0.5rem 0;
+    border-top: 0.5px solid #9d3128;
+    border-bottom: 0.5px solid #9d3128;
+    color: #2C5162;
+  }
+}

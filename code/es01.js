@@ -21,7 +21,7 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 						 <div key={item} id={groups[item].group} class="project--block">
 						 <div class="project--cover">
 						 <img key={item} src={groups[item].image}/>
-						 <p><i class="fas fa-arrow-circle-down"></i> Download the visualization</p>
+						 <a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group + "/" + groups[item].group + ".pdf"}><p><i class="fas fa-arrow-circle-down"></i> Download the visualization</p></a>
 						 </div>
 
 						 <h3 key={item}>{"Group " + (i + 1)}</h3>
