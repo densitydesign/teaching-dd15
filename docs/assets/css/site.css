@@ -647,6 +647,10 @@ aside h4 {
     margin-bottom: 4rem;
   }
 
+  main p {
+    font-size: 1.2rem;
+  }
+
   .container {
     max-width: 90%;
   }
@@ -681,6 +685,10 @@ aside h4 {
   }
 
   #right--align {
+    grid-column: 1 / 6;
+  }
+
+  .projects--directory h2, .projects--directory h3, .projects--directory .project--members {
     grid-column: 1 / 6;
   }
 

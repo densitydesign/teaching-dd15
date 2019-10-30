@@ -7,7 +7,7 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 	<html>
 		<main id="right--align">
 		<div id="phase1" className="link--phase">
-			<PhaseOne width="400" style={{strokeWidth: 1.5}}/>
+			<PhaseOne width="350" style={{strokeWidth: 1.5}}/>
 			<p>Phase 1</p>
 			<div className="title" style={{ marginBottom: "2rem", fontSize: "2rem" }}>Data as Material</div>
 		</div>
