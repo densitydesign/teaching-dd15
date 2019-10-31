@@ -33,14 +33,14 @@ body {
 }
 
 #title {
-	font-size: 21px;
+	font-size: 20px;
 	font-weight: 600;
 	padding-top: 15px;
 	margin-left: 0px;
 }
 
 #group-number {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 600;
 	padding-top: 18px;
 	margin-left: 0px;
@@ -136,25 +136,24 @@ figcaption {
 
 .source {
 	margin-top: 0.55rem;
+	font-size: 16px;
 }
 
-.vertical-align {
-	vertical-align: middle;
+.btn-download {
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding: 0.1rem 1rem 0.4rem 0rem;
+	border: 0.2rem solid #e1896e;
+	background-color: #e1896e;
+	transition-duration: 0.3s;
 }
 
 .icon {
 	margin-top: 0.6rem;
 	margin-left: 0.5rem;
 	color: #FFFFFF;
-}
-
-.btn-download {
-	font-weight: 700;
-	margin-bottom: 1rem;
-	padding: 0.1rem 1rem 0.4rem 0rem;
-	border: 0.2rem solid #e1896e;
-	background-color: #e1896e;
-	text-align: center;
 }
 
 div a {
@@ -193,7 +192,7 @@ footer {
 
 ul {
 	list-style: none;
-	font-size: 16px;
+	font-size: 15px;
 	padding-left: 0rem;
 	margin-right: 0rem;
 	margin-left: 0rem;
@@ -219,8 +218,8 @@ ul {
 	
 		/*general*/
 		.mobile-padding {
-			padding-left: 1rem;
-			padding-right: 1rem;
+			padding-left: 0.3rem;
+			padding-right: 0.3rem;
 		}
 	
 	
@@ -236,7 +235,7 @@ ul {
 		}
 	
 		.main-title {
-			font-size: 40px;
+			font-size: 35px;
 			font-weight: 700;
 			margin-bottom: 2rem;	
 		}
@@ -246,11 +245,15 @@ ul {
 		}
 	
 		.text-introduction {
-			font-size: 25px;
-		}
-	
-		.mobile-fontsize {
 			font-size: 18px;
+		}
+		
+		.mobile-fontsize {
+			font-size: 15px;
+		}
+		
+		figcaption {
+			font-size: 14px;
 		}
 	
 		.mobile-figure {
@@ -258,7 +261,7 @@ ul {
 		}
 	
 		.btn-download {
-			margin-bottom: 3rem;
+			margin-bottom: 2rem;
 		}
 		
 		#image-3, #image-4, #image-5 {
@@ -266,20 +269,20 @@ ul {
 		}
 
 	
-		/*Footer Area*/	
+		/*Footer Area*/
 		.logo-images {
 			margin-bottom: 2rem;	
 		}
 	
 		#logo1 {
-			width: 90px;
+			width: 70px;
 			margin-right: 4rem;
 		}
 	
 		#logo2 {
-			width: 230px;
+			width: 170px;
 		}
-
+		
 		.lists {
 			margin-bottom: 3rem;	
 		}
@@ -289,7 +292,7 @@ ul {
 		}
 	
 		ul {
-		font-size: 18px;
+		font-size: 15px;
 		}	
 	}
 

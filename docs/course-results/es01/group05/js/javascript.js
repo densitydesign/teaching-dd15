@@ -17,14 +17,12 @@ jQuery(document).ready(function ($) {
 function glitch() {setInterval(function (){
   var eLtext = $('.textglitch').text(),
       eLchild = $('.textglitch').find('.textglitch-link');
-  console.log(eLchild);
   eLchild.attr('data-content', eLtext);
   eLchild.toggleClass('blur');
   $('.textglitch').toggleClass('active')}, 2500);
   setTimeout (function (){
   var eLtext = $('.textglitch').text(),
       eLchild = $('.textglitch').find('.textglitch-link');
-  console.log(eLchild);
   eLchild.attr('data-content', eLtext);
   eLchild.toggleClass('blur');
   $('.textglitch').toggleClass('disactive');
@@ -48,4 +46,4 @@ function glitch1() {
     },2000)
 }
 
-setInterval(glitch1, 180000);
+setInterval(glitch1, 60000);

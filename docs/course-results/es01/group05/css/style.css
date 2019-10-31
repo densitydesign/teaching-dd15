@@ -1,6 +1,6 @@
 /** customized cursor and font **/
 *{
-    cursor: url('/assets/cursor.cur'), auto;
+    cursor: url('https://densitydesign.github.io/teaching-dd15/course-results/es01/group05/assets/cursor.cur'), auto;
     font-family: 'RobotoMono-Regular', monospace;
     color: #F4EFE8;
 }
@@ -29,6 +29,12 @@ body {
 }
 
 /** top fixed bar **/
+.fixed-top {
+    background-color: black;
+    z-index: 10;
+    border-bottom: solid 1px white;
+}
+
 .bar1 {
     height: 60px;
     line-height: 60px;
@@ -43,6 +49,12 @@ body {
 }
 
 /** titles **/
+
+.title {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
 h1 {
     padding-top: 1rem;
     margin-bottom: 0px;
@@ -51,6 +63,10 @@ h1 {
 
 h2 {
     padding-bottom: 3rem;
+}
+
+.group5 {
+    font-weight: bold;
 }
 
 .number {
@@ -73,7 +89,29 @@ h2 {
     padding-top: 2rem;
 }
 
+/** Complete infographic **/
+.completeinfographic {
+    padding: 0px;
+}
+
+/** Section images **/
+.img1 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.sectionimg {
+    width: 100%;
+    height: auto;
+}
+
 /** text and captions **/
+.researchquestions {
+    padding-left: 1rem;
+    padding-bottom: 0px;
+}
+
 .text1 {
     padding-bottom: 4rem;
 }
@@ -89,16 +127,76 @@ h2 {
 .descriptionimage {
     font-weight: italic;
     padding-bottom: 4rem;
+    padding-top: 1rem;
 }
 
 /** dataset, sources and download **/
+.titlecolumn {
+    padding-bottom: 1rem;
+}
+
 .dataset {
     padding-bottom: 1rem;
+    padding-left: 0px;
+    padding-top: 1rem;
+}
+
+.sources {
+    padding-left: 0px;
+    padding-top: 1rem;
+    padding-bottom: 0px;
+}
+
+.sourceslist {
+    padding-left: 1rem;
+    padding-bottom: 0px;
+}
+
+.download {
+    padding-left: 0px;
+    padding-top: 1rem;
+}
+
+.downloadicon {
+    width: 1rem;
+    margin-right: 0.5rem;
 }
 
 /** footer **/
 .footer {
     font-size: 14px;
+}
+
+.customfooter {
+    padding-top: 6rem;
+}
+
+.borderfooter {
+    background-color: black;
+    border-top: solid 1px white;
+}
+
+.densitydesigncolumn {
+    padding-top: 2rem;
+}
+
+.densitydesignlogo {
+    width: 100%;
+    height: auto;
+}
+
+.polimicolumn {
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.polimilogo {
+    width: 80%;
+    height: auto;
+}
+
+.nameslist {
+    padding-left: 1rem;
 }
 
 /** Focus on India, horizontal scroll **/

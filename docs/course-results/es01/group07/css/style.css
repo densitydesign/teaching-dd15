@@ -1,39 +1,81 @@
-
 body {
 	background-color: #a5bdc6;
 	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
 }
 
 footer li {
 	list-style: none;
 	margin: 0;
-	line-height: 1.5;
     font-size: 0.9em;
-    
 }
 
 li {
 	list-style: none;
 	margin: 0;
-        font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 ul {
 	padding:0;
-            font-size: 0.9em;
+    font-size: 0.9em;
 }
 
-nav
-{
-	/* width: auto;
-	height: 6opx; */
+nav {
 	background-color: #a5bdc6;
 }
 
-.navbar {
-    font-size: 1em;
+/*************** Image loader*************/
+#loader {
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  background-color: #FFFFFF;
 }
 
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/******Add animation to page after the loader *****/
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 3s;
+  animation-name: animatebottom;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#content {
+	display:none;
+}
 
 .text-nowrap {
     white-space: nowrap;
@@ -43,7 +85,14 @@ nav
     margin-top: -15px;
 }
 
+.text_footer{
+	font-size: 15px; 
+}
 
+.title_footer{
+	font-weight:600;
+}
+/*************MANAGINT THE INFOGRAPHIC*/
 img.infographic {
   /* Set rules to fill background */
   min-height: 100%;
@@ -54,179 +103,91 @@ img.infographic {
 	
 }
 
-.title{
-   font-family: "FoundersGrotesk-Regular";
-}
-
 .linkdata{
-   font-family: "FoundersGrotesk-Regular";
     color:white;
 }
 
 .download{
-   font-family: "FoundersGrotesk-Regular";
-    color:black;
-    
+    color:white;
+	text-decoration: underline;
 }
 
-.custom-cur {
-  cursor: url(img/cursor.png), auto;
-}
-
-.description {
-  font-size: 0.8em;
-    line-height: 1px;
-
-}
-
-img.image_2
+.title_section
 {
-	/* Set rules to fill background */
- 
-	
-  /* Set up proportionate scaling */
-  max-width:60%;
-  height:auto;
+	font-size: 32px; 
+	font-weight:900;
 }
 
 
-
-/*************************Font&dimensions******************************************/
-#navbar
-{
-	font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 1.2em;
-}
-
-#title_group
-{
-	font-family: "FoundersGrotesk";
-    font-weight: regular;
-	font-style: normal;
-	font-size: 1.2em;
-}
-
-#title_infographic
-{
-	font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 3em;
-}
-
-#title_section
-{
-	font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 2.2em;
-}
-
-#title_small_section
-{
-	font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 0.3em;
-}
-
-#text_section
-{
-	font-family: "FoundersGrotesk";
-    font-weight: regular;
-	font-style: normal;
-	font-size: 1.2em;
-}
-
-#text_description
-{
-	font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 1.3em;
-} 
-
-.final_title
-{
-	font-family: "FoundersGrotesk-Medium";
-    font-weight: medium;
-	font-style: normal;
-	font-size: 1.3em;
+#download_icon{
+	width: 1rem; 
+	margin-right: 0.5rem;
 }
 
 
-
-
-/*************************HOVER TITLE SECTIONS*************************************/
+/*************************HOVER**********************************/
 .title_section_hover:hover
 {
-	text-decoration: underline;
-	font-family: "FoundersGrotesk-MediumItalic";
-    font-weight: regular;
-	font-style: italic;
+	 text-decoration: underline;
+	 font-style: italic;
     
 }
 
-.linkdata:hover{
-	text-decoration: underline;
-	font-family: "FoundersGrotesk-MediumItalic";
-    font-weight: regular;
-	font-style: italic;
-    color:black;
-    
+.download_dataset:hover
+{
+	color:black;
 }
 
-.download:hover{
-	text-decoration: underline;
-	font-family: "FoundersGrotesk-MediumItalic";
-    font-weight: regular;
-    color:white;
-    
+/****MANAGING THE DIMENSION OF TEXT BASED ON THE DIMENSION OF DEVICE SCREEN****/
+@media (max-width: 768px) { 
+
+	.navbar {
+		font-size:1em;
+		font-size: 18px;
+		font-weight:900;
+	}
+		
+	.title_infographic {		
+		font-size: 35px; 
+		font-weight: 600;
+	}
+	
+	.title_group {
+		font-size: 18px; 
+		line-height: 22px;
+		font-weight: 900;		
+	}
+	
+	.description_text {
+		font-size: 18px;
+		line-height: 23px;
+	}
 }
+    
+	
+@media (min-width: 769px) { 
+	
+	.navbar {
+		font-size: 0.9em;
+		font-weight:900;
+	}
+	
+	.title_infographic{
+		font-size: 42px; 
+		font-weight: 600;
+	}
+	
+	.title_group {
+		line-height: 22px;
+		font-size: 17.8px;
+		font-weight: 900;
+	}
 
-/************************FONT NAVBAR******************************/
-
-@media (max-width: 540px) { 
-
-.navbar {
-	font-size:1em;
+	.description_text {
+		font-size: 0.8em;
+		line-height: 24px;
+	}
 }
     
-   
-    }
-    
-    
-    
-    
-
-
-
-
-
-
-
-/**************************FONT****************************************/
-
-@font-face {
-    font-family: "FoundersGrotesk-MediumItalic";
-    font-weight: medium;
-	font-style: italic;
-    src: url("FoundersGrotesk-MediumItalic.otf");
-}
-
-@font-face {
-	font-family: "FoundersGrotesk-Regular";
-	font-weight: regular; 
-	font-style: normal;
-	src: url("FoundersGrotesk-Regular.otf");
-} 
-@font-face {
-    font-family: "FoundersGrotesk-Medium";
-    font-weight: regular;
-	font-style:italic;
-    src: url("FoundersGrotesk-Medium.otf")8;
-}
 
 

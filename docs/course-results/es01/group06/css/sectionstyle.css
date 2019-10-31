@@ -1,56 +1,58 @@
-body{background: #f8f7ec;}
+h1{
 
-/*MENU*/
-#header{
-    font-size: 20px;
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    height: 40px;
-    width: 100%;
-    background: #22232a;
-    color: #ffffff;
-    padding: 5px;
+font-family: "Arial", sans-serif;
+font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
 
+
+h2{
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
 }
-
-#headerlogo{
-    float: left;
-    
+h3{
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
 }
-
-#menu{
-    display:inline-block;
-    font-size: 18px;
-    font-weight: 800;
-    float: right;
-    pa
-    
-    
-    
+h4{
+  font-family: "Arial", sans-serif;
+  letter-spacing: 0.8px;
+}
+p{
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
 }
 
 
-/*SECTION 1*/
+.span1{
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+}
 
-
-
+.fontgray{
+  /* color:#424f60; */
+    color:#a6a2a1;
+}
+.section2{
+  background-color: #f8f7ec;
+}
 
 .section1{
-    
-/*
-    padding-top: 40px;
-    padding-bottom: 4rem;
-*/
-    background: linear-gradient(320deg, #F8A4D8, #6c63ff, #6c63ff, #F8A4D8, #F8A4D8);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
-    
-    vertical-align: text-bottom; 
-    color: #ffffff;
+  padding-top: 0rem;
+  background: linear-gradient(320deg,#6c63ff,#6c63ff,#F8A4D8,  #6c63ff, #F8A4D8 );
+ background-size: 800% 800%;
+ -webkit-animation: AnimationName 25s ease infinite;
+ animation: AnimationName 25s ease infinite;
+
+ vertical-align: text-bottom;
+ color: #ffffff;
 }
 
+
+
+/* #6c63ff,#6c63ff,#F8A4D8,  #6c63ff, #F8A4D8 紫色 */
+/* #3b3759,#aa5377,#cf8da7,  #4c6e81, #7aacb3 深色 */
 
 
 @-webkit-keyframes AnimationName {
@@ -64,117 +66,132 @@ body{background: #f8f7ec;}
     100%{background-position:7% 0%}
 }
 
-.section1 div{
-    padding-top: 10vh;
-    
-}
-
-/*SECTION 2*/
-/*IMAGE*/
-#main-graph{
-    padding-bottom: 60px;
-}
-
-.section2{
-    margin-top: -60px;
-    padding-top: 60px;
-
+.fl{
+  float: left;
 }
 
 
-/*SECTION 3*/
-.section3{
-    padding-top: 4rem;
-    padding-bottom: 60px;
+.titlemt7{
+  margin-top: 7rem;
 }
 
-.section3 .content{
-    padding-bottom: 30px;
+.margintop3{
+  margin-top: 3rem;
 }
-
-/*GRAPH 2*/
-#graph2 .container{
-    padding-bottom: 60px;
-    margin-bottom: 60px;
+.margintop4{
+  margin-top: 4rem;
 }
-#graph2 img{width: 100%;}
-
-/*SECTION 4*/
-.section4{
-    background: #f8f7ec;
-    
-   
+.marginbottom3{
+  margin-bottom: 3rem;
 }
-
-/*SECTION 5*/
-.section5{
-    padding-top: 64px;
-    
+.marginbottom4{
+  margin-bottom: 4rem;
 }
-
-
-/*SECTION 6*/
-.section6{
-    padding-top: 60px;
-    padding-bottom: 60px;
+@media (max-width: 767.98px) {
+  #footerlogo1{
+    width:30%;
+    height:auto;
+  }
+#footerlogo2{
+  padding-left: 35px;
+  width:45%;
+  height:auto;
 }
-
-.section6 div{
+  .table-responsive-md {
+    display: block;
     width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-md > .table-bordered {
+    border: 0;
+  }
 }
 
-#section6title{
-   padding-right: 6%;
+/* @media (min-width: 300px) and (max-width :560px) {
+  #footerlogo1{
+    min-width:70px;
+
+  }
+#footerlogo2{
+
+  min-width:100px;
+
 }
-#pic2{
-    width:1700px;
+
+} */
+
+@media (min-width: 768px) and (max-width :1199px) {
+  #footerlogo1{
+    min-width:100px;
+
+  }
+#footerlogo2{
+
+  min-width:150px;
+
+}
+
+}
+
+/* @media (min-width: 1200px) and (max-width :1980px) {
+  #footerlogo1{
+    min-width:150px;
+    height:auto;
+  }
+#footerlogo2{
+
+  min-width:70%;
+  height:auto;
+} */
+
+/* } */
+
+@media (min-width: 1200px)  {
+  #footerlogo1{
+    max-width:100px;
+    height:auto;
+  }
+#footerlogo2{
+
+  min-width:150px;
+  height:auto;
+}
+
 }
 
 
-
-/*SECTION 7*/
-.section7{
-    background: linear-gradient(320deg,#F8A4D8, #6c63ff,#F8A4D8, #6c63ff, #F8A4D8);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: #ffffff;
+.fontblue{
+  color:#efa8d9;
+  font-family: Arial;
 }
-.container2{
-    max-width: 80%;
-    margin: 0 auto;
+.fontPurple{
+  color:#6262f4;
+  font-family: Arial;
 }
-.section7 div{
-    width: 100%;
+.simple{
+  height:0.3px;
 }
 
-.section7 img{
-    width: 100px;
+:root {
+  --mainColor: #ff9800;
 }
 
-.text{
-    text-align:justify;
-    padding-bottom:0;
-    font-size:1.2rem
-    
+
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+  color: #000;
+  text-decoration: none;
 }
-.text2{
-    text-align:justify;
-    padding-bottom:0;
-    font-size:0.9rem;
-    
-}
-.pb3{
-    padding-bottom:3rem;
-}
-.pb2{
-    padding-bottom:2rem;
-}
-.pt1{
-    padding-top:1rem;
-}
-.pt4{
-    padding-top:4rem;
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 4px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+    color: black;
 }

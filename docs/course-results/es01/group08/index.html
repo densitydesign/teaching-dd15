@@ -3,15 +3,27 @@
 
 <head>
     <title>Group 8 — Internet of Things</title>
-    <!-- <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <meta charset="utf-8">
+    <!-- link to bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- link to the css file-->
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/fonts.css">
+    <!-- link to the fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700|Roboto:400,400i,700&display=swap"
+        rel="stylesheet">
+    <!-- meta tag that specifies the size of the viewport on the browser-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link to Favicon-->
+    <link href="imgs/favicon1.ico" rel="icon" type="imgs/favicon1.ico">
+
+    <!-- metatags -->
+    <title>Internet of things</title>
+    <meta name="internet of things" content="Internet of things">
+    <meta name="description"
+        content="The goal of this project is to provide an overview of the Internet of Things and therefore it studies the addresses needed for connectivity. In the graph, the adoption behaviour over time is shown per country. At first sight, it can be seen how different regions respond to the increase in connectivity. Some regions or countries start adopting addresses later or more rapidly than others. In the treemap at the bottom, the result of this race can be seen in terms of a countries total amount compared to others.">
+    <meta name="keywords"
+        content="internetofthings, ipv4, ipv6, activity, adoption, internet, years, countries, treemap, peaks, devices">
 </head>
 
 <!-- body -->
@@ -20,8 +32,8 @@
     <!-- header -->
     <header class="container">
         <div class="row h-100">
-            <h4 class="col-xs-6 col-md-6">Internet of Things</h4>
-            <h5 class="col-xs-6 col-md-6 text-right hide-xs">Group 8</h5>
+            <h4 class="col-xs-6 col-md-6 bold">Internet of Things</h4>
+            <h4 class="col-xs-6 col-md-6 text-right hide-xs">Group 8</h4>
         </div>
     </header>
 
@@ -30,7 +42,7 @@
         <section class="container">
             <div class="row align-text-bottom space-xs-4 space-sm-4">
                 <div class="col-xs-12 col-sm-4 col-sm-offset-1 visualizationTitle space-xs-2">
-                    <h1>Mapping the world<br>of IP addresses</h1>
+                    <h1>Mapping the world of IP addresses</h1>
                 </div>
                 <div class="col-xs-12 col-sm-5 col-sm-offset-1 align-text-bottom visualizationGroup">
                     <p><span class="bold">Group 8</span><br>
@@ -44,7 +56,7 @@
     <!-- jumbotron -->
     <section class="jumbotron">
         <div id="main-img">
-            <img src="imgs/Infographic_Group8.jpg" alt="Infographic Group 8" class="img-responsive fit-image">
+            <img src="imgs/Infographic_Group8.png" alt="Infographic Group 8" class="img-responsive fit-image">
         </div>
     </section>
     <div class="space-xs-3 space-sm-3"></div>
@@ -53,17 +65,15 @@
     <section class="container space-xs-4 space-sm-4">
         <div class="row introduction">
             <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                <p>We all know the amount of devices connected to the internet is increasing. From a smartwatch to a
+                <p>We all know the number of devices connected to the internet is increasing. From a smartwatch to a
                     smart thermostat that communicates with your phone to know when you are home, more and more objects
-                    are communicating to each other. Understandably, many people nowadays use to term Internet of things
+                    are communicating to each other. Understandably, many people nowadays use to term Internet of Things
                     or IoT, but what does this actually mean?
-
                     <br><br>Lisa Elénius Taylor, head of IoT marketing for Ericsson, explained, "at the most basic
                     level, the Internet of Things is a network of devices, vehicles and appliances that have software
                     and connectivity capabilities". These "things" that can connect to a grid are able to exchange
-                    information but in order to do so they need a name or an address recognised by all other members of
-                    this grid. This address is a code called IP and in the infographic on this webpage it is shown how,
-                    over the last decades, IPs spread over the world and how their current division is today.
+                    information but in order to do so they need a name, or an address recognised by all other members of
+                    this grid. This address is called Internet Protocol version 4 or IPv4.
                 </p>
             </div>
         </div>
@@ -73,56 +83,71 @@
     <section class="container space-xs-4 space-sm-4" id="section_1">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <h3 class="bold">IPv4</h3>
+                <h3 class="bold">Legend intro</h3>
             </div>
             <div class="col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <p class="paragraph">The first version of IP was generally taken into use on 1982 and was called IPv4.
-                    Its structure consists of 32 bits and allows for roughly four billion different addresses. The
-                    Internet Assigned Numbers Authority (IANA) assigns the IP addresses to the five different regions
-                    called Regional Internet Registry (RIR). These regions manage the fair distribution based on
-                    justified needs of the countries they represent and are more or less distributed like the
-                    continents. Soon it became clear that the four billion IPs are not enough. Therefore its successor,
-                    the IPv6 protocol was created and allows for 340 undecillion or 340 and 36 zeros. Although countries
-                    have been adopting IPv6 since 1999, IPv4 remains the main protocol for internet use, that is why the
-                    IPv4 provides an accurate insight in the current situation of connected devices. </p>
+                <p class="bold space-xs-1 space-sm-1">How did the world respond to the rise of the Internet and how is
+                    connectivity distributed today?</p>
+                <p class="paragraph">The goal of this project was to provide an overview of the Internet of Things and
+                    therefore it studies the addresses needed for connectivity. In the graph, the adoption behaviour
+                    over time is shown per country. At first sight, it can be seen how different regions respond to the
+                    increase in connectivity. Some regions or countries start adopting addresses later or more rapidly
+                    than others. In the treemap at the bottom, the result of this race can be seen in terms of a
+                    countries total amount compared to others.
+                </p>
             </div>
             <div class="col-xs-12 col-sm-12 space-xs-1 space-sm-1">
-                <img src="imgs/Map_RIR.png" alt="Image section 1">
+                <img src="imgs/legend.png" alt="Image section 1">
             </div>
             <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                <p class="caption">The allocation of countries according to Regional Internet Registry (RIR).</p>
+                <p class="caption">The annotations guides the user in reading the chart.</p>
             </div>
         </div>
     </section>
 
-    <!-- section #2 -->
+    <!-- section #2 legend-->
     <section class="container space-xs-4 space-sm-4" id="section_2">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                <h3 class="bold space-xs-3 space-sm-3">Velocity of adoption</h3>
-            </div>
+        <div class="row space-xs-2 space-sm-2">
             <div class="col-xs-12 col-sm-4 col-sm-offset-2 space-xs-3">
                 <div class="space-xs-1 space-sm-1">
                     <img src="imgs/Peaks.png" alt="Image section 2">
                 </div>
                 <div class="caption">
-                    <p>Differences in speed of IP adoption between Arin and Lacnic areas.</p>
+                    <p>Pattern created by peaks.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 space-xs-1 space-sm-1">
+                <p class="bold space-xs-1 space-sm-1">Peak</p>
+                <p class="paragraph">The behaviour of the countries is expressed by horizontal bars that form a
+                    shape
+                    similar to a frequency almost like a seismogram. It was important to eliminate the concept of
+                    quantity
+                    from this graph because the data was normalised. By showing the activity the countries can be
+                    compared
+                    regardless of their size.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-2 space-xs-3">
+                <div class="space-xs-1 space-sm-1">
+                    <img src="imgs/treemap.png" alt="Image section 2">
+                </div>
+                <div class="caption">
+                    <p>Detail of the tree map.</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <p class="paragraph">In the main graph all countries are presented sorted by the RIR they are part of.
-                    For each country the amount of IPs is expressed over time by the thickness of their line. Although
-                    their total amount is different, they are mapped from zero to their total amount being an equal line
-                    width for every country. So the graph shows the relative growth proportional to a countries own
-                    total. This change is accentuated by the circles as such that a peak in change, or high velocity, is
-                    expressed in three different circles sizes according to the growth.
-
-                    <br><br> In general one can see that there are two main periods where adoption was popular. In the
-                    beginning of the nineties some early adoption countries gained a lot of IPs. The second wave of
-                    adoption started around 2002 and lasted until with some RIRs being earlier or lasting longer than
-                    others. Since the IPv4 were running out most countries changed to IPv6 in 2011. The last IPv4
-                    addresses were allocated to RIR in 2011 and later divided over the countries. From the graph it is
-                    visible that AFRINIC was the RIR with the most adoption after 2011.
+                <p class="bold space-xs-1 space-sm-1">Treemap</p>
+                <p class="paragraph">Obviously, countries are different and therefore have a different number of
+                    IPs.
+                    The true differences are enormous and range from around a thousand to a billion per country. To
+                    give
+                    a sense of the difference in scale the final situation in 2019 is represented in a treemap. As
+                    is
+                    clearly visible, the United States cover the biggest area. Russia and the Netherlands have a
+                    similar
+                    number of IPs although Russia has a way higher population and country size.
                 </p>
             </div>
         </div>
@@ -132,84 +157,54 @@
     <section class="container space-xs-4 space-sm-4" id="section_3">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <h3 class="bold">Countries in comparison</h3>
+                <h3 class="bold">European countries stop</h3>
             </div>
             <div class="col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <p class="paragraph">Obviously countries are different and therefore have a different amount of IPs. The
-                    true differences are enormous and range from around a thousand to a billion per country. In the
-                    treemap the scale of the amount of IPs is put into perspective. As is clearly visible, the United
-                    States cover the biggest area with Canada is second of that particular RIR taking just a small
-                    portion and leaving the other countries invisible. The United States even has more IPs than most RIR
-                    all together. LACNIC and AFRINIC contain way less IPs compared to the other regions. In the RIR RIPE
-                    NCC the United Kingdom and Germany have about the same. Also Russia and the Netherlands have a
-                    similar amount of IPs although Russia has a way higher population and country size. </p>
+                <p class="paragraph">In general, one can see that there are two main periods where IP addresses were
+                    popular. In the beginning of the nineties some early adoption countries gained a lot of IPs. The
+                    second period started in the beginning of the zeroes. Soon it became clear that the four billion
+                    possible addresses of IPv4 were not enough. Therefore, its successor, the IPv6 protocol was created
+                    which allows for 340 undecillion or 340 and 36 zeros. The last IPv4 addresses were allocated to RIR
+                    in 2011 and later divided over the countries. From the graph it is visible that AFRINIC was the RIR
+                    with the most adoption after 2011. Although countries have been adopting IPv6 since 1999, IPv4
+                    remains the main protocol for internet use, that is why the IPv4 provides an accurate insight in the
+                    current situation of connected devices.
+                </p>
             </div>
             <div class="col-xs-12 col-sm-12 space-xs-1 space-sm-1">
-                <img src="imgs/Tree_map.png" alt="Treemap">
+                <img src="imgs/eu-countries.png" alt="Treemap">
             </div>
             <div class="col-xs-12 col-sm-10 col-sm-offset-2">
-                <p class="caption">The area of the rectangles indicates the amount of IPs per country: notice how big is
-                    Netherlands compared to Russia.</p>
+                <p class="caption">RIPE NCC ran out of IPv4 addresses in 2012.</p>
             </div>
         </div>
     </section>
 
     <!-- section #4 -->
-    <section class="container space-xs-4 space-sm-4" id="section_4">
+    <section class="container space-xs-4 space-sm-4" id="section_2">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <h3 class="bold">Sources and framing</h3>
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                <h3 class="bold space-xs-3 space-sm-3">Sources and framing</h3>
             </div>
-            <div class="col-sm-8 col-sm-offset-2">
-                <p class="paragraph">From the beginning, our intention was to show an overview of the connected devices
-                    or "Internet of Things". However it is difficult to define which devices to include and which ones
-                    not. Furthermore, the data about specific devices was often incomplete or not open source. There is
-                    data available on the Internet Protocol addresses, showing when and how many IPs were assigned to
-                    the various countries. We found a source that provides statistics from the official Regional
-                    Internet Registries (RIRs): AFRINIC (Africa), APNIC (Asia-Pacific), ARIN (North America), LACNIC
-                    (Latin America and Caribbean) and RIPE NCC (Europe). These statistics contain the number of IPv4 and
-                    IPv6 addresses assigned and allocated. The data about the IPv6 was incomplete but as IPv4 is still
-                    the most commonly used protocol it represents an insight in most connected consumer devices. </p>
-                <p class="paragraph">In order to compare the different countries, which had a very different scale, the
-                    data was normalised. For every country the minimum value was set as zero and the maximum value as
-                    one, any value in between the minimum and maximum is converted to a value between one and zero. With
-                    all countries mapped on an equal scale their respective growth could be compared. This method was
-                    applied to the difference between the years, or their adoption, to highlight their differences. From
-                    a distance, one can identify the major waves in IP adoption corresponding to the growth of the
-                    internet. The individual countries show their behaviour towards the adoption of connectivity. </p>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-2 space-xs-3">
+                <p class="paragraph">We found a source that provides statistics from the official Regional Internet
+                    Registries (RIRs): AFRINIC (Africa), APNIC (Asia-Pacific), ARIN (North America and Antarctic),
+                    LACNIC (Latin America and Caribbean) and RIPE NCC (Europe). These statistics contain the number
+                    of
+                    IPv4 and IPv6 addresses assigned and allocated. The data about the IPv6 was incomplete but as
+                    IPv4
+                    is still the most commonly used protocol it represents an insight in most connected consumer
+                    devices.
+                </p>
             </div>
-        </div>
-    </section>
+            <div class="col-xs-12 col-sm-4">
+                <div class="space-xs-1 space-sm-1">
+                    <img src="imgs/rirs.png" alt="Image section 2">
+                </div>
+                <div class="caption">
+                    <p>The Regional Internet Registries.</p>
+                </div>
 
-    <!-- section #5 -->
-    <section class="container space-xs-4 space-sm-4" id="section_3">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 space-xs-3 space-sm-3">
-                <h3 class="bold">Visual choices</h3>
-            </div>
-            <div class="col-sm-8 col-sm-offset-2">
-                <p class="paragraph">The main focus of the visualisation is to provide an insight in the development of
-                    connectivity thus IPv4 in the world. To show all countries and compare them it was necessary to put
-                    them horizontally next to each other, forcing the time scale on the y axis. We decided to structure
-                    the graph according to the real world distribution and therefore we divided the countries by their
-                    RIR. This creates a clear visual structure and a natural grouping on geographical location. To
-                    compliment the peaks in the graph, the line width grows along, being influenced by the peaks to
-                    enhance the feeling of growth and direction. A countries starting point or first year of adoption is
-                    clarified even more by a little T wedge breaking the line. After several experiments with arrows
-                    other shapes the circles had the most clear and popping effect. Their density creates a clear
-                    pattern, even from a distance. </p>
-                <p class="paragraph">A treemap was added to the page to create a sense of proportion. The main graph is
-                    not showing the difference in size between the countries because they are normalised. We have tried
-                    several different methods to demonstrate this scale but the treemap prooved the most efficient, even
-                    though many countries are too small to show up. In the legend one can read how many IP addresses a
-                    5x5mm area of the treemap represents. To understand these big numbers, the reader can also compare
-                    to the amount of people and the amount of connected devices in the world.</p>
-                <p class="paragraph">With time on the X axis already being uncommon we decided to make the years
-                    approach you. With the years going down, the total balance of the page with the weight of the
-                    treemap on the bottom was better divided. We connected the graphs with a color scheme together with
-                    a legend that also provides geographic information. The reader can find a general view regarding the
-                    overall development for regions and their division over the world explore deeper levels of detail
-                    and analyse different countries individually per year.</p>
             </div>
         </div>
     </section>
