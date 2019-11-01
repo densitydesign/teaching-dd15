@@ -49,7 +49,7 @@ groups:
   title: "Mapping the world of IP addresses"
   names: "Andrej Cattaneo, Ivana Riva, Noura Sammoura, Maria del Pilar Suarez Anzorena, Arthur van der Werf, Yueling Wu"
   image: "../../assets/img/es01/cover-g08.jpg"
-  desc: ""
+  desc: "We all know there is an incredible amount of connected devices today. Many people nowadays use to term Internet of Things or IoT, but what does this actually mean? In this graph, the behaviour of countries is mapped according to their adoption of IP addresses. Furthermore, it can be seen how connectivity is distributed today."
 
 - group: group09
   title: "16 Years of Data Breaches"
