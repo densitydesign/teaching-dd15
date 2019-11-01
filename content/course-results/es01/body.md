@@ -59,7 +59,6 @@ groups:
 
 - group: group10
   title: "Milestones of Internet"
-  names: "Zhang Mengying, Zhu Hanyu, Huang Zixun, Wu Can, Li Xiaoqian, Mohammad Asjad Maswood"
   image: "../../assets/img/es01/cover-g10.jpg"
   desc: "From the invention of initial Internet to now,many things happened in this period, but which can be called as milestone? And what are they? This data cum information visualization focuses on the milestones that led to the establishment of the Internet as we know it today, from its inception as an idea in the 1940s until the early 21st Century."
 ---
