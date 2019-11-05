@@ -45,6 +45,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Pro:400,400i&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5816319-18" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 	<script src="https://d3js.org/d3.v5.js"></script>
@@ -52,6 +53,16 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<script src="https://d3js.org/d3-force.v2.min.js"></script>
 	<script src="https://d3js.org/d3-contour.v1.min.js"></script>
 	<script src="https://kit.fontawesome.com/88c3e70171.js"></script>
+
+	<script
+		dangerouslySetInnerHTML={{ __html:
+			`window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-5816319-18');`
+			}}
+		/>
 
 	</head>
 	<body>
@@ -69,17 +80,8 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	</div>
 
 	<Footer />
-
 	<script src={ _relativeURL( `/assets/js/script.js`, _ID ) } />
 	<script src={ _relativeURL( `/assets/js/toc.js`, _ID ) } />
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5816319-18" />
-	<script>
-	  window.dataLayer = window.dataLayer || []
-	  function gtag(){dataLayer.push(arguments)}
-	  gtag('js', new Date())
-
-	  gtag('config', 'UA-5816319-18');
-	</script>
 	</body>
 	</html>
 );

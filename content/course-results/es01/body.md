@@ -36,7 +36,7 @@ groups:
 - group: group06
   title: "A brief history of top-30 popular websites"
   names: "Di Wu, Xuan Zhang, Xushan Li, Shaomin Niu, Chenghsin Chen, Mengxue Jin"
-  image: "../../assets/img/es01/cover-g06.jpgwhat"
+  image: "../../assets/img/es01/cover-g06.jpg"
   desc: "Websites as a digital platform have revolutionized our way of communication, living and information consumption. Some of the most popular websites today offer valuable services and information we need every day. What is the history of these popular websites? Were they always popular? Our goal is to create a visual representation of the rise and fall of these popular websites."
 
 - group: group07
