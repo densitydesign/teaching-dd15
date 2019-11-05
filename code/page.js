@@ -72,6 +72,14 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 
 	<script src={ _relativeURL( `/assets/js/script.js`, _ID ) } />
 	<script src={ _relativeURL( `/assets/js/toc.js`, _ID ) } />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5816319-18" />
+	<script>
+	  window.dataLayer = window.dataLayer || []
+	  function gtag(){dataLayer.push(arguments)}
+	  gtag('js', new Date())
+
+	  gtag('config', 'UA-5816319-18');
+	</script>
 	</body>
 	</html>
 );
