@@ -1,0 +1,77 @@
+/* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
+.st43 {fill: #f6fff5;}
+
+/* Protocol 01 */
+.st38{background-color: var(--color-bg);}
+
+
+/*Protocol 02*/
+.hover {opacity:0.2;
+    fill:#1e1e1c;
+    brightness:0.1;}
+/*.display{display:none}*/
+
+
+
+/*Protocol 03*/
+
+
+/*Protocol 05*/
+.image__position {
+    position:absolute;
+    left: 5.2rem;
+    top:53.6rem;
+    visibility: hidden;
+    max-width:15.3vw;
+    max-height:15.3vw;
+}
+
+.visible {
+    visibility: visible;
+    padding: 0.5rem:    
+}
+
+#network {
+    width:100vw;
+}
+
+#magenta:hover {
+    fill:#FF00FE;
+    color:#F6FFF5;
+
+}
+
+#green:hover {
+    fill:#90FF4C;
+    color:#F6FFF5;
+}
+
+
+#labels {
+    z-index:1;
+}
+
+#legend {
+    width:30vw;
+}
+
+#tb1 {
+    fill:#1C1C1C;
+    font-family:'Terminal-Grotesque';
+    font-size:13.59px;
+    border:0.5px solid #1c1c1c;
+}
+
+#tb2 {
+    fill:#1C1C1C;
+    font-family:'Terminal-Grotesque';
+    font-size:13.59px;
+    border:0.5px solid #1c1c1c;
+}
+
+
+/*Protocol 06*/
+.filter {
+    display:none;
+}
+
