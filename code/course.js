@@ -19,12 +19,14 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					<div className="arrow">→</div>
 				</div>
 				</a>
-				<div id="phase2" className="link--phase">
-				<PhaseTwo width="200"/>
-				<p>Phase 2</p>
-				<div className="title">Data as Artifact</div>
-				<div className="arrow">→</div>
-				</div>
+				<a href={ _relativeURL( '/course-results/es02/', _ID) }>
+					<div id="phase2" className="link--phase">
+					<PhaseTwo width="200"/>
+					<p>Phase 2</p>
+					<div className="title">Data as Artifact</div>
+					<div className="arrow">→</div>
+					</div>
+				</a>
 				<div id="phase3" className="link--phase">
 				<PhaseThree width="200"/>
 				<p>Phase 3</p>
