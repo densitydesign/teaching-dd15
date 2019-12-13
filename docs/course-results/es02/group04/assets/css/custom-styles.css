@@ -1,0 +1,41 @@
+/* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
+
+
+/*General*/
+body {
+    font-weight: 300;
+}
+
+/*Homepage*/
+mark {
+    background-color: #000;
+    color: #fff;
+}
+
+/*Change selection color*/
+::selection {
+  background: #fcea0d; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fcea0d; /* Gecko Browsers */
+}
+
+
+/* ------------------------------------------------------------------------------------------ VIZ05 */
+
+{box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 2px solid white;
+ /* border-radius: 50%; */
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 310px;
+  height: 200px;
+  
+}

@@ -1,0 +1,125 @@
+/* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
+
+/* variables */
+html {
+    --color-n_america: #BF6969;
+    --color-eurasia: #BFBF69;
+    --color-s_america: #69BF69;
+    --color-papunesia: #69BFBF;
+    --color-australia: #6969BF;
+    --color-africa: #BF69BF;
+}
+
+/* languages container */
+.languages {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: 1fr;
+}
+
+.legend {
+    grid-column: 3 / 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.visualization {
+    grid-column: 5 / 11;
+}
+
+/* legend styles */
+.legend__list {
+    list-style: none;
+    padding: 0;
+}
+
+.legend__item.n_america {
+    color: var(--color-n_america);
+}
+
+.legend__item.euroasia {
+    color: var(--color-eurasia);
+}
+
+.legend__item.s_america {
+    color: var(--color-s_america);
+}
+
+.legend__item.papunesia {
+    color: var(--color-papunesia);
+}
+
+.legend__item.australia {
+    color: var(--color-australia);
+}
+
+.legend__item.africa {
+    color: var(--color-africa);
+}
+
+/* svg styles */
+.grouping {
+    fill: black;
+    fill-opacity: 0;
+    stroke: #DDDDDD;
+}
+
+.bubble.n_america {
+    fill: var(--color-n_america);
+}
+
+.bubble.euroasia {
+    fill: var(--color-eurasia);
+}
+
+.bubble.s_america {
+    fill: var(--color-s_america);
+}
+
+.bubble.papunesia {
+    fill: var(--color-papunesia);
+}
+
+.bubble.australia {
+    fill: var(--color-australia);
+}
+
+.bubble.africa {
+    fill: var(--color-africa);
+}
+
+.label {
+    font-family: 'ArialMT', sans-serif;
+    font-size: 11px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.bubble {
+    cursor: pointer;
+}
+
+.bubble:hover {
+    stroke: #000000;
+}
+
+.is-visible {
+    opacity: 1;
+}
+
+.bubble.is-out-focus {
+    opacity: 0.4;
+}
+
+.legend__item.is-out-focus {
+    opacity: 0.4;
+    color: #DDDDDD;
+}
