@@ -25,7 +25,7 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 						 </div>
 
 						 <h3 key={item}>{"Group " + (i + 1)}</h3>
-						 <h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group}>{groups[item].title}</a></h2>
+						 <h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group} target="_blank">{groups[item].title}</a></h2>
 						 <p className="project--members" key={item}>{groups[item].names}</p>
 						 <p className="project--description" key={item}>{groups[item].desc}</p>
 						 </div>
