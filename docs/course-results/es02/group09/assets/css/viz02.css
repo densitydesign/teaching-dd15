@@ -1,0 +1,30 @@
+.lang i.fas {
+	margin-right: 1em;
+}
+
+.lang:not(:last-child) i.fas {
+	margin-bottom: 1.25em;
+}
+
+#ar i.fas {color: #aedad8;}
+#jp i.fas {color: #d3c973;}
+#zh i.fas {color: #e1907b;}
+#en i.fas {color: #72bfdd;}
+#fr i.fas {color: #eeab58;}
+
+#key {
+	color: var(--color-medium);
+	font-family: var(--font-display);
+	font-weight: 300;
+	user-select: none;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+@media screen and (min-width: 576px) {
+	#key {
+		font-size: 0.8em;
+}
+@media screen and (min-width: 768px) { #key {} }
+@media screen and (min-width: 992px) { #key {} }
+@media screen and (min-width: 1200px) { #key {} }
