@@ -55,7 +55,7 @@ groups:
   title: "Digital Dating: Faking Oneself & Stolen Profiles"
   names: "Lucia Maria Emilia Ferrari, Mariam Kozbar, Zina Nadery, Kira Pyatakova, Situ Yuming, Xu Mengting"
   image: "../../assets/img/es02/cover-g09.gif"
-  desc: ""
+  desc: "New technology and the internet have widened our horizons with regards to relationships. It changed the way we meet new people and construct our lives. After the acceleration of informational consumption, dating apps have become a normal part of life. But how do they work, what do they ask of us and what kind of problems do they create?"
 
 - group: group10
   title: "Facial Recognition: Different Concerns from East to West and its Countermeasures"
