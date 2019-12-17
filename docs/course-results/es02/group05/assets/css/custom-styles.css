@@ -1,8 +1,8 @@
 @charset "UTF-8";
 html {
   --color-accent: black;
-  --font-display: 'WorkSans-Regular', sans-serif;
-  --font-text: 'WorkSans-Regular', sans-serif;
+  --font-display: 'Work Sans', sans-serif;
+  --font-text: 'Work Sans', sans-serif;
 }
 
 * {box-sizing: border-box;}
@@ -732,7 +732,7 @@ main.content {
   grid-column: 1 / 13;
   margin: 0;
   font-size: 1.8rem;
-  font-family: WorkSans-Bold;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .question__heading .btn--burger,
@@ -848,7 +848,7 @@ main.content {
   -webkit-transition: color 0.2s ease;
   transition: all 0.2s ease;
   color: black;
-  font-family: WorkSans-Regular; }
+  font-family: 'Work Sans', sans-serif; }
 
 .question__link span {
   position: relative;
@@ -1000,7 +1000,7 @@ footer {
   margin: 0 0 0.5rem;
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-family: WorkSans-Regular; }
+  font-family: 'Work Sans', sans-serif; }
 
 .footer__list li {
   font-size: 0.9rem;
@@ -1144,7 +1144,7 @@ footer {
 
   .question__sidebar__title {
     position: inherit;
-    font-family: WorkSans-Regular; }
+    font-family: 'Work Sans', sans-serif; }
 
   .question__sidebar .links__open, .question__sidebar .links__collapsed {
     background: none;
@@ -1237,20 +1237,20 @@ footer {
     grid-column: 7 / 14;
     grid-row: 4 / 11;
     margin: 0;
-    font-family: WorkSans-Bold;
+    font-family: 'Work Sans', sans-serif;
     color: #ff533c; }
     
   h2 {
-    font-family: WorkSans-Regular;
+    font-family: 'Work Sans', sans-serif;
     }
 
   h3 {
-    font-family: WorkSans-Regular;
+    font-family: 'Work Sans', sans-serif;
     color: #ff533c;
     }
     
   h4 {
-    font-family: WorkSans-Regular;
+    font-family: 'Work Sans', sans-serif;
     color: #ff533c;
     }
 
@@ -1291,7 +1291,7 @@ footer {
       
   .question__subtitle {
     grid-column: 1 / 9;
-    font-family: WorkSans-Regular;
+    font-family: 'Work Sans', sans-serif;
     color: #ff533c;
     }
 
