@@ -465,7 +465,7 @@ main.content {
 
 .question__sidebar {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 300;
   -ms-flex-item-align: start;
   align-self: start;
   display: block;
@@ -901,10 +901,10 @@ footer {
     color: var(--color-accent); }
 
   .btn--burger__line {
-    background-color: var(--color-background); }
+    background-color: var(--color-light); }
 
   .btn--burger__line::before {
-    background-color: var(--color-background); }
+    background-color: var(--color-light); }
 
   .cover__image {
     grid-column: 1 / 15;
