@@ -37,7 +37,7 @@ groups:
   title: "Public Opinions of Drones: A Study of Drones' Usage and Portrayal"
   names: "Di Wu, Xuan Zhang, Xushan Li, Shaomin Niu, Chenghsin Chen, Mengxue Jin"
   image: "../../assets/img/es02/cover-g06.gif"
-  desc: "Online censorship is a complex phenomenon that changes based on the typology of platform and content. The more the censorship involves users, the more it becomes discussed: why are some contents censored? Who censors them? Which is the boundary between appropriate and inappropriate content?"
+  desc: "Drone is a new technology that’s introduced into our society. It’s quickly adapted by the consumer market. Through our project, we explored how search engines, news, and movies reacted to this new technology. "
 
 - group: group07
   title: "Perfect Me: Algorithmic Human Adjustments"
