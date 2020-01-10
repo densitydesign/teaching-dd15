@@ -4565,7 +4565,7 @@ $(document).ready(function(){
         $("#BaomoiROSWELL_1_").css("opacity", 1);
         $("#KienthucROSWELL_1_").css("opacity", 1);
         $("#OnedioROSWELL_2_").css("opacity", 1);
-        $("#NewsbombROSWELL_3_").css("opacity", 1);
+        $("#PinterestROSWELL").css("opacity", 1);
         $("#_x34_04ROSWELL_1_").css("opacity", 1);
         $("#TaringaROSWELL_2_").css("opacity", 1);
         $("#SalikROSWELL").css("opacity", 1);
@@ -4577,7 +4577,7 @@ $(document).ready(function(){
         $("#BaomoiROSWELL_1_").css("opacity", 0);
         $("#KienthucROSWELL_1_").css("opacity", 0);
         $("#OnedioROSWELL_2_").css("opacity", 0);
-        $("#NewsbombROSWELL_3_").css("opacity", 0);
+        $("#PinterestROSWELL").css("opacity", 0);
         $("#_x34_04ROSWELL_1_").css("opacity", 0);
         $("#TaringaROSWELL_2_").css("opacity", 0);
         $("#SalikROSWELL").css("opacity", 0);
