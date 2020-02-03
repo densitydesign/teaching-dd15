@@ -787,6 +787,10 @@ aside h4 {
     --main-lightest: #E1EAF3;
   }
 
+  body {
+    font-size: 1.5rem !important;
+  }
+
   .container {
     width: 1600px;
   }
