@@ -103,7 +103,7 @@ let cover = d3.selectAll(".link--booklet").append("svg")
 .attr("width", bookletWidth)
 .attr("height", bookletHeight);
 
-var numNodes = 150;
+var numNodes = 300;
 var nodes = d3.range(numNodes).map(function(d) {
   return {radius: 3 + Math.random() * 35}
 })

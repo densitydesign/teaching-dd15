@@ -1,5 +1,6 @@
 :root {
   --accent: #E0FF4F;
+  --accent-tr: #E0FF4F80;
   --darker-accent: #98C103;
   --background: #BFD1E5;
   --main-color: #0B0D2C;
@@ -524,8 +525,8 @@ aside h4 {
 
 .project--meta {
   padding: 3rem 1rem 1rem 1rem;
-  background: rgb(224,255,79);
-  background: linear-gradient(0deg, rgba(224,255,79,1) 30%, rgba(224,255,79,0.8) 60%, rgba(224,255,79,0) 100%);
+  background: var(--accent);
+  background: linear-gradient(0deg, var(--accent) 30%, var(--accent-tr) 60%, rgba(224,255,79,0) 100%);
 }
 
 .projects--directory .phase--2 h2 {
@@ -772,5 +773,21 @@ aside h4 {
   #assistants li {
     line-height: 1;
     margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (device-width: 3840px) {
+  :root {
+    --accent: #EFFFAA;
+    --accent-tr: #EFFFAA80;
+    --darker-accent: #98C103;
+    --background: #BFD1E5;
+    --main-color: #0B0D2C;
+    --main-lighter: #4D4F65;
+    --main-lightest: #E1EAF3;
+  }
+
+  .container {
+    width: 1600px;
   }
 }

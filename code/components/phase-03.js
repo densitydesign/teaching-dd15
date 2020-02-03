@@ -11,7 +11,7 @@ const PhaseThree = props => (
     <defs>
       <style>
         {
-          '.prefix__cls-1{fill:none;stroke:#e0ff4f;stroke-miterlimit:10;}'
+          '.prefix__cls-1{fill:none;stroke:var(--accent);stroke-miterlimit:10;}'
         }
       </style>
     </defs>

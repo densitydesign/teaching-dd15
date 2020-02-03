@@ -12,7 +12,7 @@ const PhaseOne = props => (
   >
     <style>
       {
-        '.prefix__st0{fill:none;stroke:#e0ff4f;stroke-miterlimit:10}'
+        '.prefix__st0{fill:none;stroke:var(--accent);stroke-miterlimit:10}'
       }
     </style>
     <circle className="prefix__st0" cx={199.8} cy={149.8} r={147.9} />

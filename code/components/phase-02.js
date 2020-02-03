@@ -11,7 +11,7 @@ const PhaseTwo = props => (
     <defs>
       <style>
         {
-          '.prefix__cls-1{fill:none;stroke:#e0ff4f;stroke-width:3px}'
+          '.prefix__cls-1{fill:none;stroke:var(--accent);stroke-width:3px}'
         }
       </style>
     </defs>
