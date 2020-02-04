@@ -1,0 +1,110 @@
+@charset "utf-8";
+.title{
+    text-align: center;
+}
+.tet{
+    text-align: center;
+    }
+@font-face{
+    font-family: 'f2';
+    src: url('../font/PlayfairDisplay-Regular.ttf');
+}
+@font-face{
+    font-family: 'f1';
+    src: url('../font/PlayfairDisplay-Bold.ttf');
+}
+@font-face{
+    font-family: 'f3';
+    src: url('../font/PlayfairDisplay-Italic.ttf');
+}
+@font-face{
+    font-family: 'f4';
+    src: url('../font/PlayfairDisplay-BoldItalic.ttf');
+}
+@font-face{
+    font-family: 'f5';
+    src: url('../font/PlayfairDisplay-BlackItalic.ttf');
+}
+@font-face{
+    font-family: 'f6';
+    src: url('../font/PlayfairDisplay-Black.ttf');
+}
+
+
+@media only screen and (min-width: 750px) {
+    #container{
+        padding: 50px 50px 0;
+    }
+    .title{
+        font-family: f1;
+        font-size: 35px;
+        padding: 50px 0;
+        font-weight: bold;
+    }
+    .tet{
+        font-family: f2;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .tet a{
+        text-decoration: underline;
+        color: #000;
+    }
+     .U{
+        text-transform: capitalize;
+        font-family: f6;
+        font-size: 36px;
+        padding: 0px 0;
+        font-weight: bolder;
+        text-transform: capitalize;
+         
+           }
+     .T{
+        font-family: f6;
+        font-size: 30px;
+        padding: 0px 0;
+        font-weight: bolder;
+         text-align: center;
+
+}
+    .Y{
+        font-family: f5;
+        font-size: 24px;
+        padding: 0px 0;
+        font-weight: bold;
+    
+
+}
+    .Q{
+        font-family: f2;
+        font-size: 12px;
+        padding: 0px 0;
+        font-weight: normal;
+        text-align: justify;
+
+}
+    .V{
+        font-family: f1;
+        font-size: 12px;
+        padding: 0px 0;
+        font-weight: normal;
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    #container{
+        padding: 0.2em 0.2em 0;
+    }
+
+    .title{
+        font-size: 0.5em;
+        padding: 1em 0;
+        font-weight: bold;
+    }
+    .tet{
+        font-size: 0.3em;
+        line-height: 1.5em;
+    }
+
+
