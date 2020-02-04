@@ -1,0 +1,1731 @@
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('assets/fonts/arialnarrow.woff') format('woff');
+    src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+}
+
+body {
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    overflow-x: hidden;
+    font-family: 'Arial Narrow';
+    /* position: absolute;*/
+
+}
+
+
+:root {
+    --main-navbartext-color: black;
+    --main-navbartext-size: 1.8vw;
+
+    --main-intro-color: black;
+    --main-intro-size: 6vw;
+
+    --main-txt-color: black;
+    --main-txt-size: 2vw;
+
+    --main-note-color: black;
+    --main-note-size: 1.3vw;
+
+    --main-txtpic-color: black;
+    --main-txtpic-size: 1.3vw;
+
+    --button-shadow-color-main:black;  
+}
+
+.light {
+    font-family: 'Arial Narrow';
+    font-weight: 100;
+}
+
+
+
+
+/*------------------------NAVBAR------------------------*/
+.navbar {
+    height: 5em;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
+}
+
+.navbar .navbar-text{
+    color : var(--main-navbartext-color);
+    font-size: var(--main-navbartext-size);
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/*--menù a tendina--*/
+.navbar .dropdown-menu{
+    background-color: white;
+    border: 1px black solid;
+    width: 15vw;
+    border-radius: 0rem;
+}
+
+.mobile {
+    display: none;
+}
+
+.dropdown-item{
+    color: var(--main-navbartext-color);
+}
+
+.dropdown-item:hover{
+    text-decoration: underline;
+    background: none;
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+/*----------------------INTRODUCTION TEXT----------------------*/
+.introduzione-text {
+    font-size: var(--main-intro-size);
+
+    line-height: 1.05em;
+}
+
+.fonteCit{
+    font-size: var(--main-note-size);
+    margin-top: 4vh;
+}
+
+/*----------------------INTRODUCTION TEXT----------------------*/
+.spiegawarfare-text {
+    font-size: var(--main-txt-size);
+    line-height: 1.2em;
+}
+
+.spiegawarfare-text-piccolo {
+    font-size: var(--main-note-size);
+    line-height: 1.2em;
+    margin-top: 0.2rem;
+}
+
+#spiegawarfare-text-noteHome {
+    font-size: 1.2vw;
+    line-height: 1.13;
+}
+
+#first {
+    background: none;
+    padding-top: 13vh;
+    padding-bottom: 20vh;
+}
+
+#first-archive {
+    background: none;
+    padding-top: 12vh;
+    padding-bottom: 0vh;
+}
+
+#second {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#secondHome {
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 25vh;
+}
+
+/* per indentare */
+.p-tab { 
+    text-indent: 2em; 
+}
+
+p {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+/*//////////////////////ASCII//////////////////////*/
+/* Propaganda*/
+.ascii {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.1vw;
+    color: black;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
+/* Scissors */
+.asciiSciss {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1vw;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    line-height: 1vw;
+    overflow: hidden;
+}
+
+.asciiScissWhiteAbout {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1vw;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    line-height: 1vw;
+    overflow: hidden;
+}
+
+.decoration {
+    position: absolute;
+}
+
+.whoProjname {
+    color: white;
+}
+
+.cornice {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.asciifilters {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.5vw;
+    color: black;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.ascii_credits {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.5vw;
+    color: white;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.whoProj {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-size: 0.3vw;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.asciiScissWhite {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-size: 0.7vw;
+    line-height: 1;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.asciiMobile {
+    display: none;
+}
+
+
+/*//////////////////////ARCHIVIO//////////////////////*/
+
+.my__container {
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.my__grid{
+    display: flex; 
+}
+
+.animal {
+    padding: 1rem;
+    margin: 1rem;
+    overflow: visible;
+    float: left;
+}
+
+.animal p {  
+    margin: 0.5rem 0 0 0;
+    font-size: var(--main-note-size);
+    text-align: left;
+}
+
+.pet-name {
+    cursor: pointer;
+    border: 0.05rem solid black;
+    position:relative;
+    top:0;
+    left:0;
+    max-height: 25vh;
+    max-width: 25vw;
+}
+
+.pet-name:hover {
+    /*
+    cursor:url(https://i.ibb.co/VmjLG9y/info-yellow-01.png) 25 15, auto;
+    */
+    cursor:url(https://i.ibb.co/VVYjcXp/info-yellow-01.png) 25 15, auto;
+}
+
+
+/*///////////////////////////FILTERS/////////////////////////////*/
+
+.filtri{
+    padding: 0;
+    background-color: 0;
+}
+
+.filter__button { 
+    font-size: 1.3rem;
+    border: 1pt solid black;
+    margin-top: 5rem;
+    background: white;
+}
+
+.filters { 
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    background: none;
+
+}
+
+
+.filter__Tec {
+    margin: 1px;
+    margin-right: 2px;
+}
+
+.filter__Tar {
+    margin: 1px;
+    margin-right: 2px;
+}
+
+#demo1{
+    font-size: 0.9rem;
+    padding-left: 0vw;
+    line-height: 1.3;
+}
+
+#demo2{
+    font-size: 0.9rem;
+    padding-left: 1vw;
+    line-height: 1.3;
+}
+
+
+
+
+
+
+/*RADIO BUTTON*/
+button:focus {outline:0;}
+input:focus {outline:0;}
+
+
+input[type="radio"] {
+    background-color: white;
+    border: 0.01rem solid black;
+    cursor: pointer;
+    display: inline-block;
+    height: 1rem;
+    position: relative;
+    width: 1rem;
+    -webkit-appearance: none;
+    margin-top: 0;
+}
+
+input[type="radio"]:after {
+    background-color: white;
+    content: '';
+    display: block;
+    height: 0.5rem;
+    left: 0.25rem;
+    position: relative;
+    top: 0.25rem;
+    width: 0.5rem;
+    -webkit-appearance: none;
+
+}
+
+input[type="radio"]:checked:after {
+    background-color: black;
+    -webkit-appearance: none;
+
+}
+
+
+/*///////////////////////////MODALS/////////////////////////////*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: -2rem;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: hidden;  Enable scroll if needed */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 10% auto; /* 15% from the top and centered */
+    /*    padding-bottom: 10px;*/
+    border: 1px solid black;
+    width: 65%; /* Could be more or less, depending on screen size */
+    border-radius: 0px;
+}
+
+/* The Close Button */
+a {
+    color: black;
+}
+
+.barra {
+    background-color: white;
+    position:relative;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+
+/*The Close Button */
+.spegni {
+    color: black;
+    float: right;
+    font-size: 1.5em;
+}
+
+.spegni:hover,
+.spegni:focus {
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+.didascalie_1 {
+    font-size: 1.8vw;
+    line-height: 1.1em;
+}
+
+.didascalie_2 {
+    font-size: 1.2vw;
+}
+
+.sinistro {
+    border-left: 1px solid black;
+}
+
+
+.bordino {
+    width: 75%;
+    border-bottom: 0.5px solid black;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_link {
+    width: 75%;
+    border-bottom: 0.5px solid black;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_1 {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.noMargin{
+    margin-right: 0 !important;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+/*///////////////////////////PROPAGANDA TECHNIQUES//////////////////////////*/
+.text__Tec {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.categorie-text-fisse {
+    font-size: 4vw;
+    line-height: 1em;
+    padding: 0;
+    padding-left: 0.5vw;
+}
+
+.sezionePropaganda {
+    margin-top: 60px;
+}
+
+.seeothertechniques{
+    font-size: var(--main-txt-size);
+    line-height: 1.2em;
+}
+
+#second {
+    background: none;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#third {
+    background: none;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    overflow: hidden;
+}
+
+#thirdAscii {
+    background: none;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+#fourth {
+    background: none;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+#fifth {
+    background: none;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#sixth {
+    background: none;
+    padding-top: 70vh;
+    padding-bottom: 4vh;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/*///////////////////////// BACK To TOP ELEMENT /////////////////////////*/
+.toTop {
+    margin-top: 0rem;
+    font-size: 0.5rem;
+    margin-bottom: 0rem;
+    position: relative;
+    overflow: hidden;    
+}
+
+#demo {
+    position: absolute;
+    width: 30%;
+    display: none;
+
+}
+
+.cat {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    z-index: 1;
+    transition: 0.7s ease-in-out;
+}
+
+
+.flag {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    z-index: 1;
+    transition: 0.7s ease-in-out;
+}
+
+.missile {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    z-index: 1;
+    transition: 0.7s ease-in-out;
+}
+
+.HKinfos {
+    position: relative;
+    background: white;
+    font-size: var(--main-note-size);
+    width: 30vw;
+    border: 0.05rem black solid;
+    top: -6.5rem;
+    left: 10rem;
+    padding: 0.5rem;
+    text-align: left;
+    line-height: 1.2em; 
+    z-index: 1;
+}
+
+.HKinfos p{
+    color: black;
+}
+
+.HKinfosSmall {
+    background: white;
+    font-size: 4vw;
+    border: 0.05rem black solid;
+    color:black;
+    padding: 0.5rem;
+    text-align: left;
+    line-height: 1.2em; 
+    margin-top: 2rem;
+    display: none;
+}
+
+.noclick {
+    cursor: default;
+    user-select: none;
+}
+
+.comingsoon {
+    margin-top: 12rem;  
+}
+
+.normale {
+    max-height: 540px;
+    min-height: 540px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit:contain;
+}
+
+/*----------------Propaganda list -> homepage-----------------*/
+
+.propaganda__link {
+    font-size: var(--main-intro-size);
+    line-height: 1;
+    color: black;
+}
+
+.propaganda__link sup {
+    font-size: 3.6vw;
+}
+
+.propaganda__link:hover {
+    font-size: var(--main-intro-size);
+    line-height: 1;
+    color:cyan;
+    text-decoration: underline;
+}
+
+.apice {
+    font-size: 5vw;
+}
+
+
+/*--------------------------SIDEBAR---------------------------*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 12vh;
+    right: 0rem;
+
+}
+
+
+.sidenav a:hover {
+    color: black;
+}
+
+
+.navTitle p {
+    font-size: 1vw;
+
+}
+.navTitle a {
+    font-size: 1vw;
+}
+
+.navTitle {
+    line-height: 1.2rem;
+}
+
+
+
+.bottoncino {
+    position: fixed;
+    background: white;
+    z-index: 50;
+    right: 0rem;
+    height: 100%;
+    width:2.5rem;
+    padding-top: 50vh;
+
+}
+
+.bottoncino a {
+    color: black;
+
+}
+
+.rotato {
+    transform:rotate(-90deg);
+    font-size: 1.5vw;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+mark{
+    background: black;
+    color: white;
+    padding: .1rem;
+    padding-right: .2rem;
+    line-height: 1.6;
+}
+
+
+
+/*------_------MARQUEE--------------*/
+#maindiv{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+#div1 {
+    display: inline-block;
+    animation: marquee 400s linear infinite;
+    position:relative;
+}
+
+#div2 {
+    display: inline-block;
+    animation: marquee2 400s linear infinite;
+    animation-delay: 0s;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    from {
+        transform: translateX(-20%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.etichette {
+    position: relative;
+    z-index: 10;
+}
+
+.stickGatto {
+    z-index: 100;
+    border: none;
+    transition: 0.7s ease-in-out;
+}
+
+.stickBrex {
+    border: none;
+    z-index: 10;
+    transition: 0.7s ease-in-out;
+}
+
+.stickWar {
+    border: none;
+    z-index: 1;
+    transition: 0.7s ease-in-out;
+}
+
+
+.stickWar:hover {
+    border: none;
+    z-index: 1000;
+    -webkit-transform:translateY(-5vw) rotate(25deg) scale(1.02);
+    transform-origin:center;   
+
+}
+
+.stickBrex:hover {
+    border: none;
+    z-index: 1000;
+    -webkit-transform: translateY(-5vw) rotate(-30deg) scale(1.02);
+    transform-origin:center;
+}
+
+.stickGatto:hover {
+    z-index: 1000;
+    border: none;
+    -webkit-transform: translateY(-5vw) rotate(-25deg) scale(1.02);
+    transform-origin:top-right;
+}
+
+#marqueeBox{
+    overflow-x: hidden;
+    font-size: 10vw;
+    padding-top: 5vh;
+}
+
+
+//////////////*COLLAPSIBLE e ABOUT*////////////
+
+
+
+
+
+.background-about {
+    background: url('https://i.ibb.co/0ytxS6C/bg.jpg')no-repeat center center fixed;
+    background-color: black;
+}
+
+
+
+.card-body {
+    background-color: transparent;
+    padding-left: 0px;
+}
+
+.titoli-about {
+    font-size: 5vw;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.testi-about {
+    font-size: 2vw;
+    line-height: 1.1em;
+    z-index: 1; 
+    color: white;
+}
+
+
+#formica, #img-NewHampshire, #img-cheezburger, #img-xijinping, #img-iran, #img-brexit, #img-hkprotest, #img-memetic, #virus .visible {
+    visibility: visible;  
+}
+
+
+#img-brexit, #img-hkprotest, #img-xijinping, #img-memetic {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-50%); 
+    pointer-events:none;
+    width: 30%;
+    z-index: 0;
+}
+
+#formica {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-145%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#img-iran {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-10%)  translateY(-55%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#virus {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-120%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#img-NewHampshire {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-150%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#img-cheezburger {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-105%); 
+    pointer-events:none;
+    width: 25%;
+    height: auto;
+    z-index: 0;
+}
+
+
+#ant, #NewHampshire, #cheezburger, #xijinping, #iran, #brexit, #memetic, #reddit_btn, #kym_btn, #parasite, #hkprotest {
+    color: cyan;
+    text-decoration: underline;
+}
+
+
+.link-about {
+    color: cyan;
+    text-decoration: underline;
+}
+
+.link-about:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+
+.bottone {
+    color: white;
+    background-color: black;
+    font-size: 5vw;
+    text-transform: uppercase;
+    height: 8rem;
+    padding-bottom: 1vh;
+    position: relative;
+}
+
+
+
+#about {
+    padding-top: 13vh;
+    padding-bottom: 2vh;
+}
+
+/*PROTOCOL*/
+.st0{fill:#FFFFFF;}
+
+.st1{font-family:'ArialNarrow';}
+
+.st2{font-size:55.6716px;}
+
+.st3{font-size:21.8037px;}
+
+.st4{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+
+.st5{fill:cyan;}
+
+.st6{font-size:23.0443px;}
+
+.st7{fill:none;stroke:cyan;stroke-miterlimit:10;}
+
+.st8{fill:none;stroke:#000000;stroke-miterlimit:10;}
+
+.hide {
+    display:none;
+}
+
+.filter {
+    display:block;
+}
+
+.on {
+    fill: cyan;
+    text-decoration:underline;
+}
+
+
+
+#modal-reddit, #modal-kym {
+    display: none;
+}
+
+.modal-reddit {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 46vw;
+    top: 90vh;
+    width: 40vw; /* Full width */
+    /*overflow: hidden;  Enable scroll if needed */
+}
+
+.modal-kym {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    left: 40vw;
+    top: 175vh;
+    width: 40vw;
+}
+
+
+/* Modal Content/Box */
+.modal-content-reddit, .modal-content-kym {
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    /*    padding-bottom: 10px;*/
+    border: 1px solid white;
+    width: 100%; /* Could be more or less, depending on screen size */
+    border-radius: 0px;
+    padding: 0.5vw 0vw 1vw 0vw;
+    color: white;
+}
+
+.barra-reddit, .barra-kym {
+    background-color: black;
+    position: relative;
+    border-bottom: 1px solid white;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 1px;
+    width: 99.8%;
+
+}
+
+.spegni-reddit, .spegni-kym {
+    color: white;
+    font-size: 1.5em;
+}
+
+.spegni-reddit, .spegni-kym:hover,
+.spegni-reddit, .spegni-kym:focus {
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+
+
+.logodensity {
+    width: 4vw;
+    filter: invert();
+}
+
+.logoPolimi {
+    width: 11vw;
+    filter: invert();
+}
+
+.footer {
+    margin-top: 3rem;
+    padding-top: 4rem;
+    height: 12rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
+}
+
+.footertext {
+    color:white;
+    font-size: 1vw;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/**************CURTAIN E INTRODUZIONE**********/
+
+#curtain,
+.flip {
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+#curtain {
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    opacity: 0;
+}
+canvas {
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    pointer-events: auto;
+}
+
+#toggle,
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+#toggle {
+    height: 100%;
+    width: 100%;
+    display: block;
+    z-index: 13;
+    cursor: crosshair;
+}
+
+.dropped #toggle {
+    height: 60px;
+    display: none;
+    z-index: 1;
+}
+
+
+
+.dropped canvas {
+    pointer-events: none
+}
+
+
+.dropped #curtain {
+    position: absolute;
+    opacity: 1;
+}
+
+
+/*///////*/
+#pepe, #coordinated, #jeff, #mushroom, #mms, #shabo, #propbook {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*/////////*/
+
+#poster {
+    height: 20rem;
+    margin-top: -12rem;
+    margin-bottom: 22rem;
+}
+
+/*HOME*/
+
+.wkLayoutImg {
+    width: 11vw;
+    height: auto;
+    padding: 0rem;
+}
+
+
+
+#pepe{
+    width: 14vw;
+    height: auto;
+    padding: 0rem;
+}
+
+#comparison {
+    width: auto;
+    height: 14vh;
+    padding: 0rem;
+}
+
+#memeInfo {
+    position: absolute;
+    z-index: 1;
+    height: 14vh;
+    width: auto;
+    transform-origin: center;
+    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem);
+    transition: 0.4s ease-in-out;
+    margin-top: 0.5rem;
+}
+
+#memeInfo:hover {
+    position: absolute;
+    z-index: 1;
+    height: 14vh;
+    width: auto;
+    transform-origin: center;
+    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem) scale(0.95);
+    transition: 0.7s ease-in-out;
+    margin-top: 0.5rem;
+}
+
+.colAscii{
+    height: 38rem;
+    overflow: hidden;
+}
+
+.supHome{
+    top:0rem;
+    padding: 0.1rem;
+    padding-left: 0.15rem;
+    height: 1rem;
+    width: 1rem;
+    border: 0.01rem solid black;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.IGlink{
+    color: white;
+}
+
+.IGlink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contenitoriCredits{
+    margin-top: 10vh;
+}
+
+#video{
+    height: 10rem;
+    width: auto;
+}
+
+/*///////////////////////////MEDIA ONLY///////////////////////////*/
+@media only screen and (max-width: 400px) {
+
+    /*NAVBAR*/
+    .navbar{
+        height: 4em;
+    }
+    .navbar .navbar-text{
+        color : var(--main-navbartext-color);
+        font-size: 5vw;
+        padding-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    /*--menù a tendina--*/
+    .navbar .dropdown-menu{
+        background-color: white;
+        border: 1px black solid;
+        width: 15vw;
+        border-radius: 0rem;
+        padding: 0vw;
+    }
+
+    .dropdown-item{
+        color: var(--main-navbartext-color);
+        padding: 0vw;
+        padding-left: 1.5vw;
+    }
+
+    /*Home*/
+
+    #third {
+        background: none;
+        padding-bottom: 4vh;
+    }
+
+    div.HKinfos {
+        display: none;
+    }
+
+    #first {
+        background: none;
+        padding-top: 5em;
+        padding-bottom: 0vh;
+    }
+
+    /*introduction text*/
+    .introduzione-text {
+        font-size: 9vw;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .etichette {
+        position: relative;
+        z-index: 10;
+        margin-left: 1rem;
+    }
+    .stickGatto {
+        position:relative;
+        top:0;
+        z-index: 2;
+        border: none;
+        transform-origin: bottom;
+        transform: scale(0.8);
+        transition: 0.7s ease-in-out;
+        padding-left: 2rem;
+        margin-top: -6rem;
+    }
+
+    .stickBrex {
+        transform-origin: center;
+        transform: scale(0.8);
+        border: none;
+        z-index: 0;
+        transition: 0.7s ease-in-out;
+        padding-left: 2rem;
+        margin-top: -8rem;
+    }
+
+    .stickWar {
+        border: none;
+        z-index: 1;
+        transition: 0.7s ease-in-out;
+        transform-origin: top;
+        transform: scale(0.8);
+        padding-left: 2rem;
+        margin-top: -2rem;
+    }
+
+    .propagandaBox {
+        transform: rotate(-9deg);
+        padding: 0rem;
+        margin-top:0;
+        margin-bottom: 0;
+        width:190%;   
+    }
+
+    .spiegawarfare-text {
+        font-size: 3vw;
+        line-height: 1.2em;
+    }
+
+    .centerSticker {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);  
+    }
+
+    /*TESTO MW HOME*/
+
+
+    . {
+        display: none;
+    }
+
+    #secondHome {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+
+    .wkLayoutImg {
+        width: 39vw;
+        height: auto;
+        padding: 0rem;
+
+        padding-top: 0.1rem;
+        margin-right: 0.5rem;
+    }
+
+    #mushroomA, #mushroomB, #mushroomC {
+        width: 24vw;
+        margin: 0;
+    }
+    .supHome {
+        padding: 0.1rem;
+        padding-left: 0.05rem;
+        padding-top: 0.35rem;
+        height: 0.75rem;
+        width: 0.5rem;
+        border: 0.01rem solid black;
+        margin-right: 0.2rem;
+        float: left;
+        margin-top: 0rem;
+    }
+
+    sup {
+        top:0; 
+    }
+    #memeInfo {
+        position: relative;
+        z-index: 1;
+        height: 16vh;
+        width: auto;
+        transform-origin: center;
+        transform: rotate(-8deg) translateX(7rem);
+        transition: 0.4s ease-in-out;
+        margin-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    #memeInfo:active{
+        position: relative;
+        z-index: 1;
+        height: 16vh;
+        width: auto;
+        transform-origin: center;
+        transform: rotate(-8deg) translateX(7rem) scale(0.95);
+        transition: 0.4s ease-in-out;
+        margin-top: 1rem;
+        margin-top: 1rem;
+
+    }
+
+    .spiegawarfare-text-piccolo {
+        font-size: 4vw;
+        margin-right: 0;
+        margin-right:0.5rem;
+        margin-bottom:1rem;
+    }
+
+    #pepe{
+        width: 39vw;
+        height: auto;
+        padding: 0rem;
+    }
+
+    .propaganda__link {
+        font-size: 8vw;
+        line-height: 1.2;
+        color: black;
+    }
+
+    .propaganda__link sup {
+        font-size: 5vw;
+    }
+
+    .propaganda__link sup:hover {
+        font-size: 5vw;
+        text-decoration: none;
+    }
+
+    .propaganda__link:hover {
+        font-size: 8vw;
+        line-height: 1.2;
+        color:cyan;
+        text-decoration: underline;
+    }
+
+    .apice {
+        font-size: 5vw;
+    }
+
+    sub, sup {
+        position: relative;
+        font-size: 75%;
+        line-height: 0;
+        vertical-align: super;
+
+    }
+
+    .asciiSciss {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 3vw;
+        color: black;
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+        line-height: 3.2vw;
+        overflow: hidden;
+        text-align: -webkit-center;
+    }
+
+    /*Artwork archivio*/
+    .cat {
+        position: relative;
+        top: 26vh;
+        left: 0vw;
+        z-index: 1;
+        transition: 0.7s ease-in-out;
+        height: 4rem;
+        width: auto;
+    }
+
+
+    .HKinfos {
+        display: none;
+    }
+    .stella {
+        display: none;    
+    } 
+    .stella:before {
+        display: none;    
+    }
+
+    .HKinfosSmall {
+        display: block;
+    }
+
+    /*ARCHIVIO*/
+
+
+    .asciifilters {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 1vw;
+        color: black;
+        margin: 0;
+        line-height: 1;
+    }
+
+    .mostraFiltro {
+        display: none;
+    }
+
+
+
+    .sidenav, .bottoncino  {
+        display: none;
+    }
+
+    .grigliaSide {
+        height: 5rem;
+        width: auto;
+    }
+
+
+    .didascalie_1 {
+        font-size: 4.5vw;
+        line-height: 1.1em;
+    }
+
+    .didascalie_2 {
+        font-size: 3.5vw;
+    }
+    .pet-name {
+        max-height: 30vh;
+        max-width: 30vw;
+    }
+    .animal {
+        margin:0.5rem;
+    }
+    .animal p {
+        font-size: 4vw;
+    }
+
+    .normale {
+        max-height: 17rem;
+        min-height: 13rem;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .modal-content {
+        /* background-color: white; */
+        margin-top: 3em;
+        /* padding-bottom: 10px; */
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        padding:0.5rem;
+    }
+
+    #myModal {
+        left: 0;
+        top: 0px;
+    }
+    .bordino {
+        width: 100%;
+        border-bottom: 0.5px solid black;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .bordoMobile{
+        border-right: 0.5px solid black;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0px;
+        top: 0px;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: hidden;
+    }
+
+    .barra {
+        background-color: white;
+        position: relative;
+        border:none;
+        padding: 0px;
+    }
+
+    /*SCHEDE PROPAGANDA*/
+
+    #fifth {
+        background: none;
+        padding-top: 0;
+    }
+
+    .categorie-text-fisse {
+        font-size: 7.5vw;
+        line-height: 1.1em;
+        padding: 0;
+        padding-left: 1vw;
+    }
+
+    .spiegawarfare-text {
+        font-size: 5vw;
+        line-height: 1.2em;
+    }
+
+    #spiegawarfare-text-noteHome {
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+
+    .seeothertechniques{
+        font-size: 4vw;
+        line-height: 1.2em;
+    }
+    .ascii {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 2.3vw;
+        color: black;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    #poster {
+        height: 20rem;
+        margin-top: -10rem;
+        margin-bottom: 20rem;
+    }
+
+
+    /*ABOUT*/
+
+    .bottone {
+        color: white;
+        background-color: black;
+        font-size: 6.1vw;
+        line-height: 1.2;
+        text-transform: uppercase;
+        height: 2.5rem;
+        padding-top: 0.4rem;
+    }
+
+    .asciiScissWhite {
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        font-size: 1.1vw;
+        line-height: 1;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+    .asciiScissWhiteAbout {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.5vw;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        line-height: 0.6vw;
+        overflow: hidden;
+    }
+
+    .whoProjname {
+        color: white;
+        font-size: 3vw;
+    }
+
+    .footer {
+        margin-top: 24rem;
+        padding-top: 2rem;
+        height: 10rem;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+        align-self: baseline;
+    }
+
+    .footertext {
+        color: white;
+        font-size: 2.5vw;
+        padding-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+    }
+
+    .titoli-about {
+        font-size: 7vw;
+        line-height: 1.2;
+        color: white;
+    }
+
+
+    .testi-about {
+        font-size: 4vw;
+        line-height: 1.1em;
+        z-index: 1; 
+        color: white;
+    }
+
+    /*//////*/
+    .asciiPiccoloMobile {
+        font-size: 1vw;
+        line-height: 1.1;
+    }
+    .asciiNascostoMobile{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:801px)  { 
+    .centerSticker {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .propagandaBox {
+        transform: rotate(-9deg);
+        padding: 0rem;
+        margin-bottom: 10vh;
+    }
+
+    .{
+        display: block;
+    }
+
+    /*SIDEBAR*/
+    .sidenav {
+        display: block;
+        padding-top: 7rem;
+        width: 30%;
+    }
+    .sidenav a {font-size: 1.2rem;}
+
+    #bottoneFiltri {
+        background: none;
+        border: none;
+    }
+}
+
+.seeothertechniques {
+    z-index: 1;
+}
+.wkLayoutImgVert {
+   width: auto;
+    height: 6.5vw;
+    padding: 0rem;
+}

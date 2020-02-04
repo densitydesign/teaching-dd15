@@ -1,0 +1,1523 @@
+/* main */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
+}
+
+
+/* LOADER */
+.loader {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    z-index: 1000;
+    top: 0;
+}
+
+.lod {
+  margin: auto;
+}
+
+.bodyl {
+  background-color: #fff;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#lottie {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeSBdExfull';
+  src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeBdExfull';
+  src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeBdExhalf';
+  src: url('../css/fonts/bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer .container-fluid {
+  position: fixed;
+  bottom: 2rem;
+}
+
+.body1 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--violet);
+  position: relative;
+}
+
+.body2 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cyan);
+  position: relative;
+}
+
+.body3 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--green);
+  position: relative;
+}
+
+.body4 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red);
+  position: relative;
+}
+
+.body5 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--yellow);
+  position: relative;
+}
+
+.bodyright {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  position: relative;
+}
+
+.bodywrong {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  position: relative;
+}
+
+.bodytime {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red);
+  position: relative;
+}
+
+/* home page */
+.logobar {
+  height: 80px;
+}
+
+.nav {
+  height: 9vh;
+  background-color: var(--violet);
+  border-bottom: 3px solid black;
+  z-index: 100;
+  position: relative;
+}
+
+.title1 {
+  font-family: var(--font-var);
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+a:hover.sottolineatura {
+  text-decoration: none;
+}
+
+.title2 {
+  font-family: var(--font-var);
+  color: black;
+  font-size: 2rem;
+}
+
+.title3 {
+  font-family: var(--font-semibold);
+  color: black;
+  font-size: 1.8rem;
+}
+
+.nb {
+  font-family: var(--font-regular);
+  color: black;
+  font-size: 2.5rem;
+  line-height: normal;
+}
+
+.logo {
+  height: 80px;
+  padding: 2vh 0 0 2rem;
+  margin: 0;
+}
+
+.page {
+  height: 80px;
+  padding: 1rem 2rem 0 0;
+  text-align: right;
+  margin: 0;
+}
+
+.whatsbehind {
+  height: 9vh;
+  padding: 2vh 3rem 0 0;
+  text-align: right;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  z-index: 10;
+}
+
+.text1 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: white;
+}
+
+.text2 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: black;
+}
+
+.banner {
+  text-align: center;
+  font-family: var(--font-bold);
+  font-size: 7rem;
+  line-height: 3rem;
+  color: black;
+}
+
+.subtitle {
+  font-family: var(--font-semibold);
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.start {
+  margin-top: 2rem;
+  text-align: center;
+  z-index: 999;
+}
+
+.immagini {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.underline1 {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.underline2 {
+  color: var(--violet);
+  text-decoration: underline;
+}
+
+.underline3 {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+#PrevVIOLA {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextVIOLA {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#PrevCYAN {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextCYAN {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#PrevGREEN {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextGREEN {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#gotoquiz {
+  width: 200%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#immaginees1 {
+  width: 65%;
+  margin-top: 1.5rem;
+}
+
+#immaginees2 {
+  width: 82%;
+  margin-top: 1.5rem;
+}
+
+#immaginees3 {
+  width: 92%;
+  margin-top: 1.5rem;
+}
+
+#START {
+  width: 40%;
+  cursor: pointer;
+}
+
+#HarveyI {
+  margin-top: -8%;
+  margin-left: 30%;
+  width: 20%;
+}
+
+#AmazonAL {
+  margin-top: -5%;
+  margin-left: -40%;
+  width: 20%;
+}
+
+#ActorF {
+  margin-top: -5%;
+  margin-left: -80%;
+  width: 40%;
+}
+
+#BrexitA {
+  margin-top: 0;
+  margin-left: 78%;
+  width: 40%;
+}
+
+#DoumaAB1 {
+  margin-top: 3%;
+  margin-left: 115%;
+  width: 40%;
+}
+
+#HarveyL {
+  margin-top: 10%;
+  margin-left: 80%;
+  width: 40%;
+}
+
+#AmazonE {
+  margin-top: -3%;
+  margin-left: -60%;
+  width: 9.5%;
+}
+
+#FakeTrumpB {
+  margin-top: 17%;
+  margin-left: -65%;
+  width: 20%;
+}
+
+#ActorC {
+  margin-top: 10%;
+  margin-left: 60%;
+  width: 20%;
+}
+
+#Flight17M {
+  margin-top: 33%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+#IranD {
+  margin-top: 10%;
+  margin-left: -85%;
+  width: 40%;
+}
+
+#HeroDogA2 {
+  margin-top: -3%;
+  margin-left: 85%;
+  width: 40%;
+}
+
+#Flight17A {
+  margin-top: 5%;
+  margin-left: 78%;
+  width: 40%;
+}
+
+#Flight370F {
+  margin-top: 20%;
+  margin-left: 60%;
+  width: 30%;
+}
+
+#HarveyG {
+  margin-top: 5%;
+  margin-left: 67%;
+  width: 30%;
+}
+
+#AmazonAB {
+  margin-top: -10%;
+  margin-left: 15%;
+  width: 30%;
+}
+
+#SummitTrump {
+  margin-top: -15%;
+  margin-left: -40%;
+  width: 40%;
+}
+
+#HurricaneFlorence {
+  margin-top: -9%;
+  margin-left: 85%;
+  width: 40%;
+}
+
+#CataloniaN {
+  margin-top: -10%;
+  margin-left: 30%;
+  width: 40%;
+}
+
+#AmazonB {
+  margin-top: -11%;
+  margin-left: 80%;
+  width: 40%;
+}
+
+#right {
+  width: 50%;
+}
+
+#wrong {
+  width: 50%;
+}
+
+#time {
+  width: 50%;
+}
+
+/* Transizione */
+.animate-in {
+  -webkit-animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.result {
+  background-color: var(--yellow);
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 15%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 3rem;
+  font-family: var(--font-medium);
+}
+
+.res {
+  margin: 0;
+}
+
+.resultext {
+  background-color: var(--yellow);
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+.share {
+  position: absolute;
+  top: 80%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 25%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+.next a:hover {
+  text-decoration: none;
+}
+
+.resultw {
+  background-color: white;
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 15%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 3rem;
+  font-family: var(--font-medium);
+}
+
+.resw {
+  margin: 0;
+}
+
+.resultextw {
+  background-color: white;
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+/* media query */
+@media screen and (min-width: 3840px) {
+  .logobar {
+    height: 9vh;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 5px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .page {
+    height: 9vh;
+    padding: 2vh 4rem 0 0;
+    text-align: right;
+    margin: 0;
+  }
+
+  .logo {
+    height: 80px;
+    padding: 2vh 0 0 4rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 2vh 4rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 4.5rem;
+    margin: 0;
+  }
+
+  .title2 {
+    font-family: var(--font-var);
+    color: black;
+    font-size: 4.5rem;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 4.5rem;
+  }
+
+  .text1 {
+    margin: 9vh 0 0 0;
+    padding: 0;
+    font-family: var(--font-light);
+    font-size: 7rem;
+    line-height: 8.7rem;
+    color: white;
+  }
+
+  .text2 {
+    margin: 9vh 0 0 0;
+    padding: 0;
+    font-family: var(--font-light);
+    font-size: 7rem;
+    line-height: 8.7rem;
+    color: black;
+  }
+
+  .nb {
+    font-family: var(--font-regular);
+    color: black;
+    font-size: 7rem;
+    line-height: normal;
+  }
+
+  .underline1 {
+    color: var(--yellow);
+    text-decoration: underline;
+  }
+
+  .underline2 {
+    color: var(--violet);
+    text-decoration: underline;
+  }
+
+  .underline3 {
+    color: var(--black);
+    text-decoration: underline;
+  }
+
+  .banner {
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: 14rem;
+    line-height: 7rem;
+    color: black;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+  }
+
+  .start {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+
+    50% {
+      transform: translatey(-14px);
+    }
+
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+  #PrevVIOLA {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    width: 63%;
+    cursor: pointer;
+  }
+
+  #NextVIOLA {
+    width: 63%;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #PrevCYAN {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    width: 63%;
+    cursor: pointer;
+  }
+
+  #NextCYAN {
+    width: 63%;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #PrevGREEN {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    width: 63%;
+    cursor: pointer;
+  }
+
+  #NextGREEN {
+    width: 63%;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #START {
+    width: 50%;
+    cursor: pointer;
+  }
+
+  #gotoquiz {
+    width: 200%;
+    margin-right: 4rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #immaginees1 {
+    width: 65%;
+    margin-top: 1.5rem;
+  }
+
+  #immaginees2 {
+    width: 82%;
+    margin-top: 1.5rem;
+  }
+
+  #immaginees3 {
+    width: 92%;
+    margin-top: 1.5rem;
+  }
+
+  #HarveyI {
+    margin-top: -8%;
+    margin-left: 30%;
+    width: 20%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #AmazonAL {
+    margin-top: -5%;
+    margin-left: -40%;
+    width: 20%;
+    animation: float 1.2s ease-in-out infinite;
+  }
+
+  #ActorF {
+    margin-top: -5%;
+    margin-left: -80%;
+    width: 40%;
+    animation: float 1.8s ease-in-out infinite;
+  }
+
+  #BrexitA {
+    margin-top: 0;
+    margin-left: 78%;
+    width: 40%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #DoumaAB1 {
+    margin-top: 7%;
+    margin-left: 105%;
+    width: 40%;
+    animation: float 1.2s ease-in-out infinite;
+  }
+
+  #HarveyL {
+    margin-top: 10%;
+    margin-left: 75%;
+    width: 40%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #AmazonE {
+    margin-top: -4%;
+    margin-left: -55%;
+    width: 9.5%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #FakeTrumpB {
+    margin-top: 7%;
+    margin-left: -65%;
+    width: 20%;
+    animation: float 1.3s ease-in-out infinite;
+  }
+
+  #ActorC {
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 20%;
+    animation: float 1.6s ease-in-out infinite;
+  }
+
+  #Flight17M {
+    margin-top: 30%;
+    margin-left: -10%;
+    width: 40%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #IranD {
+    margin-top: 15%;
+    margin-left: -85%;
+    width: 40%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #HeroDogA2 {
+    margin-top: 3%;
+    margin-left: 80%;
+    width: 40%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #Flight17A {
+    margin-top: 5%;
+    margin-left: 78%;
+    width: 40%;
+    animation: float 1.7s ease-in-out infinite;
+  }
+
+  #Flight370F {
+    margin-top: 20%;
+    margin-left: 60%;
+    width: 30%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #HarveyG {
+    margin-top: 5%;
+    margin-left: 57%;
+    width: 30%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #AmazonAB {
+    margin-top: -3%;
+    margin-left: 15%;
+    width: 30%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #SummitTrump {
+    margin-top: -15%;
+    margin-left: -40%;
+    width: 40%;
+    animation: float 1.7s ease-in-out infinite;
+  }
+
+  #HurricaneFlorence {
+    margin-top: -13%;
+    margin-left: 85%;
+    width: 40%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #CataloniaN {
+    margin-top: -15%;
+    margin-left: 55%;
+    width: 40%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #AmazonB {
+    margin-top: -15%;
+    margin-left: 75%;
+    width: 40%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  .result {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 10rem;
+    font-family: var(--font-medium);
+  }
+
+  .res {
+    margin: 0;
+  }
+
+  .resultext {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 4.78rem;
+    font-family: var(--font-medium);
+  }
+
+  .share {
+    position: absolute;
+    top: 80%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 25%;
+    font-size: 1.5rem;
+    font-family: var(--font-medium);
+  }
+
+  .resultw {
+    background-color: white;
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 10rem;
+    font-family: var(--font-medium);
+  }
+
+  .resw {
+    margin: 0;
+  }
+
+  .resultextw {
+    background-color: white;
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 4.8rem;
+    font-family: var(--font-medium);
+  }
+}
+
+/* mobile */
+@media only screen and (min-width: 320px) {
+  .mobile {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    background-color: var(--yellow);
+  }
+
+  .titlemobile {
+    font-family: var(--font-var);
+    color: black;
+    font-size: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .subtitlemobile {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .mobilep {
+    font-family: var(--font-regular);
+    text-align: center;
+    margin: 2.5rem 1rem;
+    font-size: 1.3rem;
+  }
+
+  .navv {
+    background-color: var(--violet);
+    border-bottom: 3px solid black;
+    vertical-align: middle;
+    z-index: 1000;
+  }
+
+  .navd {
+    text-align: center;
+  }
+
+  .navti {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  .gifres {
+    width: 60%;
+    margin: auto;
+  }
+
+  .gifdiv {
+    text-align: center;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+  .logobar {
+    height: 9vh;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 3px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .page {
+    height: 9vh;
+    padding: 1vh 2rem 0 0;
+    text-align: right;
+    margin: 0;
+  }
+
+  .logo {
+    padding: 1vh 0 0 2rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 1vh 2rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .title2 {
+    font-family: var(--font-var);
+    color: black;
+    font-size: 2rem;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 2rem;
+  }
+
+  .text1 {
+    margin: 9vh 0 0 0;
+    padding: 0;
+    font-family: var(--font-light);
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    color: white;
+  }
+
+  .text2 {
+    margin: 9vh 0 0 0;
+    padding: 0;
+    font-family: var(--font-light);
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    color: black;
+  }
+
+  .nb {
+    font-family: var(--font-regular);
+    color: black;
+    font-size: 2.3rem;
+    line-height: normal;
+  }
+
+  .underline1 {
+    color: var(--yellow);
+    text-decoration: underline;
+  }
+
+  .underline2 {
+    color: var(--violet);
+    text-decoration: underline;
+  }
+
+  .underline3 {
+    color: var(--black);
+    text-decoration: underline;
+  }
+
+  footer .container-fluid {
+    position: fixed;
+    bottom: 1rem;
+  }
+
+  .banner {
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: 5rem;
+    line-height: 3rem;
+    color: black;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
+
+  .start {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+
+    50% {
+      transform: translatey(-14px);
+    }
+
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+  #PrevVIOLA {
+    margin-left: 1rem;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #NextVIOLA {
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #PrevCYAN {
+    margin-left: 1rem;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #NextCYAN {
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #PrevGREEN {
+    margin-left: 1rem;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #NextGREEN {
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #START {
+    width: 50%;
+    cursor: pointer;
+  }
+
+  #gotoquiz {
+    width: 300%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  #immaginees1 {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #immaginees2 {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #immaginees3 {
+    width: 110%;
+    margin-top: 1rem;
+  }
+
+  #HarveyI {
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 25%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #AmazonAL {
+    margin-top: 5%;
+    margin-left: -40%;
+    width: 25%;
+    animation: float 1.2s ease-in-out infinite;
+  }
+
+  #ActorF {
+    margin-top: -5%;
+    margin-left: -80%;
+    width: 55%;
+    animation: float 1.8s ease-in-out infinite;
+  }
+
+  #BrexitA {
+    margin-top: 0;
+    margin-left: 78%;
+    width: 55%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #DoumaAB1 {
+    margin-top: 7%;
+    margin-left: 105%;
+    width: 55%;
+    animation: float 1.2s ease-in-out infinite;
+  }
+
+  #HarveyL {
+    margin-top: 10%;
+    margin-left: 75%;
+    width: 55%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #AmazonE {
+    margin-top: -8%;
+    margin-left: -55%;
+    width: 12%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #FakeTrumpB {
+    margin-top: 7%;
+    margin-left: -65%;
+    width: 25%;
+    animation: float 1.3s ease-in-out infinite;
+  }
+
+  #ActorC {
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 25%;
+    animation: float 1.6s ease-in-out infinite;
+  }
+
+  #Flight17M {
+    margin-top: 33%;
+    margin-left: -10%;
+    width: 55%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #IranD {
+    margin-top: 18%;
+    margin-left: -85%;
+    width: 55%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #HeroDogA2 {
+    margin-top: 8%;
+    margin-left: 80%;
+    width: 55%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #Flight17A {
+    margin-top: 11%;
+    margin-left: 78%;
+    width: 55%;
+    animation: float 1.7s ease-in-out infinite;
+  }
+
+  #Flight370F {
+    margin-top: 20%;
+    margin-left: 60%;
+    width: 40%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #HarveyG {
+    margin-top: 5%;
+    margin-left: 57%;
+    width: 40%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  #AmazonAB {
+    margin-top: -3%;
+    margin-left: 15%;
+    width: 40%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #SummitTrump {
+    margin-top: -15%;
+    margin-left: -40%;
+    width: 55%;
+    animation: float 1.7s ease-in-out infinite;
+  }
+
+  #HurricaneFlorence {
+    margin-top: -13%;
+    margin-left: 85%;
+    width: 55%;
+    animation: float 1s ease-in-out infinite;
+  }
+
+  #CataloniaN {
+    margin-top: -15%;
+    margin-left: 55%;
+    width: 55%;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  #AmazonB {
+    margin-top: -15%;
+    margin-left: 75%;
+    width: 55%;
+    animation: float 1.5s ease-in-out infinite;
+  }
+
+  .result {
+    background-color: var(--yellow);
+    border: 0.2rem solid black;
+    position: absolute;
+    top: 12%;
+    z-index: 999;
+    padding: 1rem 2rem;
+    left: 1%;
+    font-size: 2rem;
+    font-family: var(--font-medium);
+  }
+
+  .res {
+    margin: 0;
+  }
+
+  .resultext {
+    background-color: var(--yellow);
+    border: 0.2rem solid black;
+    position: absolute;
+    top: 25%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 1.5rem;
+    font-family: var(--font-medium);
+  }
+
+  .share {
+    position: absolute;
+    top: 85%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 35%;
+    font-size: 1.5rem;
+    font-family: var(--font-medium);
+  }
+
+  .resultw {
+    background-color: white;
+    border: 0.2rem solid black;
+    position: absolute;
+    top: 12%;
+    z-index: 999;
+    padding: 1rem 2rem;
+    left: 1%;
+    font-size: 2rem;
+    font-family: var(--font-medium);
+  }
+
+  .resw {
+    margin: 0;
+  }
+
+  .resultextw {
+    background-color: white;
+    border: 0.2rem solid black;
+    position: absolute;
+    top: 25%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 1.5rem;
+    font-family: var(--font-medium);
+  }
+}

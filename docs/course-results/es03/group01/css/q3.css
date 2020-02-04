@@ -1,0 +1,699 @@
+/* main */
+:root {
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+}
+
+p {
+  font-size: 2rem;
+  font-family: bandeinsstrangeregular;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cyan);
+  overflow: hidden;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cyan);
+  position: relative;
+  width: 100vw;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* testo che scorre */
+/* ticker - testo muove */
+* {
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  top: 0;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--pink);
+  padding-left: 100%;
+}
+
+.ticker-wrap .ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  font-family: var(--font-light);
+  color: white;
+}
+
+.rect {
+  text-align: center;
+  background-color: var(--pink);
+  border: 2px solid black !important;
+  margin: 0;
+}
+
+.text {
+  padding: 0;
+  color: white;
+}
+
+.boldd {
+  font-family: bandeins_strangemedium;
+}
+
+/* elementi principali */
+.table {
+  margin-bottom: 0;
+  height: 100vh;
+}
+
+.table th {
+  vertical-align: middle;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.table td {
+  padding: 0;
+  vertical-align: middle;
+}
+
+.primariga {
+  height: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.clessidra {
+  background-color: var(--cyan);
+  border: 0.5px solid black;
+  width: 3.5rem;
+  text-align: center;
+  padding: .75rem !important;
+}
+
+#imgcles {
+  width: 60%;
+  height: auto;
+}
+
+.titoloriga {
+  font-size: 1.6rem;
+  font-family: var(--font-light);
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.gradiente {
+  color: black;
+  -webkit-animation-name: gradiente;
+  -webkit-animation-duration: 1s;
+  animation-name: gradiente;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes gradiente {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: var(--cyan);
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+/* Standard syntax */
+@keyframes gradiente {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: var(--cyan);
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+.underline3 {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+.title {
+  background-color: var(--cyan);
+  border: 0.5px solid black;
+  padding: .75rem !important;
+}
+
+.numerotest {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.numero {
+  background-color: var(--cyan);
+  width: 3.5rem;
+  line-height: 2rem;
+  border: 2px solid black;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.tempo {
+  background-color: var(--cyan);
+  border: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+.giustosbagliato {
+  border: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+/* css relativo alla barra della tempo */
+.rettangolo-segnaposto {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: none;
+}
+
+.rettangolo-bianco {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: white;
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 0;
+}
+
+.rettangolo-rosso {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: var(--green);
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 1;
+}
+
+.rettangolo-border {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 2px solid black;
+  background: none;
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 4;
+}
+
+.principale {
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.Q {
+  cursor: pointer;
+}
+
+#Q3 {
+  width: 50%;
+}
+
+.prog {
+  width: 50%;
+  vertical-align: middle;
+}
+
+/* svg */
+.cls-1,
+.cls-4,
+.cls-5 {
+  fill: none;
+}
+
+.cls-2 {
+  fill: url("#Nuovo_pattern_3");
+}
+
+.cls-3,
+.cls-8 {
+  fill: #edc730;
+}
+
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-8 {
+  stroke: #000;
+}
+
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+  stroke-miterlimit: 10;
+}
+
+.cls-4,
+.cls-7,
+.cls-8 {
+  stroke-width: 2px;
+}
+
+.cls-6 {
+  fill: #73c76c;
+}
+
+.cls-7 {
+  fill: var(--cyan);
+  stroke: #222221;
+}
+
+.cls-15,
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  fill: #010101;
+}
+
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  font-size: 25px;
+  font-family: var(--font-semibold);
+}
+
+.cls-10 {
+  letter-spacing: 0.015em;
+}
+
+.cls-11 {
+  letter-spacing: -0.00898em;
+}
+
+.cls-12 {
+  letter-spacing: -0.02em;
+}
+
+.cls-13 {
+  letter-spacing: -0.01em;
+}
+
+.cls-14 {
+  letter-spacing: -0.03em;
+}
+
+.cls-17 {
+  fill: #FFF;
+}
+
+.cls-18 {
+  stroke-width: 2px;
+  fill: #FFF;
+  stroke-miterlimit: 10;
+  stroke: #000;
+}
+
+/* Transizione */
+.animate-in {
+  -webkit-animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*MEDIAQUERY*/
+@media only screen and (min-width: 3840px) {
+  .marquee {
+    margin: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  .marquee span {
+    margin: auto;
+    display: inline-block;
+    padding-left: 0% !important;
+    animation: marquee 5s linear infinite;
+    font-family: var(--font-light);
+    font-size: 5rem;
+  }
+
+  .rect {
+    text-align: center;
+    background-color: var(--pink);
+    border: 0.4rem solid black !important;
+    margin: 0;
+    height: 8vh;
+  }
+
+  .boldd {
+    font-family: bandeins_strangemedium;
+  }
+
+  .table {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+
+  .table th {
+    vertical-align: middle;
+    padding: 0;
+    border: 0.4rem solid black;
+  }
+
+  .table td {
+    border: 0.4rem solid black;
+  }
+
+  .primariga {
+    border-bottom: 0.3rem solid black;
+    height: 10vh;
+  }
+
+  .clessidra {
+    background-color: var(--cyan);
+    border: 0.4rem solid black;
+    width: 9vh;
+    text-align: center;
+  }
+
+  .numero {
+    background-color: var(--cyan);
+    width: 10vh;
+    border: 0.4rem solid black;
+    text-align: right;
+  }
+
+  .rettangolo-segnaposto {
+    margin: 8rem 0.8rem;
+    width: 4vh;
+    height: 70%;
+    /* border-radius: 40px; */
+    border: 0px solid black;
+    background: none;
+  }
+
+  .rettangolo-bianco {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    /* border-radius: 40px; */
+    border: 0px solid black;
+    background: white;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+    z-index: 0;
+  }
+
+  .rettangolo-rosso {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    background: var(--green);
+    position: absolute;
+    top: 13%;
+    z-index: 1;
+  }
+
+  .rettangolo-border {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    border: 0.4rem solid black;
+    background: none;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+    z-index: 4;
+  }
+
+  #imgcles {
+    width: 3vh;
+    height: auto;
+  }
+
+  .titoloriga {
+    font-size: 5rem;
+    font-family: var(--font-light);
+    margin-bottom: 0;
+    margin-left: 3rem;
+  }
+
+  .tempo {
+    background-color: var(--cyan);
+    border: 0.4rem solid black;
+    border-right: 0.4rem solid black;
+    text-align: center;
+  }
+
+  .giustosbagliato {
+    border: 0.4rem solid black;
+    border-right: 0.4rem solid black;
+    text-align: center;
+  }
+
+  .prog {
+    width: 37%;
+    vertical-align: middle;
+  }
+
+  #Q3 {
+    width: 50%;
+  }
+
+  .numerotest {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  #NUMERI {
+    width: 100%;
+  }
+
+  .Q {
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  .ticker-wrap {
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+    background-color: var(--pink);
+    padding-left: 100%;
+  }
+
+  .ticker-wrap .ticker {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+  }
+
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    font-size: 6rem;
+    padding: 0 2rem;
+    vertical-align: middle;
+    font-family: var(--font-light);
+    color: white;
+  }
+}

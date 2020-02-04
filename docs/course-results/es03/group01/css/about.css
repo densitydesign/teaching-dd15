@@ -1,0 +1,792 @@
+/* main */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeSBdExfull';
+    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExfull';
+    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer .container-fluid {
+  position: fixed;
+  bottom: 2rem;
+}
+
+a:hover.sottolineatura {
+  text-decoration: none;
+}
+
+.body1 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--blue);
+  position: relative;
+}
+
+/* home page */
+
+.nav {
+  height: 9vh;
+  background-color: var(--violet);
+  border-bottom: 3px solid black;
+  z-index: 100;
+  position: relative;
+}
+
+.title1 {
+  font-family: var(--font-var);
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.title3 {
+  font-family: var(--font-semibold);
+  color: black;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 80px;
+  padding: 2vh 0 0 2rem;
+  margin: 0;
+}
+
+.whatsbehind {
+  height: 9vh;
+  padding: 2vh 3rem 0 0;
+  text-align: right;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  z-index: 10;
+}
+
+.anchor {
+  padding: 0;
+  margin: 3vh 0 0 4rem;
+  text-align: center;
+}
+
+.box {
+  padding: 0;
+  margin: 3.5vh 0 0 0;
+  width: 180px;
+  height: 84vh;
+  overflow-y: scroll;
+  border: 3px solid black;
+}
+
+.card-text {
+  font-family: var(--font-regular);
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  padding: 0 8rem 0 8rem;
+
+}
+
+.card-text.names {
+  font-family: var(--font-regular);
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding: 3rem 6rem 0 8rem;
+}
+
+.cit {
+  font-family: var(--font-regular);
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding: 0 12rem 0 12rem;
+
+}
+
+.dida {
+  font-family: var(--font-regular);
+  font-size: 1rem;
+  line-height: 0.5rem;
+  padding: 0 1rem 0 0;
+
+}
+
+.card-title {
+  font-family: var(--font-semibold);
+  padding: 6rem 0 0 8rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: var(--font-semibold);
+  padding: 0 0 2rem 8rem;
+  margin: 0;
+}
+
+.subtitlemiddle {
+  font-family: var(--font-semibold);
+  padding: 2rem 0 2rem 8rem;
+}
+
+.card-header {
+  border-radius: 0px !important;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  font-family: var(--font-semibold);
+  background-color: var(--pink);
+  border-bottom: 3px solid black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.card-body {
+  background-color: var(--white);
+  border-radius: 0px;
+}
+
+.card-body img {
+  margin: 2rem 0 3rem 4rem;
+  width: 80%;
+}
+
+.card-body img.topic {
+  margin: 2rem 0 3rem 17rem;
+  width: 30%;
+}
+
+.card-body img.topicsmall {
+  margin: 2rem 0 2rem 15rem;
+  width: 40%;
+}
+
+.card-body img.topicbig {
+  margin: 3rem 0 2rem 12rem;
+  width: 50%;
+}
+
+.card-body img.infografica {
+  margin: 2rem 0 2rem 0;
+  width: 100%;
+}
+
+.card-body img.dorian {
+  margin: 2.5rem 0 1rem 0;
+  width: 100%;
+}
+
+.card-body a {
+  font-family: var(--font-regular);
+  color: var(--violet);
+  text-decoration: none;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+}
+
+.card-body a:hover {
+  font-family: var(--font-regular);
+  color: var(--violet);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+}
+
+::-webkit-scrollbar {
+    width: 50px;
+    background-color: var(--white);
+    border-bottom: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 4px;
+    border: 3px solid white;
+    background-clip: padding-box;
+    -webkit-border-radius: 40px;
+    background-color: var(--yellow);
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  display: block;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  background-color: var(--pink);
+  height: 3.65rem;
+  background-image: url(../assets/Freccina.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+#Anchor1 {
+  width: 65%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor2 {
+  width: 65%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor3 {
+  width: 65%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor4 {
+  width: 65%;
+  cursor: pointer;
+}
+
+/* Query schermo touch */
+
+@media screen and (min-width: 3840px) {
+
+  .body1 {
+    min-height: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);
+    position: relative;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 5px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .logo {
+    height: 9vh;
+    padding: 2vh 0 0 4rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 2vh 4rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 4.5rem;
+    margin: 0;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 4.5rem;
+  }
+
+  .anchor {
+    padding: 4.5vh 0 3vh 0;
+    margin: 0 0 0 10rem;
+    text-align: center;
+  }
+
+  .box {
+    padding-right: 0;
+    margin-top: 5vh;
+    margin-left: 0;
+    width: 180px;
+    height: 81vh;
+    overflow-y: scroll;
+    border: 5px solid black;
+  }
+
+  .card-text {
+    font-family: var(--font-regular);
+    font-size: 4rem;
+    line-height: 5rem;
+    padding: 0 25rem 0 20rem;
+
+  }
+
+  .card-text.names {
+    font-family: var(--font-regular);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding: 12rem 25rem 0 20rem;
+  }
+
+  .cit {
+    font-family: var(--font-regular);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding: 0 40rem 0 30rem;
+
+  }
+
+  .dida {
+    font-family: var(--font-regular);
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    padding: 0 1rem 0 0;
+
+  }
+
+  .card-title {
+    font-family: var(--font-semibold);
+    padding: 6rem 0 0 20rem;
+    margin: 0;
+    font-size: 6rem;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    padding: 0 0 4rem 20rem;
+    margin: 0;
+    font-size: 5rem;
+  }
+
+  .subtitlemiddle {
+    font-family: var(--font-semibold);
+    padding: 4rem 0 4rem 20rem;
+    font-size: 5rem;
+  }
+
+  .card-header {
+    border-radius: 0px !important;
+    font-size: 3rem;
+    padding-left: 4rem;
+    font-family: var(--font-semibold);
+    background-color: var(--pink);
+    border-bottom: 5px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .card-body {
+    background-color: var(--white);
+    border-radius: 0px;
+  }
+
+  .card-body img {
+    margin: 2rem 0 6rem 12rem;
+    width: 80%;
+  }
+
+  .card-body img.topic {
+    margin: 4rem 0 6rem 38rem;
+    width: 35%;
+  }
+
+  .card-body img.topicsmall {
+    margin: 4rem 0 7rem 30rem;
+    width: 45%;
+  }
+
+  .card-body img.topicbig {
+    margin: 4rem 0 4rem 25rem;
+    width: 55%;
+  }
+
+  .card-body img.infografica {
+    margin: 4rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .card-body img.dorian {
+    margin: 4rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .card-body a {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .card-body a:hover {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: underline;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  ::-webkit-scrollbar {
+      width: 5rem;
+      background-color: var(--white);
+  }
+
+  ::-webkit-scrollbar-thumb {
+      height: 4px;
+      border: 3px solid white;
+      background-clip: padding-box;
+      -webkit-border-radius: 40px;
+      background-color: var(--yellow);
+      -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    background-color: var(--pink);
+    height: 6.35rem;
+    background-image: url(../assets/Freccina.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+
+  #Anchor1 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor2 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor3 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor4 {
+    width: 65%;
+    cursor: pointer;
+  }
+
+}
+
+
+/* Query schermo touch */
+
+@media screen and (max-width: 1024px) {
+
+  .body1 {
+    min-height: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);
+    position: relative;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 3px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .logo {
+    height: 9vh;
+    padding: 1vh 0 0 2rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 1vh 2rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 2rem;
+  }
+
+  .anchor {
+    padding: 6.8vh 0 3vh 0;
+    margin: 0 0 0 3rem;
+    text-align: center;
+  }
+
+  .box {
+    padding-right: 0;
+    margin-top: 4.5vh;
+    margin-left: 0;
+    width: 180px;
+    height: 81vh;
+    overflow-y: scroll;
+    border: 3px solid black;
+  }
+
+  .card-text {
+    font-family: var(--font-regular);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 2rem 0 3rem;
+
+  }
+
+  .card-text.names {
+    font-family: var(--font-regular);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem 0 3rem;
+  }
+
+  .cit {
+    font-family: var(--font-regular);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0 5rem 0 4.5rem;
+
+  }
+
+  .dida {
+    font-family: var(--font-regular);
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    padding: 0 0.8rem 0 0;
+
+  }
+
+  .card-title {
+    font-family: var(--font-semibold);
+    padding: 4rem 0 0 3rem;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    padding: 0 0 2rem 3rem;
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .subtitlemiddle {
+    font-family: var(--font-semibold);
+    padding: 2rem 0 2rem 3rem;
+    font-size: 2rem;
+  }
+
+  .card-header {
+    border-radius: 0px !important;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-family: var(--font-semibold);
+    background-color: var(--pink);
+    border-bottom: 3px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .card-body {
+    background-color: var(--white);
+    border-radius: 0px;
+  }
+
+  .card-body img {
+    margin: 1rem 0 2rem 4rem;
+    width: 80%;
+  }
+
+  .card-body img.topic {
+    margin: 2rem 0 2rem 10rem;
+    width: 35%;
+  }
+
+  .card-body img.topicsmall {
+    margin: 2rem 0 2rem 10rem;
+    width: 45%;
+  }
+
+  .card-body img.topicbig {
+    margin: 2rem 0 2rem 6rem;
+    width: 55%;
+  }
+
+  .card-body img.infografica {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+  }
+
+  .card-body img.dorian {
+    margin: 2rem 0 1rem 0;
+    width: 100%;
+  }
+
+  .card-body a {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .card-body a:hover {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: underline;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  ::-webkit-scrollbar {
+      width: 3rem;
+      background-color: var(--white);
+  }
+
+  ::-webkit-scrollbar-thumb {
+      height: 4px;
+      border: 2px solid white;
+      background-clip: padding-box;
+      -webkit-border-radius: 40px;
+      background-color: var(--yellow);
+      -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    background-color: var(--pink);
+    height: 3.95rem;
+    background-image: url(../assets/Freccina.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+
+  #Anchor1 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor2 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor3 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor4 {
+    width: 80%;
+    cursor: pointer;
+  }
+
+}
