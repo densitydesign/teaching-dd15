@@ -27,7 +27,6 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 						 <div key={item} id={groups[item].group} class="project--block">
 						 <div class="project--cover phase--2" key={item} style={{
 							 backgroundImage: `url(${groups[item].image})`,
-							 height: `50vh`
 						 }}>
 						 <div className="project--meta">
 						 <h3 key={item}>{"Group " + (i + 1)}</h3>
