@@ -73,8 +73,8 @@ groups:
   desc: ""
 ---
 
-In the second phase of the course students learn how to make use of online data to study social and cultural phenomena: in a question-driven process, each group design protocols for data collection and analysis and produce research findings using data visualizations. At the end of the phase each group design an interactive research report.
+In this phase students turn part of the research carried out in the previous phase into discursive communication artifacts that expose, show or make known the critical aspects of the subjects researched to a specific audience. To this end, the aim is to design communication artifacts that invite the public to reflect and act on the explored subjects.
 
-Each designed report analyzes a specific issue: memetic warfare, visual misinformation, dating and fake profiles, face recognition and its countermeasures, deep fakes and synthetic media, the effects of digital platforms on the visual representation of cities, visual censorship online, drones and aerial mapping, apps for face and body modifications.
+During this phase students reflect on the meaning and agency of "the public", how different groups mobilize around various issues and how data can play a central role in the process of forming publics. Students are also encouraged to recognize the political role that their design practices play with technology and how they impact on society.
 
-In all, they offer a critical overview of how digital technologies are blurring the boundaries between real and fake.
+The aim of the final phase of the course is for students to apply their communication design skills by using data to construct alternative narratives that expose, explain and/or explore the results of their research for an identified audience. The result of the phase is an experimental digital artifact that can be used by a specific audience to act on the topic.

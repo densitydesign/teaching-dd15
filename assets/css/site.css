@@ -40,7 +40,7 @@ header {
   position: sticky;
   top: 0;
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   background: #BFD1E5;
   background: linear-gradient(180deg, #BFD1E5 0%, #BFD1E5 60%, #BFD1E500 100%);
 }
@@ -354,7 +354,6 @@ aside a {
 }
 
 .link--phase {
-  position: relative;
   text-indent: 0;
   display: flex;
   justify-content: center;
@@ -425,6 +424,53 @@ aside h4 {
 .hero--text p {
 	text-indent: 0;
 }
+
+.phases--navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.phases--navigation h3 {
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+.phases--navigation a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.phases--navigation .before {
+  grid-column: 1 / span 1;
+}
+
+.phases--navigation .before h3::before {
+  content: "←";
+  color: var(--accent);
+  margin-right: 1rem;
+}
+
+.phases--navigation .all {
+  grid-column: 2 / span 1;
+}
+
+.phases--navigation .all h3::before, .phases--navigation .all h3::after {
+  content: "↑";
+  color: var(--accent);
+  margin: 0 1rem 0.2rem 1rem;
+}
+
+.phases--navigation .after {
+  grid-column: 3 / span 1;
+}
+
+.phases--navigation .after h3::after {
+  content: "→";
+  color: var(--accent);
+  margin-left: 1rem;
+}
+
 
 #single--phase {
   padding-left: 2rem;

@@ -3,9 +3,15 @@ import React from 'react';
 
 import PhaseThree from '../code/components/phase-03.js';
 
+const phase = 3;
+
 const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 	<html>
 		<main id="right--align">
+		<div className="phases--navigation">
+			<div className="before"><a href={ _relativeURL('/course-results/es0' + (phase - 1), _ID)}><h3>Data as Material</h3></a></div>
+			<div className="all"><a href={ _relativeURL('/course-results/', _ID)}><h3>All phases</h3></a></div>
+		</div>
 		<div id="phase3" className="link--phase">
 			<PhaseThree width="350" style={{strokeWidth: 1.5}}/>
 			<p>Phase 3</p>

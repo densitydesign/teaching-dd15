@@ -3,9 +3,15 @@ import React from 'react';
 
 import PhaseOne from '../code/components/phase-01.js';
 
+const phase = 1;
+
 const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 	<html>
 		<main id="right--align">
+		<div className="phases--navigation">
+			<div className="all"><a href={ _relativeURL('/course-results/', _ID)}><h3>All phases</h3></a></div>
+			<div className="after"><a href={ _relativeURL('/course-results/es0' + (phase + 1), _ID)}><h3>Data as Artifact</h3></a></div>
+		</div>
 		<div id="phase1" className="link--phase">
 			<PhaseOne width="350" style={{strokeWidth: 1.5}}/>
 			<p>Phase 1</p>
