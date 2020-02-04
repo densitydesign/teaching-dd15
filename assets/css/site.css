@@ -794,4 +794,12 @@ aside h4 {
   .container {
     width: 1600px;
   }
+
+  .link--booklet {
+    height: 40vh;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
 }
