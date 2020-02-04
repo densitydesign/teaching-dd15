@@ -1,15 +1,14 @@
 @font-face {
     font-family: 'Arial Narrow';
-    src: url('assets/fonts/arialnarrow.woff') format('woff');
-    src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+    src: url('../assets/fonts/arialnarrow.woff') format('woff');
+    src: url('../assets/fonts/arialnarrow.woff2') format('woff2');
 }
 
 body {
-    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png') no-repeat center center fixed;
     overflow-x: hidden;
     font-family: 'Arial Narrow';
     /* position: absolute;*/
-
 }
 
 
@@ -29,7 +28,7 @@ body {
     --main-txtpic-color: black;
     --main-txtpic-size: 1.3vw;
 
-    --button-shadow-color-main:black;  
+    --button-shadow-color-main:black;
 }
 
 .light {
@@ -136,8 +135,8 @@ body {
 }
 
 /* per indentare */
-.p-tab { 
-    text-indent: 2em; 
+.p-tab {
+    text-indent: 2em;
 }
 
 p {
@@ -240,7 +239,7 @@ img {
 }
 
 .my__grid{
-    display: flex; 
+    display: flex;
 }
 
 .animal {
@@ -250,7 +249,7 @@ img {
     float: left;
 }
 
-.animal p {  
+.animal p {
     margin: 0.5rem 0 0 0;
     font-size: var(--main-note-size);
     text-align: left;
@@ -281,14 +280,14 @@ img {
     background-color: 0;
 }
 
-.filter__button { 
+.filter__button {
     font-size: 1.3rem;
     border: 1pt solid black;
     margin-top: 5rem;
     background: white;
 }
 
-.filters { 
+.filters {
     font-size: 0.9rem;
     margin-top: 4rem;
     background: none;
@@ -526,7 +525,7 @@ a:hover {
     font-size: 0.5rem;
     margin-bottom: 0rem;
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 #demo {
@@ -571,7 +570,7 @@ a:hover {
     left: 10rem;
     padding: 0.5rem;
     text-align: left;
-    line-height: 1.2em; 
+    line-height: 1.2em;
     z-index: 1;
 }
 
@@ -586,7 +585,7 @@ a:hover {
     color:black;
     padding: 0.5rem;
     text-align: left;
-    line-height: 1.2em; 
+    line-height: 1.2em;
     margin-top: 2rem;
     display: none;
 }
@@ -597,7 +596,7 @@ a:hover {
 }
 
 .comingsoon {
-    margin-top: 12rem;  
+    margin-top: 12rem;
 }
 
 .normale {
@@ -769,7 +768,7 @@ mark{
     border: none;
     z-index: 1000;
     -webkit-transform:translateY(-5vw) rotate(25deg) scale(1.02);
-    transform-origin:center;   
+    transform-origin:center;
 
 }
 
@@ -822,20 +821,20 @@ mark{
 .testi-about {
     font-size: 2vw;
     line-height: 1.1em;
-    z-index: 1; 
+    z-index: 1;
     color: white;
 }
 
 
 #formica, #img-NewHampshire, #img-cheezburger, #img-xijinping, #img-iran, #img-brexit, #img-hkprotest, #img-memetic, #virus .visible {
-    visibility: visible;  
+    visibility: visible;
 }
 
 
 #img-brexit, #img-hkprotest, #img-xijinping, #img-memetic {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-50%); 
+    transform: translateX(-50%)  translateY(-50%);
     pointer-events:none;
     width: 30%;
     z-index: 0;
@@ -844,7 +843,7 @@ mark{
 #formica {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-145%); 
+    transform: translateX(-50%)  translateY(-145%);
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -854,7 +853,7 @@ mark{
 #img-iran {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-10%)  translateY(-55%); 
+    transform: translateX(-10%)  translateY(-55%);
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -864,7 +863,7 @@ mark{
 #virus {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-120%); 
+    transform: translateX(-50%)  translateY(-120%);
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -874,7 +873,7 @@ mark{
 #img-NewHampshire {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-150%); 
+    transform: translateX(-50%)  translateY(-150%);
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -884,7 +883,7 @@ mark{
 #img-cheezburger {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-105%); 
+    transform: translateX(-50%)  translateY(-105%);
     pointer-events:none;
     width: 25%;
     height: auto;
@@ -1302,7 +1301,7 @@ canvas {
         padding: 0rem;
         margin-top:0;
         margin-bottom: 0;
-        width:190%;   
+        width:190%;
     }
 
     .spiegawarfare-text {
@@ -1314,7 +1313,7 @@ canvas {
         position: relative;
         top: 0%;
         left: 0%;
-        transform: translate(0%, 0%);  
+        transform: translate(0%, 0%);
     }
 
     /*TESTO MW HOME*/
@@ -1356,7 +1355,7 @@ canvas {
     }
 
     sup {
-        top:0; 
+        top:0;
     }
     #memeInfo {
         position: relative;
@@ -1457,10 +1456,10 @@ canvas {
         display: none;
     }
     .stella {
-        display: none;    
-    } 
+        display: none;
+    }
     .stella:before {
-        display: none;    
+        display: none;
     }
 
     .HKinfosSmall {
@@ -1673,7 +1672,7 @@ canvas {
     .testi-about {
         font-size: 4vw;
         line-height: 1.1em;
-        z-index: 1; 
+        z-index: 1;
         color: white;
     }
 
@@ -1689,7 +1688,7 @@ canvas {
 
 }
 
-@media only screen and (min-width:801px)  { 
+@media only screen and (min-width:801px)  {
     .centerSticker {
         position: absolute;
         top: 50%;

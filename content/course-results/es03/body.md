@@ -14,7 +14,7 @@ groups:
   subtitle: "Investigating, Exposing and taking action against"
   names: "Cristina Pita da Veiga, Evansha Agrawal, Guilherme Appolinario, Maria Almeida, Natalia Malaver, Rebeca Vittorazo"
   image: "../../assets/img/es03/cover-g02.gif"
-  desc: ""
+  desc: "Security cameras are everywhere and breaches in them is a rising issue. How would you feel knowing someone unknown is watching your camera? The project aims to inform and warn the audience by unveiling the process of tracing camera location and who and what they are surveilling."
 
 - group: group03
   title: "Memetic Warfare Archive"
