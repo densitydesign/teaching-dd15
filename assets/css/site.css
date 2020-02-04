@@ -823,7 +823,7 @@ aside h4 {
   }
 }
 
-@media only screen and (device-width: 3840px) {
+@media only screen and (min-device-width: 2048px) {
   :root {
     --accent: #EFFFAA;
     --accent-tr: #EFFFAA80;
