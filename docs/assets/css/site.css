@@ -429,11 +429,20 @@ aside h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  text-indent: 0;
 }
 
-.phases--navigation h3 {
+.phases--navigation button {
+  background: var(--background);
+  font: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
   margin-bottom: 5rem;
+  border: 1px solid var(--accent);
+  cursor: pointer;
 }
 
 .phases--navigation a {
@@ -443,9 +452,10 @@ aside h4 {
 
 .phases--navigation .before {
   grid-column: 1 / span 1;
+  text-align: left;
 }
 
-.phases--navigation .before h3::before {
+.phases--navigation .before button::before {
   content: "←";
   color: var(--accent);
   margin-right: 1rem;
@@ -455,17 +465,12 @@ aside h4 {
   grid-column: 2 / span 1;
 }
 
-.phases--navigation .all h3::before, .phases--navigation .all h3::after {
-  content: "↑";
-  color: var(--accent);
-  margin: 0 1rem 0.2rem 1rem;
-}
-
 .phases--navigation .after {
   grid-column: 3 / span 1;
+  text-align: right;
 }
 
-.phases--navigation .after h3::after {
+.phases--navigation .after button::after {
   content: "→";
   color: var(--accent);
   margin-left: 1rem;
@@ -746,6 +751,10 @@ aside h4 {
     grid-column: 1 / 6 !important;
     height: 15vh;
     margin-bottom: 1rem;
+  }
+
+  .phases--navigation .before, .phases--navigation .after {
+    display: none;
   }
 
   #syllabus--aside {

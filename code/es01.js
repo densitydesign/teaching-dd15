@@ -9,8 +9,8 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 	<html>
 		<main id="right--align">
 		<div className="phases--navigation">
-			<div className="all"><a href={ _relativeURL('/course-results/', _ID)}><h3>All phases</h3></a></div>
-			<div className="after"><a href={ _relativeURL('/course-results/es0' + (phase + 1), _ID)}><h3>Data as Artifact</h3></a></div>
+			<div className="all"><a href={ _relativeURL('/course-results/', _ID)}><button>All phases</button></a></div>
+			<div className="after"><a href={ _relativeURL('/course-results/es0' + (phase + 1), _ID)}><button>Data as Artifact</button></a></div>
 		</div>
 		<div id="phase1" className="link--phase">
 			<PhaseOne width="350" style={{strokeWidth: 1.5}}/>
