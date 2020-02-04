@@ -1,0 +1,90 @@
+html,body {background-color:#7135b6;
+height:100%;
+}
+
+.container{height:100%;
+}
+
+.st0{fill:#D2D2D2;}
+
+.resize{
+       width:50em;
+       height:auto;}
+
+/*animazione frutta*/
+#fruitOut{
+    animation: fadeOut 0.3s forwards;
+    animation-delay:0.5s;
+}
+
+@keyframes fadeOut {to{opacity:0;}}
+
+#banana_moveLeft{
+    animation:translateLeft 1s ease-in-out forwards;
+    animation-delay:0.7s;
+}
+
+@keyframes translateLeft{
+    0%{transform: translateX(0em)}
+    50%{transform: translateX(7em)}
+    100%{transform: translateX(-23em)}
+}
+
+
+
+#banana_moveRight{
+    animation:translateRight 1s ease-in-out forwards;
+    animation-delay:0.7s;
+}
+
+@keyframes translateRight{
+    0%{transform: translateX(0em)}
+    50%{transform: translateX(7em)}
+   100%{transform: translateX(36.5em)}
+}
+
+
+/*animazione testo*/
+
+
+#text-style{
+    position:absolute;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-size: 7em;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.level {
+    color: #d2d2d2;
+    visibility: hidden;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1.8s;
+    
+}
+
+@keyframes fadeIn {
+    to {visibility:visible;}
+}
+
+
+.gradient{
+    text-align: center;
+    background: linear-gradient(to right, #d299f8 20%, #ffffff 40%, #f4aef8 60%, #d299f8 80%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s infinite linear;
+}
+
+@keyframes shine {
+    0% {background-position: 200% center;}
+}
+
+
+
+
+

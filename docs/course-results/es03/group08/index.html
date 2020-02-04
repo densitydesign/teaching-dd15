@@ -1,0 +1,1378 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- link to css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/img-urls.css">
+  <link rel="stylesheet" type="text/css" href="css/ivy_style.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <!-- link to fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Playfair+Display:700|Raleway:300,400,700&display=swap"
+    <!-- link to Favicon -->
+  <link href="res/favicon.ico" rel="icon" type="res/favicon.ico" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="114x114" href="res/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="res/favicon/android-chrome-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="res/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="res/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="res/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <title>Deepfake Lab</title>
+  <meta name="keywords" content="deepfake, lab, video">
+</head>
+
+<body>
+
+  <div class="top-navbar">
+    <div class="top-navabar-item">
+      <p class="orange"><strong>Home</strong></a></p>
+    </div>
+    <div class="top-navabar-item">
+      <p><a href="Protocol 30-1\protocol.html">Protocol</a></p>
+    </div>
+
+    <div class="top-navabar-item">
+      <p><a href="html/about.html">About Us</a></p>
+    </div>
+  </div>
+  <div class="left-navbar">
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+    <div class="navbar-element">
+    </div>
+  </div>
+
+  <!-- FIRST SECTION -->
+  <!-- HOME PAGE -->
+  <div class="container  normal" id="first">
+    <div class="content">
+      <h1 class="number outline title">DEEPFAKE<br>LAB</h1>
+      <div class="subtitle">Unraveling the mystery around deepfakes.</div>
+      <div class="number" id="first"></div>
+    </div>
+  </div>
+
+  <!-- SECOND SECTION -->
+  <!-- INTRODUCTION VIDEO -->
+  <div class="container" id="second">
+    <div class="content">
+
+      <!-- AUTO MARGIN DIV -->
+      <div class="auto-margin">
+      </div>
+      <div class="intro">
+        <div class="video-intro">
+          <video autoplay loop muted controls class="" id="vid-second">
+            <source src="res/vid/00-Introductory Video 6 of us.mp4" type="video/mp4" >
+          </video>
+        </div>
+        <div class="scroll-down">
+          <p>Scroll down</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THIRD SECTION -->
+  <!-- BABY ELON -->
+  <!-- type: resizable -->
+  <div class="container" id="third">
+    <div class="content wide" id="third">
+      <div class="video-main left" id="third">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-desc">
+          <div class="number outline">
+            <p>01.</p>
+          </div>
+          <div class="video-text-container">
+            <div class="video-title white">
+              Let’s have a look at a popular example from the internet.
+
+            </div>
+            <div class="video-desc orange">
+              In this video Elon Musk’s face has been translated to a baby. This
+              type of faceswap is the most common use of deepfake technologies.
+              The edges are not sharp and there is a difference in skin colour.
+            </div>
+            <div class="video-imgs">
+              <div class="img-container img-small" id="bb">
+                <div class="img-02_Baby img-adapt">
+                </div>
+              </div>
+              <div class="img-container img-small" id="Elon">
+                <div class="img-02_Elon img-adapt">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-video-player">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-third">
+                  <source src="res/vid/01_Elon_Musk.mp4" type="video/mp4" >
+                </video>
+              </div>
+            </div>
+            <div class="button" id="third">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="icons-row">
+              <img class="icon" id="skin_color" src="res/ico/skin_tone.svg">
+            </div>
+            <div class="icon-desc-row">
+              <div class="icon-desc" id="skin_color">
+                <p>
+                  <b>Skin color mismatch:</b><br>
+                  A difference in skin tone between the mask and target face.
+                  The face seems to be covered by a layer of different colours,
+                  showing edges or spots.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            A deepfake is created by a computer program that trains itself
+            to reproduce a face. By adjusting parameters in its system,
+            the program becomes better in recreating a specific person,
+            this is a type of deep learning. As an output, the model
+            creates an overlay for the face, traces of this facial mask
+            can be seen in this video.
+          </p>
+        </div>
+        <div class="info-additional">
+          <p>Original Baby video source: <a href="https://www.youtube.com/watch?v=phwgt64oGMs" target="_blank">YouTube -
+              Cutest Baby Montage Ever.</a> </p>
+          <p>Deepfake video source: <a href="https://www.youtube.com/watch?v=WHwQeetjLwk" target="_blank">YouTube - Baby
+              Elon</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FORTH SECTION -->
+  <!-- PIPI-SHIA VIDEO -->
+  <!-- type: fixed -->
+  <div class="container" id="forth">
+    <div class="content wide" id="forth">
+      <div class="video-main left" id="forth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-player left">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-forth">
+                  <source src="res/vid/02_Pipi_Shia.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="forth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="icons-row">
+              <img class="icon" id="skin_color" src="res/ico/skin_tone.svg">
+              <img class="icon" id="expression" src="res/ico/expression.svg">
+              <img class="icon" id="edges" src="res/ico/edges.svg">
+            </div>
+            <div class="icon-desc-row">
+              <div class="icon-desc" id="skin_color">
+                <p>
+                  <b>Skin colour mismatch:</b><br>
+                  A difference in skin tone between the mask and target face.
+                  The face seems to be covered by a layer of different colours, showing edges or spots.
+                </p>
+              </div>
+              <div class="icon-desc" id="edges">
+                <p>
+                  <b>Visible edges:</b><br>
+                  The edges of the mask are visible. This can either be as a sharp,
+                  or blurred edge surrounding the face.
+                </p>
+              </div>
+              <div class="icon-desc" id="expression">
+                <p>
+                  <b>Mismatch expressions:</b><br>
+                  The expressions on the face do not match the target face. Natural
+                  behaviour of facial features seems unarticulated, doubled, or not present.
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="video-desc-container">
+          <div class="col-video-desc">
+            <div class="number right outline">
+              <p class="number" id="forth"> 02.</pclass="number" id="third">
+            </div>
+            <div class="video-text-container">
+              <div class="video-title white">
+                You can also try this at home. We will show you what you need.
+              </div>
+              <div class="video-desc orange">
+                Deepfake videos can be made with consumer computers but you need
+                quite a powerful graphical card. This video shows our first trial.
+                It is very important to have the right source videos.
+              </div>
+              <div class="video-imgs">
+                <div class="img-container img-small" id="pipi">
+                  <div class="img-pipi-shia-02 img-adapt">
+                  </div>
+                </div>
+                <div class="img-container img-small" id="si">
+                  <div class="img-pipi-shia-01 img-adapt">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            The images used to train the algorithm did not contain the right
+            facial expressions to cover Shia, nor did they contain footage of a
+            facial profile. If the neural network is not trained for these situations,
+            it cannot produce the right overlay. Pay attention to how Shia's mouth
+            appears from underneath the mask, resulting in two mouths.
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph-pipi-shia" src="res/svg/graph-pipi-shia.svg">
+        </div>
+        <div class="info-additional">
+          <p>Target video source: <a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0" target="_blank">YouTube - Just
+              Do It!</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FIFTH SECTION -->
+  <!-- IVANA-ANNE VIDEO -->
+  <!-- type: interactive -->
+
+<!-- NEW ELON FOR IVANA -->
+<div class="container" id="fifth">
+  <div class="content wide" id="fifth">
+    <div class="video-main left" id="fifth">
+
+      <!-- AUTO MARGIN DIV -->
+      <div class="auto-margin">
+      </div>
+
+      <div class="col-video-desc">
+        <div class="number outline">
+          <p>03.</p>
+        </div>
+        <div class="video-text-container">
+          <div class="video-title white">
+            So, what steps do you have to take in order to make a deepfake?
+
+          </div>
+          <div class="video-desc orange">
+            You need two videos, a source video, and a target video. The program
+            will train itself according to both and create a mask that can be
+            placed onto the target video with video editing software.
+            <br> <strong> 1st:</strong>  select a video you want to insert
+            a face into. <strong> 2nd:</strong> record a dataset for the face you want to place that matches the
+            target. <strong> 3rd:</strong>  cover the remaining faces to direct the algorithm.
+          <strong> 4th:</strong>  the algorithm will position and crop the target face.
+            <strong> 5th:</strong>  the algorithm generates a mask that must be aligned with
+            the target video. <strong> 6th:</strong>  edit the video in post to visually
+            embed the mask.</br>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-video-player">
+        <div class="video-row">
+          <div class="interactive">
+            <div class="video-collection" style="height: 25vw;">
+
+
+
+              <div class="video-interactive-container" id="ref">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="original">
+                    <video autoplay loop muted class="scale-1" id="vid-original">
+                      <source src="res/vid/int00/00-original.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-interactive-container  translate-100" id="ref">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="dataset">
+                    <video autoplay loop muted class="scale-1" id="vid-dataset">
+                      <source src="res/vid/int00/0_dataset.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-interactive-container translate-200">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="mask">
+                    <video autoplay loop muted class="scale-1" id="vid-mask">
+                      <source src="res/vid/int00/01-mask.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="video-interactive-container translate-300">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="alignment">
+                    <video autoplay loop muted class="scale-1" id="vid-alignment">
+                      <source src="res/vid/int00/02-alignment.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="video-interactive-container translate-400">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="deepfake">
+                    <video autoplay loop muted class="scale-1" id="vid-deepfake">
+                      <source src="res/vid/int00/03-deepfake.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+              <div class="video-interactive-container translate-500">
+                <div class="video-player-container video-int">
+                  <div class="video-player" id="post">
+                    <video autoplay loop muted class="scale-1" id="vid-post">
+                      <source src="res/vid/int00/04-post.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="button" id="fifth">
+            <p id="plus">+</p>
+            <p id="minus" style="display: none;">-</p>
+          </div>
+        </div>
+        <div class="video-controls">
+
+          <div class="ivana-anne" id="original">
+            <div class="dot" id="original">
+
+            </div>
+            <div class="icon-text" id="original">
+              <p id="original">
+                Original
+              </p>
+            </div>
+          </div>
+
+          <div class="ivana-anne" id="dataset">
+            <div class="dot" id="dataset">
+
+            </div>
+            <div class="icon-text" id="dataset">
+              <p id="dataset">
+                Dataset
+              </p>
+            </div>
+          </div>
+
+          <div class="ivana-anne" id="mask">
+            <div class="dot" id="mask">
+
+            </div>
+            <div class="icon-text" id="mask">
+              <p id="mask">
+                Mask
+              </p>
+            </div>
+          </div>
+          <div class="ivana-anne" id="alignment">
+            <div class="dot" id="alignment">
+
+            </div>
+            <div class="icon-text" id="alignment">
+              <p id="alignment">
+                Alignment
+              </p>
+            </div>
+          </div>
+          <div class="ivana-anne" id="deepfake">
+            <div class="dot" id="deepfake">
+
+            </div>
+            <div class="icon-text" id="deepfake">
+              <p id="deepfake">
+                Deepfake
+              </p>
+            </div>
+          </div>
+          <div class="ivana-anne" id="post">
+            <div class="dot" id="post">
+
+            </div>
+            <div class="icon-text" id="post">
+              <p id="post">
+                Post
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="video-info white">
+
+      <!-- AUTO MARGIN DIV -->
+      <div class="auto-margin">
+      </div>
+
+      <div class="info-tech-text">
+        <p>
+          As we mentioned before, the model is training itself. More training
+          practice on the dataset will result in higher quality output. For this
+          video, we matched the lighting with the target video to improve the
+          quality of the dataset. Facial expressions were recorded similar to
+          the movie to provide the program with the right information.
+        </p>
+      </div>
+      <div class="info-graph">
+        <img class="graph" id="graph-ivanna-anne" src="res/svg/graph-ivanna-anne.svg">
+      </div>
+      <div class="info-additional">
+        <p>Original target video: <a href="https://youtu.be/b2f2Kqt_KcE" target="_blank">The Devil Wears Prada (2/5) Movie CLIP - Andy's Interview (2006) HD
+        </a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END NEW ELON FON IVANA-->
+
+
+
+  <!-- SIXTH SECTION -->
+  <!-- EXPERIMENT 1 -->
+  <!-- ARTHUR-SHERLOCK -->
+  <!-- DATASET SIZE -->
+  <!-- type: resizable -->
+  <div class="container" id="sixth">
+    <div class="content wide" id="sixth">
+      <div class="video-main left" id="sixth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+        <div class="col-video-desc">
+          <div class="number outline">
+            <p class="number" id="sixth">04.</pclass="number" id="third">
+          </div>
+          <div class="video-text-container">
+            <div class="video-title white">
+              What happens if we provide the program with more content?
+              Will it be better?
+            </div>
+            <div class="video-desc orange">
+              In this experiment, two programs were given a different number of
+              images. More source material clearly improves the output. The
+              model had more information on the face and could develop a
+              better result.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-video-player">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-sixth"> 
+                  <source src="res/vid/04_Sherlock Arthur.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="sixth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="video-imgs">
+              <div class="img-container img-small margin-left-2_5" id="Sh">
+                <div class="img-05_Sherlock img-adapt">
+                </div>
+              </div>
+              <div class="img-container img-small" id="art">
+                <div class="img-05_Arthur img-adapt">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            This experiment was executed with the same source video exported at
+            a different framerate, hence both models were trained with the exact
+            same studio setup. The amount of training cycles per image is equal
+            but the training time increased due to a bigger dataset. It is
+            clearly visible that the algorithm trained with more images can
+            produce a more refined expression matching the target.
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph-arthur-sherlock" src="res/svg/graph-arthur-sherlock.svg">
+        </div>
+        <div class="info-additional">
+          <p>Original target video:<a href="https://youtu.be/MAA1e4_HWdA" target="_blank"> Rooftop Showdown | The
+              Reichenbach Fall | Sherlock</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEVENTH SECTION -->
+  <!-- PIPI-PADME VIDEO -->
+  <!-- type: fixed -->
+  <div class="container" id="seventh">
+    <div class="content wide" id="seventh">
+      <div class="video-main left" id="seventh">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-player left">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-seventh">
+                  <source src="res/vid/05_Pipi_Padme.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="seventh">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="icons-row">
+              <img class="icon" id="skin_color" src="res/ico/skin_tone.svg">
+              <img class="icon" id="expression" src="res/ico/expression.svg">
+              <img class="icon" id="edges" src="res/ico/edges.svg" style="opacity: 0.3;">
+              <img class="icon" id="blur" src="res/ico/blur.svg">
+              <img class="icon" id="profile" src="res/ico/profile.svg">
+            </div>
+            <div class="icon-desc-row">
+              <div class="icon-desc" id="skin_color">
+                <p>
+                  <b>Skin colour mismatch:</b><br>
+                  A difference in skin tone between the mask and target face.
+                  The face seems to be covered by a layer of different colours, showing edges or spots.
+                </p>
+              </div>
+              <div class="icon-desc" id="edges">
+                <p>
+                  <b>Visible edges:</b><br>
+                  The edges of the mask are visible. This can either be as a sharp,
+                  or blurred edge surrounding the face.
+                </p>
+              </div>
+              <div class="icon-desc" id="expression">
+                <p>
+                  <b>Mismatch expressions:</b><br>
+                  The expressions on the face do not match the target face. Natural
+                  behaviour of facial features seems unarticulated, doubled, or not present.
+                </p>
+              </div>
+              <div class="icon-desc" id="blur">
+                <p>
+                  <b>Blurred face:</b><br>
+                  The mask is blurred. There is a difference in sharpness between the mask
+                  and the rest of the video, either blurred or a different resolution.
+                </p>
+              </div>
+              <div class="icon-desc" id="profile">
+                <p>
+                  <b>Profile borders:</b><br>
+                  The side view of the face seems incorrect. The deepfake mask is not working,
+                  less detailed, or incorrectly aligned.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="video-desc-container">
+          <div class="col-video-desc">
+            <div class="number right outline">
+              <p class="number" id="seventh">05.</p>
+            </div>
+            <div class="video-text-container">
+              <div class="video-title white">
+                So how susceptible are you? Can we steal your social media
+                content and create a good deepfake?
+              </div>
+              <div class="video-desc orange">
+                We took all the Facebook images from one of our team members
+                and created a deepfake. She smiled in almost all of the source
+                images, as a result, the algorithm could not generate nonsmiling
+                output.
+              </div>
+              <div class="video-imgs">
+                <div class="img-container img-small" id="pipi">
+                  <div class="img-06_Natalie img-adapt">
+                  </div>
+                </div>
+                <div class="img-container img-small" id="fb">
+                  <div class="img-pipi-fb img-adapt">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            A video contains much more facial nuances compared to the images we
+            took from Facebook. Our team member presented herself on the
+            internet according to self-selected images, leaving out all the
+            content needed to create realistic facial expressions for speech.
+            Although better technologies might be able to fabricate expressions,
+            without diverse source material, it will never convince an acquaintance.
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph-pipi-natalie" src="res/svg/graph-pipi-natalie.svg">
+        </div>
+        <div class="info-additional">
+          <p>Target video source: <a href="https://www.youtube.com/watch?v=b8QGlwSt6vs" target="_blank">YouTube - Padmé
+              meets Anakin</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EIGHTH SECTION -->
+  <!-- INDIANA JONES -->
+  <!-- type: resizable -->
+  <div class="container" id="eighth">
+    <div class="content wide" id="eighth">
+      <div class="video-main left" id="eighth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-desc">
+          <div class="number outline">
+            <p class="number" id="eight">06.</p>
+          </div>
+          <div class="video-text-container">
+            <div class="video-title white">
+              We have just seen how the source is important to train the
+              algorithm. What about the target video?
+
+            </div>
+            <div class="video-desc orange">
+              Even with a good source, it can be hard to create a deepfake.
+              Indiana Jones contains chaotic shots, compared to the cleaner
+              videos we used before, the algorithm now has difficulty keeping up.
+            </div>
+            <div class="video-imgs">
+              <div class="img-container img-small" id="in">
+                <div class="img-07_Indiana img-adapt">
+                </div>
+              </div>
+              <div class="img-container img-small" id="ai">
+                <div class="img-07_Andrej img-adapt">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-video-player">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-eight">
+                  <source src="res/vid/07_Indiana.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="eighth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="icons-row">
+              <img class="icon" id="skin_color" src="res/ico/skin_tone.svg" style="opacity: 0.3;">
+              <img class="icon" id="expression" src="res/ico/expression.svg" style="opacity: 0.3;">
+              <img class="icon" id="edges" src="res/ico/edges.svg">
+              <img class="icon" id="blur" src="res/ico/blur.svg">
+              <img class="icon" id="profile" src="res/ico/profile.svg" style="opacity: 0.3;">
+              <img class="icon" id="flicker" src="res/ico/flicker.svg">
+              <img class="icon" id="perspective" src="res/ico/perspective.svg">
+            </div>
+            <div class="icon-desc-row">
+              <div class="icon-desc" id="skin_color">
+                <p>
+                  <b>Skin colour mismatch:</b><br>
+                  A difference in skin tone between the mask and target face.
+                  The face seems to be covered by a layer of different colours, showing edges or spots.
+                </p>
+              </div>
+              <div class="icon-desc" id="edges">
+                <p>
+                  <b>Visible edges:</b><br>
+                  The edges of the mask are visible. This can either be as a sharp,
+                  or blurred edge surrounding the face.
+                </p>
+              </div>
+              <div class="icon-desc" id="expression">
+                <p>
+                  <b>Mismatch expressions:</b><br>
+                  The expressions on the face do not match the target face. Natural
+                  behaviour of facial features seems unarticulated, doubled, or not present.
+                </p>
+              </div>
+              <div class="icon-desc" id="blur">
+                <p>
+                  <b>Blurred face:</b><br>
+                  The mask is blurred. There is a difference in sharpness between the mask
+                  and the rest of the video, either blurred or a different resolution.
+                </p>
+              </div>
+              <div class="icon-desc" id="profile">
+                <p>
+                  <b>Profile borders:</b><br>
+                  The side view of the face seems incorrect. The deepfake mask is not working,
+                  less detailed, or incorrectly aligned.
+                </p>
+              </div>
+              <div class="icon-desc" id="flicker">
+                <p>
+                  <b>Flicker effect:</b><br>
+                  Flicker of the original and the deepfake face. In critical moments the
+                  algorithm can’t recognise the face and ceases to create the mask for a moment.
+                </p>
+              </div>
+              <div class="icon-desc" id="perspective">
+                <p>
+                  <b>Wrong perspective:</b><br>
+                  The deepfake has a different perspective from the rest of the video.
+                  The source and target video differ in focal length.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            The deepfake was exported with a resolution of 64 px which meant
+            that it took less time to train the algorithm. In this case, the
+            model only had to learn how to create a low-resolution image. In
+            close up face shots the low resolution is evident.
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph-andrej-indiana" src="res/svg/graph-andrej-indiana.svg">
+        </div>
+        <div class="info-additional">
+          <p>Original target video: <a href="https://youtu.be/zYWLE9HIqUM" target="_blank">Rope Bridge Fight | Indiana
+              Jones and the Temple of Doom</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NINTH SECTION -->
+  <!-- BILL-ARNOLD VIDEO -->
+  <!-- type: fixed -->
+  <div class="container" id="ninth">
+    <div class="content wide" id="ninth">
+      <div class="video-main left" id="ninth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-player left">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-ninth">
+                  <source src="res/vid/07_Bill_Hader.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="ninth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="icons-row">
+              <img class="icon" id="skin_color" src="res/ico/skin_tone.svg" style="opacity: 0.3;">
+              <img class="icon" id="expression" src="res/ico/expression.svg" style="opacity: 0.3;">
+              <img class="icon" id="edges" src="res/ico/edges.svg" style="opacity: 0.3;">
+              <img class="icon" id="blur" src="res/ico/blur.svg" style="opacity: 0.3;">
+              <img class="icon" id="profile" src="res/ico/profile.svg" style="opacity: 0.3;">
+              <img class="icon" id="flicker" src="res/ico/flicker.svg" style="opacity: 0.3;">
+              <img class="icon" id="perspective" src="res/ico/perspective.svg" style="opacity: 0.3;">
+              <img class="icon" id="occlusion" src="res/ico/occlusion.svg">
+            </div>
+            <div class="icon-desc-row">
+              <div class="icon-desc" id="skin_color">
+                <p>
+                  <b>Skin colour mismatch:</b><br>
+                  A difference in skin tone between the mask and target face.
+                  The face seems to be covered by a layer of different colours, showing edges or spots.
+                </p>
+              </div>
+              <div class="icon-desc" id="edges">
+                <p>
+                  <b>Visible edges:</b><br>
+                  The edges of the mask are visible. This can either be as a sharp,
+                  or blurred edge surrounding the face.
+                </p>
+              </div>
+              <div class="icon-desc" id="expression">
+                <p>
+                  <b>Mismatch expressions:</b><br>
+                  The expressions on the face do not match the target face. Natural
+                  behaviour of facial features seems unarticulated, doubled, or not present.
+                </p>
+              </div>
+              <div class="icon-desc" id="blur">
+                <p>
+                  <b>Blurred face:</b><br>
+                  The mask is blurred. There is a difference in sharpness between the mask
+                  and the rest of the video, either blurred or a different resolution.
+                </p>
+              </div>
+              <div class="icon-desc" id="profile">
+                <p>
+                  <b>Profile borders:</b><br>
+                  The side view of the face seems incorrect. The deepfake mask is not working,
+                  less detailed, or incorrectly aligned.
+                </p>
+              </div>
+              <div class="icon-desc" id="flicker">
+                <p>
+                  <b>Flicker effect:</b><br>
+                  Flicker of the original and the deepfake face. In critical moments the
+                  algorithm can’t recognise the face and ceases to create the mask for a moment.
+                </p>
+              </div>
+              <div class="icon-desc" id="perspective">
+                <p>
+                  <b>Wrong perspective:</b><br>
+                  The deepfake has a different perspective from the rest of the video.
+                  The source and target video differ in focal length.
+                </p>
+              </div>
+              <div class="icon-desc" id="occlusion">
+                <p>
+                  <b>Face occlusion</b><br>
+                  When objects pass in front of the face, the mask distorts or covers the object.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="video-desc-container">
+          <div class="col-video-desc">
+            <div class="number right outline">
+              <p class="number" id="ninth">07.</p>
+            </div>
+            <div class="video-text-container">
+              <div class="video-title white">
+                Sometimes the two just melt together, in the following video
+                the target video even imitates his new face.
+              </div>
+              <div class="video-desc orange">
+                This deepfake video was made out of a talk show fragment where
+                Bill Hader impersonates Arnold Schwarzenegger. By using the
+                right source material for Arnold Schwarzenegger, the results
+                came out very convincing.
+              </div>
+              <div class="video-imgs">
+                <div class="img-container img-small" id="bh">
+                  <div class="img-08_Bill_hader img-adapt">
+                  </div>
+                </div>
+                <div class="img-container img-small" id="arn">
+                  <div class="img-08_Arnold img-adapt">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            The face blending, skin tone, and resolution are very good. The
+            distant shot makes it difficult to see any blur. Probably the
+            post-production was well executed. Only when Bill Hader moves
+            his finger in front of his face, it disappears behind the mask.
+            The difference in sharpness and the angle of the finger suggest
+            that the creator has tried to hide the effect in post-production.
+          </p>
+        </div>
+        <div class="info-additional">
+          <p>Original target video: <a href="https://teamcoco.com/video/bill-hader-presents-schwarzenegger-baby"
+              target="_blank">Bill Hader Presents: Schwarzenegger Baby</a> </p>
+          <p>Source deepfaked video: <a href="https://youtu.be/bPhUhypV27w" target="_blank">Bill Hader impersonates
+              Arnold Schwarzenegger</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TENTH SECTION -->
+  <!-- EXPERIMENT 2 -->
+  <!-- YOUELING-INTERVIEW -->
+  <!-- ITERATION AMOUNT -->
+  <!-- type: resizable -->
+  <div class="container" id="tenth">
+    <div class="content wide" id="tenth">
+      <div class="video-main left" id="tenth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+        <div class="col-video-desc">
+          <div class="number outline">
+            <p class="number" id="tenth">08.</p>
+          </div>
+          <div class="video-text-container">
+            <div class="video-title white">
+              What happens if we allow the algorithm to practice more on the
+              source content. Will the results improve?
+
+            </div>
+            <div class="video-desc orange">
+              For this experiment both models were trained for a different
+              amount of time. One model was trained for 4 hours whilst the
+              other ran for 48 hours. The facial detail improved, and the
+              face is more three dimensional.
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-video-player">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-tenth">
+                  <source src="res/vid/08_Yueling Constance Wu.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="tenth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="video-imgs">
+              <div class="img-container img-small margin-left-2_5" id="Con">
+                <div class="img-09_Constance img-adapt">
+                </div>
+              </div>
+              <div class="img-container img-small" id="Yue">
+                <div class="img-09_Yueling img-adapt">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            Training time is related to the amount of iterations the algorithm
+            performs. The model iterates between creating a face, applying
+            recognition to compare with the source, and adjusting the
+            parameters of the system to improve. Every iteration, the
+            model does this cycle once for all source images. Depending
+            on the power of the computer the iterations can be executed in less time.
+
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph_pretty-yueling" src="res/svg/graph_pretty-yueling.svg">
+        </div>
+        <div class="info-additional">
+          <p>Original target video: <a href=" https://www.youtube.com/watch?v=xQKy9eUl_X0&t=112s"
+              target="_blank">Constance Wu Explains What "Couture" Means</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ELEVENTH SECTION -->
+  <!-- EXPERIMENT 3 -->
+  <!-- ARTHUR-ANDREJ -->
+  <!-- ALGORITHM TYPE -->
+  <!-- type: resizable -->
+  <div class="container" id="eleventh">
+    <div class="content wide" id="eleventh">
+      <div class="video-main left" id="eleventh">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+        <div class="col-video-desc">
+          <div class="number outline">
+            <p class="number" id="eleventh">09.</p>
+          </div>
+          <div class="video-text-container">
+            <div class="video-title white">
+              One last experiment. How do different algorithms respond
+              to critical conditions?
+            </div>
+            <div class="video-desc orange">
+              For this experiment we created both the source and the target
+              video ourselves. The approach of the algorithm is clearly visible.
+              H128 creates a square mask whilst SAEHD matches the face better.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-video-player">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-eleventh">
+                  <source src="res/vid/09_Andrej_Arthur_experiment.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="eleventh">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="video-imgs">
+              <div class="img-container img-small margin-left-2_5" id="AA">
+                <div class="img-10_Arthur img-adapt">
+                </div>
+              </div>
+              <div class="img-container img-small" id="AnA">
+                <div class="img-10_Andrej img-adapt">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            H128 is the lighter model of the two. It reaches quality in
+            less time. The more precise mask of SAEHD deals better with
+            the occluding finger and it blends in better with the lighting.
+            H128 seems to be better trained to make the face. The mask is
+            sharper, more stable, and performs better with movement and
+            perspective changes. However, fora inform that with more
+            training time, SAEHD will outperform H128.
+          </p>
+        </div>
+        <div class="info-graph">
+          <img class="graph" id="graph-andrej- arthur" src="res/svg/graph-andrej- arthur.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TWELFTH SECTION -->
+  <!-- MORGAN FREEMAN VIDEO -->
+  <!-- type: fixed -->
+  <div class="container" id="twelfth">
+    <div class="content wide" id="twelfth">
+      <div class="video-main left" id="twelfth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="col-video-player left">
+          <div class="video-row">
+            <div class="video-player-container">
+              <div class="video-player">
+                <video autoplay loop muted controls class="scale-2" id="vid-twelfth">
+                  <source src="res/vid/10_Morgan Freeman.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <div class="button" id="twelfth">
+              <p id="plus">+</p>
+              <p id="minus" style="display: none;">-</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="video-desc-container">
+          <div class="col-video-desc">
+            <div class="number right outline">
+              <p class="number" id="twelfth">10.</p>
+            </div>
+            <div class="video-text-container">
+              <div class="video-title white">
+                Let's see what is really happening with deepfake videos.
+                Nowadays, they can reach a really high quality that is
+                very difficult to recognize. Be aware!
+              </div>
+              <div class="video-desc orange">
+                Although we have solely focussed on face swaps, deepfakes can
+                also re-enact a face to make it seem as if a person said
+                something. Be aware of this technology and remember the
+                signs we have showed you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-info white">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+
+        <div class="info-tech-text">
+          <p>
+            Facial re-enactment takes much more computing power but is much
+            harder to recognize. Many of the difficulties coming from the
+            source video do not count for re-enactment, however, the
+            algorithm will still act similar. The recreated parts of
+            the face will be slightly blurred and less detailed. Also,
+            pay attention to the audio, there might be flaws or lip-sync
+            problems. If a video is likely to be a target, you question
+            if it is real, and, according to what you have learned on this
+            website, the conditions are suitable for a deepfake, always
+            check the source.
+          </p>
+        </div>
+        <div class="info-additional">
+          <p>Source deepfaked video: <a href="https://youtu.be/l2YkPik990o" target="_blank">Fake Freeman mouth manipulation.</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THIRTEENTH SECTION -->
+  <!--GUIDE -->
+  <!-- type: fixed -->
+  <div class="container no-height" id="thirteenth">
+    <div class="content wide no-height" id="thirteenth">
+
+
+      <div class="video-main left no-height" id="thirteenth">
+
+        <!-- AUTO MARGIN DIV -->
+        <div class="auto-margin">
+        </div>
+        <div class="conclusion-text">
+          <div class="video-title white center">
+            Here you can find a guide that summarizes the skills
+            <br> you acquired on this website so that you can check videos yourself.</br>
+          </div>
+          <div class="download">
+            <a href="files/Deepfake spotter.pdf" target="_blank">
+              <div class="icondown">
+                <img class="logdown" src="res/img/logo-download.svg" alt="Download logo">
+              </div>
+              <div class="video-desc downtext">
+                <p class="down orange">Download </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid space-xs-3 space-sm-3 bottomfooter">
+    <div class="row">
+      <div class="col-xs-4 col-sm-1 col-sm-offset-1">
+        <img class="logo" src="res/img/logo-density-w.svg" alt="DensityDesign logo">
+      </div>
+      <div class="col-xs-8 col-sm-3 space-xs-1">
+        <img class="logo" src="res/img/logo-polimi-w.svg" alt="Politecnico di Milano logo">
+      </div>
+      <div class="col-xs-12 col-sm-2 space-xs-1">
+        <p class="video-desc orange smaller"><strong>Project by</strong><br><br>
+          Andrej Cattaneo<br>
+          Ivana Riva<br>
+          Noura Sammoura<br>
+          Maria del Pilar Suarez Anzorena<br>
+          Arthur van der Werf<br>
+          Yueling Wu<br></p>
+      </div>
+      <div class="col-xs-6 col-sm-2">
+        <p class="video-desc orange smaller"><strong>Faculty</strong><br><br>
+          Michele Mauri<br>
+          Angeles Briones<br>
+          Gabriele Colombo<br>
+          Simone Vantini<br>
+          Salvatore Zingale<br></p>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <p class="video-desc orange smaller"><strong>Teaching Assistants</strong><br><br>
+          Andrea Benedetti<br>
+          Lea Mara Fabiano<br>
+          Alessandra Facchin<br>
+          Beatrice Gobbo<br>
+          Tommaso Elli<br>
+          Jacopo Di Iorio<br>
+          Anna Riboldi<br></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="js/jquery-visible/jquery.visible.min.js"></script>
+  <script src="js/jquery-visible/jquery.visible.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

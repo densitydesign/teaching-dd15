@@ -1,0 +1,519 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+h7{
+font-family: 'Roboto', sans-serif;
+font-weight: 800;
+letter-spacing:3px;
+}
+.footerr {
+/* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+
+a:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+color: #f7e9d1
+}
+.bgp4{
+    background-color: #f7e9d1;
+}
+/* .infocolor{
+color:#efc75e;
+}
+.slide2{
+  color:#76b8ac;
+}
+.slide3{
+  color:#9D9E94;
+} */
+h2:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+
+}
+
+img:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
+
+#nohover:hover{
+  opacity:2.5;
+  filter:alpha(opacity=250) ;
+}
+
+.drop-menu {
+    position: relative; /* 使菜单跟hover对象保持相对位置 */
+    display: inline-block; /* 使菜单形成自然宽度而不会撑满屏幕 */
+    /* 其他的关于整体的样式控制 */
+}
+.hover-btn {
+    cursor: pointer; /* hover时鼠标的变化提示 */
+    /* 其他的关于hover对象的样式控制 */
+}
+.drop-content {
+    display: none; /* 默认不显示菜单 */
+    position: absolute; /* 跟hover对象的relative对应 */
+    z-index: 1; /* 保证菜单在最上层，不被其他元素覆盖 */
+    /* 其他的关于下拉菜单的样式控制 */
+}
+
+/* 以下开始利用hover选择器实现鼠标悬停时显示下拉菜单 */
+.drop-menu:hover .drop-content {
+    display: block; /* 悬停时变为显示 */
+}
+.drop-menu:hover .hover-btn {
+
+    /* 悬停时hover对象的样式控制 */
+}
+
+
+
+/* h1 { width: 23rem; overflow: hidden; white-space: nowrap; animation: typing 13s steps(23);
+animation: typing 13s;}
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% {border-color: transparent;} }
+h1 { width: 23rem; overflow: hidden; white-space: nowrap; border-right: 0.2em solid; animation: typing 13s steps(23), caret 0.5s steps(1) infinite; */
+
+
+
+/* slideshow */
+/* Set everything to take full height */
+html,
+body,
+.container,
+.slideshow,
+.slideshow ul,
+.slideshow ul li,
+.slide {
+	height: 100%;
+	min-height: 480px;
+}
+
+/* Main slideshow wrapper */
+.slideshow {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+/* Reset list styles */
+.slideshow ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.slideshow ul li {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0 40px;
+	position: relative;
+}
+
+.slideshow > nav span {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	color: #f7e9d1;
+	border-radius: 50%;
+	background: #75b8ac;
+	font-size: 50px;
+	text-align: center;
+	line-height: 47px;
+	cursor: pointer;
+	font-weight: normal;
+	bottom: 30px;
+	opacity: 0.8;
+	font-family: 'Flamenco', Arial, sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#IconDataVs{
+	position: absolute;
+	right:10px!important;
+	color: #f7e9d1;
+	background: #75b8ac;
+	font-size: 50px;
+	text-align: center;
+	line-height: 47px;
+	float: right;
+}
+
+p{
+	font-size: 12px;
+}
+
+.slideshow > nav span {
+  opacity:0.6;
+ position: fixed;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+
+ .slideshow > nav span.next {
+  right: 10px;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+ }
+
+ .slideshow > nav span.prev {
+  left: 10px;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+ }
+
+.slideshow > nav span:hover {
+	opacity: 0.8;
+}
+
+.slideshow > nav span.disabled,
+.slideshow > nav span.disabled:hover {
+	opacity: 0.2;
+	cursor: default;
+}
+
+/* .slideshow > nav span.next {
+	right: 50%;
+	-webkit-transform: translateX(120%);
+	transform: translateX(120%);
+}
+
+.slideshow > nav span.prev {
+	left: 50%;
+	-webkit-transform: translateX(-120%);
+	transform: translateX(-120%);
+} */
+
+.slideshow ul li > svg {
+	position: relative;
+	/* fill: #efc75e; */
+  fill:#f7e9d1;
+	/* fill:#f1dbb1; */
+	z-index: -1;
+}
+
+.slideshow ul li:nth-child(2) > svg {
+	/* fill: #E5B8AD; */
+	/* fill:#76b8ac; */
+  fill:#f7e9d1;
+}
+
+.slideshow ul li:nth-child(3) > svg {
+	/* fill: #9D9E94; */
+  fill:#f7e9d1;
+}
+
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 16%;
+	right: 16%;
+	padding: 1em;
+	white-space: initial;
+	text-align: center;
+}
+
+.slide h1,
+.slide blockquote {
+	margin: 0;
+	font-weight: 400;
+	font-size: 3em;
+	font-size: 3vw;
+	padding-top: 3%;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+	font-family: 'Londrina Solid', cursive;
+}
+
+.slide h1 {
+	margin-bottom: 4%;
+}
+
+.slide > p {
+	line-height: 1.5;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+.slide blockquote {
+	position: relative;
+	margin: 0;
+	padding: 1em 10% 0;
+}
+
+.slide blockquote::before{
+    content: '\201C';
+    display: block;
+    position: absolute;
+    top: 0;
+	left: 0;
+	width: 100%;
+    font-size: 3em;
+    color: rgba(43,65,77,0.1);
+    z-index: -1;
+}
+
+.slide blockquote p {
+	margin: 0;
+	line-height: 1.2;
+}
+
+.slide blockquote + p {
+	color: rgba(43,65,77,0.3);
+}
+
+.icon {
+	display: block;
+	padding-top: 0%;
+	position: relative;
+	margin: 0 auto 30px;
+	width: 30%;
+	max-width: 100px;
+}
+
+@media screen and (max-width: 32em) {
+	.slide h1,
+	.slide blockquote {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.slideshow > nav span {
+		background: none;
+		top: 10%;
+		margin-top: -25px;
+	}
+
+	.slideshow > nav span.next {
+		right: 10px;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.slideshow > nav span.prev {
+		left: 10px;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+}
+
+
+/* demo slideshow*/
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Londrina Solid', cursive;
+}
+
+a {
+	color: #c94e50;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #4681a0;
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+.codrops-links {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	line-height: 2.2;
+	padding: 1.61em 0;
+	text-align: center;
+}
+
+.codrops-links a {
+	display: inline-block;
+	padding: 0 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Dmeo links */
+.codrops-demos {
+	font-weight: bold;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.codrops-demos a.current-demo {
+	color: #4681a0;
+}
+
+/* Related demos */
+.related {
+	margin-top: 5em;
+	padding: 0 0 5em;
+}
+
+.related p {
+	font-size: 1.5em;
+	font-weight: 700;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.related > a {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 10px;
+	max-width: 40%;
+	min-width: 160px;
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	padding: 0.5em 0;
+	max-width: 300px;
+	text-align: left;
+}
+
+@media screen and (max-width: 40em) {
+
+	body {
+		font-size: 80%;
+	}
+
+	.related > a {
+		margin: 20px 0;
+	}
+
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon {
+		font-size: 225%;
+	}
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
+
+
+
+/* 图片遮挡信息 */
+.container-si {
+  position: relative;
+  width: 50%;
+}
+
+.image-si {
+  display: block;
+  width: 30%;
+  height: auto;
+  text-align:
+}
+
+.overlay-si {
+  position: relative  ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f7e9d1;
+}
+
+.container-si:hover .overlay-si {
+  opacity: 1;
+}
+
+.text-si {
+  color: #a6a2a1;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

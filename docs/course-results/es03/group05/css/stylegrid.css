@@ -1,0 +1,259 @@
+html, body{
+    background-color: #D2D2D2;
+    height:100%;}
+
+/*HEADER*/
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.changefont {
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: 400; 
+    font-style: italic;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #d2d2d2;
+  z-index: 10;
+}
+
+/*buttons*/
+
+.hello{
+    padding-left: 3rem;
+    margin-top: 1.5rem;
+    display: inline-flex;
+}
+
+
+.shape:hover {
+    
+    
+}
+
+.shape {
+    
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-right:1rem;
+  padding-left: 0.8rem;
+  position: relative;
+  transform:skew(-15deg);
+  border-radius: 0.4rem;
+  border: 2px solid;
+  max-width: 100%;
+  
+  font-family: 'Cormorant Infant', serif; 
+  font-weight: 400; 
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+
+.buttonScroll{padding:0;}
+
+.buttonSexual, .buttonGenitals,.buttonButtocks {padding-right: 2rem;}
+
+.resize {
+    width:50%;
+    height: auto;
+}
+
+/*griglia*/
+.grid-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto auto auto auto;
+
+  background-color: #d2d2d2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding-top: 1%;
+  
+}
+
+
+.grid-item {
+  padding: 10%;
+  max-width: inherit;
+}
+
+.gridelement { 
+    width: 100%;
+    height: auto;
+}
+
+
+.clicked {
+     border-color:#7135b6;
+    background-color: #7135b6;
+    color:#d2d2d2;
+    
+}
+
+@media only screen and (min-width: 1921px) {
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 2rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.grid-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: #d2d2d2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding-top: 1%;
+}
+.hello {
+  margin-left: 1rem;
+}
+#sexual.shape {
+  font-size: 2rem;
+}
+#genitals.shape {
+  font-size: 2rem;
+}
+#buttocks.shape {
+  font-size: 2rem;
+}
+#nipples.shape {
+  font-size: 2rem;
+}    
+}
+
+@media only screen and (min-width: 3000px) {
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 3rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 3rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.grid-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: #d2d2d2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding-top: 1%;
+}
+#sexual.shape {
+  font-size: 3rem;
+}
+#genitals.shape {
+  font-size: 3rem;
+}
+#buttocks.shape {
+  font-size: 3rem;
+}
+#nipples.shape {
+  font-size: 3rem;
+}    
+}
+
+@media only screen and (max-width: 600px) {
+.grid-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  background-color: #d2d2d2;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  padding-top: 5%;
+}
+#sexual.shape {
+  font-size: 0.6rem;
+}
+#genitals.shape {
+  font-size: 0.6rem;
+}
+#buttocks.shape {
+  font-size: 0.6rem;
+}
+#nipples.shape {
+  font-size: 0.6rem;
+}
+.buttonSexual, .buttonGenitals,.buttonButtocks {padding-right: 0.3rem;}
+.shape {
+    
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-right:0.3rem;
+  padding-left: 0.2rem;
+  position: relative;
+  transform:skew(-15deg);
+  border-radius: 0.2rem;
+  border: 1px solid;
+  max-width: 100%;
+  
+  font-family: 'Cormorant Infant', serif; 
+  font-weight: 400; 
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.hello{
+    padding-left: 0.9rem;
+    margin-top: 1.5rem;
+    display: inline-flex;
+}
+.resize {
+    width:60%;
+    height: auto;
+}
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.9rem;
+}   
+}
+

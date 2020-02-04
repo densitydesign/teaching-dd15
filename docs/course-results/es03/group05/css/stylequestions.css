@@ -1,0 +1,753 @@
+/** link **/
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+}
+
+html, body {
+    background-color: #D2D2D2;
+    height: 100%;
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+}
+.swing img {
+    display: block;
+}
+ 
+@keyframes swing {
+    0% { transform: translate(0px, 15px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+.container {
+    height: 100%;
+    position: fixed;
+}
+
+/*POLICY*/
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.changefont {
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: 400; 
+    font-style: italic;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.policy {
+    padding-left: 1.5%;
+    padding-right: 3%;
+}
+
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 3rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 4%;
+    width: 95%;
+}
+
+.shape1 {
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  position: relative;
+  transform: skew(-15deg);
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-color: #000000;
+  line-height: 3rem;
+  max-width: 100%;
+  font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+}
+
+.shape2 {
+  display: inline-block;
+  transform: skew(15deg);
+}
+
+.extracted {
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left;    
+  margin: 0;
+  padding-top: 3%;
+}
+
+
+/*QUESTIONS*/
+
+.scroll {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+#box {
+    background-color: #7135b6;
+    color: #D2D2D2;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.boxsex {
+    width: 80vw;
+}
+
+.boxgen {
+    width: 50vw;
+}
+
+.boxbutt {
+    width: 70vw;
+}
+
+.boxnipple {
+    width: 60vw;
+}
+
+.title1 {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+}
+
+.textsex {
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+}
+
+.textgen {
+    padding-top: 15rem;
+    padding-bottom: 14rem;
+}
+
+.textbutt {
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+}
+
+.textnipple1 {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.textnipple2 {
+    padding-top: 3.5rem;
+    padding-bottom: 6.6rem;
+}
+
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pepper {
+    margin-top: 12%;
+    margin-left: 0;
+}
+
+.banana {
+    margin-top: 18%;
+    margin-left: 0%;
+}
+.banana1 {
+    margin-top: 18%;
+    margin-left: 1%;
+}
+.ciliegia1 {
+    margin-top: 20%;
+    margin-left: 1rem;
+}
+.ciliegia {
+    margin-top: 20%;
+    margin-left: 1rem;
+}
+.ciliegia2 {
+    margin-top: 15%;
+    margin-left: 0rem;
+}
+
+.ciliegia3 {
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    margin-top: 15%;
+}
+
+.peach1 {
+    margin-top: 12.5%;
+    margin-left: 0.4rem;
+    margin-right: 0.2rem;
+}
+
+.peach {
+    margin-top: 12.5%;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+/*GAPS*/
+
+.gap {
+    padding: 0rem 20rem;
+}
+
+.gap0 {
+    width: 100vw;
+}
+
+.gapcolor {
+    width: 15vw;
+    background-color: #7135b6; 
+}
+
+.gapfinale {
+    width: 100vw;
+    background-color: #D2D2D2;
+    font-family: 'Work Sans', sans-serif; font-weight: 500;
+    font-size: 4rem;
+}
+
+.cormorant {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 5rem;
+}
+
+.gallery {
+    font-size: 5vw;
+    margin-top: 14rem;
+    text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding left: 1rem;
+  padding-right: 3rem;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 16px;
+}
+
+#changefont1 {
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: 400; 
+    font-style: italic;
+}
+
+/*MISURA TABLET*/
+
+@media screen and (max-width: 768px){
+    .textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    text-align: left;
+    padding-bottom: 26%;
+ }
+    .shape1 {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
+    position: relative;
+    transform: skew(-15deg);
+    border-radius: 0.5rem;
+    border: 1.5px solid;
+    border-color: #000000;
+    line-height: 2.5rem;
+    max-width: 100%;
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+ }
+    
+.shape2 {
+    display: inline-block;
+    transform: skew(10deg);
+ }
+
+.extracted {
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: left; 
+    margin: 0;
+    padding-top: 6%;
+ }
+    
+.gap {
+    padding: 0rem 10rem;
+ }
+    
+.title {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 2.5rem;
+    padding-top: 10rem;
+ }
+    
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+ }
+    
+
+}
+
+/*MISURA MOBILE*/
+@media screen and (max-width: 600px){
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 0rem;
+    font-size: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.textgen {
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+}
+.icon {
+    margin-top: 1rem;    
+}    
+.pepper {
+    margin-top: 20%;
+    margin-left: 0;
+}
+.banana {
+    margin-top: 90%;
+    margin-left: 0;
+}
+.peach {
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
+    margin-top: 3%;
+}
+.peach1 {
+    margin-left: 0rem;
+    margin-right: 0.2rem;
+    margin-top: 3%;
+}
+.ciliegia {
+    margin-left: 0rem;
+    margin-right: 0.2rem;
+    margin-top: 24%;
+}
+.ciliegia1 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 24%;
+}
+.ciliegia3 {
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    margin-top: 19.5%;
+}
+.ciliegia2 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 19.5%;
+}
+.gallery {
+    font-size: 5vw;
+    margin-top: 32rem;
+    text-align: center;
+}
+    .textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-bottom: 26%;
+}
+    .shape1 {
+    display: inline-block;
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.6rem;
+    position: relative;
+    transform: skew(-15deg);
+    border-radius: 0.3rem;
+    border: 1.3px solid;
+    border-color: #000000;
+    line-height: 1.2rem;
+    max-width: 100%;
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+ }
+    
+.shape2 {
+    display: inline-block;
+    transform: skew(10deg);
+ }
+
+.extracted {
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: left;   
+    margin: 0;
+    padding-top: 7%;
+ }
+    
+.gap {
+    padding: 0rem 5rem;
+ }
+    
+.title1 {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 1.3rem;
+    padding-top: 5rem;
+ }
+    
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+ }
+.gallery {
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    text-align: center;
+}
+.cormorant {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 1921px) {
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 5rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 5%;
+    width: 95%;
+}
+.extracted {
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: left;    
+  margin: 0;
+  padding-top: 3%;
+}
+.shape1 {
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  position: relative;
+  transform: skew(-15deg);
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-color: #000000;
+  line-height: 4.5rem;
+  max-width: 100%;
+  font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+}
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.pepper {
+    margin-top: 22%;
+}
+.banana {
+    margin-top: 52%;
+}
+.peach {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 26%;
+}
+.peach1 {
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 26%;
+}
+.ciliegia {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 18%;
+}
+.ciliegia1 {
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 18%;
+}
+.ciliegia3 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 21%;
+}
+.ciliegia2 {
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 21%;
+}
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 2rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.gallery {
+    font-size: 8rem;
+    margin-top: 24rem;
+    text-align: center;
+}
+.cormorant {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 8rem;
+}
+}
+
+@media only screen and (min-width: 3000px) {  
+.title {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 3rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+.about {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-right: 3rem;
+    font-size: 3rem;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 7rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 3%;
+    width: 94%;
+}
+.extracted {
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: left;    
+  margin: 0;
+  padding-top: 3%;
+}
+.shape1 {
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 1.4rem;
+  position: relative;
+  transform: skew(-15deg);
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-color: #000000;
+  line-height: 6rem;
+  max-width: 100%;
+  font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+}
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 6rem;
+    padding-bottom: 1rem;
+}
+.pepper {
+    margin-top: 19%;
+}
+.banana {
+    margin-top: 52%;
+}
+.peach {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 23%;
+}
+.peach1 {
+    margin-left: 4rem;
+    margin-right: 0.2rem;
+    margin-top: 23%;
+}
+.ciliegia {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 12%;
+}
+.ciliegia1 {
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 12%;
+}
+.ciliegia3 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 22.5%;
+}
+.ciliegia2 {
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 22.5%;
+}
+.gallery {
+    font-size: 5vw;
+    margin-top: 32rem;
+    text-align: center;
+}
+.cormorant {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 5vw;
+}
+.title1 {
+    font-size: 7rem;
+    margin-top: 3rem;
+}
+}
+
+.swing1 {
+    animation: swing1 ease-in-out 1s infinite alternate;
+    align-content: center;
+}
+.swing1 img {
+    display: block;
+}
+ 
+@keyframes swing1 {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.3); }
+}
+
+.frecciaquestions {
+    padding-top: 5%;
+    width: 14%;
+    margin: auto;
+    padding-left: 5%;
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2999px){
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 3rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 4%;
+    width: 95%;
+}
+}
+
+@media screen and (max-width: 1500px) and (min-width: 601px) {
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2.4rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 4%;
+    width: 95%;
+}
+    
+.pepper {
+    margin-top: 3%;
+    margin-left: 0;
+}
+    
+.banana {
+    margin-top: 3.5%;
+    margin-left: 0%;
+}
+    
+.banana1 {
+    margin-top: 3.5%;
+    margin-left: 1%;
+}
+    
+.peach1 {
+    margin-top: 2%;
+    margin-left: 0.4rem;
+    margin-right: 0.2rem;
+}
+
+.peach {
+    margin-top: 2%;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+    
+.ciliegia {
+    margin-left: 0rem;
+    margin-right: 0.2rem;
+    margin-top: 2.5%;
+}
+.ciliegia1 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 2.5%;
+}
+.ciliegia3 {
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    margin-top: 2.5%;
+}
+.ciliegia2 {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 2.5%;
+}
+}

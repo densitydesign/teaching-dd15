@@ -1,0 +1,111 @@
+.bgp2{
+  background-color: #f7e9d1;
+
+}
+
+/* 登陆界面漫画点击 */
+
+#trigger-overlay:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
+
+
+h3:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
+/* h2:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+
+} */
+
+
+button:hover {
+border-radius: 20px;
+background-color: #f7e9d1;
+}
+
+button{
+  border-radius: 10px;
+  background-color: #e1db43;
+  width:25vh;
+  height: 7vh;
+}
+
+.FontLond{
+  font-family: 'Londrina Solid', cursive;
+    font-weight: 500;
+}
+
+#box{
+  position:relative;
+}
+#box *:not(#shbox){
+  display:inline-block;
+}
+
+input{
+  font-family: 'Londrina Solid', cursive;
+
+  position:absolute;
+  /* left:-10000000px; */
+}
+
+
+
+/* 打字效果 */
+h3 { width: 14rem; overflow: hidden; white-space: nowrap; animation: typing 4s steps(5);
+animation: typing 4s;}
+@keyframes typing { from { width: 0; } }
+/* @keyframes caret { 50% {border-color: transparent;} }
+h3 { width: 15rem; overflow: hidden; white-space: nowrap; border-right: 0.2em solid; animation: typing 2s steps(5), caret 0.5s steps(1) infinite;
+ */
+/* 堆叠表单 */
+ .container-si {
+   position: relative;
+
+ }
+
+ .image-si {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+
+ .overlay-si {
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+   right: 0;
+   background-color: #71afa5;
+   overflow: hidden;
+   width: 100%;
+   height:0;
+   transition: .5s ease;
+
+ }
+
+ .container-si:hover .overlay-si {
+   bottom: 0;
+   height: 100%;
+ }
+
+ .text-si {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+
+ /* 打字效果 */
+ /* h2 { width: 30rem; overflow: hidden; white-space: nowrap; animation: typing 3s steps(5);
+ animation: typing 3s;}
+ @keyframes typing { from { width: 0; } } */

@@ -1,0 +1,24 @@
+.bgp1{
+  background-color: #76B8AC;
+
+}
+
+
+
+img:hover {
+  opacity:0.6;
+filter:alpha(opacity=40);
+}
+
+
+/* 打字效果 */
+h1 { width: 50rem; overflow: hidden; white-space: nowrap; animation: typing 3s steps(15);
+animation: typing 3s;}
+@keyframes typing { from { width: 0; } }
+/* @keyframes caret { 50% {border-color: transparent;} }
+h1 { width: 50rem; overflow: hidden; white-space: nowrap; border-right: 0.2em solid; animation: typing 3s steps(15), caret 0.5s steps(1) infinite; */
+
+
+/* 字体变色 */
+  /* h1{color:#e1da51;}
+  h1:hover{color: #ffffff;} */

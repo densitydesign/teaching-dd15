@@ -1,0 +1,65 @@
+/*animazione task 1.1*/
+
+html,body {background-color:#7135b6;
+margin: 0 auto;
+height:100%;
+}
+
+.container {
+height:100%;       
+}
+
+/*colore peperone*/
+.st0{fill:#D2D2D2;}
+
+.cherry{width: 7em;
+    height: auto;
+    position: absolute;
+    animation-name:rotateTranslate;
+    animation-duration: 1.5s;
+    animation-delay:0.2s;
+    animation-timing-function: 1s all ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes rotateTranslate {
+    0%{transform:rotate(0deg);}
+    75%{transform:rotate(720deg) translate(0)}
+    100%{transform:translateX(-10em);}
+}
+
+
+.task{
+    position:absolute;
+    margin:0;
+    padding:0;
+    font-family: "Cormorant Infant medium", serif;
+    font-size: 5rem;
+    font-style:italic;
+    color: #d2d2d2;
+    
+    animation-name: text_translation;
+    animation-duration: 0.1s;
+    animation-delay:1.8s;
+    animation-fill-mode: forwards;
+    opacity:0;   
+}
+
+
+
+@keyframes text_translation {
+    0%{transform:translateX(0);}
+    100%{transform:translateX(4rem);opacity:1;}
+
+
+/*fine animazioni */
+
+/* nel caso ci sia da ridimensionare stroke nel mobile
+    @media only screen and (max-width:600px){
+        .st0{stroke-weight:1pt;}}
+*/
+
+
+    
+

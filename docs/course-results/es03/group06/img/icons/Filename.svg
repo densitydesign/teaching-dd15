@@ -1,0 +1,2912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1500 1000" style="enable-background:new 0 0 1500 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BF6969;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:6px;}
+	.st4{opacity:0.5;}
+	.st5{clip-path:url(#SVGID_2_);}
+	.st6{clip-path:url(#SVGID_6_);}
+	.st7{fill:#BF6969;stroke:#FFFFFF;}
+	.st8{enable-background:new    ;}
+	.st9{opacity:0.5;clip-path:url(#SVGID_8_);}
+	.st10{fill:#BF8769;}
+	.st11{opacity:0.5;clip-path:url(#SVGID_10_);}
+	.st12{opacity:0.5;clip-path:url(#SVGID_12_);}
+	.st13{clip-path:url(#SVGID_14_);}
+	.st14{clip-path:url(#SVGID_16_);}
+	.st15{clip-path:url(#SVGID_18_);}
+	.st16{clip-path:url(#SVGID_20_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st17{opacity:0.5;clip-path:url(#SVGID_22_);}
+	.st18{clip-path:url(#SVGID_24_);}
+	.st19{clip-path:url(#SVGID_26_);}
+	.st20{opacity:0.5;clip-path:url(#SVGID_28_);}
+	.st21{clip-path:url(#SVGID_30_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st22{opacity:0.5;clip-path:url(#SVGID_32_);}
+	.st23{clip-path:url(#SVGID_34_);}
+	.st24{clip-path:url(#SVGID_36_);}
+	.st25{opacity:0.5;clip-path:url(#SVGID_38_);}
+	.st26{clip-path:url(#SVGID_40_);}
+	.st27{clip-path:url(#SVGID_42_);}
+	.st28{opacity:0.5;clip-path:url(#SVGID_44_);}
+	.st29{clip-path:url(#SVGID_46_);}
+	.st30{clip-path:url(#SVGID_48_);}
+	.st31{opacity:0.5;clip-path:url(#SVGID_52_);}
+	.st32{clip-path:url(#SVGID_54_);}
+	.st33{clip-path:url(#SVGID_56_);}
+	.st34{clip-path:url(#SVGID_58_);}
+	.st35{fill:#BFA669;}
+	.st36{opacity:0.5;clip-path:url(#SVGID_60_);}
+	.st37{clip-path:url(#SVGID_62_);}
+	.st38{clip-path:url(#SVGID_64_);}
+	.st39{fill:#BABF69;}
+	.st40{clip-path:url(#SVGID_66_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st41{opacity:0.5;clip-path:url(#SVGID_68_);}
+	.st42{clip-path:url(#SVGID_70_);}
+	.st43{clip-path:url(#SVGID_72_);}
+	.st44{fill:#9BBF69;}
+	.st45{opacity:0.5;clip-path:url(#SVGID_74_);}
+	.st46{clip-path:url(#SVGID_76_);}
+	.st47{clip-path:url(#SVGID_78_);}
+	.st48{opacity:0.5;clip-path:url(#SVGID_80_);}
+	.st49{fill:#7DBF69;}
+	.st50{opacity:0.5;clip-path:url(#SVGID_82_);}
+	.st51{clip-path:url(#SVGID_84_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st52{clip-path:url(#SVGID_86_);}
+	.st53{clip-path:url(#SVGID_88_);}
+	.st54{opacity:0.5;clip-path:url(#SVGID_90_);}
+	.st55{opacity:0.5;clip-path:url(#SVGID_92_);}
+	.st56{clip-path:url(#SVGID_94_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st57{opacity:0.5;clip-path:url(#SVGID_96_);}
+	.st58{clip-path:url(#SVGID_98_);}
+	.st59{clip-path:url(#SVGID_100_);}
+	.st60{clip-path:url(#SVGID_102_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st61{opacity:0.5;clip-path:url(#SVGID_104_);}
+	.st62{clip-path:url(#SVGID_106_);}
+	.st63{clip-path:url(#SVGID_108_);}
+	.st64{opacity:0.5;clip-path:url(#SVGID_110_);}
+	.st65{opacity:0.5;clip-path:url(#SVGID_112_);}
+	.st66{opacity:0.5;clip-path:url(#SVGID_114_);}
+	.st67{clip-path:url(#SVGID_116_);}
+	.st68{clip-path:url(#SVGID_118_);}
+	.st69{clip-path:url(#SVGID_120_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st70{opacity:0.5;clip-path:url(#SVGID_122_);}
+	.st71{clip-path:url(#SVGID_124_);}
+	.st72{clip-path:url(#SVGID_126_);}
+	.st73{clip-path:url(#SVGID_128_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st74{opacity:0.5;clip-path:url(#SVGID_130_);}
+	.st75{clip-path:url(#SVGID_132_);}
+	.st76{clip-path:url(#SVGID_134_);}
+	.st77{opacity:0.5;clip-path:url(#SVGID_136_);}
+	.st78{opacity:0.5;clip-path:url(#SVGID_138_);}
+	.st79{opacity:0.5;clip-path:url(#SVGID_140_);}
+	.st80{opacity:0.5;clip-path:url(#SVGID_142_);}
+	.st81{clip-path:url(#SVGID_144_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st82{clip-path:url(#SVGID_146_);}
+	.st83{clip-path:url(#SVGID_148_);}
+	.st84{opacity:0.5;clip-path:url(#SVGID_150_);}
+	.st85{opacity:0.5;clip-path:url(#SVGID_152_);}
+	.st86{clip-path:url(#SVGID_154_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st87{clip-path:url(#SVGID_156_);}
+	.st88{clip-path:url(#SVGID_158_);}
+	.st89{opacity:0.5;clip-path:url(#SVGID_160_);}
+	.st90{fill:#69BF73;}
+	.st91{opacity:0.5;clip-path:url(#SVGID_162_);}
+	.st92{clip-path:url(#SVGID_164_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st93{clip-path:url(#SVGID_166_);}
+	.st94{clip-path:url(#SVGID_168_);}
+	.st95{opacity:0.5;clip-path:url(#SVGID_170_);}
+	.st96{clip-path:url(#SVGID_172_);}
+	.st97{clip-path:url(#SVGID_176_);}
+	.st98{clip-path:url(#SVGID_178_);}
+	.st99{opacity:0.5;clip-path:url(#SVGID_180_);}
+	.st100{opacity:0.5;clip-path:url(#SVGID_184_);}
+	.st101{fill:#69BF91;}
+	.st102{clip-path:url(#SVGID_186_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st103{fill:none;}
+	.st104{opacity:0.5;clip-path:url(#SVGID_190_);}
+	.st105{clip-path:url(#SVGID_194_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st106{clip-path:url(#SVGID_196_);}
+	.st107{clip-path:url(#SVGID_198_);}
+	.st108{opacity:0.5;clip-path:url(#SVGID_200_);}
+	.st109{opacity:0.5;clip-path:url(#SVGID_202_);}
+	.st110{opacity:0.5;clip-path:url(#SVGID_204_);}
+	.st111{clip-path:url(#SVGID_206_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st112{clip-path:url(#SVGID_208_);}
+	.st113{clip-path:url(#SVGID_210_);}
+	.st114{opacity:0.5;clip-path:url(#SVGID_212_);}
+	.st115{clip-path:url(#SVGID_214_);}
+	.st116{clip-path:url(#SVGID_216_);}
+	.st117{clip-path:url(#SVGID_218_);}
+	.st118{opacity:0.5;clip-path:url(#SVGID_220_);}
+	.st119{opacity:0.5;clip-path:url(#SVGID_222_);}
+	.st120{clip-path:url(#SVGID_226_);}
+	.st121{clip-path:url(#SVGID_228_);}
+	.st122{opacity:0.5;clip-path:url(#SVGID_230_);}
+	.st123{fill:#69BFB0;}
+	.st124{opacity:0.5;clip-path:url(#SVGID_234_);}
+	.st125{opacity:0.5;clip-path:url(#SVGID_236_);}
+	.st126{opacity:0.5;clip-path:url(#SVGID_238_);}
+	.st127{opacity:0.5;clip-path:url(#SVGID_242_);}
+	.st128{opacity:0.5;clip-path:url(#SVGID_244_);}
+	.st129{opacity:0.5;clip-path:url(#SVGID_246_);}
+	.st130{opacity:0.5;clip-path:url(#SVGID_248_);}
+	.st131{fill:#69B0BF;}
+	.st132{clip-path:url(#SVGID_250_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st133{clip-path:url(#SVGID_252_);}
+	.st134{clip-path:url(#SVGID_254_);}
+	.st135{opacity:0.5;clip-path:url(#SVGID_256_);}
+	.st136{clip-path:url(#SVGID_258_);}
+	.st137{clip-path:url(#SVGID_260_);}
+	.st138{clip-path:url(#SVGID_262_);}
+	.st139{opacity:0.5;clip-path:url(#SVGID_264_);}
+	.st140{opacity:0.5;clip-path:url(#SVGID_268_);}
+	.st141{clip-path:url(#SVGID_270_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st142{clip-path:url(#SVGID_272_);}
+	.st143{clip-path:url(#SVGID_274_);}
+	.st144{opacity:0.5;clip-path:url(#SVGID_276_);}
+	.st145{opacity:0.5;clip-path:url(#SVGID_278_);}
+	.st146{fill:#6991BF;}
+	.st147{clip-path:url(#SVGID_280_);}
+	.st148{clip-path:url(#SVGID_282_);}
+	.st149{opacity:0.5;clip-path:url(#SVGID_284_);}
+	.st150{opacity:0.5;clip-path:url(#SVGID_286_);}
+	.st151{clip-path:url(#SVGID_288_);}
+	.st152{clip-path:url(#SVGID_290_);}
+	.st153{opacity:0.5;clip-path:url(#SVGID_292_);}
+	.st154{opacity:0.5;clip-path:url(#SVGID_294_);}
+	.st155{fill:#6973BF;}
+	.st156{opacity:0.5;clip-path:url(#SVGID_296_);}
+	.st157{opacity:0.5;clip-path:url(#SVGID_298_);}
+	.st158{opacity:0.5;clip-path:url(#SVGID_300_);}
+	.st159{fill:#7D69BF;}
+	.st160{opacity:0.5;clip-path:url(#SVGID_302_);}
+	.st161{opacity:0.5;clip-path:url(#SVGID_304_);}
+	.st162{fill:#9B69BF;}
+	.st163{opacity:0.5;clip-path:url(#SVGID_306_);}
+	.st164{opacity:0.5;clip-path:url(#SVGID_308_);}
+	.st165{fill:#BA69BF;}
+	.st166{opacity:0.5;clip-path:url(#SVGID_310_);}
+	.st167{opacity:0.5;clip-path:url(#SVGID_312_);}
+	.st168{opacity:0.5;clip-path:url(#SVGID_314_);}
+	.st169{fill:#BF69A6;}
+	.st170{fill:#BF6987;}
+</style>
+<g transform="translate(10,10)">
+	<rect x="0.5" y="0.5" class="st0" width="88.3" height="147.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.9358 116.1259)" class="st1 st2 st3">11-month-old girl hit in head</text>
+		<text transform="matrix(1 0 0 1 7.9358 123.3259)" class="st1 st2 st3">by crashing drone; </text>
+		<text transform="matrix(1 0 0 1 7.9358 130.5259)" class="st1 st2 st3">FAA investigating</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_1_" x="0.5" y="0.5" class="st4" width="88.3" height="104.7"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="RmDbnv.tif" class="st5">
+			
+				<image style="overflow:visible;" width="1300" height="732" id="Layer_0_27_" xlink:href="193B7CF8076A41A1.png"  transform="matrix(0.1455 0 0 0.1455 -51.1712 -1.243)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(103.28231292517006,10)">
+	<rect x="0.5" y="0.5" class="st0" width="88.3" height="147.1"/>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="0.5" y="0.5" width="88.3" height="147.1"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="opacity:0.5;clip-path:url(#SVGID_4_);">
+			
+				<image style="overflow:visible;" width="1073" height="824" xlink:href="193B7CF8076A41A2.png"  transform="matrix(0.1114 0 0 0.1114 -4.4823 0.3929)">
+			</image>
+		</g>
+	</g>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.7932 103.4886)" class="st1 st2 st3">A small UAV crashed in</text>
+		<text transform="matrix(1 0 0 1 7.7932 110.6886)" class="st1 st2 st3">Pasadena, CA, with debris </text>
+		<text transform="matrix(1 0 0 1 7.7932 117.8886)" class="st1 st2 st3">striking an 11-month-old </text>
+		<text transform="matrix(1 0 0 1 7.7932 125.0886)" class="st1 st2 st3">baby being pushed in a </text>
+		<text transform="matrix(1 0 0 1 7.7932 132.2886)" class="st1 st2 st3">stroller. The baby suffered </text>
+		<text transform="matrix(1 0 0 1 7.7932 139.4886)" class="st1 st2 st3">a bruised forehead</text>
+	</g>
+</g>
+<g transform="translate(196.56462585034012,10)">
+	<rect x="0.5" y="0.5" class="st0" width="88.3" height="147.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.9192 115.7786)" class="st1 st2 st3">A small drone photographing </text>
+		<text transform="matrix(1 0 0 1 6.9192 122.9786)" class="st1 st2 st3">a Thanksgiving Day run in </text>
+		<text transform="matrix(1 0 0 1 6.9192 130.1786)" class="st1 st2 st3">Andover, MA crashed into </text>
+		<text transform="matrix(1 0 0 1 6.9192 137.3786)" class="st1 st2 st3">the pack, cutting two runners.</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_5_" x="0.5" y="0.5" width="88.3" height="147.1"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="kj4Hjw.tif" class="st6">
+				
+					<image style="overflow:visible;enable-background:new    ;" width="803" height="304" id="Layer_0_2_" xlink:href="193B7CF8076A4199.png"  transform="matrix(0.3271 0 0 0.3271 -90.726 1.2511)">
+				</image>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,162.10526315789474)">
+	<rect x="0.5" y="0.5" class="st7" width="181.6" height="71.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.2909 25.8015)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">After several confiscations, </tspan><tspan x="0" y="7.2" class="st1 st2 st3">FBI warns public of drone</tspan><tspan x="0" y="14.4" class="st1 st2 st3">use near Mercedes-Benz </tspan><tspan x="0" y="21.6" class="st1 st2 st3">Stadium </tspan></text>
+	</g>
+	<g id="SPAqbR.tif" class="st4">
+		
+			<image style="overflow:visible;" width="1698" height="1214" xlink:href="193B7CF8076A41A0.png"  transform="matrix(5.768720e-02 0 0 5.768720e-02 83.684 1.0265)">
+		</image>
+	</g>
+</g>
+<g transform="translate(10,238.1578947368421)">
+	<rect x="0.5" y="0.5" class="st7" width="181.6" height="71.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 125.5221 31.8753)" class="st1 st2 st3">Drone smashes </text>
+		<text transform="matrix(1 0 0 1 125.5221 39.0753)" class="st1 st2 st3">through woman’s </text>
+		<text transform="matrix(1 0 0 1 125.5221 46.2753)" class="st1 st2 st3">apartment window</text>
+	</g>
+	
+		<image style="overflow:visible;opacity:0.5;enable-background:new    ;" width="1262" height="802" xlink:href="193B7CF8076A41A3.png"  transform="matrix(8.707650e-02 0 0 8.707650e-02 1.2788 1.0637)">
+	</image>
+</g>
+<g transform="translate(196.56462585034012,162.10526315789474)">
+	<rect x="0.5" y="0.5" class="st7" width="88.3" height="147.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.9191 108.1361)" class="st1 st2 st3">Man convicted in drone crash </text>
+		<text transform="matrix(1 0 0 1 6.9191 115.3361)" class="st1 st2 st3">that injured woman during </text>
+		<text transform="matrix(1 0 0 1 6.9191 122.5361)" class="st1 st2 st3">Seattle’s Pride Parade</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_7_" x="0.5" y="0.5" width="88.3" height="147.1"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="tvAK64.tif" class="st9">
+			
+				<image style="overflow:visible;" width="630" height="420" id="Layer_0_3_" xlink:href="193B7CF8076A41DA.png"  transform="matrix(0.2202 0 0 0.2202 -24.713 -3.182945e-02)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,324.2105263157895)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.9357 120.6953)" class="st1 st2 st3">A consumer drone crashed </text>
+		<text transform="matrix(1 0 0 1 7.9357 127.8953)" class="st1 st2 st3">and burned, and then </text>
+		<text transform="matrix(1 0 0 1 7.9357 135.0953)" class="st1 st2 st3">caused a wildfire</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_9_" x="0.5" y="0.5" width="88.3" height="149.4"/>
+			</defs>
+			<clipPath id="SVGID_10_">
+				<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="cVook7.tif" class="st11">
+				
+					<image style="overflow:visible;enable-background:new    ;" width="728" height="539" id="Layer_0_4_" xlink:href="193B7CF8076A4181.png"  transform="matrix(0.1891 0 0 0.1891 -19.2859 1.2947)">
+				</image>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(103.28231292517006,324.2105263157895)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_11_" x="0.5" y="59.2" width="88.3" height="90.7"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st12">
+				<g>
+					<defs>
+						<rect id="SVGID_13_" x="-49.6" y="53.5" width="163.6" height="101.9"/>
+					</defs>
+					<clipPath id="SVGID_14_">
+						<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st13">
+						<g>
+							<defs>
+								<rect id="SVGID_15_" x="-49.6" y="53.5" width="163.6" height="101.9"/>
+							</defs>
+							<clipPath id="SVGID_16_">
+								<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st14">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="2506" height="1574" xlink:href="193B7CF8076A4192.jpg"  transform="matrix(6.518351e-02 0 0 6.498335e-02 -38.9057 53.3035)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 7.7934 24.581)" class="st1 st2 st3">Brothers turn themselves in</text>
+		<text transform="matrix(1 0 0 1 7.7934 31.7809)" class="st1 st2 st3">as drone operators who </text>
+		<text transform="matrix(1 0 0 1 7.7934 38.981)" class="st1 st2 st3">affected Flight For Life at </text>
+		<text transform="matrix(1 0 0 1 7.7934 46.1809)" class="st1 st2 st3">crash site</text>
+	</g>
+</g>
+<g transform="translate(196.56462585034012,324.2105263157895)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.9191 120.6953)" class="st1 st2 st3">Coldwater Fire has burned</text>
+		<text transform="matrix(1 0 0 1 6.9191 127.8953)" class="st1 st2 st3">over 13,000 acres near </text>
+		<text transform="matrix(1 0 0 1 6.9191 135.0953)" class="st1 st2 st3">Clints Well</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_17_" x="0.5" y="0.5" class="st4" width="88.3" height="149.4"/>
+		</defs>
+		<clipPath id="SVGID_18_">
+			<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="JLfYHA.tif" class="st15">
+			
+				<image style="overflow:visible;" width="1200" height="1200" id="Layer_0_28_" xlink:href="193B7CF8076A41DD.png"  transform="matrix(8.777202e-02 0 0 8.777202e-02 -4.4646 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,478.5885167464115)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.2911 115.8287)" class="st1 st2 st3">Colorado Springs TV station&apos;s </text>
+		<text transform="matrix(1 0 0 1 6.2911 123.0287)" class="st1 st2 st3">flying drone temporarily </text>
+		<text transform="matrix(1 0 0 1 6.2911 130.2287)" class="st1 st2 st3">disrupted air drops on 117 fire</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_19_" x="-12.4" y="-1.4" width="112.2" height="103.8"/>
+			</defs>
+			<clipPath id="SVGID_20_">
+				<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-12.4" y="-1.4" class="st16" width="112.2" height="103.8"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_21_" x="0.5" y="0.5" width="88.3" height="149.4"/>
+			</defs>
+			<clipPath id="SVGID_22_">
+				<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st17">
+				<g>
+					<defs>
+						<rect id="SVGID_23_" x="-12.2" y="-1.3" width="111.8" height="103.5"/>
+					</defs>
+					<clipPath id="SVGID_24_">
+						<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st18">
+						<g>
+							<defs>
+								<rect id="SVGID_25_" x="-12.2" y="-1.3" width="111.8" height="103.5"/>
+							</defs>
+							<clipPath id="SVGID_26_">
+								<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 -9.536743e-07 0)" class="st19">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1213" height="1117" xlink:href="193B7CF8076A4183.png"  transform="matrix(9.259659e-02 0 0 9.217791e-02 -12.4861 -1.0016)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(103.28231292517006,478.5885167464115)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 4.2033 26.9847)" class="st1 st2 st3">Drone disrupts air operations</text>
+		<text transform="matrix(1 0 0 1 4.2033 34.1847)" class="st1 st2 st3">on part of Pole Creek Fire</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_27_" x="0.5" y="0.5" width="88.3" height="149.4"/>
+		</defs>
+		<clipPath id="SVGID_28_">
+			<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="diibtT.tif" class="st20">
+			
+				<image style="overflow:visible;" width="400" height="225" id="Layer_0_29_" xlink:href="A5990FD9125B7A99.png"  transform="matrix(0.4385 0 0 0.4385 -59.4952 51.7658)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(196.56462585034012,478.5885167464115)">
+	<rect x="0.5" y="0.5" class="st10" width="88.3" height="149.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 10.6627 116.9583)" class="st1 st2 st3">Drone got in helicopter&apos;s </text>
+		<text transform="matrix(1 0 0 1 10.6627 124.1583)" class="st1 st2 st3">way as it fought a wildfire </text>
+		<text transform="matrix(1 0 0 1 10.6627 131.3583)" class="st1 st2 st3">in Minnesota</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_29_" x="-35.9" y="0.3" width="150.8" height="100.8"/>
+			</defs>
+			<clipPath id="SVGID_30_">
+				<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-35.9" y="0.3" class="st21" width="150.8" height="100.8"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_31_" x="0.5" y="0.5" width="88.3" height="149.4"/>
+			</defs>
+			<clipPath id="SVGID_32_">
+				<use xlink:href="#SVGID_31_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st22">
+				<g>
+					<defs>
+						<rect id="SVGID_33_" x="-35.6" y="0.4" width="150.2" height="100.6"/>
+					</defs>
+					<clipPath id="SVGID_34_">
+						<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st23">
+						<g>
+							<defs>
+								<rect id="SVGID_35_" x="-35.6" y="0.4" width="150.2" height="100.6"/>
+							</defs>
+							<clipPath id="SVGID_36_">
+								<use xlink:href="#SVGID_35_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st24">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1417" height="941" xlink:href="193B7CF8076A4184.png"  transform="matrix(0.1061 0 0 0.1066 -35.6728 0.5586)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,632.9665071770335)">
+	<rect x="0.5" y="0.5" class="st10" width="162.9" height="80.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.7805 69.1685)" class="st1 st2 st3">Illegal drone grounds firefighting aircraft on 5,400-acre </text>
+		<text transform="matrix(1 0 0 1 9.7805 76.3685)" class="st1 st2 st3">Terwilliger Fire</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_37_" x="0.5" y="0.5" width="162.9" height="80.8"/>
+			</defs>
+			<clipPath id="SVGID_38_">
+				<use xlink:href="#SVGID_37_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st25">
+				<g>
+					<defs>
+						<rect id="SVGID_39_" x="0.3" y="-62.1" width="163.1" height="120.8"/>
+					</defs>
+					<clipPath id="SVGID_40_">
+						<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st26">
+						<g>
+							<defs>
+								<rect id="SVGID_41_" x="0.3" y="-62.1" width="163.1" height="120"/>
+							</defs>
+							<clipPath id="SVGID_42_">
+								<use xlink:href="#SVGID_41_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st27">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1087" height="716" xlink:href="193B7CF8076A4185.png"  transform="matrix(0.1506 0 0 0.1478 3.889256e-02 -40.8723)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,718.7320574162679)">
+	<rect x="0.5" y="0.5" class="st10" width="162.9" height="80.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 96.4273 40.8824)" class="st1 st2 st3">Law Enforcement/First </text>
+		<text transform="matrix(1 0 0 1 96.4273 48.0824)" class="st1 st2 st3">Responders</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_43_" x="0.5" y="0.5" width="162.9" height="80.8"/>
+			</defs>
+			<clipPath id="SVGID_44_">
+				<use xlink:href="#SVGID_43_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st28">
+				<g>
+					<defs>
+						<rect id="SVGID_45_" x="0.5" y="-53.5" width="162.9" height="150.8"/>
+					</defs>
+					<clipPath id="SVGID_46_">
+						<use xlink:href="#SVGID_45_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st29">
+						<g>
+							<defs>
+								<rect id="SVGID_47_" x="0.5" y="-53.5" width="162.9" height="150.8"/>
+							</defs>
+							<clipPath id="SVGID_48_">
+								<use xlink:href="#SVGID_47_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 9.536743e-07 0)" class="st30">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1216" height="1124" xlink:href="A5990FD9125B7AA8.png"  transform="matrix(8.622312e-02 0 0 8.583326e-02 -15.4846 -1.0135)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,804.4976076555024)">
+	<rect x="0.5" y="0.5" class="st10" width="162.9" height="80.8"/>
+	<rect x="0.5" y="0.5" class="st10" width="162.9" height="80.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 11.3954 67.5307)" class="st1 st2 st3">Report: Drone nearly caused mid-air collision at </text>
+		<text transform="matrix(1 0 0 1 11.3954 74.7307)" class="st1 st2 st3">Grassy Ridge Fire</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_49_" x="0.1" y="-57.8" width="163.3" height="92.2"/>
+			</defs>
+			<clipPath id="SVGID_50_">
+				<use xlink:href="#SVGID_49_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_51_" x="0.5" y="0.5" width="162.9" height="80.8"/>
+			</defs>
+			<clipPath id="SVGID_52_">
+				<use xlink:href="#SVGID_51_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st31">
+				<g>
+					<defs>
+						<rect id="SVGID_53_" x="0.4" y="-32.6" width="162.7" height="91.7"/>
+					</defs>
+					<clipPath id="SVGID_54_">
+						<use xlink:href="#SVGID_53_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st32">
+						<g>
+							<defs>
+								<rect id="SVGID_55_" x="0.4" y="-32.6" width="162.7" height="91.7"/>
+							</defs>
+							<clipPath id="SVGID_56_">
+								<use xlink:href="#SVGID_55_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st33">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1292" height="732" xlink:href="A5990FD9125B7AA2.png"  transform="matrix(0.1257 0 0 0.126 0.5912 -4.2726)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(177.90816326530611,632.9665071770335)">
+	<rect x="0.5" y="0.5" class="st10" width="106.9" height="252.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.7922 209.5337)" class="st1 st2 st3">Your hobby is not worth another</text>
+		<text transform="matrix(1 0 0 1 9.7922 216.7337)" class="st1 st2 st3"> person&apos;s life&apos;: Drone flown near </text>
+		<text transform="matrix(1 0 0 1 9.7922 223.9337)" class="st1 st2 st3">Museum Fire delays air operations</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_57_" x="0.5" y="0.5" class="st4" width="106.9" height="252.3"/>
+		</defs>
+		<clipPath id="SVGID_58_">
+			<use xlink:href="#SVGID_57_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="lD9Gtt_1_" class="st34">
+			
+				<image style="overflow:visible;" width="360" height="203" id="lD9Gtt_3_" xlink:href="A5990FD9125B7AAA.jpg"  transform="matrix(0.9738 0 0 0.9738 -108.3023 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,900.2631578947369)">
+	<rect x="0.5" y="0.5" class="st35" width="274.8" height="37.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 137.9232 22.6087)" class="st1 st2 st3">A security threat lurks in the sky around OIA</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_59_" x="0.5" y="0.5" width="274.8" height="37.4"/>
+			</defs>
+			<clipPath id="SVGID_60_">
+				<use xlink:href="#SVGID_59_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st36">
+				<g>
+					<defs>
+						<rect id="SVGID_61_" x="-4.8" y="-31.6" width="155.2" height="75.9"/>
+					</defs>
+					<clipPath id="SVGID_62_">
+						<use xlink:href="#SVGID_61_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st37">
+						<g>
+							<defs>
+								<rect id="SVGID_63_" x="-4.8" y="-31.6" width="155.2" height="75.9"/>
+							</defs>
+							<clipPath id="SVGID_64_">
+								<use xlink:href="#SVGID_63_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 2.980232e-08 0)" class="st38">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1209" height="595" xlink:href="A5990FD9125B7AA3.png"  transform="matrix(0.1037 0 0 0.1015 0.3041 -6.7326)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(10,952.6315789473684)">
+	<rect x="0.5" y="0.5" class="st39" width="274.8" height="37.4"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 153.633 12.4408)" class="st1 st2 st3">A small UAV slammed into and broke a </text>
+		<text transform="matrix(1 0 0 1 153.633 19.6408)" class="st1 st2 st3">dining room window in a home in the</text>
+		<text transform="matrix(1 0 0 1 153.633 26.8408)" class="st1 st2 st3">Capitol Hill section of Seattle, Washington</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_65_" x="-0.3" y="-23.9" width="148.5" height="86.5"/>
+			</defs>
+			<clipPath id="SVGID_66_">
+				<use xlink:href="#SVGID_65_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-0.3" y="-23.9" class="st40" width="148.5" height="86.5"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_67_" x="0.5" y="0.5" width="274.8" height="37.4"/>
+			</defs>
+			<clipPath id="SVGID_68_">
+				<use xlink:href="#SVGID_67_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st41">
+				<g>
+					<defs>
+						<rect id="SVGID_69_" x="-0.2" y="-23.9" width="147.7" height="86.2"/>
+					</defs>
+					<clipPath id="SVGID_70_">
+						<use xlink:href="#SVGID_69_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st42">
+						<g>
+							<defs>
+								<rect id="SVGID_71_" x="-0.2" y="-23.9" width="147.7" height="86.2"/>
+							</defs>
+							<clipPath id="SVGID_72_">
+								<use xlink:href="#SVGID_71_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st43">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="995" height="581" xlink:href="A5990FD9125B7AA4.png"  transform="matrix(0.1471 0 0 0.1524 0.5152 -25.1347)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<title>undefined: NaN</title>
+<g>
+	<rect x="300.3" y="10.5" class="st44" width="211.2" height="53.6"/>
+	<g>
+		<text transform="matrix(1 0 0 1 415.6609 20.2942)" class="st1 st2 st3">A small UAV smashed through the </text>
+		<text transform="matrix(1 0 0 1 415.6609 27.4942)" class="st1 st2 st3">display window of a Kate Spade </text>
+		<text transform="matrix(1 0 0 1 415.6609 34.6942)" class="st1 st2 st3">boutique on Mercer Street in </text>
+		<text transform="matrix(1 0 0 1 415.6609 41.8942)" class="st1 st2 st3">Manhattan’s Soho neighborhood. </text>
+		<text transform="matrix(1 0 0 1 415.6609 49.0942)" class="st1 st2 st3">The business was closed and no </text>
+		<text transform="matrix(1 0 0 1 415.6609 56.2942)" class="st1 st2 st3">one was hurt.</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_73_" x="300.3" y="10.5" width="211.2" height="53.6"/>
+			</defs>
+			<clipPath id="SVGID_74_">
+				<use xlink:href="#SVGID_73_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st45">
+				<g>
+					<defs>
+						<rect id="SVGID_75_" x="300.3" y="4" width="105.6" height="71.9"/>
+					</defs>
+					<clipPath id="SVGID_76_">
+						<use xlink:href="#SVGID_75_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st46">
+						<g>
+							<defs>
+								<rect id="SVGID_77_" x="300.3" y="4" width="105.6" height="71.9"/>
+							</defs>
+							<clipPath id="SVGID_78_">
+								<use xlink:href="#SVGID_77_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st47">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="727" height="494" xlink:href="A5990FD9125B7AA5.png"  transform="matrix(0.1444 0 0 0.1476 300.6712 3.523)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(516.0459183673469,10)">
+	<rect x="0.5" y="0.5" class="st44" width="211.2" height="53.6"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 122.3332 22.9886)" class="st1 st2 st3">Drone crash knocks out power </text>
+		<text transform="matrix(1 0 0 1 122.3332 30.1886)" class="st1 st2 st3">to 1,600 in Mountain View</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_79_" x="0.5" y="0.5" width="211.2" height="53.6"/>
+			</defs>
+			<clipPath id="SVGID_80_">
+				<use xlink:href="#SVGID_79_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="JEcAnp.tif" class="st48">
+				
+					<image style="overflow:visible;enable-background:new    ;" width="744" height="547" id="Layer_0_5_" xlink:href="A5990FD9125B7AA6.png"  transform="matrix(0.1557 0 0 0.1557 0.457 -15.2875)">
+				</image>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,78.62068965517241)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.6228 126.802)" class="st1 st2 st3">After drone crashes into </text>
+		<text transform="matrix(1 0 0 1 8.6228 134.002)" class="st1 st2 st3">power lines, West </text>
+		<text transform="matrix(1 0 0 1 8.6228 141.202)" class="st1 st2 st3">Hollywood cracks down</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_81_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+			</defs>
+			<clipPath id="SVGID_82_">
+				<use xlink:href="#SVGID_81_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="vXN91o.tif" class="st50">
+				
+					<image style="overflow:visible;enable-background:new    ;" width="843" height="546" id="Layer_0_6_" xlink:href="A5990FD9125B7AA7.png"  transform="matrix(0.2074 0 0 0.2074 -46.2265 0.6864)">
+				</image>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(386.3265306122449,78.62068965517241)">
+	<rect x="0.5" y="0.5" class="st49" width="168" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 20.3432 130.2684)" class="st1 st2 st3">Atlanta woman says drone ‘peeped&apos; on her while </text>
+		<text transform="matrix(1 0 0 1 20.3432 137.4684)" class="st1 st2 st3">she dressed</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_83_" x="0.4" y="4.6" width="167" height="104"/>
+			</defs>
+			<clipPath id="SVGID_84_">
+				<use xlink:href="#SVGID_83_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="0.4" y="4.6" class="st51" width="167" height="104"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_85_" x="0.5" y="0.5" width="168" height="164.2"/>
+		</defs>
+		<clipPath id="SVGID_86_">
+			<use xlink:href="#SVGID_85_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st52">
+			<g>
+				<defs>
+					<rect id="SVGID_87_" x="-38.7" y="-41.4" width="245.2" height="152.5"/>
+				</defs>
+				<clipPath id="SVGID_88_">
+					<use xlink:href="#SVGID_87_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st53">
+					<g>
+						<defs>
+							<rect id="SVGID_89_" x="-38.7" y="-41.4" width="245.2" height="152.5"/>
+						</defs>
+						<clipPath id="SVGID_90_">
+							<use xlink:href="#SVGID_89_"  style="overflow:visible;"/>
+						</clipPath>
+						<g transform="matrix(1 0 0 1 0 0)" class="st54">
+							
+								<image style="overflow:visible;" width="1713" height="1075" xlink:href="A5990FD9125B7AD2.png"  transform="matrix(0.145 0 0 0.1374 -40.2617 -39.0705)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(559.2857142857142,78.62068965517241)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<defs>
+			<rect id="SVGID_91_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+		</defs>
+		<clipPath id="SVGID_92_">
+			<use xlink:href="#SVGID_91_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="Q8oe5Q.tif" class="st55">
+			
+				<image style="overflow:visible;" width="1280" height="720" id="Layer_0_30_" xlink:href="A5990FD9125B7AC0.png"  transform="matrix(0.1444 0 0 0.1444 -55.7791 60.8861)">
+			</image>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 10.984 25.1411)" class="st1 st2 st3">DOC and State Police </text>
+		<text transform="matrix(1 0 0 1 10.984 32.3411)" class="st1 st2 st3">Confirm Drone Sighting </text>
+		<text transform="matrix(1 0 0 1 10.984 39.5411)" class="st1 st2 st3">Near SCI Frackville</text>
+	</g>
+</g>
+<g transform="translate(645.7653061224489,78.62068965517241)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.8515 113.1014)" class="st1 st2 st3">DRONE &apos;PEEPERS&apos; </text>
+		<text transform="matrix(1 0 0 1 6.8515 120.3014)" class="st1 st2 st3">Mum-of-six and boyfriend </text>
+		<text transform="matrix(1 0 0 1 6.8515 127.5014)" class="st1 st2 st3">‘used drone to spy on </text>
+		<text transform="matrix(1 0 0 1 6.8515 134.7014)" class="st1 st2 st3">neighbours through </text>
+		<text transform="matrix(1 0 0 1 6.8515 141.9014)" class="st1 st2 st3">bedroom and bathroom </text>
+		<text transform="matrix(1 0 0 1 6.8515 149.1014)" class="st1 st2 st3">windows’ of high-rise </text>
+		<text transform="matrix(1 0 0 1 6.8515 156.3014)" class="st1 st2 st3">Utah apartment</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_93_" x="-41.1" y="0.5" width="157" height="104"/>
+			</defs>
+			<clipPath id="SVGID_94_">
+				<use xlink:href="#SVGID_93_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-41.1" y="0.5" class="st56" width="157" height="104"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_95_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+			</defs>
+			<clipPath id="SVGID_96_">
+				<use xlink:href="#SVGID_95_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st57">
+				<g>
+					<defs>
+						<rect id="SVGID_97_" x="-40.3" y="0.5" width="156" height="103.5"/>
+					</defs>
+					<clipPath id="SVGID_98_">
+						<use xlink:href="#SVGID_97_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st58">
+						<g>
+							<defs>
+								<rect id="SVGID_99_" x="-40.3" y="0.5" width="156" height="103.5"/>
+							</defs>
+							<clipPath id="SVGID_100_">
+								<use xlink:href="#SVGID_99_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 0 5.960464e-08)" class="st59">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1249" height="833" xlink:href="A5990FD9125B7AD5.png"  transform="matrix(0.1253 0 0 0.1249 -34.0662 -4.1311)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,247.79146141215105)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 10.3931 133.8812)" class="st1 st2 st3">Drone Seen &quot;Peeping&quot; </text>
+		<text transform="matrix(1 0 0 1 10.3931 141.0812)" class="st1 st2 st3">Around Fayette County</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_101_" x="-33.1" y="0.5" width="165.5" height="111.3"/>
+			</defs>
+			<clipPath id="SVGID_102_">
+				<use xlink:href="#SVGID_101_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-33.1" y="0.5" class="st60" width="165.5" height="111.3"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_103_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+			</defs>
+			<clipPath id="SVGID_104_">
+				<use xlink:href="#SVGID_103_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st61">
+				<g>
+					<defs>
+						<rect id="SVGID_105_" x="-33.1" y="0.7" width="165.5" height="111.1"/>
+					</defs>
+					<clipPath id="SVGID_106_">
+						<use xlink:href="#SVGID_105_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st62">
+						<g>
+							<defs>
+								<rect id="SVGID_107_" x="-33.1" y="0.7" width="165.5" height="111.1"/>
+							</defs>
+							<clipPath id="SVGID_108_">
+								<use xlink:href="#SVGID_107_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st63">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="988" height="663" xlink:href="A5990FD9125B7AD7.png"  transform="matrix(0.1669 0 0 0.1691 -32.7491 0.2114)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(386.3265306122449,247.79146141215105)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 12.057 34.6886)" class="st1 st2 st3">Drone crashes into </text>
+		<text transform="matrix(1 0 0 1 12.057 41.8886)" class="st1 st2 st3">downtown high-rise, b</text>
+		<text transform="matrix(1 0 0 1 12.057 49.0886)" class="st1 st2 st3">reaks window</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_109_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+		</defs>
+		<clipPath id="SVGID_110_">
+			<use xlink:href="#SVGID_109_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="A2ugf2.tif" class="st64">
+			
+				<image style="overflow:visible;" width="850" height="478" id="Layer_0_31_" xlink:href="A5990FD9125B7AC7.png"  transform="matrix(0.2105 0 0 0.2105 -60.1445 63.6)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(472.8061224489796,247.79146141215105)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.0665 111.8001)" class="st1 st2 st3">Drone flying close to Cape </text>
+		<text transform="matrix(1 0 0 1 9.0665 119)" class="st1 st2 st3">Coral home invades a </text>
+		<text transform="matrix(1 0 0 1 9.0665 126.2001)" class="st1 st2 st3">family&apos;s sense of privacy</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_111_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+		</defs>
+		<clipPath id="SVGID_112_">
+			<use xlink:href="#SVGID_111_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="AyqSrC_1_" class="st65">
+			
+				<image style="overflow:visible;" width="1280" height="720" id="AyqSrC_3_" xlink:href="A5990FD9125B7AC7.jpg"  transform="matrix(0.1079 0 0 0.1079 -15.0857 -0.1783)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(559.2857142857142,247.79146141215105)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 4.3873 133.1101)" class="st1 st2 st3">Drone misunderstanding in </text>
+		<text transform="matrix(1 0 0 1 4.3873 140.3101)" class="st1 st2 st3">Cape Coral shows learning </text>
+		<text transform="matrix(1 0 0 1 4.3873 147.5101)" class="st1 st2 st3">curve with rising technology</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_113_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+			</defs>
+			<clipPath id="SVGID_114_">
+				<use xlink:href="#SVGID_113_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st66">
+				<g>
+					<defs>
+						<rect id="SVGID_115_" x="-23" y="-0.1" width="123.5" height="109.7"/>
+					</defs>
+					<clipPath id="SVGID_116_">
+						<use xlink:href="#SVGID_115_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st67">
+						<g>
+							<defs>
+								<rect id="SVGID_117_" x="-23" y="-0.1" width="123.5" height="109.7"/>
+							</defs>
+							<clipPath id="SVGID_118_">
+								<use xlink:href="#SVGID_117_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 0 0)" class="st68">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1085" height="971" xlink:href="A5990FD9125B7ACB.png"  transform="matrix(0.1138 0 0 0.1131 -22.9426 -0.1567)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(645.7653061224489,247.79146141215105)">
+	<rect x="0.5" y="0.5" class="st49" width="81.5" height="164.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.0565 134.6102)" class="st1 st2 st3">Hackers using drones to </text>
+		<text transform="matrix(1 0 0 1 8.0565 141.8102)" class="st1 st2 st3">commit crimes</text>
+	</g>
+	<g class="st4">
+		<g>
+			<defs>
+				<rect id="SVGID_119_" x="-69" y="-1.5" width="209" height="115"/>
+			</defs>
+			<clipPath id="SVGID_120_">
+				<use xlink:href="#SVGID_119_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-69" y="-1.5" class="st69" width="209" height="115"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_121_" x="0.5" y="0.5" width="81.5" height="164.2"/>
+			</defs>
+			<clipPath id="SVGID_122_">
+				<use xlink:href="#SVGID_121_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st70">
+				<g>
+					<defs>
+						<rect id="SVGID_123_" x="-65.4" y="-1.2" width="201.4" height="110.8"/>
+					</defs>
+					<clipPath id="SVGID_124_">
+						<use xlink:href="#SVGID_123_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st71">
+						<g>
+							<defs>
+								<rect id="SVGID_125_" x="-65.4" y="-1.2" width="201.4" height="110.8"/>
+							</defs>
+							<clipPath id="SVGID_126_">
+								<use xlink:href="#SVGID_125_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 0 0)" class="st72">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1285" height="712" xlink:href="A5990FD9125B7AC8.png"  transform="matrix(0.1573 0 0 0.1539 -65.7759 -0.5852)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,416.9622331691297)">
+	<rect x="0.5" y="0.5" class="st49" width="152.2" height="88"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 13.3163 73.6974)" class="st1 st2 st3">Homeowner tries to shoot down drone over his</text>
+		<text transform="matrix(1 0 0 1 13.3163 80.8974)" class="st1 st2 st3">house as he was in fear of his family’s privacy</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_127_" x="-12" y="-43.9" width="175" height="109"/>
+			</defs>
+			<clipPath id="SVGID_128_">
+				<use xlink:href="#SVGID_127_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-12" y="-43.9" class="st73" width="175" height="109"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_129_" x="0.5" y="0.5" width="152.2" height="88"/>
+			</defs>
+			<clipPath id="SVGID_130_">
+				<use xlink:href="#SVGID_129_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st74">
+				<g>
+					<defs>
+						
+							<rect id="SVGID_131_" x="21.5" y="-72.3" transform="matrix(5.203057e-03 -1 1 5.203057e-03 60.3189 90.1356)" width="108" height="174"/>
+					</defs>
+					<clipPath id="SVGID_132_">
+						<use xlink:href="#SVGID_131_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st75">
+						<g>
+							<defs>
+								
+									<rect id="SVGID_133_" x="21.5" y="-72.2" transform="matrix(4.135148e-02 -0.9991 0.9991 4.135148e-02 57.5996 89.544)" width="108" height="174"/>
+							</defs>
+							<clipPath id="SVGID_134_">
+								<use xlink:href="#SVGID_133_"  style="overflow:visible;"/>
+							</clipPath>
+							<g class="st76">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="1600" height="1000" xlink:href="A5990FD9125B7AF7.png"  transform="matrix(0.1087 4.496772e-03 -4.463681e-03 0.1079 -9.2358 -42.7562)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,510.00615763546796)">
+	<rect x="0.5" y="0.5" class="st49" width="152.2" height="88"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 76.6 29.02)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Man points a laser at law </tspan><tspan x="0" y="7.2" class="st1 st2 st3">enforcement airplane</tspan><tspan x="0" y="14.4" class="st1 st2 st3">he thought was a drone, </tspan><tspan x="0" y="21.6" class="st1 st2 st3">police say </tspan></text>
+	</g>
+	
+		<image style="overflow:visible;opacity:0.5;" width="509" height="642" xlink:href="A5990FD9125B7B42.png"  transform="matrix(0.1376 0 0 0.1376 0.5 0.3243)">
+	</image>
+</g>
+<g transform="translate(299.8469387755102,603.0500821018062)">
+	<rect x="0.5" y="0.5" class="st49" width="152.2" height="88"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.2835 70.3022)" class="st1 st2 st3">Pa. man accused of using drone to drop explosives </text>
+		<text transform="matrix(1 0 0 1 8.2835 77.5022)" class="st1 st2 st3">on ex-girlfriend’s property</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_135_" x="0.5" y="0.5" width="152.2" height="88"/>
+		</defs>
+		<clipPath id="SVGID_136_">
+			<use xlink:href="#SVGID_135_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="Ey3sZG_1_" class="st77">
+			
+				<image style="overflow:visible;" width="696" height="398" id="Ey3sZG_3_" xlink:href="A5990FD9125B7AFA.jpg"  transform="matrix(0.2223 0 0 0.2223 -1.9022 -31.0879)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,696.0940065681444)">
+	<rect x="0.5" y="0.5" class="st49" width="152.2" height="88"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 14.907 73.876)" class="st1 st2 st3">Peeping drones spying on people in St. Louis</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_137_" x="0.5" y="0.5" width="152.2" height="54.9"/>
+		</defs>
+		<clipPath id="SVGID_138_">
+			<use xlink:href="#SVGID_137_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="SfYKmp_1_" class="st78">
+			
+				<image style="overflow:visible;" width="363" height="205" id="SfYKmp_3_" xlink:href="A5990FD9125B7AF9.jpg"  transform="matrix(0.4722 0 0 0.4722 -8.4147 -27.0307)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(457.08256029684594,416.9622331691297)">
+	<rect x="0.5" y="0.5" class="st49" width="86.7" height="154.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.6343 108.9814)" class="st1 st2 st3">Police warn voyeur using </text>
+		<text transform="matrix(1 0 0 1 8.6343 116.1814)" class="st1 st2 st3">drone to spy on women </text>
+		<text transform="matrix(1 0 0 1 8.6343 123.3814)" class="st1 st2 st3">through high apartment </text>
+		<text transform="matrix(1 0 0 1 8.6343 130.5814)" class="st1 st2 st3">windows in Orlando</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_139_" x="0.5" y="0.5" width="86.7" height="154.5"/>
+		</defs>
+		<clipPath id="SVGID_140_">
+			<use xlink:href="#SVGID_139_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="ZRTXnY_1_" class="st79">
+			
+				<image style="overflow:visible;" width="400" height="225" id="ZRTXnY_3_" xlink:href="A5990FD9125B7B2B.jpg"  transform="matrix(0.4202 0 0 0.4202 -40.1867 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(548.8033395176252,416.9622331691297)">
+	<rect x="0.5" y="0.5" class="st49" width="178.4" height="154.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 21.4665 121.5995)" class="st1 st2 st3">Resident unhappy with city’s drone, claims it invaded</text>
+		<text transform="matrix(1 0 0 1 21.4665 128.7995)" class="st1 st2 st3">privacy, scared daughters</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_141_" x="0.5" y="0.5" width="178.4" height="154.5"/>
+		</defs>
+		<clipPath id="SVGID_142_">
+			<use xlink:href="#SVGID_141_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="GHGGYt.tif" class="st80">
+			
+				<image style="overflow:visible;" width="1280" height="559" id="Layer_0_32_" xlink:href="A5990FD9125B7B43.png"  transform="matrix(0.1756 0 0 0.1756 -22.6671 -3.1293)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(457.08256029684594,576.4661036828525)">
+	<rect x="0.5" y="0.5" class="st49" width="132.6" height="101.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 11.2234 79.3221)" class="st1 st2 st3">Residents spot drone looking into their </text>
+		<text transform="matrix(1 0 0 1 11.2234 86.5221)" class="st1 st2 st3">apartment windows</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_143_" x="2.3" y="-13" width="125.1" height="81.8"/>
+			</defs>
+			<clipPath id="SVGID_144_">
+				<use xlink:href="#SVGID_143_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="2.3" y="-13" class="st81" width="125.1" height="81.8"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_145_" x="0.5" y="0.2" width="132.6" height="65.2"/>
+		</defs>
+		<clipPath id="SVGID_146_">
+			<use xlink:href="#SVGID_145_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st82">
+			<g>
+				<defs>
+					<rect id="SVGID_147_" x="-4.5" y="-25.3" width="148" height="96.6"/>
+				</defs>
+				<clipPath id="SVGID_148_">
+					<use xlink:href="#SVGID_147_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st83">
+					<g>
+						<defs>
+							<rect id="SVGID_149_" x="-4.5" y="-25.3" width="148" height="96.6"/>
+						</defs>
+						<clipPath id="SVGID_150_">
+							<use xlink:href="#SVGID_149_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st84">
+							
+								<image style="overflow:visible;" width="1761" height="1146" xlink:href="A5990FD9125B7AF8.png"  transform="matrix(8.423696e-02 0 0 8.384847e-02 -4.6864 -24.9559)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(457.08256029684594,682.8020173586676)">
+	<rect x="0.5" y="0.5" class="st49" width="132.6" height="101.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.8736 83.5681)" class="st1 st2 st3">Swiss tourist arraigned in NYC high-rise </text>
+		<text transform="matrix(1 0 0 1 9.8736 90.7681)" class="st1 st2 st3">drone crash</text>
+	</g>
+	<g id="fut4pp_1_" class="st4">
+		
+			<image style="overflow:visible;" width="992" height="558" id="fut4pp_3_" xlink:href="A5990FD9125B7B38.jpg"  transform="matrix(0.1337 0 0 0.1337 0.5 0.5)">
+		</image>
+	</g>
+</g>
+<g transform="translate(594.6637291280148,576.4661036828525)">
+	<rect x="0.5" y="0.5" class="st49" width="63.8" height="207.7"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.6893 165.6585)" class="st1 st2 st3">Tiburon schools to </text>
+		<text transform="matrix(1 0 0 1 6.6893 172.8585)" class="st1 st2 st3">seek ban on drone </text>
+		<text transform="matrix(1 0 0 1 6.6893 180.0585)" class="st1 st2 st3">flyovers</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_151_" x="0.5" y="0.5" width="63.8" height="207.7"/>
+		</defs>
+		<clipPath id="SVGID_152_">
+			<use xlink:href="#SVGID_151_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="DIhnT4_1_" class="st85">
+			
+				<image style="overflow:visible;" width="902" height="575" id="DIhnT4_3_" xlink:href="A5990FD9125B7B39.jpg"  transform="matrix(0.2526 0 0 0.2526 -77.5046 0.7675)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(663.4543135435993,576.4661036828525)">
+	<rect x="0.5" y="0.5" class="st49" width="63.8" height="207.7"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.8373 131.5884)" class="st1 st2 st3">Woman says she </text>
+		<text transform="matrix(1 0 0 1 9.8373 138.7884)" class="st1 st2 st3">doesn&apos;t know who </text>
+		<text transform="matrix(1 0 0 1 9.8373 145.9884)" class="st1 st2 st3">was flying drones </text>
+		<text transform="matrix(1 0 0 1 9.8373 153.1884)" class="st1 st2 st3">in her backyard</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_153_" x="-47.7" y="23.3" width="153.6" height="95.9"/>
+			</defs>
+			<clipPath id="SVGID_154_">
+				<use xlink:href="#SVGID_153_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-47.7" y="23.3" class="st86" width="153.6" height="95.9"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_155_" x="0.5" y="0.5" width="63.8" height="91"/>
+		</defs>
+		<clipPath id="SVGID_156_">
+			<use xlink:href="#SVGID_155_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st87">
+			<g>
+				<defs>
+					<rect id="SVGID_157_" x="-47.9" y="-7.8" width="214.8" height="133.8"/>
+				</defs>
+				<clipPath id="SVGID_158_">
+					<use xlink:href="#SVGID_157_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st88">
+					<g>
+						<defs>
+							<rect id="SVGID_159_" x="-47.9" y="-7.8" width="214.8" height="133.8"/>
+						</defs>
+						<clipPath id="SVGID_160_">
+							<use xlink:href="#SVGID_159_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st89">
+							
+								<image style="overflow:visible;" width="2523" height="1579" xlink:href="A5990FD9125B7AFB.jpg"  transform="matrix(9.263744e-02 0 0 9.235299e-02 -43.3672 -7.8286)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,799.1379310344828)">
+	<rect x="0.5" y="0.5" class="st90" width="139.1" height="92.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 82.7063 41.9925)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Border Patrol spots </tspan><tspan x="0" y="7.2" class="st1 st2 st3">drone trying to help </tspan><tspan x="0" y="14.4" class="st1 st2 st3">migrants illegally </tspan><tspan x="0" y="21.6" class="st1 st2 st3">enter America</tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_161_" x="0.5" y="0.5" width="71.4" height="93.2"/>
+		</defs>
+		<clipPath id="SVGID_162_">
+			<use xlink:href="#SVGID_161_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="PPtkNv.tif" class="st91">
+			
+				<image style="overflow:visible;" width="1882" height="1062" id="Layer_0_7_" xlink:href="A5990FD9125B7AFA.png"  transform="matrix(9.245186e-02 0 0 9.245186e-02 -50.4672 -2.3618)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(299.8469387755102,897.0689655172414)">
+	<rect x="0.5" y="0.5" class="st90" width="139.1" height="92.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 89.32 42.5351)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Drone inspecting </tspan><tspan x="0" y="7.2" class="st1 st2 st3">San Francisco&apos;s </tspan><tspan x="0" y="14.4" class="st1 st2 st3">Millennium Tower </tspan><tspan x="0" y="21.6" class="st1 st2 st3">crashes </tspan></text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_163_" x="15.9" y="-3.1" width="100.5" height="62.9"/>
+			</defs>
+			<clipPath id="SVGID_164_">
+				<use xlink:href="#SVGID_163_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="15.9" y="-3.1" class="st92" width="100.5" height="62.9"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_165_" x="0.5" y="0.6" width="82.5" height="92.8"/>
+		</defs>
+		<clipPath id="SVGID_166_">
+			<use xlink:href="#SVGID_165_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st93">
+			<g>
+				<defs>
+					<rect id="SVGID_167_" x="-55.8" y="-23.1" width="195.7" height="122.5"/>
+				</defs>
+				<clipPath id="SVGID_168_">
+					<use xlink:href="#SVGID_167_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st94">
+					<g>
+						<defs>
+							<rect id="SVGID_169_" x="-55.8" y="-23.1" width="195.7" height="122.5"/>
+						</defs>
+						<clipPath id="SVGID_170_">
+							<use xlink:href="#SVGID_169_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st95">
+							
+								<image style="overflow:visible;" width="2539" height="1593" xlink:href="A5990FD9125B7B1D.jpg"  transform="matrix(7.694478e-02 0 0 7.710327e-02 -55.5818 -23.2809)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(443.9795918367347,799.1379310344828)">
+	<rect x="0.5" y="0.5" class="st90" width="139.1" height="92.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 15.5417 67.8123)" class="st1 st2 st3">Drone mysteriously crash lands in South </text>
+		<text transform="matrix(1 0 0 1 15.5417 75.0123)" class="st1 st2 st3">Tampa yard, family hopes to reunite it </text>
+		<text transform="matrix(1 0 0 1 15.5417 82.2123)" class="st1 st2 st3">with owners</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_171_" x="0.4" y="0.5" class="st4" width="139.3" height="54.4"/>
+		</defs>
+		<clipPath id="SVGID_172_">
+			<use xlink:href="#SVGID_171_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="Qhqatg.tif" class="st96">
+			
+				<image style="overflow:visible;" width="1280" height="720" id="Layer_0_33_" xlink:href="A5990FD9125B7B72.png"  transform="matrix(0.1087 0 0 0.1087 0.3799 -4.1788)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(443.9795918367347,897.0689655172414)">
+	<rect x="0.5" y="0.5" class="st90" width="139.1" height="92.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.3434 82.403)" class="st1 st2 st3">Drones pose safety issues at Danbury, </text>
+		<text transform="matrix(1 0 0 1 9.3434 89.603)" class="st1 st2 st3">Sikorsky airports</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_173_" x="21.6" y="3.7" width="118.8" height="65.1"/>
+			</defs>
+			<clipPath id="SVGID_174_">
+				<use xlink:href="#SVGID_173_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_175_" x="0.5" y="0.5" width="139.1" height="75.9"/>
+		</defs>
+		<clipPath id="SVGID_176_">
+			<use xlink:href="#SVGID_175_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st97">
+			<g>
+				<defs>
+					<rect id="SVGID_177_" x="-16.9" y="-26.1" width="188.9" height="103.4"/>
+				</defs>
+				<clipPath id="SVGID_178_">
+					<use xlink:href="#SVGID_177_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st98">
+					<g>
+						<defs>
+							<rect id="SVGID_179_" x="-16.9" y="-26.1" width="188.9" height="103.4"/>
+						</defs>
+						<clipPath id="SVGID_180_">
+							<use xlink:href="#SVGID_179_"  style="overflow:visible;"/>
+						</clipPath>
+						<g transform="matrix(1 0 0 1 0 0)" class="st99">
+							
+								<image style="overflow:visible;" width="2020" height="1120" xlink:href="A5990FD9125B7B1B.png"  transform="matrix(9.324402e-02 0 0 9.329287e-02 -16.6572 -26.666)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(588.1122448979592,799.1379310344828)">
+	<rect x="0.5" y="0.5" class="st90" width="67.1" height="190.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 4.7013 141.9249)" class="st1 st2 st3">New charges filed </text>
+		<text transform="matrix(1 0 0 1 4.7013 149.1249)" class="st1 st2 st3">against Sharpsville </text>
+		<text transform="matrix(1 0 0 1 4.7013 156.3249)" class="st1 st2 st3">man accused of </text>
+		<text transform="matrix(1 0 0 1 4.7013 163.5249)" class="st1 st2 st3">tormenting police dogs</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_181_" x="0.5" y="0.5" width="67.1" height="190.9"/>
+		</defs>
+		<clipPath id="SVGID_182_">
+			<use xlink:href="#SVGID_181_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="opacity:0.5;clip-path:url(#SVGID_182_);">
+			
+				<image style="overflow:visible;" width="846" height="575" xlink:href="A5990FD9125B7B25.png"  transform="matrix(0.2139 0 0 0.2149 -31.6555 -1.6747)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(660.1785714285713,799.1379310344828)">
+	<rect x="0.5" y="0.5" class="st90" width="67.1" height="190.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.9603 141.925)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Drones, Autonomous</tspan><tspan x="0" y="7.2" class="st1 st2 st3">Vehicles and Flying </tspan><tspan x="0" y="14.4" class="st1 st2 st3">Cars</tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_183_" x="0.5" y="0.5" width="67.1" height="190.9"/>
+		</defs>
+		<clipPath id="SVGID_184_">
+			<use xlink:href="#SVGID_183_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="VuOI7L_1_" class="st100">
+			
+				<image style="overflow:visible;" width="530" height="298" id="VuOI7L_3_" xlink:href="A5990FD9125B7B16.jpg"  transform="matrix(0.4072 0 0 0.4072 -85.5064 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,10)">
+	<rect x="0.5" y="0.5" class="st101" width="82" height="162"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 13.3245 61.0658)" class="st1 st2 st3">Close calls between </text>
+		<text transform="matrix(1 0 0 1 13.3245 68.2658)" class="st1 st2 st3">drones and aircraft in </text>
+		<text transform="matrix(1 0 0 1 13.3245 75.4658)" class="st1 st2 st3">Mid-Michigan</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_185_" x="-0.5" y="91.5" width="87.6" height="51.2"/>
+			</defs>
+			<clipPath id="SVGID_186_">
+				<use xlink:href="#SVGID_185_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-0.5" y="91.5" class="st102" width="87.6" height="51.2"/>
+		</g>
+	</g>
+	<rect x="-34.9" y="89.2" class="st103" width="138.5" height="80.7"/>
+	<rect x="-34.9" y="89.2" class="st103" width="138.5" height="80.7"/>
+	<g>
+		<defs>
+			<rect id="SVGID_187_" x="0.5" y="0.5" width="82" height="162"/>
+		</defs>
+		<clipPath id="SVGID_188_">
+			<use xlink:href="#SVGID_187_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="opacity:0.5;clip-path:url(#SVGID_188_);">
+			
+				<image style="overflow:visible;" width="2095" height="920" xlink:href="A5990FD9125B7B73.png"  transform="matrix(8.583073e-02 0 0 8.583073e-02 -51.3736 83.5358)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(829.2329931972788,10)">
+	<rect x="0.5" y="0.5" class="st101" width="82" height="162"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 11.6118 132.2885)" class="st1 st2 st3">Coast Guard helicopter </text>
+		<text transform="matrix(1 0 0 1 11.6118 139.4885)" class="st1 st2 st3">avoids drone strike in </text>
+		<text transform="matrix(1 0 0 1 11.6118 146.6885)" class="st1 st2 st3">Port Angeles</text>
+	</g>
+	<rect x="0.5" y="0.5" class="st103" width="82" height="162"/>
+	<g>
+		<defs>
+			<rect id="SVGID_189_" x="0.5" y="0.5" width="82" height="162"/>
+		</defs>
+		<clipPath id="SVGID_190_">
+			<use xlink:href="#SVGID_189_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st104">
+			
+				<image style="overflow:visible;" width="754" height="394" xlink:href="A5990FD9125B7B24.png"  transform="matrix(0.28 0 0 0.2753 -73.6636 -1.133)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(916.221088435374,10)">
+	<rect x="0.5" y="0.5" class="st101" width="82" height="162"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 5.0219 43.0647)" class="st1 st2 st3">Dangerous drones invade </text>
+		<text transform="matrix(1 0 0 1 5.0219 50.2647)" class="st1 st2 st3">protected airspace at metro </text>
+		<text transform="matrix(1 0 0 1 5.0219 57.4647)" class="st1 st2 st3">Detroit airports</text>
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_191_" x="916.7" y="90.8" width="82" height="81.7"/>
+	</defs>
+	<clipPath id="SVGID_192_">
+		<use xlink:href="#SVGID_191_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="opacity:0.5;clip-path:url(#SVGID_192_);">
+		
+			<image style="overflow:visible;" width="2560" height="1600" xlink:href="../Desktop/Screen Shot 2020-01-29 at 21.32.07.png"  transform="matrix(5.988382e-02 0 0 5.836027e-02 886.1926 84.9304)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1003.2091836734692,10)">
+	<rect x="0.5" y="0.5" class="st101" width="82" height="162"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.4743 118.0244)" class="st1 st2 st3">Drone Recovered on </text>
+		<text transform="matrix(1 0 0 1 7.4743 125.2244)" class="st1 st2 st3">Tarmac Near Runway </text>
+		<text transform="matrix(1 0 0 1 7.4743 132.4244)" class="st1 st2 st3">at San Francisco </text>
+		<text transform="matrix(1 0 0 1 7.4743 139.6244)" class="st1 st2 st3">International Airport </text>
+		<text transform="matrix(1 0 0 1 7.4743 146.8244)" class="st1 st2 st3">Prompts Investigation</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_193_" x="-14.4" y="0.5" width="117.2" height="80"/>
+			</defs>
+			<clipPath id="SVGID_194_">
+				<use xlink:href="#SVGID_193_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-14.4" y="0.5" class="st105" width="117.2" height="80"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_195_" x="0.5" y="0.5" width="82" height="162"/>
+		</defs>
+		<clipPath id="SVGID_196_">
+			<use xlink:href="#SVGID_195_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st106">
+			<g>
+				<defs>
+					<rect id="SVGID_197_" x="-32.2" y="-0.3" width="142" height="97"/>
+				</defs>
+				<clipPath id="SVGID_198_">
+					<use xlink:href="#SVGID_197_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st107">
+					<g>
+						<defs>
+							<rect id="SVGID_199_" x="-32.2" y="-0.3" width="142" height="97"/>
+						</defs>
+						<clipPath id="SVGID_200_">
+							<use xlink:href="#SVGID_199_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st108">
+							
+								<image style="overflow:visible;" width="670" height="456" xlink:href="A5990FD9125B7B2D.png"  transform="matrix(0.2106 0 0 0.2157 -31.7633 -0.9608)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(1090.1972789115644,10)">
+	<rect x="0.5" y="0.5" class="st101" width="82" height="162"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.7864 121.6246)" class="st1 st2 st3">Drone scare near Vegas </text>
+		<text transform="matrix(1 0 0 1 7.7864 128.8246)" class="st1 st2 st3">Strip prompts FAA</text>
+		<text transform="matrix(1 0 0 1 7.7864 136.0245)" class="st1 st2 st3">investigation into likely </text>
+		<text transform="matrix(1 0 0 1 7.7864 143.2245)" class="st1 st2 st3">safety violations</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_201_" x="0.5" y="0.5" width="82" height="162"/>
+		</defs>
+		<clipPath id="SVGID_202_">
+			<use xlink:href="#SVGID_201_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="IJOFFu.tif" class="st109">
+			
+				<image style="overflow:visible;" width="1297" height="728" id="Layer_0_8_" xlink:href="A5990FD9125B7B2F.png"  transform="matrix(0.1501 0 0 0.1501 -52.8669 -2.1809)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,177)">
+	<rect x="0.5" y="0.5" class="st101" width="140" height="95.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 11.1872 14.5068)" class="st1 st2 st3">Drones Nearly Hit Planes 117 Times in Ohio </text>
+		<text transform="matrix(1 0 0 1 11.1872 21.7068)" class="st1 st2 st3">in Five Years</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_203_" x="0.5" y="0.5" width="140" height="95.2"/>
+		</defs>
+		<clipPath id="SVGID_204_">
+			<use xlink:href="#SVGID_203_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="eThYB6.tif" class="st110">
+			
+				<image style="overflow:visible;" width="947" height="638" id="Layer_0_9_" xlink:href="A5990FD9125B7B2C.png"  transform="matrix(0.1537 0 0 0.1537 0.1208 28.5257)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,277.2)">
+	<rect x="0.5" y="0.5" class="st101" width="140" height="95.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 16.1372 70.5907)" class="st1 st2 st3">Hawaii airline pilots report pair of mid-air </text>
+		<text transform="matrix(1 0 0 1 16.1372 77.7907)" class="st1 st2 st3">near misses with drones</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_205_" x="-3" y="-18.7" width="152.2" height="76.8"/>
+			</defs>
+			<clipPath id="SVGID_206_">
+				<use xlink:href="#SVGID_205_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-3" y="-18.7" class="st111" width="152.2" height="76.8"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_207_" x="0.5" y="0.5" width="140" height="57.5"/>
+		</defs>
+		<clipPath id="SVGID_208_">
+			<use xlink:href="#SVGID_207_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st112">
+			<g>
+				<defs>
+					<rect id="SVGID_209_" x="-2.8" y="-7.2" width="151.8" height="76.5"/>
+				</defs>
+				<clipPath id="SVGID_210_">
+					<use xlink:href="#SVGID_209_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st113">
+					<g>
+						<defs>
+							<rect id="SVGID_211_" x="-2.8" y="-7.2" width="151.8" height="76.5"/>
+						</defs>
+						<clipPath id="SVGID_212_">
+							<use xlink:href="#SVGID_211_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st114">
+							
+								<image style="overflow:visible;" width="1209" height="616" xlink:href="A5990FD9125B7B2B.png"  transform="matrix(0.1251 0 0 0.126 -2.5492 -7.7138)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,377.4)">
+	<rect x="0.5" y="0.5" class="st101" width="140" height="95.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 19.4521 78.5717)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Logan-bound plane reports encounter</tspan><tspan x="0" y="7.2" class="st1 st2 st3">with &apos;unmanned aircraft&apos; </tspan></text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_213_" x="0.5" y="0.5" class="st4" width="140" height="71.4"/>
+		</defs>
+		<clipPath id="SVGID_214_">
+			<use xlink:href="#SVGID_213_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="t9geLX_1_" class="st115">
+			
+				<image style="overflow:visible;" width="600" height="450" id="t9geLX_3_" xlink:href="A5990FD9125B7B67.jpg"  transform="matrix(0.2358 0 0 0.2358 -1 -34.2063)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(887.2250566893423,177)">
+	<rect x="0.5" y="0.5" class="st101" width="91.7" height="145.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 11.4836 118.6093)" class="st1 st2 st3">Paris-to-Dulles Flight Has </text>
+		<text transform="matrix(1 0 0 1 11.4836 125.8093)" class="st1 st2 st3">Close Call With Drone</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_215_" x="0.5" y="0.5" width="91.7" height="100.1"/>
+		</defs>
+		<clipPath id="SVGID_216_">
+			<use xlink:href="#SVGID_215_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st116">
+			<g>
+				<defs>
+					<rect id="SVGID_217_" x="-210.3" y="-16.2" width="317.2" height="176.9"/>
+				</defs>
+				<clipPath id="SVGID_218_">
+					<use xlink:href="#SVGID_217_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st117">
+					<g>
+						<defs>
+							<rect id="SVGID_219_" x="-210.3" y="-16.2" width="317.2" height="176.9"/>
+						</defs>
+						<clipPath id="SVGID_220_">
+							<use xlink:href="#SVGID_219_"  style="overflow:visible;"/>
+						</clipPath>
+						<g transform="matrix(1 0 0 1 1.907349e-06 0)" class="st118">
+							
+								<image style="overflow:visible;" width="1481" height="830" xlink:href="A5990FD9125B7B00.png"  transform="matrix(0.2154 0 0 0.2095 -211.1009 -15.6834)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(983.8784958427815,177)">
+	<rect x="0.5" y="0.5" class="st101" width="91.7" height="145.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 14.4743 105.4799)" class="st1 st2 st3">Plane flying over county</text>
+		<text transform="matrix(1 0 0 1 14.4743 112.6799)" class="st1 st2 st3"> reports sighting drone</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_221_" x="0.5" y="0.5" width="91.7" height="145.3"/>
+		</defs>
+		<clipPath id="SVGID_222_">
+			<use xlink:href="#SVGID_221_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="GgX4Dh.tif" class="st119">
+			
+				<image style="overflow:visible;" width="1289" height="731" id="Layer_0_10_" xlink:href="A5990FD9125B7B03.png"  transform="matrix(0.1214 0 0 0.1214 -36.7838 -1.6517)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1080.5319349962206,177)">
+	<rect x="0.5" y="0.5" class="st101" width="91.7" height="145.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 13.3085 105.6762)" class="st1 st2 st3">Reports of drone disrupt </text>
+		<text transform="matrix(1 0 0 1 13.3085 112.8762)" class="st1 st2 st3">flights at Newark Airpor</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_223_" x="0.5" y="0.5" class="st4" width="91.7" height="145.3"/>
+		</defs>
+		<clipPath id="SVGID_224_">
+			<use xlink:href="#SVGID_223_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_224_);">
+			
+				<image style="overflow:visible;" width="983" height="558" id="Layer_0_11_" xlink:href="A5990FD9125B7B01.png"  transform="matrix(0.1594 0 0 0.1594 -26.9644 -1.9057)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(887.2250566893423,327.3)">
+	<rect x="0.5" y="0.5" class="st101" width="188.3" height="70.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 15.5706 63.1539)" class="st1 st2 st3">State police investigating drone sighting near Logan Airport</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_225_" x="0.5" y="0.5" width="188.3" height="53.8"/>
+		</defs>
+		<clipPath id="SVGID_226_">
+			<use xlink:href="#SVGID_225_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st120">
+			<g>
+				<defs>
+					<rect id="SVGID_227_" x="-5.6" y="-29.3" width="196.7" height="122.5"/>
+				</defs>
+				<clipPath id="SVGID_228_">
+					<use xlink:href="#SVGID_227_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st121">
+					<g>
+						<defs>
+							<rect id="SVGID_229_" x="-5.6" y="-29.3" width="196.7" height="122.5"/>
+						</defs>
+						<clipPath id="SVGID_230_">
+							<use xlink:href="#SVGID_229_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st122">
+							
+								<image style="overflow:visible;" width="2521" height="1565" xlink:href="A5990FD9125B7B00.jpg"  transform="matrix(7.818373e-02 0 0 7.794365e-02 -5.7689 -28.9574)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(887.2250566893423,402.45000000000005)">
+	<rect x="0.5" y="0.5" class="st101" width="188.3" height="70.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 127.5511 24.65)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Too close for comfort: </tspan><tspan x="0" y="7.2" class="st1 st2 st3">Dangerous drones </tspan><tspan x="0" y="14.4" class="st1 st2 st3">invade protected </tspan><tspan x="0" y="21.6" class="st1 st2 st3">airspace daily </tspan></text>
+	</g>
+	<g id="BiJNO2.tif" class="st4">
+		
+			<image style="overflow:visible;" width="1280" height="720" id="Layer_0_34_" xlink:href="A5990FD9125B7BDC.png"  transform="matrix(9.799232e-02 0 0 9.799232e-02 0.5 0.1727)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1080.5319349962206,327.3)">
+	<rect x="0.5" y="0.5" class="st101" width="91.7" height="145.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.1376 114.0059)" class="st1 st2 st3">Unregistered drones causing </text>
+		<text transform="matrix(1 0 0 1 7.1376 121.2059)" class="st1 st2 st3">issues for pilots, including in</text>
+		<text transform="matrix(1 0 0 1 7.1376 128.4059)" class="st1 st2 st3">the Kansas City metro</text>
+	</g>
+	<rect x="0.5" y="0.5" class="st103" width="91.7" height="145.3"/>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_231_" x="0.5" y="0.5" class="st4" width="91.7" height="94.1"/>
+		</defs>
+		<clipPath id="SVGID_232_">
+			<use xlink:href="#SVGID_231_"  style="overflow:visible;"/>
+		</clipPath>
+		<g transform="matrix(1 0 -3.725290e-09 1 0 0)" style="clip-path:url(#SVGID_232_);enable-background:new    ;">
+			
+				<image style="overflow:visible;" width="1600" height="1000" xlink:href="A5990FD9125B7B02.png"  transform="matrix(0.1362 4.632623e-03 -4.598532e-03 0.1352 -61.7168 -39.3016)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1187.1853741496598,10)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.0085 111.5355)" class="st1 st2 st3">Dispute over neighbor’s drone </text>
+		<text transform="matrix(1 0 0 1 8.0085 118.7354)" class="st1 st2 st3">use turns heated</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_233_" x="0.5" y="0.5" width="97.6" height="135.3"/>
+		</defs>
+		<clipPath id="SVGID_234_">
+			<use xlink:href="#SVGID_233_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="NSXIcg.tif" class="st124">
+			
+				<image style="overflow:visible;" width="960" height="558" id="Layer_0_38_" xlink:href="A5990FD9125B7BE0.png"  transform="matrix(0.1873 0 0 0.1873 -37.7984 -2.0022)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1289.7902494331065,10)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.941 15.7886)" class="st1 st2 st3">Drone Operator Charged With </text>
+		<text transform="matrix(1 0 0 1 7.941 22.9886)" class="st1 st2 st3">Trying to Drop Marijuana Into </text>
+		<text transform="matrix(1 0 0 1 7.941 30.1887)" class="st1 st2 st3">Georgia Prison</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_235_" x="0.5" y="0.5" width="97.6" height="135.3"/>
+		</defs>
+		<clipPath id="SVGID_236_">
+			<use xlink:href="#SVGID_235_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="wLQaOb.tif" class="st125">
+			
+				<image style="overflow:visible;" width="616" height="372" id="Layer_0_14_" xlink:href="A5990FD9125B7BDB.png"  transform="matrix(0.2406 0 0 0.2406 -23.5704 46.3033)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1392.3951247165533,10)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 12.2407 114.4244)" class="st1 st2 st3">Drone halts air drops on </text>
+		<text transform="matrix(1 0 0 1 12.2407 121.6245)" class="st1 st2 st3">Battle Mountain fire</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_237_" x="0.5" y="0.5" width="97.6" height="135.3"/>
+		</defs>
+		<clipPath id="SVGID_238_">
+			<use xlink:href="#SVGID_237_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="k5Mx3T_1_" class="st126">
+			
+				<image style="overflow:visible;" width="356" height="501" id="k5Mx3T_3_" xlink:href="A5990FD9125B7B34.jpg"  transform="matrix(0.2836 0 0 0.2836 -1.1832 -39.151)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1187.1853741496598,150.28000000000003)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 3.4427 100.6773)" class="st1 st2 st3">Drone spotted dropping items into </text>
+		<text transform="matrix(1 0 0 1 3.4427 107.8773)" class="st1 st2 st3">Cuyahoga County jail</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_239_" x="0.5" y="0.5" width="97.6" height="78.9"/>
+		</defs>
+		<clipPath id="SVGID_240_">
+			<use xlink:href="#SVGID_239_"  style="overflow:visible;"/>
+		</clipPath>
+		<g transform="matrix(1 0 0 1 0 0)" style="opacity:0.5;clip-path:url(#SVGID_240_);">
+			
+				<image style="overflow:visible;" width="2560" height="1600" xlink:href="../Desktop/Screen Shot 2020-01-29 at 18.40.32.png"  transform="matrix(6.069300e-02 0 0 6.103678e-02 -28.387 -5.8494)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1289.7902494331065,150.28000000000003)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<defs>
+			<rect id="SVGID_241_" x="0.5" y="0.5" width="97.6" height="135.3"/>
+		</defs>
+		<clipPath id="SVGID_242_">
+			<use xlink:href="#SVGID_241_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="qLOOEZ.tif" class="st127">
+			
+				<image style="overflow:visible;" width="840" height="472" id="Layer_0_15_" xlink:href="A5990FD9125B7BDA.png"  transform="matrix(0.1672 0 0 0.1672 -20.9315 57.614)">
+			</image>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 7.9409 23.9121)" class="st1 st2 st3">Fireworks-laden drone found </text>
+		<text transform="matrix(1 0 0 1 7.9409 31.1122)" class="st1 st2 st3">on roof of building in downtown</text>
+		<text transform="matrix(1 0 0 1 7.9409 38.3122)" class="st1 st2 st3">L.A., police say</text>
+	</g>
+</g>
+<g transform="translate(1392.3951247165533,150.28000000000003)">
+	<rect x="0.5" y="0.5" class="st123" width="97.6" height="135.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 14.9473 97.0775)" class="st1 st2 st3">Georgia man admits he </text>
+		<text transform="matrix(1 0 0 1 14.9473 104.2775)" class="st1 st2 st3">tried to use drone to drop </text>
+		<text transform="matrix(1 0 0 1 14.9473 111.4775)" class="st1 st2 st3">pot into prison</text>
+	</g>
+	<g id="nCKTS2.tif" class="st4">
+		
+			<image style="overflow:visible;" width="640" height="480" id="Layer_0_16_" xlink:href="A5990FD9125B7BD9.png"  transform="matrix(0.1525 0 0 0.1525 0.5 0.5)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1187.1853741496598,290.56000000000006)">
+	<rect x="0.5" y="0.5" class="st123" width="148.9" height="88.5"/>
+	<title>undefined: NaN</title>
+	<text transform="matrix(1 0 0 1 89.3409 38.222)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Lincoln man accused </tspan><tspan x="0" y="7.2" class="st1 st2 st3">of using drone to try </tspan><tspan x="0" y="14.4" class="st1 st2 st3">to deliver marijuana </tspan><tspan x="0" y="21.6" class="st1 st2 st3">to prison</tspan></text>
+	<g id="h0dNmi.tif" class="st4">
+		
+			<image style="overflow:visible;" width="1200" height="1200" id="Layer_0_17_" xlink:href="A5990FD9125B7BD8.png"  transform="matrix(7.367194e-02 0 0 7.367194e-02 0.4791 0.5972)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1187.1853741496598,384.08000000000004)">
+	<rect x="0.5" y="0.5" class="st123" width="148.9" height="88.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 82.6208 32.2197)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Mother-daughter team </tspan><tspan x="0" y="7.2" class="st1 st2 st3">busted for using drone </tspan><tspan x="0" y="14.4" class="st1 st2 st3">to smuggle contraband </tspan><tspan x="0" y="21.6" class="st1 st2 st3">into prison</tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_243_" x="0.5" y="0.5" width="148.9" height="88.5"/>
+		</defs>
+		<clipPath id="SVGID_244_">
+			<use xlink:href="#SVGID_243_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="_x31_xokC0_1_" class="st128">
+			
+				<image style="overflow:visible;" width="799" height="571" id="_x31_xokC0_3_" xlink:href="A5990FD9125B7B35.jpg"  transform="matrix(0.155 0 0 0.155 -49.6425 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1341.0926870748299,290.56000000000006)">
+	<rect x="0.5" y="0.5" class="st123" width="72" height="182"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.626 154.3457)" class="st1 st2 st3">Mystery Drone, </text>
+		<text transform="matrix(1 0 0 1 8.626 161.5457)" class="st1 st2 st3">Drug Possession: </text>
+		<text transform="matrix(1 0 0 1 8.626 168.7457)" class="st1 st2 st3">Needham Police Log</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_245_" x="0.5" y="0.5" width="72" height="182"/>
+		</defs>
+		<clipPath id="SVGID_246_">
+			<use xlink:href="#SVGID_245_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="ZwKNny.tif" class="st129">
+			
+				<image style="overflow:visible;" width="725" height="544" id="Layer_0_18_" xlink:href="A5990FD9125B7BCA.png"  transform="matrix(0.242 0 0 0.242 -10.279 0.5972)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1418.046343537415,290.56000000000006)">
+	<rect x="0.5" y="0.5" class="st123" width="72" height="182"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 7.3397 140.14)" class="st1 st2 st3">NYPD cop hit by drone, </text>
+		<text transform="matrix(1 0 0 1 7.3397 147.34)" class="st1 st2 st3">another hit by car at </text>
+		<text transform="matrix(1 0 0 1 7.3397 154.54)" class="st1 st2 st3">rabbi’s funeral</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_247_" x="0.5" y="0.5" width="72" height="182"/>
+		</defs>
+		<clipPath id="SVGID_248_">
+			<use xlink:href="#SVGID_247_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="iNaBAE.tif" class="st130">
+			
+				<image style="overflow:visible;" width="826" height="619" id="Layer_0_19_" xlink:href="A5990FD9125B7BC9.png"  transform="matrix(0.1877 0 0 0.1877 -28.3175 0.5972)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,487.6)">
+	<rect x="0.5" y="0.5" class="st131" width="141.6" height="92.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 16.272 72.9984)" class="st1 st2 st3">Drone Operator Cited for Interfering With </text>
+		<text transform="matrix(1 0 0 1 16.272 80.1984)" class="st1 st2 st3">Shark-Bite Victim Rescue</text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_249_" x="-1" y="-28.1" width="150.6" height="94"/>
+			</defs>
+			<clipPath id="SVGID_250_">
+				<use xlink:href="#SVGID_249_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="-1" y="-28.1" class="st132" width="150.6" height="94"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_251_" x="0.5" y="0.5" width="141.6" height="55.2"/>
+		</defs>
+		<clipPath id="SVGID_252_">
+			<use xlink:href="#SVGID_251_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st133">
+			<g>
+				<defs>
+					<rect id="SVGID_253_" x="-4.8" y="-8.6" width="150.6" height="93.8"/>
+				</defs>
+				<clipPath id="SVGID_254_">
+					<use xlink:href="#SVGID_253_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st134">
+					<g>
+						<defs>
+							<rect id="SVGID_255_" x="-4.8" y="-8.6" width="150.6" height="93.8"/>
+						</defs>
+						<clipPath id="SVGID_256_">
+							<use xlink:href="#SVGID_255_"  style="overflow:visible;"/>
+						</clipPath>
+						<g transform="matrix(1 0 0 1 5.960464e-08 0)" class="st135">
+							
+								<image style="overflow:visible;" width="2508" height="1578" xlink:href="A5990FD9125B7B03.jpg"  transform="matrix(5.991037e-02 0 0 5.972641e-02 -4.6312 -4.7556)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,584.8722222222223)">
+	<rect x="0.5" y="0.7" class="st131" width="141.6" height="92.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.8745 71.3058)" class="st1 st2 st3">Drones are hurting rescue efforts in Tulsa as </text>
+		<text transform="matrix(1 0 0 1 6.8745 78.5058)" class="st1 st2 st3">dangerous flooding continues</text>
+	</g>
+	<g class="st4">
+		<defs>
+			<rect id="SVGID_257_" x="0.5" y="0.7" class="st4" width="141.6" height="51.8"/>
+		</defs>
+		<clipPath id="SVGID_258_">
+			<use xlink:href="#SVGID_257_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="bIm9kT.tif" class="st136">
+			
+				<image style="overflow:visible;" width="400" height="225" id="Layer_0_35_" xlink:href="A5990FD9125B7BC0.png"  transform="matrix(0.354 0 0 0.354 0.5 0.3015)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,682.1444444444445)">
+	<rect x="0.5" y="0.5" class="st131" width="141.6" height="92.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.907 14.0183)" class="st1 st2 st3">Increased emergency vehicle visibility reflects</text>
+		<text transform="matrix(1 0 0 1 9.907 21.2183)" class="st1 st2 st3">an uptick in hospital transports during day 2 </text>
+		<text transform="matrix(1 0 0 1 9.907 28.4183)" class="st1 st2 st3">of Lollapalooza</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_259_" x="0.5" y="0.5" width="141.6" height="92.3"/>
+		</defs>
+		<clipPath id="SVGID_260_">
+			<use xlink:href="#SVGID_259_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st137">
+			<g>
+				<defs>
+					<rect id="SVGID_261_" x="-11.9" y="39" width="166.4" height="62.4"/>
+				</defs>
+				<clipPath id="SVGID_262_">
+					<use xlink:href="#SVGID_261_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st138">
+					<g>
+						<defs>
+							<rect id="SVGID_263_" x="-11.9" y="39" width="166.4" height="62.4"/>
+						</defs>
+						<clipPath id="SVGID_264_">
+							<use xlink:href="#SVGID_263_"  style="overflow:visible;"/>
+						</clipPath>
+						<g transform="matrix(1 0 0 1 0 0)" class="st139">
+							
+								<image style="overflow:visible;" width="804" height="303" xlink:href="A5990FD9125B7B1E.png"  transform="matrix(0.2069 0 0 0.2069 -11.8562 38.8605)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<rect x="889.3" y="488.1" class="st131" width="92.7" height="140.9"/>
+<title>undefined: NaN</title>
+<g>
+	<text transform="matrix(1 0 0 1 899.3527 606.3467)" class="st1 st2 st3">Man Cited for Using Drone </text>
+	<text transform="matrix(1 0 0 1 899.3527 613.5466)" class="st1 st2 st3">Above Lava Flow</text>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_265_" x="889.3" y="488.1" width="92.7" height="140.9"/>
+	</defs>
+	<clipPath id="SVGID_266_">
+		<use xlink:href="#SVGID_265_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="opacity:0.5;clip-path:url(#SVGID_266_);">
+		
+			<image style="overflow:visible;" width="2560" height="1600" xlink:href="../Desktop/Screen Shot 2020-01-30 at 16.01.15.png"  transform="matrix(6.092012e-02 0 0 6.092012e-02 857.7061 488.1)">
+		</image>
+	</g>
+</g>
+<g transform="translate(986.5597667638483,487.6)">
+	<rect x="0.5" y="0.5" class="st131" width="92.7" height="140.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.0049 10.7732)" class="st1 st2 st3">Maryland conservation group</text>
+		<text transform="matrix(1 0 0 1 8.0049 17.9731)" class="st1 st2 st3">says drone pilot buzzed bald </text>
+		<text transform="matrix(1 0 0 1 8.0049 25.1732)" class="st1 st2 st3">eagle&apos;s nest in Pasadena</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_267_" x="0.5" y="0.5" width="92.7" height="140.9"/>
+		</defs>
+		<clipPath id="SVGID_268_">
+			<use xlink:href="#SVGID_267_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="f3Hh2N_1_" class="st140">
+			
+				<image style="overflow:visible;" width="1224" height="1632" id="f3Hh2N_3_" xlink:href="A5990FD9125B7BC2.jpg"  transform="matrix(7.563797e-02 0 0 7.563797e-02 0.5 35.2941)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(888.8338192419824,633.5083333333334)">
+	<rect x="0.5" y="0.5" class="st131" width="190.5" height="68"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.1354 26.2697)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Police seize drone that </tspan><tspan x="0" y="7.2" class="st1 st2 st3">interfered with helicopter </tspan><tspan x="0" y="14.4" class="st1 st2 st3">after motorcycle crash </tspan></text>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_269_" x="71.3" y="-28.3" width="118.9" height="103.9"/>
+			</defs>
+			<clipPath id="SVGID_270_">
+				<use xlink:href="#SVGID_269_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="71.3" y="-28.3" class="st141" width="118.9" height="103.9"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_271_" x="0.5" y="0.5" width="190.5" height="68"/>
+		</defs>
+		<clipPath id="SVGID_272_">
+			<use xlink:href="#SVGID_271_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st142">
+			<g>
+				<defs>
+					<rect id="SVGID_273_" x="74.9" y="-20" width="118.5" height="103.4"/>
+				</defs>
+				<clipPath id="SVGID_274_">
+					<use xlink:href="#SVGID_273_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st143">
+					<g>
+						<defs>
+							<rect id="SVGID_275_" x="74.9" y="-20" width="118.5" height="103.4"/>
+						</defs>
+						<clipPath id="SVGID_276_">
+							<use xlink:href="#SVGID_275_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st144">
+							
+								<image style="overflow:visible;" width="800" height="699" xlink:href="A5990FD9125B7B1F.png"  transform="matrix(0.1489 0 0 0.1469 74.5525 -19.6368)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(888.8338192419824,706.4625000000001)">
+	<rect x="0.5" y="0.5" class="st131" width="190.5" height="68"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 16.3597 59.2544)" class="st1 st2 st3">Third Drone Intrusion Keeps Firefighters From Getting Food</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_277_" x="0.5" y="0.5" width="190.5" height="49.6"/>
+		</defs>
+		<clipPath id="SVGID_278_">
+			<use xlink:href="#SVGID_277_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="BTfVk8_1_" class="st145">
+			
+				<image style="overflow:visible;" width="756" height="425" id="BTfVk8_3_" xlink:href="A5990FD9125B7BC7.jpg"  transform="matrix(0.2545 0 0 0.2545 -0.7072 -55.3461)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,789.4166666666667)">
+	<rect x="0.5" y="0.5" class="st146" width="131.8" height="97.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.8692 76.6521)" class="st1 st2 st3">Drone Pilot Arrested After Crashing Craft </text>
+		<text transform="matrix(1 0 0 1 8.8692 83.8521)" class="st1 st2 st3">into Midtown Bank</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_279_" x="0.5" y="0.5" width="131.8" height="64"/>
+		</defs>
+		<clipPath id="SVGID_280_">
+			<use xlink:href="#SVGID_279_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st147">
+			<g>
+				<defs>
+					<rect id="SVGID_281_" x="-1.4" y="-9.5" width="133.7" height="87.8"/>
+				</defs>
+				<clipPath id="SVGID_282_">
+					<use xlink:href="#SVGID_281_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st148">
+					<g>
+						<defs>
+							<rect id="SVGID_283_" x="-1.4" y="-9.5" width="133.7" height="87.8"/>
+						</defs>
+						<clipPath id="SVGID_284_">
+							<use xlink:href="#SVGID_283_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st149">
+							
+								<image style="overflow:visible;" width="1251" height="825" xlink:href="A5990FD9125B7B04.png"  transform="matrix(0.107 0 0 0.106 -1.5639 -9.306)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(742.2448979591836,892.2083333333335)">
+	<rect x="0.5" y="0.5" class="st146" width="131.8" height="97.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.1888 75.3335)" class="st1 st2 st3">New Jersey Man Is Arrested After Drone </text>
+		<text transform="matrix(1 0 0 1 6.1888 82.5335)" class="st1 st2 st3">Hits Empire State Building</text>
+	</g>
+	<g id="_x39_7QyVS.tif" class="st4">
+		
+			<image style="overflow:visible;" width="630" height="286" id="Layer_0_36_" xlink:href="A5990FD9125B7BC7.png"  transform="matrix(0.2092 0 0 0.2092 0.5 0.5)">
+		</image>
+	</g>
+</g>
+<g transform="translate(879.0612244897959,789.4166666666667)">
+	<rect x="0.5" y="0.5" class="st146" width="97.6" height="132.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<defs>
+			<rect id="SVGID_285_" x="0.5" y="0.5" width="97.6" height="132.1"/>
+		</defs>
+		<clipPath id="SVGID_286_">
+			<use xlink:href="#SVGID_285_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="HJIega.tif" class="st150">
+			
+				<image style="overflow:visible;" width="804" height="404" id="Layer_0_12_" xlink:href="A5990FD9125B7B05.png"  transform="matrix(0.2187 0 0 0.2187 -25.5125 0.1251)">
+			</image>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 4.1124 105.1371)" class="st1 st2 st3">Safety Evaluation: When A Drone </text>
+		<text transform="matrix(1 0 0 1 4.1124 112.3371)" class="st1 st2 st3">Meets A Hot Air Balloon</text>
+	</g>
+</g>
+<g transform="translate(981.6734693877551,789.4166666666667)">
+	<rect x="0.5" y="0.5" class="st146" width="97.6" height="132.1"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 5.2275 105.1375)" class="st1 st2 st3">Tragedy averted after drone flies </text>
+		<text transform="matrix(1 0 0 1 5.2275 112.3375)" class="st1 st2 st3">through helicopter&apos;s path</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_287_" x="0.5" y="0.5" width="97.6" height="87.2"/>
+		</defs>
+		<clipPath id="SVGID_288_">
+			<use xlink:href="#SVGID_287_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st151">
+			<g>
+				<defs>
+					<rect id="SVGID_289_" x="-51.1" y="-0.6" width="184.4" height="91.7"/>
+				</defs>
+				<clipPath id="SVGID_290_">
+					<use xlink:href="#SVGID_289_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st152">
+					<g>
+						<defs>
+							<rect id="SVGID_291_" x="-51.1" y="-0.6" width="184.4" height="91.7"/>
+						</defs>
+						<clipPath id="SVGID_292_">
+							<use xlink:href="#SVGID_291_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st153">
+							
+								<image style="overflow:visible;" width="1208" height="608" xlink:href="A5990FD9125B7B7F.png"  transform="matrix(0.1525 0 0 0.1516 -51.0204 -0.805)">
+							</image>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g transform="translate(879.0612244897959,926.4722222222223)">
+	<rect x="0.5" y="0.5" class="st146" width="200.2" height="63.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.0654 26.6176)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">UT Health East Texas air </tspan><tspan x="0" y="7.2" class="st1 st2 st3">ambulance helicopter reports</tspan><tspan x="0" y="14.4" class="st1 st2 st3">a near miss with a drone in </tspan><tspan x="0" y="21.6" class="st1 st2 st3">Dallas</tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_293_" x="0.5" y="0.5" width="200.2" height="63.5"/>
+		</defs>
+		<clipPath id="SVGID_294_">
+			<use xlink:href="#SVGID_293_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="_x37_G0w5w.tif" class="st154">
+			
+				<image style="overflow:visible;" width="1215" height="814" id="Layer_0_13_" xlink:href="A5990FD9125B7B7D.png"  transform="matrix(8.609857e-02 0 0 8.609857e-02 98.1 -0.506)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1094.2857142857142,487.6)">
+	<rect x="0.5" y="0.5" class="st155" width="78" height="160.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.6588 123.7466)" class="st1 st2 st3">Drone crash at AT&amp;T </text>
+		<text transform="matrix(1 0 0 1 9.6588 130.9467)" class="st1 st2 st3">Stadium frames FAA d</text>
+		<text transform="matrix(1 0 0 1 9.6588 138.1466)" class="st1 st2 st3">ebate over regulation</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_295_" x="0.5" y="0.5" width="78" height="160.8"/>
+		</defs>
+		<clipPath id="SVGID_296_">
+			<use xlink:href="#SVGID_295_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="_x30_AiOMd.tif" class="st156">
+			
+				<image style="overflow:visible;" width="768" height="576" id="Layer_0_20_" xlink:href="A5990FD9125B7BC6.png"  transform="matrix(0.1828 0 0 0.1828 0.5 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1177.295918367347,487.6)">
+	<rect x="0.5" y="0.5" class="st155" width="78" height="160.8"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 5.6543 122.347)" class="st1 st2 st3">Drone was flown over </text>
+		<text transform="matrix(1 0 0 1 5.6543 129.547)" class="st1 st2 st3">Michigan Stadium during  </text>
+		<text transform="matrix(1 0 0 1 5.6543 136.747)" class="st1 st2 st3">game; two arrested</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_297_" x="0.5" y="0.5" width="78" height="160.8"/>
+		</defs>
+		<clipPath id="SVGID_298_">
+			<use xlink:href="#SVGID_297_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="wRgvNu.tif" class="st157">
+			
+				<image style="overflow:visible;" width="1080" height="720" id="Layer_0_21_" xlink:href="A5990FD9125B7BC5.png"  transform="matrix(0.1477 0 0 0.1477 -37.3758 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1094.2857142857142,653.4)">
+	<rect x="0.5" y="0.5" class="st155" width="161" height="77.9"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 102.9452 23.5522)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Someone Flew a </tspan><tspan x="0" y="7.2" class="st1 st2 st3">Drone over Fenway </tspan><tspan x="0" y="14.4" class="st1 st2 st3">Park During a Red </tspan><tspan x="0" y="21.6" class="st1 st2 st3">Sox Game </tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_299_" x="0.5" y="0.5" width="161" height="77.9"/>
+		</defs>
+		<clipPath id="SVGID_300_">
+			<use xlink:href="#SVGID_299_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="h8DDKD.tif" class="st158">
+			
+				<image style="overflow:visible;" width="900" height="600" id="Layer_0_22_" xlink:href="A5990FD9125B7BA6.png"  transform="matrix(0.1297 0 0 0.1297 -20.5558 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1270.3061224489795,487.6)">
+	<rect x="0.5" y="0.5" class="st159" width="107.3" height="119.3"/>
+	<rect x="0.5" y="0.5" class="st159" width="107.3" height="119.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 4.8171 101.7683)" class="st1 st2 st3">Drone crash-lands near White House</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_301_" x="0.5" y="0.5" width="107.3" height="119.3"/>
+		</defs>
+		<clipPath id="SVGID_302_">
+			<use xlink:href="#SVGID_301_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="qlxD1Q.tif" class="st160">
+			
+				<image style="overflow:visible;" width="1240" height="700" id="Layer_0_23_" xlink:href="A5990FD9125B7BA7.png"  transform="matrix(0.1149 0 0 0.1149 -17.3182 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1382.6530612244896,487.6)">
+	<rect x="0.5" y="0.5" class="st159" width="107.3" height="119.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 15.99 98.1684)" class="st1 st2 st3">Drone has close call with </text>
+		<text transform="matrix(1 0 0 1 15.99 105.3684)" class="st1 st2 st3">helicopter over Niagara Falls</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_303_" x="0.5" y="0.5" width="107.3" height="119.3"/>
+		</defs>
+		<clipPath id="SVGID_304_">
+			<use xlink:href="#SVGID_303_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="D3kepz.tif" class="st161">
+			
+				<image style="overflow:visible;" width="1920" height="1080" id="Layer_0_24_" xlink:href="A5990FD9125B7BAA.png"  transform="matrix(7.444444e-02 0 0 7.444444e-02 -25.5864 0.5)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1270.3061224489795,611.95)">
+	<rect x="0.5" y="0.5" class="st159" width="107.3" height="119.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 4.5696 91.4128)" class="st1 st2 st3">Somebody Crashed a Drone</text>
+		<text transform="matrix(1 0 0 1 4.5696 98.6128)" class="st1 st2 st3">Into Yellowstone&apos;s Biggest Hot Spring</text>
+	</g>
+	<g id="FtZFvl.tif" class="st4">
+		
+			<image style="overflow:visible;" width="800" height="533" id="Layer_0_25_" xlink:href="A5990FD9125B7BAB.png"  transform="matrix(0.1341 0 0 0.1341 0.5 0.5)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1382.6530612244896,611.95)">
+	<rect x="0.5" y="0.5" class="st159" width="107.3" height="119.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 10.824 21.3442)" class="st1 st2 st3">This article is more than 4 years </text>
+		<text transform="matrix(1 0 0 1 10.824 28.5442)" class="st1 st2 st3">oldWhite House drone incident</text>
+		<text transform="matrix(1 0 0 1 10.824 35.7442)" class="st1 st2 st3"> prompts call for regulation of </text>
+		<text transform="matrix(1 0 0 1 10.824 42.9442)" class="st1 st2 st3">unmanned aircraft</text>
+	</g>
+	<g id="uXKanV.tif" class="st4">
+		
+			<image style="overflow:visible;" width="1240" height="744" id="Layer_0_26_" xlink:href="A5990FD9125B7BAC.png"  transform="matrix(8.660751e-02 0 0 8.660751e-02 0.5 55.364)">
+		</image>
+	</g>
+</g>
+<g transform="translate(1094.2857142857142,746.3)">
+	<rect x="0.5" y="0.5" class="st162" width="136.7" height="88.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 16.6465 74.0564)" class="st1 st2 st3">Drone crashes through car window and</text>
+		<text transform="matrix(1 0 0 1 16.6465 81.2564)" class="st1 st2 st3">hurts child in Eau Claire</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_305_" x="0.5" y="0.1" width="136.7" height="64.3"/>
+		</defs>
+		<clipPath id="SVGID_306_">
+			<use xlink:href="#SVGID_305_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="_x38_25PMc_1_" class="st163">
+			
+				<image style="overflow:visible;" width="720" height="486" id="_x38_25PMc_3_" xlink:href="A5990FD9125B7B9B.jpg"  transform="matrix(0.1899 0 0 0.1899 0.5 -13.892)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1235.969387755102,746.3)">
+	<rect x="0.5" y="0.5" class="st162" width="136.7" height="88.5"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 6.2834 9.3557)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Woman who was hit in head by drone settles </tspan><tspan x="0" y="7.2" class="st1 st2 st3">lawsuit with USC frat, event-planning company </tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_307_" x="0.5" y="0.5" width="136.7" height="88.5"/>
+		</defs>
+		<clipPath id="SVGID_308_">
+			<use xlink:href="#SVGID_307_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="DkTtCz_1_" class="st164">
+			
+				<image style="overflow:visible;" width="2034" height="1144" id="DkTtCz_3_" xlink:href="A5990FD9125B7B81.jpg"  transform="matrix(6.804419e-02 0 0 6.804419e-02 -1.5 21.0299)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1094.2857142857142,849.78)">
+	<rect x="0.5" y="0.5" class="st165" width="183.9" height="67.6"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 113.7015 26.3701)" class="st8"><tspan x="0" y="0" class="st1 st2 st3">Drone seen flying illegally </tspan><tspan x="0" y="7.2" class="st1 st2 st3">on Mukilteo side of Paine </tspan><tspan x="0" y="14.4" class="st1 st2 st3">Field</tspan></text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_309_" x="0.5" y="0.5" width="105.5" height="67.6"/>
+		</defs>
+		<clipPath id="SVGID_310_">
+			<use xlink:href="#SVGID_309_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="PQ0Ql8_1_" class="st166">
+			
+				<image style="overflow:visible;" width="1280" height="655" id="PQ0Ql8_3_" xlink:href="A5990FD9125B7B80.jpg"  transform="matrix(0.1203 0 0 0.1203 -31.2909 -9.9357)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1094.2857142857142,922.39)">
+	<rect x="0.5" y="0.5" class="st165" width="183.9" height="67.6"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.798 60.1491)" class="st1 st2 st3">FAA investigating near drone-helicopter collision off Hollywood</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_311_" x="0.5" y="0.5" width="183.9" height="46.3"/>
+		</defs>
+		<clipPath id="SVGID_312_">
+			<use xlink:href="#SVGID_311_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="hiRLX8.tif" class="st167">
+			
+				<image style="overflow:visible;" width="640" height="360" id="Layer_0_37_" xlink:href="A5990FD9125B7BBC.png"  transform="matrix(0.2884 0 0 0.2884 0.1644 -38.31)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1283.1972789115646,849.78)">
+	<rect x="0.5" y="0.5" class="st165" width="89.5" height="140.2"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 9.5442 116.4833)" class="st1 st2 st3">Illegal drone flight </text>
+		<text transform="matrix(1 0 0 1 9.5442 123.6833)" class="st1 st2 st3">near airport raises concern</text>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_313_" x="0.5" y="0.5" width="89.5" height="140.2"/>
+		</defs>
+		<clipPath id="SVGID_314_">
+			<use xlink:href="#SVGID_313_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="gVEn2w_1_" class="st168">
+			
+				<image style="overflow:visible;" width="960" height="640" id="gVEn2w_3_" xlink:href="A5990FD9125B7B8C.jpg"  transform="matrix(0.1497 0 0 0.15 -26.6141 0.7577)">
+			</image>
+		</g>
+	</g>
+</g>
+<g transform="translate(1387.6530612244896,746.3)">
+	<rect x="0.5" y="0.5" class="st169" width="102.3" height="114.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 16.9827 81.8)" class="st1 st2 st3">Lawsuit: Woman injured </text>
+		<text transform="matrix(1 0 0 1 16.9827 89)" class="st1 st2 st3">in face by drone at Vegas </text>
+		<text transform="matrix(1 0 0 1 16.9827 96.2)" class="st1 st2 st3">casino light show</text>
+	</g>
+	
+		<image style="overflow:visible;opacity:0.5;" width="2561" height="1408" xlink:href="A5990FD9125B7B87.png"  transform="matrix(3.994533e-02 0 0 3.994533e-02 0.5 0.5)">
+	</image>
+</g>
+<g transform="translate(1387.6530612244896,875.65)">
+	<rect x="0.5" y="0.5" class="st170" width="102.3" height="114.3"/>
+	<title>undefined: NaN</title>
+	<g>
+		<text transform="matrix(1 0 0 1 8.1501 90.3549)" class="st1 st2 st3">Woman charged with using </text>
+		<text transform="matrix(1 0 0 1 8.1501 97.5549)" class="st1 st2 st3">drone for prison tobacco delivery</text>
+	</g>
+	<g id="wAdOew_1_" class="st4">
+	</g>
+	
+		<image style="overflow:visible;opacity:0.5;" width="315" height="212" xlink:href="A5990FD9125B7B8E.jpg"  transform="matrix(0.3252 0 0 0.3252 0.4353 0.5001)">
+	</image>
+</g>
+</svg>
