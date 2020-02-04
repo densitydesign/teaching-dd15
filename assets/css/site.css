@@ -12,6 +12,7 @@ html {
   height: 100%;
   background: var(--background);
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
   -webkit-text-size-adjust: 100%;
   font-family: "DM Sans", "Arial", "Helvetica", sans-serif;
   color: var(--main-color);
-  font-size: 1rem;
   min-height: 100%;
 }
 
@@ -787,8 +787,8 @@ aside h4 {
     --main-lightest: #E1EAF3;
   }
 
-  body {
-    font-size: 1.5rem !important;
+  html {
+    font-size: 20px;
   }
 
   .container {
