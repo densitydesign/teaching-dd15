@@ -844,11 +844,11 @@ aside h4 {
   }
 
   html {
-    font-size: 18px;
+    font-size: 32px;
   }
 
   .container {
-    width: 1600px;
+    width: 2000px;
   }
 
   .link--booklet {
