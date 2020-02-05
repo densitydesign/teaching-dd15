@@ -75,3 +75,27 @@ span.debug::before { content: " xs "; background: rgb(153, 0, 0); }
 @media (min-width: 1200px) {
   body * { outline: 1px solid rgb(0, 0, 153); background: rgba(0, 0, 153, 0.05); }
   span.debug::before { content: " xl "; background: rgb(0, 0, 153,;} }
+
+  * Schermone by andrea */
+  @media only screen and (device-width: 3840px) {
+    html {
+      font-size: 32px;
+    }
+
+    body {
+      font-size: inherit;
+    }
+
+    nav {
+      height: auto !important;
+    }
+
+    .container {
+      max-width: 2200px !important;
+    }
+
+    footer .logo {
+      height: 150px;
+      width: auto !important;
+    }
+  }

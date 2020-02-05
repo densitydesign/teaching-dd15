@@ -195,3 +195,19 @@ a:hover {
   text-decoration: none;
     color: black;
 }
+
+/* Schermone breakpoint */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+
+  .container {
+    max-width: 2200px;
+  }
+
+  .navbar {
+    height: auto;
+  }
+
+}

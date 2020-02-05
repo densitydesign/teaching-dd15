@@ -76,3 +76,27 @@ nav
 	font-style: normal;
 	font-size: 1.3em;
 }
+
+/* Schermone by andrea */
+@media only screen and (device-width: 3840px) {
+	html {
+		font-size: 32px;
+	}
+
+	body {
+		font-size: inherit;
+	}
+
+	nav {
+		height: auto !important;
+	}
+
+	.container {
+		max-width: 2200px !important;
+	}
+
+	footer .logo {
+		height: 150px;
+		width: auto !important;
+	}
+}

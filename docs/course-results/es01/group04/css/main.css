@@ -215,108 +215,108 @@ ul {
 
 	/* Mobile */
 	@media (max-width: 576px){
-	
+
 		/*general*/
 		.mobile-padding {
 			padding-left: 0.3rem;
 			padding-right: 0.3rem;
 		}
-	
-	
+
+
 		/*Header Area*/
 		#group-number{
 			display: none;
 		}
-	
-	
+
+
 		/*Sections Area*/
 		.intro {
-			margin-top: 14rem; 
+			margin-top: 14rem;
 		}
-	
+
 		.main-title {
 			font-size: 35px;
 			font-weight: 700;
-			margin-bottom: 2rem;	
+			margin-bottom: 2rem;
 		}
-	
+
 		.group-names {
 			font-size: 18px;
 		}
-	
+
 		.text-introduction {
 			font-size: 18px;
 		}
-		
+
 		.mobile-fontsize {
 			font-size: 15px;
 		}
-		
+
 		figcaption {
 			font-size: 14px;
 		}
-	
+
 		.mobile-figure {
 			margin-bottom: 2rem;
 		}
-	
+
 		.btn-download {
 			margin-bottom: 2rem;
 		}
-		
+
 		#image-3, #image-4, #image-5 {
 			padding-top: 0rem;
 		}
 
-	
+
 		/*Footer Area*/
 		.logo-images {
-			margin-bottom: 2rem;	
+			margin-bottom: 2rem;
 		}
-	
+
 		#logo1 {
 			width: 70px;
 			margin-right: 4rem;
 		}
-	
+
 		#logo2 {
 			width: 170px;
 		}
-		
+
 		.lists {
-			margin-bottom: 3rem;	
+			margin-bottom: 3rem;
 		}
-	
+
 		.list-students {
 			margin-bottom: 2rem;
 		}
-	
+
 		ul {
 		font-size: 15px;
-		}	
+		}
 	}
 
 
 	/*ms dimentions*/
 	@media (min-width: 577px) and (max-width: 768px){
-	
+
 		/*Header Area*/
 		#group-number{
 			display: none;
 		}
-	
-		
+
+
 		/*Sections Area*/
 		.intro {
-			margin-top: 14rem; 
+			margin-top: 14rem;
 		}
-	
+
 		.main-title {
 			font-size: 40px;
 			font-weight: 700;
-			margin-bottom: 2rem;	
+			margin-bottom: 2rem;
 		}
-	
+
 		.mobile-figure {
 			margin-bottom: 2rem;
 		}
@@ -325,23 +325,58 @@ ul {
 
 	/*md dimentions*/
 	@media (min-width: 769px) and (max-width: 992px){
-	
+
 		/*Sections Area*/
 		.intro {
-			margin-top: 14rem; 
+			margin-top: 14rem;
 		}
-	
+
 		.main-title {
 			font-size: 40px;
 			font-weight: 700;
-			margin-bottom: 2rem;	
+			margin-bottom: 2rem;
 		}
-	
+
 		.mobile-figure {
 		margin-bottom: 2rem;
 		}
 	}
 
+	/* Schermone breakpoint */
+	@media only screen and (device-width: 3840px) {
+	  html {
+	    font-size: 32px;
+	  }
 
+		.title-bar {
+			height: auto;
+			padding: 1vh 0;
+		}
 
+		.title-bar * {
+			margin: 0;
+			padding: 0 1vh;
+		}
 
+		#title, #group-number {
+			padding: 0;
+			margin: 0;
+		}
+
+	  .container {
+	    max-width: 2200px !important;
+	  }
+
+		.text-introduction {
+			font-size: 1.2rem;
+		}
+
+		#title, #group-number, .white-back, .dataset, .source, .btn-download, footer ul {
+			font-size: inherit;
+		}
+
+		footer img {
+			height: 120px;
+			width: auto !important;
+		}
+	}

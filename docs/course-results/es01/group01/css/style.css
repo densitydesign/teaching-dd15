@@ -382,3 +382,19 @@ hr {
     color: #2C5162;
   }
 }
+
+/* Schermone breakpoint */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+
+  .container {
+    max-width: 2200px;
+  }
+
+  .navigazione {
+    height: auto;
+    padding: 1vh 0;
+  }
+}

@@ -6,7 +6,7 @@
 }
 
 /** font **/
-@font-face {    
+@font-face {
     font-family: 'RobotoMono-Regular';
     src: url('fonts/RobotoMono-Regular.ttf');
     }
@@ -243,23 +243,23 @@ a:link, a:visited {
   cursor: pointer;
   z-index: 1;
 }
- 
+
 .textglitch .textglitch-link {
   position: relative;
   display: inline-block;
 }
- 
+
 .textglitch-link span {
   position: relative;
   z-index: 2;
   color: #fff;
 }
- 
+
 .blur {
   filter: blur(0px);
   -webkit-filter: blur(0px);
 }
- 
+
 .textglitch .textglitch-link:after,
 .textglitch .textglitch-link:before {
   position: absolute;
@@ -268,7 +268,7 @@ a:link, a:visited {
   content: attr(data-content);
   visibility: hidden;
 }
- 
+
 .textglitch.active .textglitch-link:after,
 .textglitch.active .textglitch-link:before {
   visibility: visible;
@@ -278,20 +278,20 @@ a:link, a:visited {
 .textglitch.disactive .textglitch-link:before {
   visibility: hidden;
 }
- 
+
 .textglitch .textglitch-link:before {
   color: rgba(127, 42, 133, 0.8);
   -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
   animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
 }
- 
- 
+
+
 .textglitch .textglitch-link:after {
   color: rgba(101,197,241,0.8);
   -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
   animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
 }
- 
+
 @keyframes textglitch {
   0% {
     -webkit-transform: translate(0);
@@ -345,5 +345,36 @@ a:link, a:visited {
 @media screen and (max-width: 600px) {
   .names {
       font-size: 70%;
+  }
+}
+
+/* Schermone breakpoint */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+
+  .bar1, .bar2 {
+    height: auto;
+    font-size: 1.5rem;
+    padding: 1vh 0;
+    margin: 0 1vh;
+  }
+
+  .container {
+    max-width: 2200px;
+  }
+
+  .navbar {
+    height: auto;
+  }
+
+  footer * {
+    font-size: inherit !important;
+  }
+
+  footer img {
+    height: 150px !important;
+    width: auto !important;
   }
 }

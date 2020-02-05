@@ -160,7 +160,7 @@ footer {
       margin-top: 60px;
       margin-left: 0;
   }
-  
+
   .visualizationGroup {
     margin-top: 0;
     height: 100%;
@@ -210,19 +210,56 @@ footer {
   .space-sm-2 {
     padding-bottom: 2rem;
   }
-  
+
   /*three rem pudding bottom for xs columns*/
   .space-sm-3 {
     padding-bottom: 3rem;
   }
-  
+
   /* four rem pudding bottom for xs columns*/
   .space-sm-4 {
     padding-bottom: 4rem;
   }
-  
+
   /* six rem pudding bottom for xs columns*/
   .space-sm-6 {
     padding-bottom: 6rem;
+  }
+}
+
+/* Schermone by andrea */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+
+  body {
+    font-size: inherit;
+  }
+
+  .img-responsive {
+    width: 100%;
+  }
+
+  header.container {
+    height: auto;
+    padding: 1vh;
+  }
+
+  header.container h4 {
+    font-size: inherit;
+  }
+
+  section.container {
+    width: 2200px !important;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  footer .logo {
+    height: 150px;
+    width: auto !important;
   }
 }

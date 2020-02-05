@@ -33,12 +33,12 @@ nav {
   z-index: 1;
   width: 30px;
   height: 30px;
-  
+
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  
+
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   background-color: #FFFFFF;
@@ -64,12 +64,12 @@ nav {
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 
@@ -86,7 +86,7 @@ nav {
 }
 
 .text_footer{
-	font-size: 15px; 
+	font-size: 15px;
 }
 
 .title_footer{
@@ -96,11 +96,11 @@ nav {
 img.infographic {
   /* Set rules to fill background */
   min-height: 100%;
-	
+
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-	
+
 }
 
 .linkdata{
@@ -114,13 +114,13 @@ img.infographic {
 
 .title_section
 {
-	font-size: 32px; 
+	font-size: 32px;
 	font-weight:900;
 }
 
 
 #download_icon{
-	width: 1rem; 
+	width: 1rem;
 	margin-right: 0.5rem;
 }
 
@@ -130,7 +130,7 @@ img.infographic {
 {
 	 text-decoration: underline;
 	 font-style: italic;
-    
+
 }
 
 .download_dataset:hover
@@ -139,44 +139,44 @@ img.infographic {
 }
 
 /****MANAGING THE DIMENSION OF TEXT BASED ON THE DIMENSION OF DEVICE SCREEN****/
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
 	.navbar {
 		font-size:1em;
 		font-size: 18px;
 		font-weight:900;
 	}
-		
-	.title_infographic {		
-		font-size: 35px; 
+
+	.title_infographic {
+		font-size: 35px;
 		font-weight: 600;
 	}
-	
+
 	.title_group {
-		font-size: 18px; 
+		font-size: 18px;
 		line-height: 22px;
-		font-weight: 900;		
+		font-weight: 900;
 	}
-	
+
 	.description_text {
 		font-size: 18px;
 		line-height: 23px;
 	}
 }
-    
-	
-@media (min-width: 769px) { 
-	
+
+
+@media (min-width: 769px) {
+
 	.navbar {
 		font-size: 0.9em;
 		font-weight:900;
 	}
-	
+
 	.title_infographic{
-		font-size: 42px; 
+		font-size: 42px;
 		font-weight: 600;
 	}
-	
+
 	.title_group {
 		line-height: 22px;
 		font-size: 17.8px;
@@ -188,6 +188,46 @@ img.infographic {
 		line-height: 24px;
 	}
 }
-    
 
+/* Schermone breakpoint */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 34px;
+  }
 
+	.img-fluid {
+		width: 100% !important;
+	}
+
+	body {
+		font-size: inherit;
+		line-height: 130% !important;
+	}
+
+	.title_infographic {
+		font-size: 2rem;
+	}
+
+  .container {
+    max-width: 2200px;
+  }
+
+	.title_section {
+		font-size: 1.5rem;
+	}
+
+	.description_text {
+		line-height: 120%;
+	}
+
+	.title_group {
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+  .navbar {
+		font-size: inherit;
+    height: auto;
+  }
+
+}

@@ -34,7 +34,7 @@ h5 {
 
 .style4{
     padding-bottom: 3rem;
-    padding-top: 2rem; 
+    padding-top: 2rem;
      }
 
 .style5{
@@ -231,4 +231,46 @@ hr {
   border: 5px;
   width: 10%;
   background-color: #27344a;
+}
+
+/* Schermone breakpoint */
+@media only screen and (device-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+
+  .names, .sectiontext, ul {
+    font-size: inherit;
+  }
+
+  .band1, .band2 {
+    height: auto;
+    padding: 1.5vh 0;
+  }
+
+  .band1 h5 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer * {
+    font-size: inherit;
+  }
+
+  .intropara {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 2200px !important;
+  }
+
+  .aos-init {
+    width: 100%;
+  }
+
+  .navigazione {
+    height: auto;
+    padding: 1vh 0;
+  }
 }
