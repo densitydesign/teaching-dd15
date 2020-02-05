@@ -863,6 +863,10 @@ aside h4 {
     margin-top: 0;
   }
 
+  footer img {
+    height: 100px;
+  }
+
   .projects--directory .project--cover {
     height: 30vh;
   }
