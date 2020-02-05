@@ -844,22 +844,34 @@ aside h4 {
   }
 
   html {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .container {
-    width: 2200px;
+    width: 2000px;
   }
 
   .link--booklet {
     height: 40vh;
   }
 
-  .footer {
-    margin-top: 2rem;
+  #intro svg {
+    width: 370px !important;
   }
 
-  .project--cover {
-    height: 50vh;
+  footer {
+    margin-top: 0;
+  }
+
+  .projects--directory .project--cover {
+    height: 30vh;
+  }
+
+  .projects--directory .project--description {
+    margin-bottom: 3rem;
+  }
+
+  .phases--navigation button {
+    margin-bottom: 1rem;
   }
 }

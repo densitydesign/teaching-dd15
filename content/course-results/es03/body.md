@@ -6,12 +6,12 @@ groups:
   title: "DoubleCheck"
   subtitle: "Paying attention to details matters"
   names: "Della Pepa Gabriele, Febres Medina Andrea, Ghio Caterina, Granzotto Francesca, Rondi Paola, Stefani Elena"
-  image: "../../assets/img/es03/cover-g01.gif"
-  desc: ""
+  image: "../../assets/img/es03/cover-g01.jpg"
+  desc: "Nowadays visual mis- and disinformation spread through Social Networks and online news sources. Doublecheck is a quiz that shows how difficult it is to recognize whether an image is reliable or not and the importance to analyze every image both in its content and in its context."
 
 - group: group02
   title: "I SEE U"
-  subtitle: "Investigating, Exposing and taking action against"
+  subtitle: "Investigating, exposing and acting against privacy breaches in security cameras."
   names: "Cristina Pita da Veiga, Evansha Agrawal, Guilherme Appolinario, Maria Almeida, Natalia Malaver, Rebeca Vittorazo"
   image: "../../assets/img/es03/cover-g02.gif"
   desc: "Security cameras are everywhere and breaches in them is a rising issue. How would you feel knowing someone unknown is watching your camera? The project aims to inform and warn the audience by unveiling the process of tracing camera location and who and what they are surveilling."
@@ -28,15 +28,15 @@ groups:
   subtitle: "Don't watch a movie. Live it."
   names: "Beatrice Bazzan, Allegra Colombo, Martina Giordano, Gianluca Misto, Ludovica Piro, Irina Stojsic"
   image: "../../assets/img/es03/cover-g04.jpeg"
-  desc: ""
+  desc: "People going to visit movie or TV series' locations bring a growth in tourism, but they can also have a negative impact on the environment and residents. Since they aren’t meant to be tourist places, they are not prepared for the masses of people and their peculiar behaviours."
 
 - group: group05
   title: "Law of the jungle"
-  subtitle: ""
+  subtitle: "Who will survive?"
   names: "Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino,
   Anna Gazza, Barbara Vanoli"
-  desc: ""
-  image: "../../assets/img/es03/cover-g05.gif"
+  desc: "Instagram proposes itself as an open-minded platform, but through the use of policies about nudity, it denies its users' freedom of expression. Our communication aim is to inform, making the users reflect: which vision of our society do we have according Instagram policies?"
+  image: "../../assets/img/es03/cover-g05.jpg"
 
 - group: group06
   title: "Before You Fly"
@@ -47,10 +47,10 @@ groups:
 
 - group: group07
   title: "The Justified Archive"
-  subtitle: ""
+  subtitle: "Justifications lie between face and body modifications apps and their users"
   names: "Bettini Matteo, Cremonesi Teresa, Enache Alexandru, Lombardi Giovanni, Pagano Valentina, Ren Pengyuan"
   image: "../../assets/img/es03/cover-g07.jpeg"
-  desc: ""
+  desc: "What's our relationship with face and body modification apps? Debatable apps' claims and users' reviews were extracted, decontextualized and organized into an archive, in order to provide insights and deepen the understanding of this new global phenomenon. "
 
 - group: group08
   title: "Deepfake Lab"
@@ -67,14 +67,14 @@ groups:
   desc: "Online dating services allow you to connect with new people over the internet to develop personal, romantic or sexual relationships. If at some point you decide to delete your account, prepare for a frustrating experience: dating apps really don’t want you to leave!"
 
 - group: group10
-  title: "Welcome To City X!"
-  subtitle: ""
+  title: "Welcome to City X"
+  subtitle: "Encounter facial recognition being a normal commuter in a high-tech city. It's time to get up, to begin your regular but a new day!"
   image: "../../assets/img/es03/cover-g10.jpg"
-  desc: ""
+  desc: "City X is an over populated metropolis in China. This research aims to analyze & engage the western public about complex & controversial social issues of facial recognition through the analysis of data contents by designing a behavioral map of a person's daily activity line."
 ---
 
-In this phase students turn part of the research carried out in the previous phase into discursive communication artifacts that expose, show or make known the critical aspects of the subjects researched to a specific audience. To this end, the aim is to design communication artifacts that invite the public to reflect and act on the explored subjects.
+In the last phase, students turn part of the research carried out in the previous phase into discursive communication artifacts that expose, show or make known the critical aspects of the subjects researched to a specific audience. To this end, the aim is to design communication artifacts that invite the public to reflect and act on the explored subjects.
 
-During this phase students reflect on the meaning and agency of "the public", how different groups mobilize around various issues and how data can play a central role in the process of forming publics. Students are also encouraged to recognize the political role that their design practices play with technology and how they impact on society.
+Students reflect on the meaning and agency of "the public", how different groups mobilize around various issues and how data can play a central role in the process of forming publics, and they are also encouraged to recognize the political role that their design practices play with technology and how they impact on society.
 
-The aim of the final phase of the course is for students to apply their communication design skills by using data to construct alternative narratives that expose, explain and/or explore the results of their research for an identified audience. The result of the phase is an experimental digital artifact that can be used by a specific audience to act on the topic.
+The result of the phase is an experimental digital artifact that can be used by a specific audience to act on the topic.
