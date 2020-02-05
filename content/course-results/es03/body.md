@@ -27,7 +27,7 @@ groups:
   title: "Setjetters United"
   subtitle: "Don't watch a movie. Live it."
   names: "Beatrice Bazzan, Allegra Colombo, Martina Giordano, Gianluca Misto, Ludovica Piro, Irina Stojsic"
-  image: "../../assets/img/es03/cover-g04.jpeg"
+  image: "../../assets/img/es03/cover-g04.gif"
   desc: "People going to visit movie or TV series' locations bring a growth in tourism, but they can also have a negative impact on the environment and residents. Since they aren’t meant to be tourist places, they are not prepared for the masses of people and their peculiar behaviours."
 
 - group: group05
@@ -49,7 +49,7 @@ groups:
   title: "The Justified Archive"
   subtitle: "Justifications lie between face and body modifications apps and their users"
   names: "Bettini Matteo, Cremonesi Teresa, Enache Alexandru, Lombardi Giovanni, Pagano Valentina, Ren Pengyuan"
-  image: "../../assets/img/es03/cover-g07.jpeg"
+  image: "../../assets/img/es03/cover-g07.png"
   desc: "What's our relationship with face and body modification apps? Debatable apps' claims and users' reviews were extracted, decontextualized and organized into an archive, in order to provide insights and deepen the understanding of this new global phenomenon. "
 
 - group: group08
