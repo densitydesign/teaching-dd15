@@ -40,10 +40,10 @@ groups:
 
 - group: group06
   title: "Before You Fly"
-  subtitle: ""
+  subtitle: "Raise awareness for drone related laws and regulations in LA, USA."
   names: "Di Wu, Xuan Zhang, Xushan Li, Shaomin Niu, Chenghsin Chen, Mengxue Jin"
   image: "../../assets/img/es03/cover-g06.gif"
-  desc: ""
+  desc: "Drone is becoming increasingly common in the consumer market. However, many drone owners are not aware of its basic laws and regulations. Our goal is to inform and raise awareness about the regulations of drone flying for the owners."
 
 - group: group07
   title: "The Justified Archive"
@@ -63,7 +63,7 @@ groups:
   title: "Can You Break Up With Dating Apps?"
   subtitle: "Watch the experiences of five people who wanted to delete their accounts on different dating apps"
   names: "Lucia Maria Emilia Ferrari, Mariam Kozbar, Zina Nadery, Kira Pyatakova, Situ Yuming, Xu Mengting"
-  image: "../../assets/img/es03/cover-g09.png"
+  image: "../../assets/img/es03/cover-g09.gif"
   desc: "Online dating services allow you to connect with new people over the internet to develop personal, romantic or sexual relationships. If at some point you decide to delete your account, prepare for a frustrating experience: dating apps really don’t want you to leave!"
 
 - group: group10
