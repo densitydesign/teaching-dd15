@@ -49,7 +49,7 @@ groups:
   title: "The Justified Archive"
   subtitle: "Justifications lie between face and body modifications apps and their users"
   names: "Bettini Matteo, Cremonesi Teresa, Enache Alexandru, Lombardi Giovanni, Pagano Valentina, Ren Pengyuan"
-  image: "../../assets/img/es03/cover-g07.png"
+  image: "../../assets/img/es03/cover-g07.gif"
   desc: "What's our relationship with face and body modification apps? Debatable apps' claims and users' reviews were extracted, decontextualized and organized into an archive, in order to provide insights and deepen the understanding of this new global phenomenon. "
 
 - group: group08
