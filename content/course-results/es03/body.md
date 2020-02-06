@@ -18,10 +18,10 @@ groups:
 
 - group: group03
   title: "Memetic Warfare Archive"
-  subtitle: ""
+  subtitle: "The weaponization of memes through the last times most important socio-political events"
   names: "Valentina Caiola, Davide Formenti, Riccardo Fuccelli, Diego Morra, Francesco Mugnaini, Andrea Pronzati"
-  image: "../../assets/img/es03/cover-g03.gif"
-  desc: ""
+  image: "../../assets/img/es03/cover-g03.png"
+  desc: "Propaganda has been a tool that allowed governments to persuade people to believe in different ideas through ages. Today propaganda can be melted with a psychological warfare based on the propagation of memes on social medias and the gears of this machine are quite invisible."
 
 - group: group04
   title: "Setjetters United"
@@ -42,7 +42,7 @@ groups:
   title: "Before You Fly"
   subtitle: "Raise awareness for drone related laws and regulations in LA, USA."
   names: "Di Wu, Xuan Zhang, Xushan Li, Shaomin Niu, Chenghsin Chen, Mengxue Jin"
-  image: "../../assets/img/es03/cover-g06.gif"
+  image: "../../assets/img/es03/cover-g06.jpg"
   desc: "Drone is becoming increasingly common in the consumer market. However, many drone owners are not aware of its basic laws and regulations. Our goal is to inform and raise awareness about the regulations of drone flying for the owners."
 
 - group: group07
