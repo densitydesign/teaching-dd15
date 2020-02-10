@@ -75,11 +75,46 @@ $(document).ready(function() {
 //video4
 
 //video5
-
+$("#home").click(function(){
+            window.location.href = "../page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "../page.html";
+                });
+                $("#home3").click(function(){
+                            window.location.href = "../page.html";
+                        });
 //video6
 
 
 
+$("#reload").click(function(){
+            location.reload(true);
+        });
 
+        $("#reload2").click(function(){
+          video2.play();
+          $("#preguntados").hide();
+          video2.controls = true;
+
+
+                });
+
+                $("#reload3").click(function(){
+                  video3.play();
+                  $("#preguntatres").hide();
+                  video3.controls = true;
+
+                        });
+//control bar
+video1.addEventListener('ended', () => {
+      video1.removeAttribute('controls');
+    });
+video2.addEventListener('ended', () => {
+      video2.removeAttribute('controls');
+    });
+video3.addEventListener('ended', () => {
+      video3.removeAttribute('controls');
+    });
 
 });

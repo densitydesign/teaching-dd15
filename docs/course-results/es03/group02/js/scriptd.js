@@ -68,6 +68,38 @@ $(document).ready(function() {
         });
       }
 
+//buttons
+$("#home").click(function(){
+            window.location.href = "/page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "/page.html";
+                });
+                $("#home3").click(function(){
+                            window.location.href = "/page.html";
+                        });
+//video6
+
+
+
+$("#reload").click(function(){
+            location.reload(true);
+        });
+
+                $("#reload2").click(function(){
+                  videod2.play();
+                  $("#preguntadtres").hide();
+                  videod2.controls = true;
+
+                        });
+//controls
+
+videod1.addEventListener('ended', () => {
+      videod1.removeAttribute('controls');
+    });
+videod2.addEventListener('ended', () => {
+      videod2.removeAttribute('controls');
+    });
 
 
 });
