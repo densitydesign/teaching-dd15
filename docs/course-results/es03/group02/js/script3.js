@@ -14,7 +14,4 @@ $(document).ready(function() {
          $("#videointroductorio").prop('muted', !$("#videointroductorio").prop('muted'));
    });
 
-
-  
-
 });
