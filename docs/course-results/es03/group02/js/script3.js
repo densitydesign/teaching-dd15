@@ -14,4 +14,17 @@ $(document).ready(function() {
          $("#videointroductorio").prop('muted', !$("#videointroductorio").prop('muted'));
    });
 
+
+   function changeImage() {
+
+       if (document.getElementById("videointroductorio").src == "/images/audio.png")
+       {
+           document.getElementById("videointroductorio").src = "/images/audio2.png";
+       }
+       else
+       {
+           document.getElementById("videointroductorio").src = "/images/audio.png";
+       }
+   }
+
 });
