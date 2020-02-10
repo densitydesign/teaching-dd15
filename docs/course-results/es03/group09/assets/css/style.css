@@ -175,7 +175,7 @@ button.btn-circle i {
 
 .limiter {
 	padding: 0.25rem 0;
-	font-size: 87.5%;
+	font-size: 0.7em;
 	max-height: 20vh;
 	overflow-y: auto;
 }
@@ -186,6 +186,10 @@ button.btn-circle i {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+ul.pl-2.pl-4k-5.ml-1 li:nth-child(1) {
+
 }
 
 .figure-caption {
@@ -298,100 +302,106 @@ h5 { color: #a9259c; font-weight: 700!important; }
 	}
 
 	.nav-item {
-		margin: 0 0.5rem;
+		margin: 0 0.25em;
 	}
 
 	.nav-link {
-		padding: 0 1rem!important;
+		padding: 0 0.325em!important;
 		font-weight: 700;
 	}
 
 	.nav-link.active {
-		border-left: 0.325rem solid;
+		border-left: 0.2em solid;
 	}
 
 	#apps {
-		border-bottom: 0.075rem solid #e7c2e3;
+		border-bottom: 0.075em solid #e7c2e3;
 	}
 
 	#about {
-		border-top: 0.075rem solid #e7c2e3;
+		border-top: 0.075em solid #e7c2e3;
 	}
 
 	.alert {
-		padding: 2rem!important;
-		border-radius: 0.5rem;
+		border-radius: 0.5em;
 	}
 
 	.alert ol a {
 		background: #e7c2e3;
 		font-weight: 500;
-		border-radius: 0.5rem;
-		padding: 0 0.25rem;
-		margin: 0 -0.25rem;
+		border-radius: 0.25em;
+		padding: 0 0.125em;
+		margin: 0 -0.125em;
+	}
+	.alert.p-3 {
+		padding: 1em!important;
+	}
+	.alert.p-3 p {
+		margin-bottom: 1em;
+	}
+
+	ol.m-0.pl-3.pl-4k-5 li {
+		padding-left: 0.5rem !important;
 	}
 
 	.table-sm th,
 	.table-sm td {
-		padding: 0.75rem;
+		padding: 0.5em;
+	}
+
+	.table-sm td.w-25.table-primary.align-top + td {
+		padding-bottom: 0.25em;
 	}
 
 	.badge-primary {
-		border-radius: 0.5rem;
+		border-radius: 0.25em;
 	}
 
 	.modal-header {
-		padding: 0.875rem;
+		padding: 0.75rem;
 	}
 
 	.modal-header .close {
-		padding: 0.875rem 0.875rem;
-		margin: -0.875rem -0.875rem -0.875rem auto;
+		padding: 0.75rem 0.75rem;
+		margin: -0.75rem -0.75rem -0.75rem auto;
 	}
 
 	hr.my-3.mx-2 {
-		margin: 2rem 1rem!important;
+		margin: 1em 0.66em!important;
+		border-width: 0.075em;
 	}
 
 	.figure-caption {
 		font-size: 50%;
 	}
 
-	footer .row .order-1 {
-		padding: 2rem 2rem 3rem 6rem!important;
+	footer .row {
+		padding-bottom: 1em;
 	}
-
-	footer .row .order-2 {
-		padding: 2rem 6rem 5rem 2rem!important;
+	footer .order-1 {
+		margin-left: 12.5%;
+		margin-right: 2.5%;
 	}
-
-	footer .row .order-3 {
-		padding-top: 2rem!important;
-		font-size: 1.25rem;
+	footer .order-2 {
+		margin-right: -5%;
 	}
-
-	footer .row .order-4 {
-		padding-top: 2rem!important;
-		font-size: 1.25rem;
-	}
-
-	footer .row .order-5 {
-		padding-top: 2rem!important;
-		font-size: 1.25rem;
+	footer .order-4 {
+		margin-right: -2.5%;
 	}
 
 	/* -------------- */
 
-	h1 { font-size: 8.75rem; margin: 0 20rem; }
-	h2 { font-size: 3rem; }
-	h4 { font-size: 3.5rem; }
-	h5 { font-size: 3rem; font-weight: 600!important; }
+	h1 { font-size: 5em; }
+	h2 { font-size: 1.325em; }
+	h3 { font-size: 1.625em; margin: 0.325em 0; font-weight: 600; }
+	h4 { font-size: calc(1.75em * 1.0); }
+	h5 { font-size: 1.25em; font-weight: 600!important; }
 	.btn-circle { transform: scale(1.25); }
 	#about .container-fluid .row { font-size: 100%; }
-	.modal-dialog { max-width: 62.5vw; margin: 5rem auto; }
+	.modal-dialog { max-width: 62.5vw; margin: 1em auto; }
 	.modal-body .container-fluid .row .col-5 { font-size: 100%; }
-	.instructions .alert { font-size: 1.5rem; }
-	.badge-outline { font-size: 90%; margin: 0 0.5rem 0.5rem 0; border: 0.1rem solid #683f81!important; }
+	.instructions .alert { font-size: 0.75em; }
+	.badge-outline { font-weight: 500; font-size: 90%; margin-bottom: 0.5em; border: 0.1em solid #683f81!important; }
 	.vimeo-container { padding: 62.5% 0; }
 }
 
