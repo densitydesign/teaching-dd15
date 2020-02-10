@@ -25,11 +25,6 @@ $(document).ready(function() {
 
   }
 
-//click video 1
-
-$("#el1").click( function (){
-  video1.play();
-});
 
 
   video1.onended = function(e) {
