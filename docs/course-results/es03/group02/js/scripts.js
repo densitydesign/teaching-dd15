@@ -70,10 +70,10 @@ $(document).ready(function() {
 
 //clicks
 $("#home").click(function(){
-            window.location.href = "/page.html";
+            window.location.href = "../page.html";
         });
         $("#home2").click(function(){
-                    window.location.href = "/page.html";
+                    window.location.href = "../page.html";
                 });
 
 $("#reload").click(function(){
