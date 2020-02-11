@@ -5,7 +5,10 @@
     background-size:cover; */
 }
 
-
+a:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
 
 
 .fr{
@@ -21,7 +24,7 @@ filter:alpha(opacity=40);
 
 #navbg{
   background-color:#f7e9d1;
-height:8vh;}
+  height:8vh;}
 
 
 /* .footer {
