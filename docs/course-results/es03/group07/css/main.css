@@ -158,7 +158,7 @@ font-family: Inter-SemiBold;
 
 #btn_about {
     background-color: white;
-    margin-left: -1170px;
+    margin-left: -1251px;
     margin-top: 3.3em;
     width: 127px;
     height: 47px;
@@ -732,6 +732,11 @@ a:hover {
     margin-top: 15%;
 }
 
+#effort1, #natural_1_, #workout1_1_,#perfection1,#creativity1,#popularity1,#effort, #natural, #workout, #perfection, #creativity, #popularity,#BOTTONE_1_{
+
+  cursor: pointer;
+}
+
 
 
 /******MEDIA QUERIES SCHERMONE ******************************************/
@@ -913,7 +918,7 @@ a:hover {
     }
     
     #btn_about{
-        margin-left: -90em;
+        margin-left: -92em;
         font-size: 2em;
 width: 6em;
         height:2em;  }
