@@ -27,14 +27,15 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					<div className="arrow">→</div>
 					</div>
 				</a>
+				<a href={ _relativeURL( '/course-results/es03/', _ID) }>
+					<div id="phase3" className="link--phase">
+					<PhaseThree width="200"/>
+					<p>Phase 3</p>
+					<div className="title">Data Publics</div>
+					<div className="arrow">→</div>
+					</div>
+				</a>
 
-				<div id="phase3" className="link--phase">
-				<PhaseThree width="200"/>
-				<p>Phase 3</p>
-				<div className="title">Data Publics</div>
-				<div className="arrow">→</div>
-				</div>
-				
 			</aside>
 	</html>
 );
