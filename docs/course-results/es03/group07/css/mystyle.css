@@ -70,15 +70,31 @@ a:hover {
 	 width: 127px;
 	 height: 46px;
 	 font-size:15px;
-    padding-left:4%;
-    padding-right:4%;
+		/* padding-left:4%; */
+		/* padding-right:4%; */
+		
     -webkit-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
--moz-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
-box-shadow: 0px 0px 20px -11px
-rgba(0,0,0,0.99);
+	-moz-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
+	box-shadow: 0px 0px 20px -11px
+	rgba(0,0,0,0.99);
 	 
 }
 
+#btn_about_2
+{
+	 border-radius: 25px;
+	 width: 127px;
+	 height: 46px;
+	 font-size:15px;
+		/* padding-left:4%; */
+		/* padding-right:4%; */
+		
+    -webkit-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
+	-moz-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
+	box-shadow: 0px 0px 20px -11px
+	rgba(0,0,0,0.99);
+	 
+}
 
 
 .btn_1
@@ -204,7 +220,7 @@ nav
 .onglet_shadow {
   background-color: red;
   width:100%;
-  height:235px;
+  height:269px;
   margin-top:0px;
   -o-linear-gradient(top, #ffffff 0%,#eaeaea 100%);
   background: -ms-linear-gradient(top, #ffffff 0%,#eaeaea 100%);
@@ -220,7 +236,7 @@ nav
 .onglet_text {
 	/* font-weight: regular; */
 	line-height: 1.2;
-	font-size: 12px;
+	font-size: 13px;
   padding-top: 13px;
   background-color: white;
   white-space: normal;
@@ -574,6 +590,11 @@ nav span.switcher.switcher-1 input:not(:checked) + label {
 	text-align: right;
 }
 
+.review_name_app
+{
+	font-size: 13px;
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width:  568px) { 
@@ -712,10 +733,24 @@ nav span.switcher.switcher-1 input:not(:checked) + label {
 
 
 @media (min-width:  3000px) { 
+	
+	.image_position{
+/* margin-left: 12px; */
+		width: 80px;
+		height: 80px;
+}
+	
+	.review_name_app
+	{
+		font-size: 35px;
+		    margin-top: 20px;
+	}
+
 
 	.white_background {
 		height: 1198px;
 	}
+	
 	
 	.claim_text
 	{
@@ -759,9 +794,22 @@ nav span.switcher.switcher-1 input:not(:checked) + label {
 		height: 100px;
 		border-radius: 70px;
 		font-size: 24px;
-        padding-left:4%;
-        padding-right:4%;
+        /* padding-left:4%; */
+        /* padding-right:4%; */
+		margin-left: 9%;
 	}
+	
+	#btn_about_2
+	{
+		width: 187px;
+		height: 100px;
+		border-radius: 70px;
+		font-size: 24px;
+        /* padding-left:4%; */
+        /* padding-right:4%; */
+		    margin-right: 9%;
+	}
+	
 	
 
     
@@ -859,7 +907,7 @@ nav span.switcher.switcher-1 input:not(:checked) + label {
 	}
 	
 	.review_text {
-		font-size: 47px;
+		font-size: 64px;
 	}
 	
 	.first_review{
@@ -884,11 +932,28 @@ nav span.switcher.switcher-1 input:not(:checked) + label {
 		margin-bottom: 95px;
 	}
 	
+	/* .space_back */
+	/* { */
+		/* border-radius:42px; */
+	/* padding-bottom: 46px;  */
+	/* } */
+	
 	.space_back
-	{
-		border-radius:42px;
+{
+	position:absolute;
+	left:5%;
+	top: 40%;
+	background-color: white;
+	z-index: 3;
+	width: 90%;
+	
+	border-radius:42px;
 	padding-bottom: 46px; 
-	}
+	
+	-webkit-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
+	-moz-box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.73);
+	box-shadow: 0px 0px 14px  -11px rgba(0,0,0,0.73);
+}
 	
 	.btn_space
 	{
