@@ -68,6 +68,48 @@ $(document).ready(function() {
         });
       }
 
+//cliskc
+$("#home").click(function(){
+            window.location.href = "../page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "../page.html";
+                });
+                $("#home3").click(function(){
+                            window.location.href = "../page.html";
+                        });
+//video6
 
+
+
+$("#reload").click(function(){
+            location.reload(true);
+        });
+
+        $("#reload2").click(function(){
+          videoa2.play();
+          $("#preguntaados").hide();
+          videoa2.controls = true;
+
+                });
+
+                $("#reload3").click(function(){
+                  videoa3.play();
+                  $("#preguntaatres").hide();
+                  videoa3.controls = true;
+
+                        });
+
+//controls
+
+videoa1.addEventListener('ended', () => {
+      videoa1.removeAttribute('controls');
+    });
+videoa2.addEventListener('ended', () => {
+      videoa2.removeAttribute('controls');
+    });
+videoa3.addEventListener('ended', () => {
+      videoa3.removeAttribute('controls');
+    });
 
 });

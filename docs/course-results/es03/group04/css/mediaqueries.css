@@ -34,7 +34,7 @@
 /* CART IPAD PRO-------------------------------------------------------------------------------*/
 @media (min-width: 768px)and (max-width: 1024px){
     
-	a.purchasebtn {
+	a.purchasebtn, a.purchasebtn:hover {
     	margin-top:30px;  	
     }
     
@@ -174,6 +174,9 @@
 	a.moralbtn:hover {
 		margin-left: 5%;
 		margin-right: 5%;
+		background-color: #F39200;
+		border: solid 4px black;
+		color: #000;
 	}
 	
 }
@@ -198,13 +201,16 @@
 	
 	/*Behind the scene btn*/
 	a.moralbtn {
-		margin-right: 15%;
-		margin-left: 15%;	
+		margin-right: 31%;
+		margin-left: 31%;	
 	}
 
 	a.moralbtn:hover {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 31%;
+		margin-right: 31%;
+		background-color: #F39200;
+		border: solid 4px black;
+		color: #000;
 	}
 	
 }
@@ -223,6 +229,9 @@
 	a.moralbtn:hover {
 		margin-left: 30%;
 		margin-right: 30%;
+		background-color: #F39200;
+		border: solid 4px black;
+		color: #000;
 	}
 	
 }
@@ -286,6 +295,10 @@
 		padding-top: 100px;
 		height: auto;
 		padding-bottom: 100px;
+	}
+
+	.whiteHover{
+		border: none!important;
 	}
 	
 	.categoryBt {
@@ -432,6 +445,10 @@
 		padding-bottom: 150px;
 		height: auto;
 	}
+
+	.whiteHover{
+		border: none!important;
+	}
 	
 	.categoryBt {
 		font-size: 35px;
@@ -515,7 +532,7 @@
 @media (max-width: 576px) {
     
 	.margin-botton-audio {
-        margin-top: 15%;
+        top: 10%;
         padding-right: 0%;
     }
 }
@@ -526,7 +543,7 @@
 @media (min-width: 768px) and (max-width: 1024px){
     
 	.margin-botton-audio {
-        margin-top: 58%;
+        top: 30%;
         padding-right: 0%;
     }
 }
@@ -538,7 +555,7 @@
     
 	.margin-botton-audio {
         /* margin-top: 190px; */
-        margin-top: 38%;
+        top: 20%;
         padding-right: 0%;
     }
 }
@@ -550,7 +567,7 @@
     
 	.margin-botton-audio {
         /* margin-top: 190px; */
-        margin-top: 20%;
+        top: 25%;
         padding-right: 0%;
     }
 }
@@ -559,7 +576,13 @@
 
 /*CATEGORY PAGE PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
-	
+
+	.full-img{
+		object-fit: cover;
+    	overflow: hidden;
+    	object-position: 30%;
+	}
+    
 	/*left-side*/
 	.category-title {
 		font-size: 45px;
@@ -584,12 +607,23 @@
 		margin-top: 5rem;
 	}
 
+	.category-change-btn:hover {
+		transition: background 0s;
+	}
+
 }
 
 
 
 /*CATEGORY TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
+
+	.full-img{
+		object-fit: cover;
+    	overflow: hidden;
+    	object-position: 45%;
+	}
+	
 	
 	/*left-side*/
 	.category-title {
@@ -607,6 +641,10 @@
 	
 	.margincards {
 		margin-bottom: 0px;
+	}
+
+	.category-change-btn:hover {
+		transition: background 0s;
 	}
 	
 }
@@ -635,6 +673,13 @@
 		font-size: 17px;
 	}
 	
+}
+
+/*CATEGORY MEGA SCERMO-----------------------------------------------------------------------------*/
+@media (min-width: 3500px) {
+	.category-change-btn:hover {
+		transition: background 0s;
+	}
 }
 
 
@@ -1336,10 +1381,11 @@
     	font-size: 70px;
 	}
 
-	a.purchasebtn:hover {    
+	a.purchasebtn:hover {  
+		margin-top: 100px; 
     	margin-bottom: 34%;
     	font-size: 70px;
-    	border: 4px solid;
+    	border: 5px solid;
 	}
 
 	div.title-cart-el + div {
@@ -1394,6 +1440,14 @@
 		margin-left: 27%;     
 	}
 
+	a.moralbtn:hover {
+		background-color: #F39200;
+		border: solid 4px black;
+		color: #000;
+		margin-right: 27%;
+		margin-left: 27%;
+	}
+
 }
 
 
@@ -1423,6 +1477,11 @@
 		margin-right: 200px;
 	}
     
+    #margin-bigscreen {
+		margin-left: 200px;
+		margin-right: 30px;
+	}
+    
     .nav-bar {
         padding-top: 55px;
         height: 200px;
@@ -1448,6 +1507,7 @@
 	font-weight: 500;
 }
     
+    
 /*cover video*/ 
     #main-title {
 		font-size: 200px;
@@ -1465,10 +1525,20 @@
 		padding-top: 47rem;
 	}
     
+    
+/*Audio button*/
+    .icon-muto-yes {
+        height: 80px;
+        float:left;
+    }    
+    
+    
 /*category section*/ 
     #CategoryContainer {
         margin-top: 0px;
         padding-top: 600px;
+        background-image: url("../assets/images/cover-bigscreen.jpg");
+        background-size: cover;
     }
     
     .section-title {
@@ -1484,8 +1554,8 @@
 		margin-bottom: 0rem;
 		padding: 30px 50px 30px 50px;
 		line-height: 100px;
-		color: #F39200;
-		border: 5px solid #F39200;
+		color: #FFFFFF;
+		border: 5px solid #FFFFFF;
 	}
     
     .dropdownTxt {
@@ -1494,15 +1564,15 @@
 		line-height: 70px;
         visibility: visible;
 		opacity: 1;
-		color: #F39200;
+		color: #FFFFFF;
 	}
     
     .categoryDescr {		
 		width: 700px;
 		margin-top: 0rem;
 		padding: 30px 50px 30px 50px;		
-		color: #F39200;
-		border: 5px solid #F39200;
+		color: #FFFFFF;
+		border: 5px solid #FFFFFF;
 		border-top: none;
 		transform: scaleY(1);	
 	}
@@ -1605,6 +1675,14 @@
         margin-top: 0.2rem;
         margin-left: 2rem;
         height: 100px;
+    }
+    
+    #footer a {
+        pointer-events: none;
+    }
+    
+    .footer-about a {
+        pointer-events: none;
     }
      
 }
@@ -1729,7 +1807,6 @@
         font-size: 40px;
     }
 
-
     .currentcategory {
         border: 4px solid #F39200;
         padding: 5px;
@@ -1779,7 +1856,7 @@
     
     .hideContent {
         overflow: hidden;
-        height: 43.7em;   /* 20.4em*/ /* 18.9em*/	
+        height: 42.5em;   /* 20.4em*/ /* 18.9em*/	
     }
     
      .marginbottom-review {
@@ -1926,7 +2003,7 @@
     }
 
     #logopoli {
-        width: 320px;
+        width: 445px;
     }
     
     .lists {
@@ -1937,7 +2014,10 @@
     ul {
         font-size: 40px;
     }
-
+    
+    li.ul-b {
+        margin-bottom: 2rem;
+    }
     
 }
 

@@ -571,12 +571,13 @@ font-weight: 600;}
 
     /*Audio button*/
     .margin-botton-audio {
-        margin-top: 15%;
+        top: 25%;
         padding-right: 0%;
+        position: relative;
     }
 
     .icon-muto-yes {
-        height: 25px;
+        height: 30px;
         float:left;
     }
 
@@ -600,12 +601,12 @@ font-weight: 600;}
 	.categoryDiv{
 		margin-top: 2rem;
 		width: fit-content;
-		position: relative;}
+		position: relative;
+    }
 
 
 	div a.categoryLinks{
-		color: #F39200;
-					
+		color: #F39200;				
 	}
 
 	div:hover a.categoryLinks{
@@ -690,7 +691,11 @@ font-weight: 600;}
 		font-size: 30px;
 		font-weight: 600;
 	}
-	
+	.whiteHover {
+		border: 2px solid white!important;
+		color: white!important;
+	}
+
 	.categoryBt {
 		font-size: 25px;
 		font-weight: 500;
@@ -754,45 +759,6 @@ font-weight: 600;}
   	z-index: -100;
 }
 
-/* .coverimage01 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category01.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage02 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category02.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage03 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category03.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage04 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category04.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}*/
 
 
 /*Category choose*/
@@ -1459,11 +1425,11 @@ a.containerabout:hover {
 #logodensity {
 	margin-right: 3.5rem;
 	margin-top:0rem;
-	width: 100px;
+	width: 90px;
 }
 
 #logopoli {
-	width: 130px;
+	width: 140px;
 	margin-top:0rem;
 }
 
@@ -1482,6 +1448,10 @@ ul {
 
 .ul-b {
 	font-weight: 800;
+}
+
+li.ul-b {
+    margin-bottom: 0.7rem;
 }
 
 

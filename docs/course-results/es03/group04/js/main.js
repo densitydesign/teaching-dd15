@@ -11,12 +11,11 @@ $(window).scroll(
 )
 
 //variables
-//!!!!!!!!!!!!!!!!!!----------------!!!!!!!!!!!!!!!----------------!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!------this list has to be completed with all the page names------!!!!!!!!!!!!!!!
+//this list contains all the page names necessary to display the elements in the cart and moralist page
         var listTour = ["01-gohaunt","01-pizza","01-hear", "01-bestdo", "01-gotmoves", "01-show", "01-door", "01-knock", "01-godyes", "02-driveyourcart", "02-getwith", "02-wire", "02-stand", "02-onthehunt", "02-thebeach", "03-strip", "03-yoga", "03-getwith", "03-climb", "03-youcan", "03-getsouvenirs", "03-godyes", "04-feelfree", "04-reachtheufo","04-anything", "04-everybody", "04-climb"];
         
         var listMorals =["01-gohaunt", "01-pizza", "01-hear", "01-bestdo", "01-gotmoves", "01-show", "01-door", "01-knock", "01-godyes", "02-driveyourcart", "02-getwith", "02-wire", "02-stand", "02-onthehunt", "02-thebeach", "03-strip", "03-yoga", "03-getwith", "03-climb", "03-youcan", "03-getsouvenirs", "03-godyes", "04-feelfree", "04-reachtheufo", "04-anything", "04-everybody", "04-climb"];
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//pageName is the variable that will be used to check the name of each page
         var pageName;
 
 $(document).ready(function(){   
@@ -45,8 +44,8 @@ $(document).ready(function(){
                          // Let's check if we are in the homepage or behindthescene!
                         var pathImgFull="../assets/images/icon-backpack-full.png";
                         var pathImgEmpty ="../assets/images/icon-backpack.png";
-
-                        if(pageName=="index" || pageName=="behindthescene")
+                        //the empty condition is necessary for when the github link oesn't show any name
+                        if(pageName=="index" || pageName=="behindthescene"|| pageName==="")
                                 {
                                  pathImgFull="assets/images/icon-backpack-full.png";
                                  pathImgEmpty="assets/images/icon-backpack.png";
@@ -102,7 +101,7 @@ $(document).ready(function(){
                                   }                
                 ); 
 
-        //remove elements from cart
+        //remove elements from cart when clicking the element x
                 $(".cartelement-x").click(
                           function() {
                                       var xSuffix=$(this).attr('id').substring($(this).attr('id').lastIndexOf("_")+1);
@@ -146,7 +145,7 @@ $(document).ready(function(){
                 );
 
         // category color change on hover and background image change
-                $(".whiteHover").hover( 
+                $(".categoryBt").hover( 
                         
                         function(){  if (windWidth>=3500) {
                                                          $(".whiteHover").css({"color": "white", "border": "5px solid white" });
@@ -155,7 +154,7 @@ $(document).ready(function(){
                                                          $(".categoryDescr").css({"border": "5px solid white", "border-top-style": "none"});
                                                         } 
                                      else{
-                                        $(".whiteHover").css({"color": "white", "border": "2px solid white" });
+                                        $(".categoryBt").addClass("whiteHover");
                                         $(".categoryDescr").css("border-top-style", "none");
                                         $(".categoryLinks").css("color", "white");
                                         }
@@ -168,58 +167,69 @@ $(document).ready(function(){
                                                          $(".categoryDescr").css({"border": "5px solid #F39200", "border-top-style": "none"});
                                                         } 
                                      else{
-                                        $(".whiteHover").css({"color": "#F39200", "border": "2px solid #F39200"});
+                                        $(".categoryBt").removeClass("whiteHover");
                                         $(".categoryDescr").css("border-top-style", "none");
                                         $(".categoryLinks").css("color", "#F39200");
                                         }
                                   },                                                                                    
         );
 
-        //this function makes the category image appear on hover                         
+        //this function makes the category image appear on hover 
+
                 $("#MAKE").hover(       
-                        function(){     
-                                        $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "url('assets/images/category01.jpg')")
+                        function(){     if (windWidth>1100 && windWidth<2000) {                                      
+                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "url('assets/images/category01.jpg')")
+                                        }
                                   },
                         
-                        function(){     $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "none")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                  
+                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "none")
+                                        }
                                   }
                 );
 
                  $("#LEAVE").hover(
-                        function(){
-                                        $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "url('assets/images/category02.jpg')")
+                        function(){    
+                                        if (windWidth>1100 && windWidth<2000) {
+                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "url('assets/images/category02.jpg')")
+                                        }
                                   },
                                 
-                        function(){     
-                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "none")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                  
+                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "none")
+                                        }
                                   }
                 );
 
                  $("#SWIM").hover(
-                        function(){
-                                        $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "url('assets/images/category03.jpg')")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                  
+                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "url('assets/images/category03.jpg')")
+                                        }
                                   },
                         
-                        function(){     
-                                        $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "none")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                       
+                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "none")
+                                        }
                                   }
                 );
 
                  $("#FEEL").hover(
-                        function(){
-                                        $("#CategoryContainer").addClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "url('assets/images/category04.jpg')")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                  
+                                                $("#CategoryContainer").addClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "url('assets/images/category04.jpg')")
+                                        }
                                   },
                         
-                        function(){
-                                        $("#CategoryContainer").removeClass("CategoryImgFadeIn");
-                                        $("#CategoryContainer").css("background-image", "none")
+                        function(){      if (windWidth>1100 && windWidth<2000) {                                  
+                                                $("#CategoryContainer").removeClass("CategoryImgFadeIn");
+                                                $("#CategoryContainer").css("background-image", "none")
+                                        }
                                   }
                 );
 
@@ -227,13 +237,24 @@ $(document).ready(function(){
                 $(".dropbtn-calendar").click(
                         function() {
                                      $(".dropdown-content-calendar").toggle();
-                                     $(this).toggleClass("noBottom");   
+                                     $(this).toggleClass("noBottom"); 
+                                     if($(".dropdown-content").is(":visible"))
+                                                {
+                                                 $(".dropdown-content").toggle();
+                                                 $(".dropbtn").toggleClass("noBottom");
+                                                } 
                         }
                 );
                 $(" .dropbtn-calendar-cart").click(
                         function() {
                                      $(this).siblings(".dropdown-content-calendar-cart").toggle();
-                                     $(this).toggleClass("noBottom");                                       
+                                     $(this).toggleClass("noBottom"); 
+                                     if($(".dropdown-content-cart").is(":visible"))
+                                                {
+                                                 $(".noBottom").siblings(".dropdown-content-cart").toggle();
+                                                 $(".dropbtn-cart.noBottom").toggleClass("noBottom");
+                                                } 
+                                                                          
                         }
                 );
 
@@ -242,12 +263,23 @@ $(document).ready(function(){
                         function() {
                                         $(".dropdown-content").toggle();
                                         $(this).toggleClass("noBottom");
+                                        if($(".dropdown-content-calendar").is(":visible"))
+                                                {
+                                                 $(".dropdown-content-calendar").toggle();
+                                                 $(".dropbtn-calendar").toggleClass("noBottom");
+                                                }
+
                         }
                 );
                 $(".dropbtn-cart").click(
                         function() {
                                         $(this).siblings(".dropdown-content-cart").toggle();
                                         $(this).toggleClass("noBottom");
+                                        if($(".dropdown-content-calendar-cart").is(":visible"))
+                                                {
+                                                 $(".noBottom").siblings(".dropdown-content-calendar-cart").toggle();
+                                                 $(".dropbtn-calendar-cart.noBottom").toggleClass("noBottom");
+                                                }
                         }
                 );
     
