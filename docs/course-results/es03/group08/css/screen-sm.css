@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+
+    html, body {
+        font-size: 12px;
+    }
+
+    h1 {
+        padding-top: 50px;
+        font-size: 6rem;
+    }
+    
+    h2 {
+        padding-top: 40px;
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }  
+
+    .left-navbar {
+        display: none;
+    }
+
+    .viewport {
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    .content-row {
+        flex-wrap: wrap;
+        height: 50%;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+
+    .video-col, .content-col {
+        width: 100%;
+    }
+
+    .space-xs-1 {
+        padding-bottom: 1rem;
+    }
+    
+    .space-xs-2 {
+        padding-bottom: 2rem;
+    }
+    
+    .space-xs-3 {
+        padding-bottom: 3rem;
+    }
+    
+    .space-xs-4 {
+        padding-bottom: 4rem;
+    }
+    
+    .space-xs-6 {
+        padding-bottom: 6rem;
+    }
+}
