@@ -4,7 +4,7 @@ function setup() {}
 
 function draw() {
   $('#NEXTW').click(function() {
-    window.open('../q/q9.html?q8=' + check8, '_self');
+    window.open('./q/q9.html?q8=' + check8, '_self');
   });
 }
 
