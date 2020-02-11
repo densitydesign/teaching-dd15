@@ -54,11 +54,11 @@ function choices(elt) {
 }
 
 function senario1() {
-  self.location = '../0-0intro/0-0intro.html';
+  self.location = "../../page4.html";
 }
 
 function senario2() {
-  self.location = '../2-0-0venice-beach/2-0-0venice-beach.html';
+  self.location = '../2-1-0villa/2-1-0villa.html';
 }
 
 // function senario3() {

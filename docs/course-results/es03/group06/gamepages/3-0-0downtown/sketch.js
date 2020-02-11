@@ -58,11 +58,11 @@
   }
 
   function senario2() {
-    self.location = '../';
+    self.location = '../3-2-0staples/3-2-0staples.html';
   }
 
   function senario3() {
-    self.location = '../';
+    self.location = '../0-3map/0-3map.html';
   }
   //
   // function senario4() {

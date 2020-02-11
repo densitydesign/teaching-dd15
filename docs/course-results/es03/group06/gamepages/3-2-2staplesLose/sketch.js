@@ -54,11 +54,11 @@
   }
 
   function senario1() {
-    self.location = '../0-0intro/0-0intro.html';
+    self.location = "../../page4.html";
   }
 
   function senario2() {
-    self.location = '../3-1-0neighbourhood/3-1-0neighbourhood.html';
+    self.location = '../3-2-0staples/3-2-0staples.html';
   }
 
   // function senario3() {

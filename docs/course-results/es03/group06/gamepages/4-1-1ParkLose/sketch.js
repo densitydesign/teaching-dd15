@@ -11,7 +11,7 @@
   function setup() {
     createCanvas(windowWidth, windowHeight);
     background(0);
-    vid = createVideo('4-1-2ParkWin.mp4');
+    vid = createVideo('4-1-1ParkLose.mp4');
     vid.hide();
 
     vid.size(1920, 1080);
@@ -54,7 +54,7 @@
   }
 
   function senario1() {
-    self.location = '../0-0intro/0-0intro.html';
+    self.location = "../../page4.html";
   }
 
   function senario2() {

@@ -55,11 +55,11 @@
   }
 
   function senario1() {
-    self.location = '../0-0intro/0-0intro.html';
+    self.location = "../../page4.html";
   }
 
   function senario2() {
-    self.location = '../1-0-0hollywood-map/1-0-0hollywood-map.html';
+    self.location = '../1-2-0walkoffame/1-2-0walkoffame.html';
   }
 
   // function senario3() {

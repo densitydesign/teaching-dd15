@@ -18,7 +18,8 @@
 
 
     button1 = select("#opt4-1").style("display", "none");
-    button2 = select("#opt4-2").style("display", "none");    createbtnExit();
+    button2 = select("#opt4-2").style("display", "none");
+    createbtnExit();
   }
 
   function draw() {
@@ -58,8 +59,9 @@
   }
 
   function senario1() {
-    self.location = '../0-0intro/0-0intro.html';
+    self.location = "../../page4.html";
   }
+
   function senario2() {
     self.location = '../0-2day2/0-2day2.html';
   }

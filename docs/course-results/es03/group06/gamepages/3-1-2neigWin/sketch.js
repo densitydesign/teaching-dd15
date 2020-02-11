@@ -11,7 +11,7 @@
   function setup() {
     createCanvas(windowWidth, windowHeight);
     background(0);
-    vid = createVideo('3-1-2neigWin');
+    vid = createVideo('3-1-2neigWin.mp4');
     vid.hide();
 
     vid.size(1920, 1080);
