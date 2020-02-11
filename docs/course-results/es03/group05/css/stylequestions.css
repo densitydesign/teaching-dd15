@@ -30,7 +30,7 @@ html, body {
 .title {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
     font-size: 16px;
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 1rem;
     padding-left: 3rem;
 }
@@ -40,14 +40,22 @@ html, body {
     font-weight: 400; 
     font-style: italic;
 }
+
 .about {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
-    padding-right: 3rem;
     font-size: 16px;
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 1rem;
+    padding-left:4.5vw;
 }
-
+.explanation {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    color: #d2d2d2;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    padding-left:23.1vw;
+}
 .policy {
     padding-left: 1.5%;
     padding-right: 3%;
@@ -136,27 +144,27 @@ html, body {
 }
 
 .textsex {
-    padding-top: 5.5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
 .textgen {
-    padding-top: 15rem;
+    padding-top: 20rem;
     padding-bottom: 14rem;
 }
 
 .textbutt {
-    padding-top: 4.5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
 .textnipple1 {
-    padding-top: 3.5rem;
+    padding-top: 9rem;
     padding-bottom: 1.5rem;
 }
 
 .textnipple2 {
-    padding-top: 3.5rem;
+    padding-top: 9rem;
     padding-bottom: 6.6rem;
 }
 
@@ -173,45 +181,57 @@ img {
 }
 
 .pepper {
-    margin-top: 12%;
+    margin-top: 7%;
     margin-left: 0;
 }
 
+.pepper1 {
+    margin-top: 7%;
+    margin-left: 1rem;
+}
+
+
 .banana {
-    margin-top: 18%;
+    margin-top: 10%;
     margin-left: 0%;
 }
 .banana1 {
-    margin-top: 18%;
-    margin-left: 1%;
+    margin-top: 10%;
+    margin-left: 2%;
 }
+
+.ciliegiacentro{
+max-width:34%;
+height:auto; 
+margin-top:47vh;}
+
 .ciliegia1 {
-    margin-top: 20%;
+    margin-top: 13%;
     margin-left: 1rem;
 }
 .ciliegia {
-    margin-top: 20%;
-    margin-left: 1rem;
+    margin-top: 13%;
+    margin-left: 0.3rem;
 }
 .ciliegia2 {
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 0rem;
 }
 
 .ciliegia3 {
     margin-left: 0.1rem;
     margin-right: 0.2rem;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .peach1 {
-    margin-top: 12.5%;
-    margin-left: 0.4rem;
+    margin-top: 7%;
+    margin-left: 0.8rem;
     margin-right: 0.2rem;
 }
 
 .peach {
-    margin-top: 12.5%;
+    margin-top: 7%;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
 }
@@ -454,7 +474,7 @@ img {
 }
 }
 
-@media only screen and (min-width: 1921px) {
+@media only screen and (min-width: 1921px) and (max-width:2500px) {
 .textpolicy {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
     font-size: 5rem;
@@ -536,6 +556,7 @@ img {
     padding-bottom: 1rem;
     padding-left: 5rem;
 }
+    
 .about {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
     padding-right: 3rem;
@@ -556,22 +577,42 @@ img {
 }
 
 @media only screen and (min-width: 3000px) {  
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1rem;
+  padding left: 1rem;
+  padding-right: 3rem;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 2.5rem;
+}
+
 .title {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
-    font-size: 3rem;
     color: black;
-    padding-top: 3rem;
+    padding-top: 1.7rem;
     padding-bottom: 1rem;
-    padding-left: 5rem;
+    padding-left: 5vh;
 }
 .about {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
-    padding-right: 3rem;
-    font-size: 3rem;
+    padding-right:0;
+    margin:0;
+    padding-left:12vh;
+    font-size: 2.5rem;
     color: black;
-    padding-top: 3rem;
+    padding-top: 1.7rem;
     padding-bottom: 1rem;
 }
+.explanation {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2.5rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1rem;
+    padding-left:38vh;
+}
+
 .textpolicy {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
     font-size: 7rem;
@@ -581,6 +622,7 @@ img {
     padding-bottom: 3%;
     width: 94%;
 }
+    
 .extracted {
   font-family: 'Work Sans', sans-serif; 
   font-weight: 400;
@@ -589,6 +631,7 @@ img {
   margin: 0;
   padding-top: 3%;
 }
+    
 .shape1 {
   display: inline-block;
   padding-top: 0rem;
@@ -604,54 +647,103 @@ img {
   max-width: 100%;
   font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
 }
+    
 .question {
     font-family: 'Work Sans', sans-serif; font-weight: 400;
     font-size: 6rem;
     padding-bottom: 1rem;
 }
+
+    
+.pepper1 {
+    margin-top: 10%;
+    margin-left: 2.5rem;
+}
 .pepper {
-    margin-top: 19%;
+    margin-top: 10%;
 }
+    
+.textsex {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}    
+   
+    
+.banana1 {
+    margin-top: 22.5%;
+    margin-left:2.5rem;
+}    
+    
 .banana {
-    margin-top: 52%;
+    margin-top: 22.5%;
 }
+    
+ .textgen {
+    padding-top: 41rem;
+    padding-bottom: 14rem;
+}
+   
+  
 .peach {
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    margin-top: 23%;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 11%;
 }
 .peach1 {
     margin-left: 4rem;
-    margin-right: 0.2rem;
-    margin-top: 23%;
+    margin-right: 0.3rem;
+    margin-top: 11%;
 }
+    
+ .textbutt {
+    padding-top: 16rem;
+    padding-bottom: 5rem;
+}   
+    
+    .ciliegiacentro {
+max-width:34%;
+        height:auto; 
+        margin-top:47vh;
+    }      
 .ciliegia {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
-    margin-top: 12%;
+    margin-top: 5%;
 }
 .ciliegia1 {
     margin-left: 2rem;
     margin-right: 0.2rem;
-    margin-top: 12%;
+    margin-top: 5%;
 }
 .ciliegia3 {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
-    margin-top: 22.5%;
+    margin-top: 15%;
 }
 .ciliegia2 {
     margin-left: 2rem;
     margin-right: 0.2rem;
-    margin-top: 22.5%;
+    margin-top: 15%;
 }
+    
+.textnipple1 {
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+.textnipple2 {
+    padding-top: 5rem;
+    padding-bottom: 6.6rem;
+}
+    
 .gallery {
     font-size: 5vw;
     margin-top: 32rem;
     text-align: center;
 }
 .cormorant {
-    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: 400; font-style: italic;
     font-size: 5vw;
 }
 .title1 {
@@ -680,17 +772,6 @@ img {
     padding-left: 5%;
 }
 
-@media screen and (min-width: 1921px) and (max-width: 2999px){
-.textpolicy {
-    font-family: 'Work Sans', sans-serif; font-weight: 400;
-    font-size: 3rem;
-    text-align: left;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 4%;
-    width: 95%;
-}
-}
 
 @media screen and (max-width: 1500px) and (min-width: 601px) {
 .textpolicy {
@@ -703,9 +784,43 @@ img {
     width: 95%;
 }
     
+.textsex {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+.textgen {
+    padding-top: 15.5rem;
+    padding-bottom: 14rem;
+}
+
+.textbutt {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.textnipple1 {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.textnipple2 {
+    padding-top: 4rem;
+    padding-bottom: 6.6rem;
+}
+    
+.icon {
+    margin-top: 0;    
+} 
+    
 .pepper {
     margin-top: 3%;
     margin-left: 0;
+}
+    
+.pepper1 {
+    margin-top: 3%;
+    margin-left: 1rem;
 }
     
 .banana {
@@ -749,5 +864,32 @@ img {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     margin-top: 2.5%;
+}
+
+.title{
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    width: 80%;
+}
+.about{
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    padding-left: 8.8vh;
+}
+
+.explanation{
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    padding-left: 39.5vh;
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 1;
+    z-index:10;
 }
 }

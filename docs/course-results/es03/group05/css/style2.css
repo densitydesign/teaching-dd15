@@ -50,15 +50,53 @@ height:100%;
 
 @keyframes text_translation {
     0%{transform:translateX(0);}
-    100%{transform:translateX(4rem);opacity:1;}
+    100%{transform:translateX(4rem);opacity:1;}}
 
 
-/*fine animazioni */
+ @media only screen and (min-width:2500px){
+    .pepper{width: 16em;
+    height: auto;
+    position: absolute;
+    animation-name:rotateTranslate;
+    animation-duration: 1.5s;
+    animation-delay:0.2s;
+    animation-timing-function: 1s all ease-in-out;
+    animation-fill-mode: forwards;
+}
 
-/* nel caso ci sia da ridimensionare stroke nel mobile
-    @media only screen and (max-width:600px){
-        .st0{stroke-weight:1pt;}}
-*/
+
+@keyframes rotateTranslate {
+    0%{transform:rotate(0deg);}
+    75%{transform:rotate(720deg) translate(0)}
+    100%{transform:translateX(-18em);}
+}
+
+
+.task{
+    position:absolute;
+    margin:0;
+    padding:0;
+    font-family: "Cormorant Infant medium", serif;
+    font-size: 10rem;
+    font-style:italic;
+    color: #d2d2d2;
+    
+    animation-name: text_translation;
+    animation-duration: 0.1s;
+    animation-delay:1.8s;
+    animation-fill-mode: forwards;
+    opacity:0;   
+}
+
+
+
+@keyframes text_translation {
+    0%{transform:translateX(0);}
+    100%{transform:translateX(10rem);opacity:1;}
+  
+    
+    }
+
 
 
     

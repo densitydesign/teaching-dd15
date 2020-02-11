@@ -54,6 +54,7 @@ height:100%;
     font-size: 7em;
     padding-left: 1rem;
     padding-right: 1.5rem;
+    color:#d2d2d2;
 }
 
 .level {
@@ -86,5 +87,26 @@ height:100%;
 
 
 
+@media only screen and (min-width: 3000px) {
+    @keyframes translateLeft{
+    0%{transform: translateX(0em)}
+    50%{transform: translateX(-5em)}
+    100%{transform: translateX(-32em)}
 
+}
+    .resize{
+       width:150em;
+       height:auto;}
+    
+    #text-style{
+    position:absolute;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-size: 20em;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    color:#d2d2d2;
+}
+
+}
 

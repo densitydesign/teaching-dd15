@@ -2,7 +2,7 @@
 <html name="step1" lang="en">
 
     <head>
-        
+
         <!-- Meta data -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,33 +10,33 @@
         <meta name="description" content="An interactive game focused on Instagram censorship"/>
 		<meta name="keywords" content="Instagram, IG, censorship, censor, images, photos, pictures"/>
 		<meta name="author" content="Group 5: Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino,<br> Anna Gazza, Barbara Vanoli"/>
-        
+
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:title" content="Law of the jungle">
         <meta property="og:description" content="An interactive game focused on Instagram censorship">
         <meta property="og:image" content="img/home.jpg">
-        
+
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="">
         <meta property="twitter:title" content="Law of the jungle">
         <meta property="twitter:description" content="An interactive game focused on Instagram censorship">
         <meta property="twitter:image" content="img/home.jpg">
-        
+
         <!-- Tab icon -->
         <link rel="icon" href="assets/icon.ico" type="image/x-icon"/>
-        
+
         <!-- Tab title -->
         <title>Law of the jungle</title>
-        
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        
+
         <!-- css -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        
+
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
@@ -44,11 +44,12 @@
 *{
     cursor: url('https://i.ibb.co/H7D7Hpw/cursore1.png'), auto;
 }
+.shape2, .shape4, .shapebutton1, .shapebutton2, #truebutton2, #falsebutton2, #nextlevel1:hover{cursor: url('https://i.ibb.co/f8RpFN3/cursore3.png'), auto; }
 </style>
     </head>
-    
+
     <body class="quiz1">
-                    
+
         <!-- Top fixed bar -->
         <div class="container-fluid marquee1">
             <div class="row barsopra track">
@@ -59,7 +60,7 @@
             <div class="row downbar1">
                 <div class="col-sm-2 col-4 homebutton" style="opacity: 0;"><span class="shape4"><span class="shape2">HOME</span></span></div>
                 <div class="col-sm-5 text2" id="text2" style="opacity: 0;">SELECT TEN INAPPROPRIATE PHOTOS</div>
-                <div class="col-sm-2 text2 score"><span id="score">0</span>/10</div>
+                <div class="col-sm-2 text2 score"  style = "opacity: 0;"><span id="score">0</span>/10</div>
             </div>
             <div class="row">
             <div class="grid-container">
@@ -98,13 +99,14 @@
                 <div class="grid-item d-sm-block d-none"><img class="gridelement" id="empty" src="img/quiz1/19.jpg"></div>
                 <div class="grid-item" style="z-index:10;"><img class="gridelement swing1" id="nextlevel1" src="img/arrow1.png"></div>
                 <div class="grid-item d-sm-block d-none"></div>
+
                 <div class="grid-item"><img class="icon" id="icon8" src="img/icons/ciliegia.png"></div>
                 <img class="gridelement" id="imgquiz2A" src="img/quiz2A/0.jpg">
             </div>
             </div>
             <div class="row">
                 <div class="col-4 homebutton4 downbar"><a href="index.html"><span class="shape4"><span class="shape2">HOME</span></span></a></div>
-            </div>    
+            </div>
         </div>
         <div class="offset-sm-4 offset-0 col-sm-2 col-6 truebutton4" id="truebutton4"><span class="shapebutton1"><span class="shape2" id="truebutton2">YES</span></span></div>
         <div class="offset-sm-6 offset-0 col-sm-2 col-5 falsebutton4" id="falsebutton4"><span class="shapebutton2"><span class="shape2" id="falsebutton2">NO</span></span></div>
@@ -112,8 +114,8 @@
         <div class="right">RIGHT</div>
         <div class="wrong">WRONG</div>
         <div class="levelcompleted3 gradient">LEVEL COMPLETED</div>
-        
-        <!-- Footer             
+
+        <!-- Footer
         <footer class="footer-area customfooter">
             <div class="container-fluid">
                 <div class="row borderfooter">
@@ -160,13 +162,13 @@
             </div>
         </footer>
         </div> -->
-        
+
         <!--bootstrap js-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!--link to our js file-->
         <script src="js/javascript.js"></script>
-    
+
     </body>
 
 </html>

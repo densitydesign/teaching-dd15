@@ -49,7 +49,49 @@ setInterval(function(){
     } else {
                 $(".donebutton12").css("display", "none");}}, 1);
 
+var t;
+
+function conta(){
+    var contatore = document.getElementsByClassName("scale").length;
+    document.getElementById("score").innerHTML = contatore;
+    if (contatore === 10) {
+                $("#score").css("color", "#7135b6");
+    }
+    if (contatore > 10) {
+                $("#score").css("color", "black");
+    }
+};
+
+var r;
+
+function conta1(){
+    var contatore = document.getElementsByClassName("scale2").length;
+    document.getElementById("score2").innerHTML = contatore;
+    if (contatore === 6) {
+                $("#score2").css("color", "#7135b6");
+    }
+    if (contatore > 6) {
+                $("#score2").css("color", "black");
+    }
+};
+
+var p;
+
+function conta2(){
+    var contatore = document.getElementsByClassName("scale1").length;
+    document.getElementById("score3").innerHTML = contatore;
+    if (contatore === 2) {
+                $("#score3").css("color", "#7135b6");
+    }
+    if (contatore > 2) {
+                $("#score3").css("color", "black");
+    } 
+};
+
+
 /** QUIZ 1.1 **/
+
+setTimeout(function(){ t = setInterval(conta, 1); }, 1);
 
 var quaranta = false;
 var quarantuno = false;
@@ -86,7 +128,8 @@ $("#quaranta").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else { 
+
                 quaranta = ! quaranta;
                 console.log(quaranta);
                 $(this).toggleClass("scale");}
@@ -125,7 +168,8 @@ $("#quarantuno").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
+
                 quarantuno = ! quarantuno;
                 console.log(quarantuno);
                 $(this).toggleClass("scale");}
@@ -164,7 +208,8 @@ $("#quarantadue").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {     
+
                 quarantadue = ! quarantadue;
                 console.log(quarantadue);
                 $(this).toggleClass("scale");}
@@ -203,7 +248,8 @@ $("#quarantatre").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
+
                 $(this).toggleClass("scale");}
 });
 
@@ -230,7 +276,7 @@ $("#quarantaquattro").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale");}
 });
 
@@ -296,7 +342,7 @@ $("#quarantasei").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {     
                 $(this).toggleClass("scale");}
 });
 
@@ -323,7 +369,7 @@ $("#quarantasette").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale");}
 });
 
@@ -389,7 +435,7 @@ $("#quarantanove").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 quarantanove = ! quarantanove;
                 console.log(quarantanove);
                 $(this).toggleClass("scale");}
@@ -455,7 +501,7 @@ $("#cinquantuno").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 cinquantuno = ! cinquantuno;
                 console.log(cinquantuno);
                 $(this).toggleClass("scale");}
@@ -494,7 +540,7 @@ $("#cinquantadue").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale");}
 });
 
@@ -521,7 +567,7 @@ $("#cinquantatre").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {   
                 $(this).toggleClass("scale");}
 });
 
@@ -548,7 +594,7 @@ $("#cinquantaquattro").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {   
                 $(this).toggleClass("scale");}
 });
 
@@ -575,7 +621,7 @@ $("#cinquantacinque").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale");}
 });
 
@@ -602,7 +648,7 @@ $("#cinquantasei").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {   
                 cinquantasei = ! cinquantasei;
                 console.log(cinquantasei);
                 $(this).toggleClass("scale");}
@@ -641,7 +687,7 @@ $("#cinquantasette").click(function() {
                 $(".info18").css("display", "block");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "none");
-    } else {
+    } else {    
                 cinquantasette = ! cinquantasette;
                 console.log(cinquantasette);
                 $(this).toggleClass("scale");}
@@ -680,7 +726,7 @@ $("#cinquantanove").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "none");
                 $(".info20").css("display", "block");
-    } else {
+    } else {    
                 $(this).toggleClass("scale");}
 });
 
@@ -707,7 +753,7 @@ $("#cinquantotto").click(function() {
                 $(".info18").css("display", "none");
                 $(".info19").css("display", "block");
                 $(".info20").css("display", "none");
-    } else {
+    } else {     
                 cinquantotto = ! cinquantotto;
                 console.log(cinquantotto);
                 $(this).toggleClass("scale");}
@@ -731,6 +777,7 @@ var first_click = true;
 $(document).ready(function() {
 $(".donebutton6").click(function() {
     if (first_click) {
+                clearInterval(t);
                 document.getElementById("numberscoreC1").innerHTML = scoreC;
                 $(".numberscoreC").css("display", "block");
                 setTimeout(function(){ $(".numberscoreC").css("display", "none"); }, 3000);
@@ -740,7 +787,7 @@ $(".donebutton6").click(function() {
                 setTimeout(function(){ $(".grid-container").css("opacity", "1"); }, 3000);        
                 setTimeout(function(){ $(".why").css("display", "none"); }, 3000);
                 document.getElementById("text2").innerHTML = "ARE YOU WONDERING WHY? CLICK ON THE IMAGES";
-                document.getElementById("score").innerHTML = scoreC;
+                document.getElementById("score").innerHTML = scoreC + "/10";
                 document.getElementById("donebutton8").innerHTML = "NEXT";
                 $(".score").css("opacity", "1");
 document.getElementById("quaranta").src = "img/quiz2/40A.jpg";
@@ -888,13 +935,16 @@ $(document).ready(function() {
 /** QUIZ 1.2 **/
 
 var scoreG = 0;
-var numberclick = 0;    
-var step = 0
+var numberclick = 1;    
+var step = 0;
+var funziona = false;
 
 $(document).ready(function () {
     $(".first").click(function() {
-                    numberclick++;
-            if (numberclick === 1) {
+            if (numberclick === 1 && funziona === false) {
+                numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");    
                     $("#ventiquattro").css("border", "1px solid #7135b6"); 
@@ -906,7 +956,10 @@ $(document).ready(function () {
                     $("#text5").css("display", "block");
                 document.getElementById("text5").innerHTML = "WRONG";                                      
             }
-            if (numberclick == 2) {
+  if (numberclick == 2 && funziona === false) {
+                numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#ventiquattro").css("border", "1px solid #7135b6"); 
@@ -917,7 +970,10 @@ $(document).ready(function () {
                     $("#text5").css("display", "block");
                 document.getElementById("text5").innerHTML = "WRONG";                                      
             }
-            if (numberclick == 3) {
+ if (numberclick == 3 && funziona === false) {
+                numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#ventiquattro").css("border", "1px solid #7135b6"); 
@@ -929,7 +985,10 @@ $(document).ready(function () {
                     scoreG++;
                 document.getElementById("text5").innerHTML = "RIGHT";
             }
-            if (numberclick == 4) {
+            if (numberclick == 4 && funziona === false) {
+                numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#ventiquattro").css("border", "1px solid #7135b6"); 
@@ -940,7 +999,10 @@ $(document).ready(function () {
                     $("#text5").css("display", "block");
                 document.getElementById("text5").innerHTML = "WRONG";                                      
             }
-            if (numberclick == 5) {
+            if (numberclick == 5 && funziona === false) {
+                numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#ventiquattro").css("border", "1px solid #7135b6"); 
@@ -956,8 +1018,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".second").click(function() {
+            if (numberclick === 1 && funziona === false) {
                     numberclick++;
-            if (numberclick === 1) {
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#venticinque").css("border", "1px solid #7135b6"); 
@@ -969,7 +1033,10 @@ $(document).ready(function () {
                     scoreG++;
                 document.getElementById("text5").innerHTML = "RIGHT";        
             }
-            if (numberclick == 2) {
+            if (numberclick == 2 && funziona === false) {
+                    numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#venticinque").css("border", "1px solid #7135b6"); 
@@ -981,7 +1048,10 @@ $(document).ready(function () {
                     scoreG++;
                 document.getElementById("text5").innerHTML = "RIGHT";             
             }
-            if (numberclick == 3) {
+            if (numberclick == 3 && funziona === false) {
+                    numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#venticinque").css("border", "1px solid #7135b6"); 
@@ -992,7 +1062,10 @@ $(document).ready(function () {
                     $("#text5").css("display", "block");
                 document.getElementById("text5").innerHTML = "WRONG";                                      
             }
-            if (numberclick == 4) {
+            if (numberclick == 4 && funziona === false) {
+                    numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#venticinque").css("border", "1px solid #7135b6"); 
@@ -1004,7 +1077,10 @@ $(document).ready(function () {
                     scoreG++;
                 document.getElementById("text5").innerHTML = "RIGHT";             
             }
-            if (numberclick == 5) {
+            if (numberclick == 5 && funziona === false) {
+                    numberclick++;
+                console.log(funziona);
+                funziona = true;
                 document.getElementById("text2").innerHTML = "READ THE POST TO UNDERSTAND THE REASON";
                 $("#text2").css("color", "#7135b6");
                     $("#venticinque").css("border", "1px solid #7135b6"); 
@@ -1022,7 +1098,9 @@ $(document).ready(function () {
     $("#nextlevel").click(function() {
                     step++;
             if (step == 1) {
-                document.getElementById("text2").innerHTML = "SELECT THE APPROPRIATED CROPPED PHOTO";
+                console.log(funziona);
+                funziona = false;
+                document.getElementById("text2").innerHTML = "SELECT THE CROPPED PHOTO THAT RESPECTS THE POLICY";
                 $("#text2").css("color", "black");
                     $("#venticinque").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border", "1px solid transparent");
@@ -1034,7 +1112,9 @@ $(document).ready(function () {
                     $("#text5").css("display", "none");                 
             }
             if (step == 2) {
-                document.getElementById("text2").innerHTML = "SELECT THE APPROPRIATED CROPPED PHOTO";
+                console.log(funziona);
+                funziona = false;
+                document.getElementById("text2").innerHTML = "SELECT THE CROPPED PHOTO THAT RESPECTS THE POLICY";
                 $("#text2").css("color", "black");
                     $("#venticinque").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border", "1px solid transparent");
@@ -1046,7 +1126,9 @@ $(document).ready(function () {
                     $("#text5").css("display", "none");                      
             }
             if (step == 3) {
-                document.getElementById("text2").innerHTML = "SELECT THE APPROPRIATED CROPPED PHOTO";
+                console.log(funziona);
+                funziona = false;
+                document.getElementById("text2").innerHTML = "SELECT THE CROPPED PHOTO THAT RESPECTS THE POLICY";
                 $("#text2").css("color", "black");
                     $("#venticinque").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border", "1px solid transparent");
@@ -1058,7 +1140,9 @@ $(document).ready(function () {
                     $("#text5").css("display", "none");                      
             }
             if (step == 4) {
-                document.getElementById("text2").innerHTML = "SELECT THE APPROPRIATED CROPPED PHOTO";
+                console.log(funziona);
+                funziona = false;
+                document.getElementById("text2").innerHTML = "SELECT THE CROPPED PHOTO THAT RESPECTS THE POLICY";
                 $("#text2").css("color", "black");
                     $("#venticinque").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border", "1px solid transparent");
@@ -1070,12 +1154,14 @@ $(document).ready(function () {
                     $("#text5").css("display", "none");                      
             }
             if (step == 5) {
+                console.log(funziona);
+                funziona = false;
                     $("#text5").css("display", "none");
                     $("#venticinque").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border", "1px solid transparent");
                     $("#ventiquattro").css("border-radius", "0px");
                     $("#venticinque").css("border-radius", "0px");                  
-                document.getElementById("text2").innerHTML = "SELECT THE APPROPRIATED CROPPED PHOTO";
+                document.getElementById("text2").innerHTML = "SELECT THE CROPPED PHOTO THAT RESPECTS THE POLICY";
                 $("#text2").css("display", "none");   
                 $("#nextlevel").css("opacity", "0");
                 $(".first").css("opacity", "0");
@@ -1088,6 +1174,7 @@ $(document).ready(function () {
                 localStorage.setItem("punteggioB", scoreG);}
             });
             });
+
 
 /** QUIZ 2.1 **/
 
@@ -1771,6 +1858,7 @@ var first_click = true;
 $(document).ready(function() {
 $(".donebutton").click(function() {
     if (first_click) {
+                clearInterval(t);
                 document.getElementById("numberscore1").innerHTML = score;
                 $(".numberscore").css("display", "block");
                 setTimeout(function(){ $(".numberscore").css("display", "none"); }, 3000);
@@ -1778,7 +1866,7 @@ $(".donebutton").click(function() {
                 setTimeout(function(){ $(".why").css("display", "none"); }, 3000);
                 document.getElementById("text2").innerHTML = "ARE YOU WONDERING WHY? CLICK ON THE IMAGES";
                 $(".text2").css("color", "#7135b6");
-                document.getElementById("score").innerHTML = score;
+                document.getElementById("score").innerHTML = score + "/10";
                 document.getElementById("donebutton2").innerHTML = "NEXT";
                 $(".grid-container").css("opacity", "0.2");
                 setTimeout(function(){ $(".grid-container").css("opacity", "1"); }, 3000); 
@@ -2636,13 +2724,14 @@ var first_click = true;
 $(document).ready(function() {
 $(".donebutton3").click(function() {
     if (first_click) {
+                clearInterval(t);
                 document.getElementById("numberscoreD1").innerHTML = scoreD;
                 $(".numberscoreD").css("display", "block");
                 setTimeout(function(){ $(".numberscoreD").css("display", "none"); }, 3000);
                 $(".why").css("display", "block");
                 setTimeout(function(){ $(".why").css("display", "none"); }, 3000);
                 $(".text2").css("color", "#7135b6");
-                document.getElementById("score").innerHTML = scoreD;
+                document.getElementById("score").innerHTML = scoreD +"/10";
                 document.getElementById("text2").innerHTML = "ARE YOU WONDERING WHY? CLICK ON THE IMAGES";
                 document.getElementById("donebutton5").innerHTML = "NEXT";
                 $(".score").css("opacity", "1");
@@ -2793,6 +2882,8 @@ $(document).ready(function () {
 
 /** QUIZ 4.1 **/
 
+setTimeout(function(){ r = setInterval(conta1, 1); }, 1);
+
 var ottantasette = false;
 var ottantanove = false;
 var ottantuno = false;
@@ -2816,7 +2907,7 @@ $("#ottantadue").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -2835,7 +2926,7 @@ $("#ottantuno").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 ottantuno = ! ottantuno;
                 console.log(ottantuno);
                 $(this).toggleClass("scale2");}
@@ -2866,7 +2957,7 @@ $("#ottantatre").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -2885,7 +2976,7 @@ $("#ottantaquattro").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -2904,7 +2995,7 @@ $("#ottantacinque").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -2923,7 +3014,7 @@ $("#ottantasei").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 ottantasei = ! ottantasei;
                 console.log(ottantasei);
                 $(this).toggleClass("scale2");}
@@ -2954,7 +3045,7 @@ $("#ottantasette").click(function() {
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
                 $(".info12a").css("display", "block");
-    } else {
+    } else {    
                 ottantasette = ! ottantasette;
                 console.log(ottantasette);
                 $(this).toggleClass("scale2");}
@@ -2985,7 +3076,7 @@ $("#ottantotto").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -3004,7 +3095,7 @@ $("#ottantanove").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 ottantanove = ! ottantanove;
                 console.log(ottantanove);
                 $(this).toggleClass("scale2");}
@@ -3035,7 +3126,7 @@ $("#novanta").click(function() {
                 $(".info17a").css("display", "block");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 $(this).toggleClass("scale2");}
 });
 
@@ -3054,7 +3145,7 @@ $("#novantuno").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "block");
                 $(".info19a").css("display", "none");
-    } else {
+    } else {    
                 novantuno = ! novantuno;
                 console.log(novantuno);
                 $(this).toggleClass("scale2");}
@@ -3085,7 +3176,7 @@ $("#novantadue").click(function() {
                 $(".info17a").css("display", "none");
                 $(".info18a").css("display", "none");
                 $(".info19a").css("display", "block");
-    } else {
+    } else {    
                 novantadue = ! novantadue;
                 console.log(novantadue);
                 $(this).toggleClass("scale2");}
@@ -3109,6 +3200,7 @@ var first_click = true;
 $(document).ready(function() {
 $(".donebutton9").click(function() {
     if (first_click) {
+            clearInterval(r);
                 document.getElementById("numberscoreB1").innerHTML = scoreB;
                 $(".numberscoreB").css("display", "block");
                 setTimeout(function(){ $(".numberscoreB").css("display", "none"); }, 3000);
@@ -3116,7 +3208,7 @@ $(".donebutton9").click(function() {
                 setTimeout(function(){ $(".why").css("display", "none"); }, 3000);
                 document.getElementById("text2").innerHTML = "ARE YOU WONDERING WHY? CLICK ON THE IMAGES";
                 $(".text8").css("color", "#7135b6");
-                document.getElementById("score").innerHTML = scoreB;
+                document.getElementById("score2").innerHTML = scoreB + "/6";
                 document.getElementById("donebutton11").innerHTML = "NEXT";
                 $(".text2").css("color", "#7135b6");
                 $(".score2").css("opacity", "1");
@@ -3138,6 +3230,8 @@ document.getElementById("novantuno").src = "img/quiz4/91A.jpg";
 
 /** QUIZ 4.2 **/
 
+setTimeout(function(){ p = setInterval(conta2, 2); }, 1);
+
 var ventuno = false;
 var ventitre = false;
 var scoreF = 0;
@@ -3148,7 +3242,8 @@ $("#ventuno").click(function() {
                 $(".info2b").css("display", "block");
                 $(".info3b").css("display", "none");
                 $(".info4b").css("display", "none");
-    } else {
+    } else {    
+
                 ventuno = ! ventuno;
                 console.log(ventuno);
                 $(this).toggleClass("scale1");}
@@ -3170,7 +3265,8 @@ $("#ventitre").click(function() {
                 $(".info2b").css("display", "none");
                 $(".info3b").css("display", "none");
                 $(".info4b").css("display", "block");
-    } else {
+    } else {    
+
                 ventitre = ! ventitre;
                 console.log(ventitre);
                 $(this).toggleClass("scale1");}
@@ -3192,7 +3288,8 @@ $("#ventidue").click(function() {
                 $(".info2b").css("display", "none");
                 $(".info4b").css("display", "none");
                 $(".info3b").css("display", "block");
-    } else {
+    } else {    
+
                 $(this).toggleClass("scale1");}
 });
 
@@ -3203,6 +3300,7 @@ var first_click = true;
 $(document).ready(function() {
 $(".donebutton12").click(function() {
     if (first_click) {
+                clearInterval(p);
                 document.getElementById("numberscoreG1").innerHTML = scoreF;
                 $(".numberscoreG").css("display", "block");
                 setTimeout(function(){ $(".numberscoreG").css("display", "none"); }, 3000);
@@ -3210,9 +3308,9 @@ $(".donebutton12").click(function() {
                 setTimeout(function(){ $(".why1").css("display", "none"); }, 3000);
                 document.getElementById("text2").innerHTML = "ARE YOU WONDERING WHY? CLICK ON THE IMAGES";
                 $(".text7").css("color", "#7135b6");
-                document.getElementById("score").innerHTML = scoreF;
+                document.getElementById("score3").innerHTML = scoreF + "/2";
                 document.getElementById("donebutton14").innerHTML = "NEXT";
-                $(".score").css("opacity", "1");
+                $(".score3").css("opacity", "1");
 document.getElementById("ventidue").src = "img/quiz4A/22A.jpg";
                 $(".grid-container").css("opacity", "0.2");
                 setTimeout(function(){ $(".grid-container").css("opacity", "1"); }, 3000); 

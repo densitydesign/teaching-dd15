@@ -84,5 +84,30 @@ height:100%;
 
 
 
+@media only screen and (min-width: 2500px) {
+    .resize{
+       width:150em;
+       height:auto;}
+    
+    #text-style{
+    position:absolute;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-size: 20em;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+@keyframes translateLeft{
+    0%{transform: translateX(0em)}
+    50%{transform: translateX(16em)}
+   100%{transform: translateX(-10em)}
+}
+
+
+}
+
+
+
 
 
