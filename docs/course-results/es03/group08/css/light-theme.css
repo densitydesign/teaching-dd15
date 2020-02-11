@@ -1,0 +1,23 @@
+html, body {
+    background-color: white;
+}
+
+html, body, div, h1, h2, h3, p {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.top-navbar {
+    background-color: #f6f6f6;
+}  
+
+.top-navbar a:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+footer {
+    background-color: #f6f6f6;
+}

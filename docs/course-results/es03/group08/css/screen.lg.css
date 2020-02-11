@@ -1,0 +1,40 @@
+@media (min-width: 2950px) {
+
+    .viewport {
+        padding: 100px 0px 0px 100px;
+    }
+
+    .top-navbar {
+        height: 100px;
+    }
+
+    .top-navbar a {
+        line-height: 100px;
+        font-size: 32px;
+    }
+
+    .left-navbar {
+        width: 100px;
+    }
+
+    .button:hover {
+        background-color: rgba(240, 128, 26, .25);
+    }
+
+
+    .top-navbar {
+        height: 100px;
+    }
+
+    .navbar-adjustment {
+        padding: 100px 0px 0px 100px;
+    }
+
+    .protocol-sidebar-element {
+        border-right: 6px solid #f0801a;
+    }
+
+    .protocol-sidebar-label {
+        top: 100px;
+    }
+}

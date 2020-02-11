@@ -1,0 +1,11 @@
+@media (min-width: 769px) {
+
+    .viewport {
+        padding: 50px 0px 0px 50px;
+    }
+
+    .col-md-count-2 {
+        column-count: 2;
+        column-gap: 3vw;
+    }
+}
