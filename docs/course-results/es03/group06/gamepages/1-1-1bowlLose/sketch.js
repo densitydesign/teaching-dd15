@@ -55,7 +55,7 @@
   }
 
   function senario1() {
-    self.location = '../0-0intro/0-0intro.html';
+    self.location = "../../page4.html";
   }
 
   function senario2() {
