@@ -59,7 +59,7 @@
   }
 
   function senario2() {
-    self.location = '../1-0-0hollywood-map/1-0-0hollywood-map.html';
+    self.location = '../1-2-0walkoffame/1-2-0walkoffame.html';
   }
 
   // function senario3() {

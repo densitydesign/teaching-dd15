@@ -58,7 +58,7 @@
   }
 
   function senario2() {
-    self.location = '../3-1-0neighbourhood/3-1-0neighbourhood.html';
+    self.location = '../3-2-0staples/3-2-0staples.html';
   }
 
   // function senario3() {

@@ -69,7 +69,7 @@
   }
 
   function senario2() {
-    self.location = '../2-0-0venice-beach/2-0-0venice-beach.html';
+    self.location = '../2-2-0lax/2-2-0lax.html';
   }
 
   // function senario3() {

@@ -58,7 +58,7 @@ function senario1() {
 }
 
 function senario2() {
-  self.location = '../2-1-2villaWin/2-1-2villaWin.html';
+  self.location = '../3-1-2neigWin/3-1-2neigWin.html';
 }
 
 function senario3() {

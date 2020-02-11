@@ -58,7 +58,7 @@ function senario1() {
 }
 
 function senario2() {
-  self.location = '../2-0-0venice-beach/2-0-0venice-beach.html';
+  self.location = '../2-1-0villa/2-1-0villa.html';
 }
 
 // function senario3() {
