@@ -583,14 +583,6 @@
     	object-position: 30%;
 	}
     
-    #full-img-phone {
-        display: block;
-    }
-    
-    #full-img-desktop {
-        display: none;
-    }
-    
 	/*left-side*/
 	.category-title {
 		font-size: 45px;
@@ -631,15 +623,7 @@
     	overflow: hidden;
     	object-position: 45%;
 	}
-    
-    #full-img-tablet {
-        display: block;
-    }
-    
-    #full-img-desktop {
-        display: none;
-    }
-    
+	
 	
 	/*left-side*/
 	.category-title {

@@ -759,53 +759,6 @@ font-weight: 600;}
   	z-index: -100;
 }
 
-#full-img-phone {
-    display: none;
-}
-
-#full-img-tablet {
-    display: none;
-}
-
-/* .coverimage01 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category01.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage02 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category02.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage03 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category03.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}
-
-.coverimage04 {
-	position: fixed;
-	right: 0;
-	height: 100vh;
-	width: 100%;
-	background-image: url("../assets/images/category04.jpg");
-	opacity: 0.3;
-	z-index: -100;	
-}*/
 
 
 /*Category choose*/
