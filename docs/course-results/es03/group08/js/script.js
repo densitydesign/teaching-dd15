@@ -22,11 +22,11 @@ $(viewportClass).each(function (i, obj) {
         var btnId = $(this).attr("id");
         $(this).attr("id", id + "-" + btnId);
     });
- 
-    if ((i > 2) && (i < 11 + 2)) {
+
+    if ((i > 1) && (i < 11 + 1)) {
         var mainNode = document.createElement("div");
         var pNode = document.createElement("p");
-        var textNode = document.createTextNode(("0" + (i - 2)).slice(-2) + ".");
+        var textNode = document.createTextNode(("0" + (i - 1)).slice(-2) + ".");
 
         mainNode.setAttribute("class", "left-navbar-element");
         mainNode.setAttribute("id", "left-navbar-element-" + id);
@@ -137,7 +137,7 @@ var page = $("html, body");
 
 function scroll_To(id) {
     console.log("Scrolling to: " + id);
-    //page.stop();    
+    //page.stop();
     $('html,body').animate({
         scrollTop: $(id).offset().top
     }, 400, function () {
@@ -284,7 +284,7 @@ $(".button").click(function () {
                 vid = document.getElementById("vid-" + type.substring(1, type.length));
                 vid.currentTime = currentTime;
                 console.log(currentTime);
-    
+
                 $("#vid-" + type.substring(1, type.length)).show();
             } else {
                 console.log("vid not included");
