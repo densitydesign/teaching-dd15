@@ -13,6 +13,13 @@ $(viewportClass).each(function (i, obj) {
     viewportList.push(id);
     $(this).attr('id', id);
 
+    if (i != 4) {
+            $($(this).find("video")).each(function (j, obj) {
+                var vidId = $(this).attr("id");
+                $(this).attr("id", "vid-" + id);
+            });
+        }
+
     $($(this).find(".button")).each(function (j, obj) {
         var btnId = $(this).attr("id");
         $(this).attr("id", id + "-" + btnId);
@@ -137,6 +144,15 @@ var page = $("html, body");
 
 function scroll_To(id) {
     console.log("Scrolling to: " + id);
+
+    var vid;
+
+    for (var i = 0; i < viewportList.length; i++) {
+        vid = document.getElementById("vid-" + viewportList[i]);
+        if (vid != null)
+            vid.muted = true;
+    }
+
     //page.stop();
     $('html,body').animate({
         scrollTop: $(id).offset().top
@@ -148,6 +164,13 @@ function scroll_To(id) {
         $(".left-navbar-element#left-navbar-element-" + viewportList[i]).removeClass("left-navbar-element-selected");
     }
     $(".left-navbar-element#left-navbar-element-" + viewport.target.substring(1, viewport.target.length)).addClass("left-navbar-element-selected");
+
+    vid = document.getElementById("vid-" + id.substring(1, id.length));
+        console.log("Unmuted video: " + id);
+        if (vid != null) {
+            vid.muted = false;
+            vid.play();
+        }
 }
 
 page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () {
