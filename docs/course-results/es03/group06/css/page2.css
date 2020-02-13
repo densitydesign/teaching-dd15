@@ -3,6 +3,7 @@
 
 }
 
+
 /* 登陆界面漫画点击 */
 
 #trigger-overlay:hover {
@@ -11,6 +12,10 @@ filter:alpha(opacity=40);
 }
 
 
+a:hover {
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
 h3:hover {
   opacity:0.4;
 filter:alpha(opacity=40);

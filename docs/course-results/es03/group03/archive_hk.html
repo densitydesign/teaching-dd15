@@ -43,10 +43,10 @@
         </nav>
 
 
-        <div class="bottoncino" style="cursor:pointer" onmouseover="openNav()"><div class="rotato">analytics</div></div>
+        <div class="bottoncino" style="cursor:pointer" onclick="openNav()"><div class="rotato">analytics</div></div>
 
 
-        <section id="first-archive" onmouseout="clearCoor()" onmouseover="closeNav()">  
+        <section id="first-archive" onmouseout="clearCoor()" onclick="closeNav()">  
 
             <!-------INFO HK WITH OVER-------> 
             <div id="demo" class="container-fluid">
@@ -835,15 +835,15 @@
 
         <!--Filter button-->
         <div class="container-fluid">
-            <div class="row" onmouseover="closeNav()">
+            <div class="row" onclick="closeNav()">
 
 
             </div>
 
             <div id="myBtnContainer" class="filtri text-md-left justify-center tecnica container-fluid">                    
-                <div class="row">
-                    <div id="demo2" class="col-md-3 pl-4 d-flex"> 
-                        <button id="bottoneFiltri" onclick="showFilterz()">
+                <div class="row justify-content-center">
+                    <div id="demo2" class="col-12"> 
+                        <div id="bottoneFiltri" onclick="showFilterz()">
                             <div class="align-content-left"><span class="filters">
                                 <pre id="asciifilters-1" class="asciifilters">
  ######## #### ##       ######## ######## ########   ######      
@@ -868,12 +868,12 @@
 .##........##..##..........##....##.......##.....##.##....##..##.
 .##.......####.########....##....########.##.....##..######......
 </pre></span></div>
-                        </button>
+                        </div>
                     </div>
                     
 
 
-                    <div id="demo1" class="col-md-auto col-6 pr-3 mt-3 mt-md-0 pl-md-0 pl-4" style="background-color: white;">
+                    <div id="demo1" class="col-md-auto col-3 pr-3 mt-4 mt-md-0 pl-md-0 pl-4" style="background-color: white;">
                         <div class="align-content-left"><span class="filters">TECHNIQUE</span></div><br>
                         <input class="checkbox-inline filter__Tec" id="as" name="props"  type="radio" data-name="Assertion" value="prop">Assertion<br/>
                         <input class="checkbox-inline filter__Tec" id="bw" name="props"  type="radio" data-name="Bandwagon" value="prop">Bandwagon<br/>
@@ -884,7 +884,7 @@
                         <input class="checkbox-inline filter__Tec" id="pf" name="props"  type="radio" data-name="Plain Folks" value="prop">Plain folks<br/>
                     </div>      
 
-                    <div id="demo1" class="col-md-auto col-6 mt-3 mt-md-0" style="background-color: white;">
+                    <div id="demo1" class="col-md-auto col-3 mt-4 mt-md-0" style="background-color: white;">
                         <br>
                         <br>
                         <input class="checkbox-inline filter__Tec" id="tr" name="props"  type="radio" data-name="Transfer" value="prop">Transfer<br>
@@ -897,7 +897,7 @@
 
 
                     <!--COMPANIES-->
-                    <div id="demo1" class="col-md-auto col-6 pr-md-5 offset-md-1 mt-4 mt-md-0 pl-md-0 pl-4" style="background-color: white;">
+                    <div id="demo1" class="col-md-auto col-3 pr-md-2 offset-md-1 mt-4 mt-md-0 pl-md-0 pl-4" style="background-color: white;">
                         <div class="align-content-left"><span class="filters">TARGET</span></div><br>
                         <span class="filters link">Companies</span><br/>
                         <input class="checkbox-inline filter__Tar" id="target_27" name="targe" function="filter_btn()" type="radio" data-name="ABC" value="prop">ABC<br/>
@@ -909,7 +909,7 @@
                     </div>
 
                     <!--MOVEMENTS-->
-                    <div id="demo1" class="col-md-auto col-6 pr-md-5 mt-4 mt-md-0" style="background-color: white;">
+                    <div id="demo1" class="col-md-auto col-3 pr-md-2 mt-4 mt-md-0" style="background-color: white;">
                         <br><br>
                         <span class="filters link">Movements</span><br/>
                         <input class="checkbox-inline filter__Tar" id="target_26" name="targe" function="filter_btn()" type="radio" data-name="Chinese Protesters" value="prop">Chinese Protesters<br/>
@@ -921,7 +921,7 @@
                     </div>
 
                     <!--PLACES-->
-                    <div id="demo1" class="col-md-auto col-6 pr-md-5 pl-md-0 pl-4" style="background-color: white;"><br><br>
+                    <div id="demo1" class="col-md-auto col-3 pr-md-2 mt-4 pl-md-0 pl-4" style="background-color: white;"><br><br>
                         <span class="filters link">Places</span><br/>
                         <input class="checkbox-inline filter__Tar" id="target_28" name="targe" function="filter_btn()" type="radio" data-name="Britain" value="prop">Britain<br/>
                         <input class="checkbox-inline filter__Tar" id="target_30" name="targe" function="filter_btn()" type="radio" data-name="Hong Kong" value="prop">Hong Kong<br/>
@@ -932,7 +932,7 @@
                     </div>
 
                     <!--POLITIC-->
-                    <div id="demo1" class="col-md-auto col-6 pr-md-5" style="background-color: white;"><br><br>
+                    <div id="demo1" class="col-md-auto col-3  mt-4 pr-md-2" style="background-color: white;"><br><br>
                         <input class="checkbox-inline filter__Tar" id="target_42" name="targe" function="filter_btn()" type="radio" data-name="Governments" value="prop">Governments<br/>
                         <input class="checkbox-inline filter__Tar" id="target_2" name="targe" function="filter_btn()" type="radio" data-name="Hong Kong Police" value="prop">Hong Kong Police<br/>
                         <input class="checkbox-inline filter__Tar" id="target_24" name="targe" function="filter_btn()" type="radio" data-name="Xi Jinping" value="prop">Xi Jinping<br/>
@@ -951,7 +951,7 @@
 
 
     <!--Archive Grid format and containers-->
-    <section id="" onmouseover="closeNav()">
+    <section id="" onclick="closeNav()">
         <div class="container col-md-12 col-sm-6 my__container" >
             <div class="d-flex flex-wrap  my__grid justify-content-center align-items-end" id="app"></div>
         </div>
@@ -960,7 +960,7 @@
 
 
     <!-- Modal content -->
-    <div id="myModal" class="modal" onmouseover="closeNav()"> 
+    <div id="myModal" class="modal" onclick="closeNav()"> 
         <div class="modal-content">
             <div class="barra">
                 <div class="spegni col-md-1 offset-md-11">
@@ -1001,7 +1001,7 @@
 
 
 
-    <div id="mySidenav" class="sidenav" style="width: 20%;" >
+    <div id="mySidenav" class="sidenav" style="width: 0%;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 navTitle">

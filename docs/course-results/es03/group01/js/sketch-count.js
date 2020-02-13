@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 400){ //controllare in base alla connessione
+  if(frameCount >= 360){ //controllare in base alla connessione
     tempoScaduto();
   }
 }

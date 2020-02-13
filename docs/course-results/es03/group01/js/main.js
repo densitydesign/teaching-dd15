@@ -1,9 +1,3 @@
-//--LOADER
-$(window).on("load",function(){
-     $(".loader").fadeOut("slow");
-});
-
-
 $(document).ready(function() {
 
 
@@ -32,7 +26,7 @@ $(document).ready(function() {
 //--BARRA TEMPO
   var tempo = gsap.timeline();
   //--Trasformazione della barra
-  tempo.to(".rettangolo-rosso", {duration: 30, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
+  tempo.to(".rettangolo-rosso", {duration: 30, delay: 5, scaleY: 0, transformOrigin: "bottom", backgroundColor: "#FF0000"});
   // --Lampeggio da 15sec in poi
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 15, opacity: 0}, "<"); //1
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //2
@@ -64,6 +58,8 @@ $(document).ready(function() {
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //28
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 0}, "<"); //29
   tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //30
+  tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 0}, "<"); //31
+  tempo.to(".rettangolo-rosso", {duration: 0.5, delay: 0.5, opacity: 1}, "<"); //32
 
 
 //--TRANSIZIONE
@@ -234,7 +230,7 @@ $(document).ready(function() {
   $('#SKIPW').click(function() {
     var risul8 = parseInt(check8, 10);
     let giusto9 = risul8 + 1;
-    window.open('../q/q10.html?q9=' + giusto9, '_self');
+    window.open('./q/q10.html?q9=' + giusto9, '_self');
   });
 
   //--Question 9

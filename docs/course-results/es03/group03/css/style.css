@@ -4,11 +4,14 @@
     src: url('../assets/fonts/arialnarrow.woff2') format('woff2');
 }
 
+
 body {
-    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png') no-repeat center center fixed;
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    background-size: cover;
     overflow-x: hidden;
     font-family: 'Arial Narrow';
     /* position: absolute;*/
+
 }
 
 
@@ -28,7 +31,7 @@ body {
     --main-txtpic-color: black;
     --main-txtpic-size: 1.3vw;
 
-    --button-shadow-color-main:black;
+    --button-shadow-color-main:black;  
 }
 
 .light {
@@ -107,7 +110,7 @@ body {
 }
 
 #spiegawarfare-text-noteHome {
-    font-size: 1.2vw;
+    font-size: 1vw;
     line-height: 1.13;
 }
 
@@ -130,13 +133,13 @@ body {
 
 #secondHome {
     position: relative;
-    padding-top: 20vh;
-    padding-bottom: 25vh;
+    padding-top: 14vh;
+    padding-bottom: 14vh;
 }
 
 /* per indentare */
-.p-tab {
-    text-indent: 2em;
+.p-tab { 
+    text-indent: 2em; 
 }
 
 p {
@@ -176,6 +179,14 @@ p {
     overflow: hidden;
 }
 
+
+/*//////*/
+.asciiPiccoloMobile {
+    font-size: 0.96vw;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
 .decoration {
     position: absolute;
 }
@@ -195,6 +206,7 @@ p {
     color: black;
     margin: 0;
     line-height: 1.2;
+    font-weight: 700;
 }
 
 .ascii_credits {
@@ -239,7 +251,7 @@ img {
 }
 
 .my__grid{
-    display: flex;
+    display: flex; 
 }
 
 .animal {
@@ -249,7 +261,7 @@ img {
     float: left;
 }
 
-.animal p {
+.animal p {  
     margin: 0.5rem 0 0 0;
     font-size: var(--main-note-size);
     text-align: left;
@@ -280,15 +292,15 @@ img {
     background-color: 0;
 }
 
-.filter__button {
+.filter__button { 
     font-size: 1.3rem;
     border: 1pt solid black;
     margin-top: 5rem;
     background: white;
 }
 
-.filters {
-    font-size: 0.9rem;
+.filters { 
+    font-size: 1vw;
     margin-top: 4rem;
     background: none;
 
@@ -297,23 +309,23 @@ img {
 
 .filter__Tec {
     margin: 1px;
-    margin-right: 2px;
+    margin-right: 0.2rem;
 }
 
 .filter__Tar {
     margin: 1px;
-    margin-right: 2px;
+    margin-right: 0.2rem;
 }
 
 #demo1{
-    font-size: 0.9rem;
+    font-size: 1vw;
     padding-left: 0vw;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 #demo2{
-    font-size: 0.9rem;
-    padding-left: 1vw;
+    font-size: 1vw;
+    padding-left: 0.5rem;
     line-height: 1.3;
 }
 
@@ -525,7 +537,7 @@ a:hover {
     font-size: 0.5rem;
     margin-bottom: 0rem;
     position: relative;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 #demo {
@@ -570,7 +582,7 @@ a:hover {
     left: 10rem;
     padding: 0.5rem;
     text-align: left;
-    line-height: 1.2em;
+    line-height: 1.2em; 
     z-index: 1;
 }
 
@@ -585,7 +597,7 @@ a:hover {
     color:black;
     padding: 0.5rem;
     text-align: left;
-    line-height: 1.2em;
+    line-height: 1.2em; 
     margin-top: 2rem;
     display: none;
 }
@@ -596,12 +608,11 @@ a:hover {
 }
 
 .comingsoon {
-    margin-top: 12rem;
+    margin-top: 12rem;  
 }
 
 .normale {
-    max-height: 540px;
-    min-height: 540px;
+    height: 540px;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -623,9 +634,7 @@ a:hover {
 .propaganda__link:hover {
     font-size: var(--main-intro-size);
     line-height: 1;
-    color:cyan;
-    text-decoration: underline;
-}
+    color:cyan;}
 
 .apice {
     font-size: 5vw;
@@ -768,7 +777,7 @@ mark{
     border: none;
     z-index: 1000;
     -webkit-transform:translateY(-5vw) rotate(25deg) scale(1.02);
-    transform-origin:center;
+    transform-origin:center;   
 
 }
 
@@ -821,20 +830,20 @@ mark{
 .testi-about {
     font-size: 2vw;
     line-height: 1.1em;
-    z-index: 1;
+    z-index: 1; 
     color: white;
 }
 
 
 #formica, #img-NewHampshire, #img-cheezburger, #img-xijinping, #img-iran, #img-brexit, #img-hkprotest, #img-memetic, #virus .visible {
-    visibility: visible;
+    visibility: visible;  
 }
 
 
 #img-brexit, #img-hkprotest, #img-xijinping, #img-memetic {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-50%);
+    transform: translateX(-50%)  translateY(-50%); 
     pointer-events:none;
     width: 30%;
     z-index: 0;
@@ -843,7 +852,7 @@ mark{
 #formica {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-145%);
+    transform: translateX(-50%)  translateY(-145%); 
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -853,7 +862,7 @@ mark{
 #img-iran {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-10%)  translateY(-55%);
+    transform: translateX(-10%)  translateY(-55%); 
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -863,7 +872,7 @@ mark{
 #virus {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-120%);
+    transform: translateX(-50%)  translateY(-120%); 
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -873,7 +882,7 @@ mark{
 #img-NewHampshire {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-150%);
+    transform: translateX(-50%)  translateY(-150%); 
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -883,7 +892,7 @@ mark{
 #img-cheezburger {
     position: absolute;
     visibility: hidden;
-    transform: translateX(-50%)  translateY(-105%);
+    transform: translateX(-50%)  translateY(-105%); 
     pointer-events:none;
     width: 25%;
     height: auto;
@@ -911,11 +920,13 @@ mark{
 .bottone {
     color: white;
     background-color: black;
-    font-size: 5vw;
+    font-size: 5rem;
     text-transform: uppercase;
-    height: 8rem;
+    height: 15rem;
     padding-bottom: 1vh;
     position: relative;
+    margin-left: 1rem;
+    margin-right:1rem;
 }
 
 
@@ -928,7 +939,7 @@ mark{
 /*PROTOCOL*/
 .st0{fill:#FFFFFF;}
 
-.st1{font-family:'ArialNarrow';}
+.st1{font-family:'Arial Narrow';}
 
 .st2{font-size:55.6716px;}
 
@@ -1062,6 +1073,7 @@ mark{
     bottom: 0;
     z-index: 11;
     background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    background-size: cover;
     opacity: 0;
 }
 canvas {
@@ -1148,7 +1160,7 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem);
+    transform: rotate(-8deg) translateX(1.3rem);
     transition: 0.4s ease-in-out;
     margin-top: 0.5rem;
 }
@@ -1159,7 +1171,7 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem) scale(0.95);
+    transform: rotate(-8deg) translateY(-0.1rem) translateX(1.3rem) scale(0.95);
     transition: 0.7s ease-in-out;
     margin-top: 0.5rem;
 }
@@ -1198,7 +1210,27 @@ canvas {
     width: auto;
 }
 
-/*///////////////////////////MEDIA ONLY///////////////////////////*/
+.titoli-testo-home {
+    font-size: 2vw;
+}
+/*#marginiCustom {
+    padding: 9rem;
+}*/
+
+/*#aboutMarginiCustom {
+    margin: 10rem;
+}*/
+
+.discoverTechnique {
+    font-size:1.9vw;
+    margin-bottom: 1rem;
+}
+
+#sticherz{
+        zoom:1;
+}
+
+/*/////////////////////////// ONLY///////////////////////////*/
 @media only screen and (max-width: 400px) {
 
     /*NAVBAR*/
@@ -1301,7 +1333,7 @@ canvas {
         padding: 0rem;
         margin-top:0;
         margin-bottom: 0;
-        width:190%;
+        width:190%;   
     }
 
     .spiegawarfare-text {
@@ -1309,11 +1341,13 @@ canvas {
         line-height: 1.2em;
     }
 
+
+
     .centerSticker {
         position: relative;
         top: 0%;
         left: 0%;
-        transform: translate(0%, 0%);
+        transform: translate(0%, 0%);  
     }
 
     /*TESTO MW HOME*/
@@ -1355,7 +1389,7 @@ canvas {
     }
 
     sup {
-        top:0;
+        top:0; 
     }
     #memeInfo {
         position: relative;
@@ -1456,10 +1490,10 @@ canvas {
         display: none;
     }
     .stella {
-        display: none;
-    }
+        display: none;    
+    } 
     .stella:before {
-        display: none;
+        display: none;    
     }
 
     .HKinfosSmall {
@@ -1474,7 +1508,10 @@ canvas {
         font-size: 1vw;
         color: black;
         margin: 0;
+        font-weight: 700;
         line-height: 1;
+    
+    
     }
 
     .mostraFiltro {
@@ -1558,6 +1595,10 @@ canvas {
         overflow: hidden;
     }
 
+    #immagine{
+        background-size: cover;
+    }
+
     .barra {
         background-color: white;
         position: relative;
@@ -1611,12 +1652,13 @@ canvas {
     /*ABOUT*/
 
     .bottone {
+        border: solid 0.5px grey;
         color: white;
         background-color: black;
-        font-size: 6.1vw;
+        font-size: 1.8rem;
         line-height: 1.2;
         text-transform: uppercase;
-        height: 2.5rem;
+        height: 10rem;
         padding-top: 0.4rem;
     }
 
@@ -1659,6 +1701,7 @@ canvas {
         padding-left: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+        display: inline;
 
     }
 
@@ -1672,7 +1715,7 @@ canvas {
     .testi-about {
         font-size: 4vw;
         line-height: 1.1em;
-        z-index: 1;
+        z-index: 1; 
         color: white;
     }
 
@@ -1684,11 +1727,15 @@ canvas {
     .asciiNascostoMobile{
         display: none;
     }
+ #marginiCustom {
+    padding: 1rem;
+}
+        .trittico{height: 5rem;}
 
 
 }
 
-@media only screen and (min-width:801px)  {
+@media only screen and (min-width:801px)  { 
     .centerSticker {
         position: absolute;
         top: 50%;
@@ -1714,17 +1761,298 @@ canvas {
     }
     .sidenav a {font-size: 1.2rem;}
 
-    #bottoneFiltri {
-        background: none;
-        border: none;
+        #demo2{
+        margin:0.5rem;
     }
+    .trittico{height: 5rem;}
+    #marginiCustom {
+    padding: 4rem;
+}
+}
+
+
+
+@media only screen and (min-width:1700px)  {
+
+    /*NAVBAR*/
+    .navbar {
+        height: 14rem;
+    }
+    .navbar .navbar-text {
+        color: var(--main-navbartext-color);
+        font-size: 2.2vw;
+        padding-right: 0.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .dropdown-menu {
+        font-size: 1.5vw;
+    }
+
+    /*ARCHIVIO*/
+    .bottoncino {
+        position: fixed;
+        background: white;
+        z-index: 50;
+        right: 0rem;
+        height: 100%;
+        width: 8.5rem;
+        padding-top: 50vh;
+    }
+
+    .sidenav {
+        display: block;
+        padding-top: 22rem;
+        width: 30%;
+    }
+
+    .navTitle p {
+        font-size: 1.2vw;
+    }
+    .sidenav a {
+        font-size: 4.5rem;
+    }
+    .navTitle {
+        line-height: 4.7rem;
+    }
+
+    .filters {
+        font-size: 1.3vw;
+        margin-top: 4rem;
+        background: none;
+    }
+
+    #demo1 {
+        font-size: 1.5vw;
+        padding-left: 3rem;
+        line-height: 1.2;
+        
+    }
+
+    #demo2{
+        
+        font-size: 1.3vw;
+        margin:4rem;
+        line-height: 1.3;
+    }
+
+    input[type="radio"] {
+        background-color: white;
+        border: 0.1rem solid black;
+        cursor: pointer;
+        display: inline-block;
+        height: 2.5rem;
+        position: relative;
+        width: 2.5rem;
+        -webkit-appearance: none;
+        margin-top: 0;
+    }
+
+    input[type="radio"]:after {
+        background-color: white;
+        content: '';
+        display: block;
+        height: 1.5rem;
+        left: 0.39rem;
+        position: relative;
+        top: 0.39rem;
+        width: 1.5rem;
+        -webkit-appearance: none;
+    }
+
+    .animal {
+        padding: 1rem;
+        margin: 4rem;
+        overflow: visible;
+        float: left;
+    }
+
+    .pet-name {
+        cursor: pointer;
+        border: 0.05rem solid black;
+        position: relative;
+        top: 0;
+        left: 0;
+        max-height: 22vh;
+        max-width: 22vw;
+    }
+
+
+    #first-archive {
+        background: none;
+        padding-top: 15.9vh;
+        padding-bottom: 10vh;
+    }
+
+
+    /*MODALS*/
+    .normale {
+        height: 35vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .text-right {
+        text-align: right!important;
+        font-size: 2vw;
+        padding-right: 1rem;
+    }
+
+    #fourth {
+        background: none;
+        padding-top: 8rem;
+        padding-bottom: 2vh;
+    }
+
+
+    .seeothertechniques {
+        margin-top:35rem;
+    }
+
+    .descrizionetecnica{
+        margin-left:10rem; 
+        margin-right:10rem;
+    }
+
+    #sticherz{
+        zoom:2.5;
+    }
+
+    iframe {
+        width: 100%;
+        height: 1620px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+    }
+
+    /*HOME*/
+    #marginiCustom {
+        padding: 3rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+    
+    #secondHome {
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+    /*ABOUT*/
+
+    #aboutMarginiCustom {
+        padding-left: 15rem;
+        padding-right: 15rem;
+        margin: 0rem;
+    }
+
+   .footer {
+    margin-top: 11rem;
+    padding-top: 15rem;
+    height: 12rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+    .titoli_about {
+        font-size: 5vw;
+        line-height: 1.2;
+        color: white;
+    }
+
+    #about {
+        padding-top: 24vh;
+        padding-bottom: 0vh;
+    }
+    
+    #poster {
+        height: 20rem;
+        margin-top: -25rem;
+        margin-bottom: 20rem;
+    }
+    
+    .whoProjname {
+        color: white;
+        font-size: 1.2vw;
+        margin-top: 1rem;
+    }
+    
+    .ascii_credits {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.4vw;
+    color: white;
+    margin: 0;
+    line-height: 1.15;
+}
+    
+    #first {
+    background: none;
+    padding-top: 32vh;
+    padding-bottom: 20vh;
+}
+    
+    .wkLayoutImgVert {
+    width: auto;
+    height: 20rem;
+    padding: 0rem;
+}
+    
+    .cat {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    z-index: 1;
+    transition: 0.7s ease-in-out;
+        zoom:1.9;
+}
+    
+    .HKinfos {
+    position: relative;
+    background: white;
+    font-size: var(--main-note-size);
+    width: 30vw;
+    border: 0.05rem black solid;
+    top: -11rem;
+    left: 22rem;
+    padding: 0.5rem;
+    text-align: left;
+    line-height: 1.2em;
+    z-index: 1;
+}
+
+}
+/*//FINE MEDIA 4K//*/
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 .seeothertechniques {
     z-index: 1;
 }
 .wkLayoutImgVert {
-   width: auto;
-    height: 6.5vw;
+    width: auto;
+    height: 7rem;
     padding: 0rem;
 }
+
+.boldino{
+    font-weight: 800;
+}
+
+
+#bottoneFiltri{
+    margin-left: -0.5rem;
+}
+
+  

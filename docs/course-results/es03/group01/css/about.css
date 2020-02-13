@@ -322,6 +322,25 @@ a:hover.sottolineatura {
   cursor: pointer;
 }
 
+.density {
+  width: 50%;
+  margin: 0 !important;
+}
+
+.poli {
+  width: 100%;
+  padding-right: 1.5rem;
+    margin: 0 !important;
+}
+
+.foot {
+  font-size: 0.6rem;
+}
+
+.faculty {
+  margin-top: 2rem;
+}
+
 /* Query schermo touch */
 
 @media screen and (min-width: 3840px) {
@@ -552,6 +571,25 @@ a:hover.sottolineatura {
   #Anchor4 {
     width: 65%;
     cursor: pointer;
+  }
+
+  .density {
+    width: 50%;
+    margin: 0 !important;
+  }
+
+  .poli {
+    width: 100%;
+    padding-right: 1.5rem;
+      margin: 0 !important;
+  }
+
+  .foot {
+    font-size: 2rem;
+  }
+
+  .faculty {
+    margin-top: 6rem;
   }
 
 }
@@ -787,6 +825,25 @@ a:hover.sottolineatura {
   #Anchor4 {
     width: 80%;
     cursor: pointer;
+  }
+
+  .faculty {
+    margin-top: 2rem;
+  }
+
+  .density {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .poli {
+    width: 100%;
+    padding-right: 1.5rem;
+    margin: 0 !important;
+  }
+
+  .foot {
+    font-size: 0.8rem;
   }
 
 }

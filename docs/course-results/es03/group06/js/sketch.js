@@ -1,81 +1,136 @@
+jQuery(document).ready(function($) {
 
-function setup() {
-  // createCanvas(windowWidth,windowHeight);
-  noCanvas();
-  // select('canvas').position(0,0);
-}
+  // set animation timing
+  var animationDelay = 2500,
+      // loading bar effect
+      barAnimationDelay = 3800,
+      barWaiting = barAnimationDelay - 3000, // 3s is the duration of the transition on the loading bar - set in CSS
+      // letters effect
+      lettersDelay = 50;
 
-function draw() {
-  background("yellow");
-  fill('red');
-  textSize(80);
-  text(frameCount,width/2,height/2);
+  initHeadline();
 
-  if(frameCount==1000){
-    mouseClicked();
+  function initHeadline() {
+    // insert <i> element for each letter of a changing word
+    singleLetters($('.cd-headline.letters').find('b'));
+    // initialise headline animation
+    animateHeadline($('.cd-headline'));
   }
-}
 
+  function singleLetters($words) {
+    $words.each(function() {
+      var word = $(this),
+          letters = word.text().split(''),
+          selected = word.hasClass('is-visible');
+      for (i in letters) {
+        if(word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
+        letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+      }
+      var newLetters = letters.join('');
+      word.html(newLetters);
+    });
+  }
 
-function mouseClicked(){
-  window.open("page2.html","_self");
+  function animateHeadline($headlines) {
+    var duration = animationDelay;
+    $headlines.each(function() {
+      var headline = $(this);
+      var spanWrapper = headline.find('.cd-words-wrapper'),
+          newWidth = spanWrapper.width() + 5;
+      spanWrapper.css('width', newWidth);
+      if(headline.hasClass('loading-bar')) {
+        duration = barAnimationDelay;
+        spanWrapper.css('width', '');
+        setTimeout(function(){ spanWrapper.addClass('is-loading') }, barWaiting);
+      };
+      //trigger animation
+      setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
+    });
+  }
 
-}
+  function hideWord($word) {
+    var nextWord = takeNext($word);
+    if($word.parents('.cd-headline').hasClass('letters')) {
+      var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
+      hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
+      showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
+    } else if ($word.parents('.cd-headline').hasClass('loading-bar')) {
+      $word.parents('.cd-words-wrapper').removeClass('is-loading');
+      switchWord($word, nextWord);
+      setTimeout(function(){ hideWord(nextWord) }, barAnimationDelay);
+      setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
+    } else {
+      switchWord($word, nextWord);
+      setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+    }
+  }
 
+  function hideLetter($letter, $word, $bool, $duration) {
+    $letter.removeClass('in').addClass('out');
+    if(!$letter.is(':last-child')) {
+      setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);
+    } else if($bool) {
+      setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
+    }
+    if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+      var nextWord = takeNext($word);
+      switchWord($word, nextWord);
+    }
+  }
 
+  function showLetter($letter, $word, $bool, $duration) {
+    $letter.addClass('in').removeClass('out');
+    if(!$letter.is(':last-child')) {
+      setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration);
+    } else {
+      if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
+    }
+  }
 
+  function takeNext($word) {
+    return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+  }
 
-// 试试  翻页滑动效果
+  function takePrev($word) {
+    return (!$word.is(':first-child')) ? $word.prev() : $word.parent().children().last();
+  }
 
-	// $(function(){
-	// 	var btn_index=0;
-	// 	/*右边按钮点击*/
-	// 	$('.section-btn li').each(function(index) {
-	// 		$(this).click(function(){
-	// 			btn_index=index;
-	// 			scroller();
-	// 		})
-	// 	});
-	// 	/*翻页按钮点击*/
-	// 	$('.go-btn').one('click',btn_go);
-	// 	function btn_go(){
-	// 		go_up();scroller();
-	// 		setTimeout(function(){$('.go-btn').one('click',btn_go)},1000)
-	// 	};
-	// 	/*响应鼠标*/
-	// 	$('.section-wrap').one('mousewheel',mouse_);
-	// 	function mouse_(event){
-	// 		if (event.deltaY<0) {go_up()}
-	// 		else{go_down()}
-	// 		scroller();
-	// 		setTimeout(function(){$('.section-wrap').one('mousewheel',mouse_)},1000)
-	// 	};
-  //
-	// 	/*当前页面赋值*/
-	// 	function go_up(){btn_index++;if(btn_index==$('.section-btn li').length){btn_index=$('.section-btn li').length-1};}
-	// 	function go_down(){btn_index--;if(btn_index<0){btn_index=0};}
-  //
-	// 	/*页面滑动*/
-	// 	function scroller(){
-	// 		$('.section-btn li').eq(btn_index).addClass('cur').siblings().removeClass('cur');
-	// 		$('.section-wrap').attr("class","section-wrap").addClass(function() {
-	// 				return "put-section-"+btn_index;
-	// 		 }).find('.section').eq(btn_index).find('.title').addClass('active');
-	// 	};
-  //
-	// 	/*响应键盘上下键*/
-	// 	$(document).one('keydown',keyaction);
-	// 	function keyaction(event){
-	// 		var e=event||window.event;
-	// 		var key=e.keyCode||e.which||e.charCode;
-	// 		switch(key)	{
-	// 			case 38: go_down();scroller();
-	// 			break;
-	// 			case 40: go_up();scroller();
-	// 			break;
-	// 		};
-	// 		setTimeout(function(){$(document).one('keydown',keyaction)},1000)
-	// 	}
-  //
-  //
-	// })
+  function switchWord($oldWord, $newWord) {
+    $oldWord.removeClass('is-visible').addClass('is-hidden');
+    $newWord.removeClass('is-hidden').addClass('is-visible');
+  }
+
+  // this is for the demo only
+  var intro = $('.cd-intro');
+  $('.cd-filter input').on('change', function(event){
+    var selected = $(event.target).attr('id');
+    switch(selected) {
+      case 'rotate-1':
+        intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .rotate-1', function(){
+          initHeadline();
+        });
+        break;
+      case 'rotate-2':
+        intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .rotate-2', function(){
+          initHeadline();
+        });
+        break;
+      case 'loading-bar':
+        intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .loading-bar', function(){
+          initHeadline();
+        });
+        break;
+      case 'slide':
+        intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .slide', function(){
+          initHeadline();
+        });
+        break;
+      case 'scale':
+        intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .scale', function(){
+          initHeadline();
+        });
+        break;
+    }
+  });
+
+});

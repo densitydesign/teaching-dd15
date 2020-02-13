@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #89867e;
+	background-color: #000;
+}
+
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: 'Lato';
+	font-size: 1em;
+	color: #fff;
+	background: #32a48f;
+
+	cursor: pointer;
+	padding: 1% 2%;
+	display: inline-block;
+	margin: 15px 30px;
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+
+	/* position: relative; */
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+  width: 25vw;
+  /* min-height: 80px; */
+
+
+  border-radius: 2px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: auto;;
+}
+
+.btn:after {
+	content: '';
+	/* position: absolute; */
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:active {
+	border-color: #17954c;
+	color: #17954c;
+}
+
+.btn:hover {
+	background: #24b662;
+}
+
+.btn:before {
+	/* position: absolute; */
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:active:before {
+	color: #17954c;
+}
+
+
+/* option template */
+
+
+
+/* two options */
+.absolute{
+  position: absolute;
+  width: 100vw;
+  min-height: 200px;
+  bottom: 0%;
+  text-align: center
+}
+
+.opt1{
+  display: inline-block
+  width: 25vw;
+  margin: 0 auto;
+}
+
+.opt2{
+  display: inline-block;
+  width: 40vw;
+  margin: 0 2vw;
+}
+
+.opt3{
+  display: inline-block;
+  width: 25vw;
+  margin: 0 2vw;
+}
+
+.opt4{
+  display: inline-block;
+  width: 15vw;
+  margin: 0 2vw;
+}
+
+
+@media screen and (max-width: 900px){
+.btn{
+  width: 80vw;
+  margin: 1vw auto;
+}
+
+
+}
+
+
+@media screen and (min-width: 1900px){
+
+	.btn{
+		font-family: 'Lato';
+		font-size: 2em;
+	}
+  /* two options */
+  .absolute{
+
+  }
+
+  .opt1{
+
+  }
+
+  .opt2{
+
+  }
+
+  .opt3{
+
+  }
+
+  .opt4{
+
+  }
+
+}

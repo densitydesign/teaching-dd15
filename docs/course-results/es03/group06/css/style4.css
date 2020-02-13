@@ -2,6 +2,29 @@ nav ul li i {
 margin-right: 10px;
 }
 
+#title{
+	margin:auto;
+  top:10%;
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+
+
+}
+
+
+
+#analy{
+	margin:auto;
+	width:100%;
+	left:54%;
+	top:60%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+#图层_1{
+	width:100%;
+}
 /* Overlay colors */
 .color1 {
 	background: rgba(0,0,0,0.9);

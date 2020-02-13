@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+  <meta name="renderer" content="webkit">
+  <title>Before you fly</title>
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min.css.map">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css.map">
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min">
+  <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./css/for-all-pages.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
+<link rel="icon" href="drone.gif" type="image/gif" sizes="16x16">
+
+
+  <style type="text/css">
+    body {
+
+      padding: 0;
+      margin: 0;
+
+      background-image: url(intro1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+
+<div >
+<h2 class="intrototle" id="fontset">Raise awareness for drone related laws and <br> regulations in LA, USA.</h2>
+</div>
+
+<body class="bgp3">
+  <div class="container-xl">
+    <a href="page2.html">
+<img src="drone.gif" style="width:17%;margin:auto;left:60%;top:68%;position:absolute;"></a>
+  </div>
+  <div class="mt-md-4 pt-md-4 fixed" id="nextst">
+    <div class="col-md-5 offset-5  mb-md-3 mr-md-4 ">
+
+      <a href="page2.html">
+
+        <h1 class="fontblue" id="fontset">Next Step</h1>
+      </a>
+
+    </div>
+  </div>
+
+  <section class="cd-intro col-md-4" id="link">
+    <h4 class="cd-headline rotate-1">
+      <span class="cd-words-wrapper">
+        <b class="is-visible" id="fontset2"> “Drone crash knocks out power to <br>1,600 in Mountain View” <br><a href="https://www.mercurynews.com/2017/06/09/drone-crash-knocks-out-power-to-1600-in-mountain-view/" class="fontblue" id="linkstyle">Bay Area News
+            Group June 9, 2017</a></b>
+        <b id="fontset2">
+          “Drone strike! our photographor <br>injured by TGI friday's mistletoe<br> copter”<br> <a href="December 8, 2014
+
+https://www.brooklynpaper.com/drone-strike-our-photographer-injured-by-tgi-fridays-mistletoe-copter/
+" class="fontblue" id="linkstyle">Vanessa Ogle</a>
+        </b>
+
+        <b  id="fontset2">“Pilots can't spot drones 70 <br>per cent of the time - <br>and almost never if the <br>craft isn't moving - <br>shock experiment reveals”<br> <a href="December 8, 2014
+
+https://www.brooklynpaper.com/drone-strike-our-photographer-injured-by-tgi-fridays-mistletoe-copter/
+" class="fontblue" id="linkstyle">Milly vincent for mailonline 30<br> October 2019
+          </a></b>
+      </span>
+    </h4>
+
+  </section>
+
+<div class="intro col-md-4 " >
+  <h4 class="text-justify" id="fontset2">In recent years, drones (unmanned aircraft systems) have become increasingly accessible in the consumer market. With the rising numbers of incidents, laws and regulations are developed to maintain public safety. However, many amature flyers do not realize that just like the roads for the cars, the sky also has rules and limitations.
+
+And so, without any prior preparation, let’s see what some of the decisions an amature flyer might have to make. </h4>
+
+  </div>
+
+
+
+
+
+
+  <!-- 15 页脚footer -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="js/mousetrap.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cmdscriptmin.js"></script>
+
+  <script>
+    jQuery(document).ready(function($) {
+
+      // set animation timing
+      var animationDelay = 2500,
+        // loading bar effect
+        barAnimationDelay = 3800,
+        barWaiting = barAnimationDelay - 3000, // 3s is the duration of the transition on the loading bar - set in CSS
+        // letters effect
+        lettersDelay = 50;
+
+      initHeadline();
+
+      function initHeadline() {
+        // insert <i> element for each letter of a changing word
+        singleLetters($('.cd-headline.letters').find('b'));
+        // initialise headline animation
+        animateHeadline($('.cd-headline'));
+      }
+
+      function singleLetters($words) {
+        $words.each(function() {
+          var word = $(this),
+            letters = word.text().split(''),
+            selected = word.hasClass('is-visible');
+          for (i in letters) {
+            if (word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
+            letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>' : '<i>' + letters[i] + '</i>';
+          }
+          var newLetters = letters.join('');
+          word.html(newLetters);
+        });
+      }
+
+      function animateHeadline($headlines) {
+        var duration = animationDelay;
+        $headlines.each(function() {
+          var headline = $(this);
+          var spanWrapper = headline.find('.cd-words-wrapper'),
+            newWidth = spanWrapper.width() + 5;
+          spanWrapper.css('width', newWidth);
+          if (headline.hasClass('loading-bar')) {
+            duration = barAnimationDelay;
+            spanWrapper.css('width', '');
+            setTimeout(function() {
+              spanWrapper.addClass('is-loading')
+            }, barWaiting);
+          };
+          //trigger animation
+          setTimeout(function() {
+            hideWord(headline.find('.is-visible').eq(0))
+          }, duration);
+        });
+      }
+
+      function hideWord($word) {
+        var nextWord = takeNext($word);
+        if ($word.parents('.cd-headline').hasClass('letters')) {
+          var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
+          hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
+          showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
+        } else if ($word.parents('.cd-headline').hasClass('loading-bar')) {
+          $word.parents('.cd-words-wrapper').removeClass('is-loading');
+          switchWord($word, nextWord);
+          setTimeout(function() {
+            hideWord(nextWord)
+          }, barAnimationDelay);
+          setTimeout(function() {
+            $word.parents('.cd-words-wrapper').addClass('is-loading')
+          }, barWaiting);
+        } else {
+          switchWord($word, nextWord);
+          setTimeout(function() {
+            hideWord(nextWord)
+          }, animationDelay);
+        }
+      }
+
+      function hideLetter($letter, $word, $bool, $duration) {
+        $letter.removeClass('in').addClass('out');
+        if (!$letter.is(':last-child')) {
+          setTimeout(function() {
+            hideLetter($letter.next(), $word, $bool, $duration);
+          }, $duration);
+        } else if ($bool) {
+          setTimeout(function() {
+            hideWord(takeNext($word))
+          }, animationDelay);
+        }
+        if ($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+          var nextWord = takeNext($word);
+          switchWord($word, nextWord);
+        }
+      }
+
+      function showLetter($letter, $word, $bool, $duration) {
+        $letter.addClass('in').removeClass('out');
+        if (!$letter.is(':last-child')) {
+          setTimeout(function() {
+            showLetter($letter.next(), $word, $bool, $duration);
+          }, $duration);
+        } else {
+          if (!$bool) {
+            setTimeout(function() {
+              hideWord($word)
+            }, animationDelay)
+          }
+        }
+      }
+
+      function takeNext($word) {
+        return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+      }
+
+      function takePrev($word) {
+        return (!$word.is(':first-child')) ? $word.prev() : $word.parent().children().last();
+      }
+
+      function switchWord($oldWord, $newWord) {
+        $oldWord.removeClass('is-visible').addClass('is-hidden');
+        $newWord.removeClass('is-hidden').addClass('is-visible');
+      }
+
+      // this is for the demo only
+      var intro = $('.cd-intro');
+      $('.cd-filter input').on('change', function(event) {
+        var selected = $(event.target).attr('id');
+        switch (selected) {
+          case 'rotate-1':
+            intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .rotate-1', function() {
+              initHeadline();
+            });
+            break;
+          case 'rotate-2':
+            intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .rotate-2', function() {
+              initHeadline();
+            });
+            break;
+          case 'loading-bar':
+            intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .loading-bar', function() {
+              initHeadline();
+            });
+            break;
+          case 'slide':
+            intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .slide', function() {
+              initHeadline();
+            });
+            break;
+          case 'scale':
+            intro.load('https://codepen.io/lembitk/pen/mJbxXJ.html .scale', function() {
+              initHeadline();
+            });
+            break;
+        }
+      });
+    });
+  </script>
+
+
+  <!-- <script src="p5.min.js"></script>
+  <script src="addons/p5.dom.min.js"></script> -->
+  <!-- <script src="addons/p5.sound.min.js"></script> -->
+  <!-- <script src="sketch.js"></script> -->
+
+
+</body>
+
+</html>

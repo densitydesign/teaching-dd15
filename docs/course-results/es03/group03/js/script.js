@@ -2336,7 +2336,7 @@ $('#memetic').mousemove(function(e){
 
 
 $(document).ready(function() {
-    console.log("Yaw, niggaz lookin amma console");
+    console.log("");
 });  
 
 
@@ -2963,4 +2963,11 @@ function showFilterz() {
 }
 
 
-
+$(document).ready(function() {
+    $("#myBtnContainer").on("mouseenter", function() {
+       $("#demo").hide();
+    });
+/*    $(".overlay").on("mouseleave", function() {
+       $(this).hide();  //or $('.overlay').hide()
+    });*/
+});
