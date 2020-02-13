@@ -222,7 +222,6 @@ padding-top:0;
 text-align: center;
 color: #ea4637;
 text-shadow: 0.3rem 0.3rem #ffffff;
-z-index:100;
 
 
 }
@@ -356,8 +355,8 @@ display:none;
 }
 
 .intro1 {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     background-color: #1a1dbf;
     overflow:hidden;
@@ -395,7 +394,6 @@ display:none;
 align-items: center;
 padding-top: 0;
 margin-top: 0;
-z-index:100;
 }
 .introduction h2{
   margin-top: 0.5%;
@@ -1140,7 +1138,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     }
     .mainpage h3{
       text-shadow: 0.5rem 0.5rem #D13015;
-      z-index: 100;
 
     }
     .introguide {
