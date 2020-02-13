@@ -425,3 +425,42 @@ function handleTouchEnd(event) {
 function goToVieweport(index) {
     viewport.target = "#" + viewportList[index];
 }
+
+var keys = {};
+window.addEventListener("keydown",
+    function(e){
+        var currentViewport = getCurrentViewportPos();
+
+        keys[e.keyCode] = true;
+        switch(e.keyCode){
+            case 37: case 39: case 38:  case 40: // Arrow keys
+            {
+                if (e.keyCode == 38) {
+                    if (currentViewport > 0) {
+                        currentViewport--;
+                    } else {
+                        currentViewport == 0;
+                    }
+                    goToVieweport(currentViewport)
+                }
+                if (e.keyCode == 40) {
+                    console.log("LOL");
+                    if (currentViewport < viewportList.length - 1) {
+                        currentViewport++;
+                    } else {
+                        currentViewport == viewportList.length - 1;
+                    }
+                    goToVieweport(currentViewport)
+                }
+                break;
+            }
+            case 32: e.preventDefault(); break; // Space
+            default: break; // do not block other keys
+        }
+    },
+false);
+window.addEventListener('keyup',
+    function(e){
+        keys[e.keyCode] = false;
+    },
+false);
